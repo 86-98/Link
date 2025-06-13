@@ -10,7 +10,7 @@ import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
 import { Button } from '@/components/ui/button';
 import RecommendedExperts from './RecommendedExperts';
-import { Briefcase, Linkedin, Twitter, CalendarDays, Tag, FileText, ExternalLink } from 'lucide-react';
+import { Briefcase, Linkedin, Twitter, CalendarDays, Tag, FileText, ExternalLink, Sparkles } from 'lucide-react';
 
 interface ExpertProfilePageProps {
   params: { id: string };
