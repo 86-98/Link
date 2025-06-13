@@ -54,7 +54,7 @@ const ExpertListClient = ({ experts, allExpertise }: ExpertListClientProps) => {
                 <SelectValue placeholder="All Expertise" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="">All Expertise</SelectItem>
+                {/* <SelectItem value="">All Expertise</SelectItem>  <- This item caused the error */}
                 {allExpertise.map((area) => (
                   <SelectItem key={area} value={area}>
                     {area}
@@ -63,8 +63,8 @@ const ExpertListClient = ({ experts, allExpertise }: ExpertListClientProps) => {
               </SelectContent>
             </Select>
             {selectedExpertise && (
-                <button 
-                    onClick={() => setSelectedExpertise('')} 
+                <button
+                    onClick={() => setSelectedExpertise('')}
                     className="p-2 text-muted-foreground hover:text-foreground transition-colors"
                     aria-label="Clear expertise filter"
                 >
