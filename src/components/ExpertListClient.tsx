@@ -22,7 +22,6 @@ interface ExpertListClientProps {
 
 type ViewMode = 'card' | 'list';
 
-// Extracts the effective "first name" for sorting and initial generation.
 const getEffectiveFirstName = (name: string): string => {
   if (!name) return "";
   const trimmedName = name.trim();
@@ -34,19 +33,15 @@ const getEffectiveFirstName = (name: string): string => {
   const titles = /^(Dr\.?|Mr\.?|Ms\.?|Mrs\.?|Prof\.?)$/i;
 
   let currentPartIndex = 0;
-  // Skip all leading titles
   while (currentPartIndex < nameParts.length && titles.test(nameParts[currentPartIndex])) {
     currentPartIndex++;
   }
 
-  // If there's a part after the titles, that's the first name
   if (currentPartIndex < nameParts.length) {
     return nameParts[currentPartIndex];
   }
   
-  // Fallback: if all parts were titles, or it's an empty/unusual name,
-  // use the very first part of the original (filtered for empty strings) name.
-  return nameParts[0]; 
+  return nameParts[0] || ""; 
 };
 
 const getFirstNameInitial = (name: string): string => {
@@ -54,7 +49,6 @@ const getFirstNameInitial = (name: string): string => {
   if (!effectiveFirstName) return '#';
 
   const firstChar = effectiveFirstName.charAt(0).toUpperCase();
-  // Ensure it's an alphabet character, otherwise group under '#'
   return /^[A-Z]$/.test(firstChar) ? firstChar : '#';
 };
 
@@ -111,13 +105,11 @@ const ExpertListClient = ({ experts, allExpertise, allImpactAreas }: ExpertListC
       const firstNameA = getEffectiveFirstName(a.name);
       const firstNameB = getEffectiveFirstName(b.name);
 
-      // Primary sort by effective first name (case-insensitive)
       const firstNameComparison = firstNameA.toLowerCase().localeCompare(firstNameB.toLowerCase());
       if (firstNameComparison !== 0) {
         return firstNameComparison;
       }
       
-      // Secondary sort by full name (case-insensitive) if first names are the same
       return a.name.toLowerCase().localeCompare(b.name.toLowerCase());
     });
 
@@ -194,7 +186,7 @@ const ExpertListClient = ({ experts, allExpertise, allImpactAreas }: ExpertListC
 
                     <div className="mb-4">
                       <h4 className="mb-3 text-sm font-semibold text-muted-foreground uppercase tracking-wide">Filter by Impact Area</h4>
-                      <ScrollArea className="h-auto max-h-48"> {/* Adjusted height for impact areas */}
+                      <ScrollArea className="h-auto max-h-48">
                         <div className="space-y-2">
                           {allImpactAreas.map((area) => (
                             <div key={area} className="flex items-center space-x-2">
@@ -260,7 +252,7 @@ const ExpertListClient = ({ experts, allExpertise, allImpactAreas }: ExpertListC
                 <h2 id={`section-title-${initial}`} className="font-headline text-4xl font-bold text-primary mb-6 pb-2 border-b border-border">
                   {initial}
                 </h2>
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-8 gap-y-3">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-x-4 gap-y-3">
                   {groupedExpertsForList[initial].map((expert) => (
                     <Link
                       key={expert.id}
