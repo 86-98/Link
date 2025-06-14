@@ -12,7 +12,7 @@ import { Checkbox } from '@/components/ui/checkbox';
 import { Label } from '@/components/ui/label';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { Separator } from '@/components/ui/separator';
-import { Search, LayoutGrid, List, Filter as FilterIcon, X } from 'lucide-react';
+import { Search, LayoutGrid, List, ListFilter, X } from 'lucide-react';
 
 interface ExpertListClientProps {
   experts: Expert[];
@@ -151,7 +151,7 @@ const ExpertListClient = ({ experts, allExpertise, allImpactAreas }: ExpertListC
             <Popover open={isPopoverOpen} onOpenChange={setIsPopoverOpen}>
               <PopoverTrigger asChild>
                 <Button variant="outline" className="w-full md:w-auto">
-                  <FilterIcon className="mr-2 h-4 w-4" />
+                  <ListFilter className="mr-2 h-4 w-4" />
                   Filter ({selectedExpertiseAreas.length + selectedImpactAreas.length})
                 </Button>
               </PopoverTrigger>
@@ -166,7 +166,7 @@ const ExpertListClient = ({ experts, allExpertise, allImpactAreas }: ExpertListC
                   <div className="p-4">
                     <div className="mb-4">
                       <h4 className="mb-3 text-sm font-semibold text-muted-foreground uppercase tracking-wide">Filter by Expertise</h4>
-                      <ScrollArea className="h-48"> {/* Changed from h-70 pr-3 to h-48 */}
+                      <ScrollArea className="h-48">
                         <div className="space-y-2">
                           {allExpertise.map((area) => (
                             <div key={area} className="flex items-center space-x-2">
