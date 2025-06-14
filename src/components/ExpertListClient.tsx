@@ -18,11 +18,30 @@ interface ExpertListClientProps {
 
 type ViewMode = 'card' | 'list';
 
+// Helper to get the initial of the last significant name part
 const getLastNameInitial = (name: string): string => {
-  const nameParts = name.split(' ').filter(part => !part.endsWith('.')); // Remove titles like Dr.
-  if (nameParts.length === 0) return '#';
-  const lastName = nameParts.length > 1 ? nameParts[nameParts.length - 1] : nameParts[0];
-  return lastName.charAt(0).toUpperCase() || '#';
+  if (!name) return '#';
+  const trimmedName = name.trim();
+  if (!trimmedName) return '#';
+
+  const nameParts = trimmedName.split(' ').filter(part => 
+    part.length > 0 && // Ensure part is not an empty string (from multiple spaces)
+    !part.endsWith('.') // Filter out titles/suffixes like Dr., Jr.
+  );
+
+  if (nameParts.length === 0) {
+    // If all parts were filtered (e.g., name was "Dr. Jr."), 
+    // use the first letter of the original trimmed name.
+    const firstChar = trimmedName.charAt(0).toUpperCase();
+    // Ensure the fallback initial is a valid letter or '#'
+    return /^[A-Z]$/.test(firstChar) ? firstChar : '#';
+  }
+
+  // The last part of the filtered nameParts is considered the "last name"
+  const lastName = nameParts[nameParts.length - 1];
+  const firstCharOfLastName = lastName.charAt(0).toUpperCase();
+  // Ensure the derived initial is a valid letter or '#'
+  return /^[A-Z]$/.test(firstCharOfLastName) ? firstCharOfLastName : '#';
 };
 
 
@@ -43,13 +62,29 @@ const ExpertListClient = ({ experts, allExpertise, allImpactAreas }: ExpertListC
 
   const groupedExpertsForList = useMemo(() => {
     if (viewMode !== 'list') return {};
-    const sorted = [...filteredExperts].sort((a, b) => {
-        const nameA = a.name.split(' ').pop() || a.name;
-        const nameB = b.name.split(' ').pop() || b.name;
-        return nameA.localeCompare(nameB);
+
+    const sortedExperts = [...filteredExperts].sort((a, b) => {
+      const nameTrimmedA = a.name.trim();
+      const nameTrimmedB = b.name.trim();
+
+      // Get the last word for sorting, from the trimmed name
+      const partsA = nameTrimmedA.split(' ');
+      // Fallback to full trimmed name if pop results in undefined (e.g. name was empty after split)
+      const lastNameA = partsA.length > 0 ? (partsA.pop() || nameTrimmedA) : nameTrimmedA;
+      
+      const partsB = nameTrimmedB.split(' ');
+      const lastNameB = partsB.length > 0 ? (partsB.pop() || nameTrimmedB) : nameTrimmedB;
+        
+      let comparison = lastNameA.localeCompare(lastNameB);
+      if (comparison === 0) {
+        // If last words are the same, sort by the full trimmed name
+        comparison = nameTrimmedA.localeCompare(nameTrimmedB);
+      }
+      return comparison;
     });
-    return sorted.reduce((acc, expert) => {
-      const initial = getLastNameInitial(expert.name);
+
+    return sortedExperts.reduce((acc, expert) => {
+      const initial = getLastNameInitial(expert.name); // Use the robust getLastNameInitial
       if (!acc[initial]) {
         acc[initial] = [];
       }
@@ -196,3 +231,4 @@ const ExpertListClient = ({ experts, allExpertise, allImpactAreas }: ExpertListC
 };
 
 export default ExpertListClient;
+
