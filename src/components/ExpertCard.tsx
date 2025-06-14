@@ -1,3 +1,4 @@
+
 import Link from 'next/link';
 import Image from 'next/image';
 import type { Expert } from '@/types';
@@ -24,7 +25,7 @@ const ExpertCard = ({ expert }: ExpertCardProps) => {
             width={80}
             height={80}
             className="rounded-full border-2 border-primary object-cover"
-            data-ai-hint="person portrait"
+            data-ai-hint={expert.dataAiHint || "person portrait"}
           />
           <div className="flex-1">
             <CardTitle className="font-headline text-xl sm:text-2xl mb-1">{expert.name}</CardTitle>

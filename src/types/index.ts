@@ -13,6 +13,7 @@ export type Expert = {
   title: string;
   bio: string;
   avatarUrl: string; // placeholder
+  dataAiHint?: string; // Hint for AI image generation
   expertise: string[]; // e.g., ["Machine Learning", "Natural Language Processing"]
   impactArea?: string; // New field for impact category
   predictions: Prediction[];

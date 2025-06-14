@@ -1,3 +1,4 @@
+
 import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -56,7 +57,7 @@ export default function ExpertProfilePage({ params }: ExpertProfilePageProps) {
                 width={150}
                 height={150}
                 className="rounded-full border-4 border-primary object-cover mb-4 mx-auto"
-                data-ai-hint="person portrait"
+                data-ai-hint={expert.dataAiHint || "person portrait"}
               />
               <CardTitle className="font-headline text-2xl">{expert.name}</CardTitle>
               <p className="text-muted-foreground">{expert.title}</p>
