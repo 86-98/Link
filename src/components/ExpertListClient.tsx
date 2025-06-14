@@ -22,32 +22,38 @@ interface ExpertListClientProps {
 
 type ViewMode = 'card' | 'list';
 
-// Extracts the effective "last name" for sorting and initial generation.
-const getEffectiveLastName = (name: string): string => {
+// Extracts the effective "first name" for sorting and initial generation.
+const getEffectiveFirstName = (name: string): string => {
   if (!name) return "";
   const trimmedName = name.trim();
   if (!trimmedName) return "";
 
-  // Filter out common titles or suffixes
-  const parts = trimmedName.split(' ').filter(part =>
-    part.length > 0 &&
-    !/^(Dr\.?|Mr\.?|Ms\.?|Mrs\.?|Prof\.?|Ph\.?D\.?|Jr\.?|Sr\.?|I{1,3}|IV|V)$/i.test(part)
-  );
+  const nameParts = trimmedName.split(' ').filter(part => part.length > 0);
+  if (nameParts.length === 0) return "";
 
-  if (parts.length === 0) {
-    // Fallback: if all parts are filtered, use the last word of the original trimmed name.
-    // This handles cases like "Dr. Prof." where parts would be empty.
-    const originalParts = trimmedName.split(' ').filter(p => p.length > 0);
-    return originalParts.length > 0 ? originalParts[originalParts.length - 1] : "";
+  const titles = /^(Dr\.?|Mr\.?|Ms\.?|Mrs\.?|Prof\.?)$/i;
+
+  let currentPartIndex = 0;
+  // Skip all leading titles
+  while (currentPartIndex < nameParts.length && titles.test(nameParts[currentPartIndex])) {
+    currentPartIndex++;
   }
-  return parts[parts.length - 1]; // The last significant part
+
+  // If there's a part after the titles, that's the first name
+  if (currentPartIndex < nameParts.length) {
+    return nameParts[currentPartIndex];
+  }
+  
+  // Fallback: if all parts were titles, or it's an empty/unusual name,
+  // use the very first part of the original (filtered for empty strings) name.
+  return nameParts[0]; 
 };
 
-const getLastNameInitial = (name: string): string => {
-  const effectiveLastName = getEffectiveLastName(name);
-  if (!effectiveLastName) return '#';
+const getFirstNameInitial = (name: string): string => {
+  const effectiveFirstName = getEffectiveFirstName(name);
+  if (!effectiveFirstName) return '#';
 
-  const firstChar = effectiveLastName.charAt(0).toUpperCase();
+  const firstChar = effectiveFirstName.charAt(0).toUpperCase();
   // Ensure it's an alphabet character, otherwise group under '#'
   return /^[A-Z]$/.test(firstChar) ? firstChar : '#';
 };
@@ -102,21 +108,21 @@ const ExpertListClient = ({ experts, allExpertise, allImpactAreas }: ExpertListC
     if (viewMode !== 'list') return {};
 
     const sortedExperts = [...filteredExperts].sort((a, b) => {
-      const lastNameA = getEffectiveLastName(a.name);
-      const lastNameB = getEffectiveLastName(b.name);
+      const firstNameA = getEffectiveFirstName(a.name);
+      const firstNameB = getEffectiveFirstName(b.name);
 
-      // Primary sort by effective last name (case-insensitive)
-      const lastNameComparison = lastNameA.toLowerCase().localeCompare(lastNameB.toLowerCase());
-      if (lastNameComparison !== 0) {
-        return lastNameComparison;
+      // Primary sort by effective first name (case-insensitive)
+      const firstNameComparison = firstNameA.toLowerCase().localeCompare(firstNameB.toLowerCase());
+      if (firstNameComparison !== 0) {
+        return firstNameComparison;
       }
       
-      // Secondary sort by full name (case-insensitive) if last names are the same
+      // Secondary sort by full name (case-insensitive) if first names are the same
       return a.name.toLowerCase().localeCompare(b.name.toLowerCase());
     });
 
     return sortedExperts.reduce((acc, expert) => {
-      const initial = getLastNameInitial(expert.name);
+      const initial = getFirstNameInitial(expert.name);
       if (!acc[initial]) {
         acc[initial] = [];
       }
@@ -280,3 +286,4 @@ const ExpertListClient = ({ experts, allExpertise, allImpactAreas }: ExpertListC
 };
 
 export default ExpertListClient;
+
