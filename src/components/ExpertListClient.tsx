@@ -27,16 +27,19 @@ const getLastNameInitial = (name: string): string => {
   const trimmedName = name.trim();
   if (!trimmedName) return '#';
 
+  // Filter out common titles or suffixes that are single words or end with a period.
   const nameParts = trimmedName.split(' ').filter(part => 
     part.length > 0 && 
-    !part.endsWith('.') 
+    !/^(Dr\.?|Mr\.?|Ms\.?|Mrs\.?|Prof\.?|Ph\.?D\.?|Jr\.?|Sr\.?|I{1,3}|IV|V)$/i.test(part)
   );
 
   if (nameParts.length === 0) {
+    // If all parts are filtered (e.g., "Dr."), fall back to the first char of original.
     const firstChar = trimmedName.charAt(0).toUpperCase();
     return /^[A-Z]$/.test(firstChar) ? firstChar : '#';
   }
-
+  
+  // Consider the last part as the primary for initial.
   const lastName = nameParts[nameParts.length - 1];
   const firstCharOfLastName = lastName.charAt(0).toUpperCase();
   return /^[A-Z]$/.test(firstCharOfLastName) ? firstCharOfLastName : '#';
@@ -81,7 +84,8 @@ const ExpertListClient = ({ experts, allExpertise, allImpactAreas }: ExpertListC
         
       const impactAreaMatch = selectedImpactAreas.length === 0
         ? true
-        : selectedImpactAreas.includes(expert.impactArea || '');
+        : expert.impactArea ? selectedImpactAreas.includes(expert.impactArea) : selectedImpactAreas.length === 0;
+
 
       return nameMatch && expertiseMatch && impactAreaMatch;
     });
@@ -93,15 +97,22 @@ const ExpertListClient = ({ experts, allExpertise, allImpactAreas }: ExpertListC
     const sortedExperts = [...filteredExperts].sort((a, b) => {
       const nameTrimmedA = a.name.trim();
       const nameTrimmedB = b.name.trim();
-      const partsA = nameTrimmedA.split(' ');
-      const lastNameA = partsA.length > 0 ? (partsA.pop() || nameTrimmedA) : nameTrimmedA;
-      const partsB = nameTrimmedB.split(' ');
-      const lastNameB = partsB.length > 0 ? (partsB.pop() || nameTrimmedB) : nameTrimmedB;
-      let comparison = lastNameA.localeCompare(lastNameB);
-      if (comparison === 0) {
-        comparison = nameTrimmedA.localeCompare(nameTrimmedB);
-      }
-      return comparison;
+      
+      const getSortableName = (name: string) => {
+        const parts = name.split(' ').filter(part => 
+          part.length > 0 && 
+          !/^(Dr\.?|Mr\.?|Ms\.?|Mrs\.?|Prof\.?|Ph\.?D\.?|Jr\.?|Sr\.?|I{1,3}|IV|V)$/i.test(part)
+        );
+        if (parts.length === 0) return name.toLowerCase(); // Fallback if all parts are titles
+        const lastName = parts.pop() || '';
+        const firstName = parts.join(' ');
+        return `${lastName} ${firstName}`.toLowerCase().trim();
+      };
+
+      const sortableNameA = getSortableName(nameTrimmedA);
+      const sortableNameB = getSortableName(nameTrimmedB);
+      
+      return sortableNameA.localeCompare(sortableNameB);
     });
 
     return sortedExperts.reduce((acc, expert) => {
@@ -155,20 +166,22 @@ const ExpertListClient = ({ experts, allExpertise, allImpactAreas }: ExpertListC
                   <div className="p-4">
                     <div className="mb-4">
                       <h4 className="mb-3 text-sm font-semibold text-muted-foreground uppercase tracking-wide">Filter by Expertise</h4>
-                      <div className="space-y-2">
-                        {allExpertise.map((area) => (
-                          <div key={area} className="flex items-center space-x-2">
-                            <Checkbox
-                              id={`exp-${area}`}
-                              checked={selectedExpertiseAreas.includes(area)}
-                              onCheckedChange={() => handleExpertiseChange(area)}
-                            />
-                            <Label htmlFor={`exp-${area}`} className="font-normal text-sm cursor-pointer">
-                              {area}
-                            </Label>
-                          </div>
-                        ))}
-                      </div>
+                      <ScrollArea className="h-70 pr-3"> {/* Approx 17.5rem for 7 items */}
+                        <div className="space-y-2">
+                          {allExpertise.map((area) => (
+                            <div key={area} className="flex items-center space-x-2">
+                              <Checkbox
+                                id={`exp-${area}`}
+                                checked={selectedExpertiseAreas.includes(area)}
+                                onCheckedChange={() => handleExpertiseChange(area)}
+                              />
+                              <Label htmlFor={`exp-${area}`} className="font-normal text-sm cursor-pointer">
+                                {area}
+                              </Label>
+                            </div>
+                          ))}
+                        </div>
+                      </ScrollArea>
                     </div>
 
                     <Separator className="my-4" />
