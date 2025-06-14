@@ -6,9 +6,13 @@ import { useState, useMemo } from 'react';
 import Link from 'next/link';
 import ExpertCard from '@/components/ExpertCard';
 import { Input } from '@/components/ui/input';
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { Button } from '@/components/ui/button';
-import { Search, X, LayoutGrid, List } from 'lucide-react';
+import { Popover, PopoverContent, PopoverTrigger } from '@/components/ui/popover';
+import { Checkbox } from '@/components/ui/checkbox';
+import { Label } from '@/components/ui/label';
+import { ScrollArea } from '@/components/ui/scroll-area';
+import { Separator } from '@/components/ui/separator';
+import { Search, LayoutGrid, List, Filter as FilterIcon, X } from 'lucide-react';
 
 interface ExpertListClientProps {
   experts: Expert[];
@@ -18,47 +22,70 @@ interface ExpertListClientProps {
 
 type ViewMode = 'card' | 'list';
 
-// Helper to get the initial of the last significant name part
 const getLastNameInitial = (name: string): string => {
   if (!name) return '#';
   const trimmedName = name.trim();
   if (!trimmedName) return '#';
 
   const nameParts = trimmedName.split(' ').filter(part => 
-    part.length > 0 && // Ensure part is not an empty string (from multiple spaces)
-    !part.endsWith('.') // Filter out titles/suffixes like Dr., Jr.
+    part.length > 0 && 
+    !part.endsWith('.') 
   );
 
   if (nameParts.length === 0) {
-    // If all parts were filtered (e.g., name was "Dr. Jr."), 
-    // use the first letter of the original trimmed name.
     const firstChar = trimmedName.charAt(0).toUpperCase();
-    // Ensure the fallback initial is a valid letter or '#'
     return /^[A-Z]$/.test(firstChar) ? firstChar : '#';
   }
 
-  // The last part of the filtered nameParts is considered the "last name"
   const lastName = nameParts[nameParts.length - 1];
   const firstCharOfLastName = lastName.charAt(0).toUpperCase();
-  // Ensure the derived initial is a valid letter or '#'
   return /^[A-Z]$/.test(firstCharOfLastName) ? firstCharOfLastName : '#';
 };
 
 
 const ExpertListClient = ({ experts, allExpertise, allImpactAreas }: ExpertListClientProps) => {
   const [searchTerm, setSearchTerm] = useState('');
-  const [selectedExpertise, setSelectedExpertise] = useState<string>('');
-  const [selectedImpactArea, setSelectedImpactArea] = useState<string>('');
+  const [selectedExpertiseAreas, setSelectedExpertiseAreas] = useState<string[]>([]);
+  const [selectedImpactAreas, setSelectedImpactAreas] = useState<string[]>([]);
   const [viewMode, setViewMode] = useState<ViewMode>('card');
+  const [isPopoverOpen, setIsPopoverOpen] = useState(false);
+
+  const handleExpertiseChange = (expertise: string) => {
+    setSelectedExpertiseAreas(prev =>
+      prev.includes(expertise)
+        ? prev.filter(item => item !== expertise)
+        : [...prev, expertise]
+    );
+  };
+
+  const handleImpactAreaChange = (impactArea: string) => {
+    setSelectedImpactAreas(prev =>
+      prev.includes(impactArea)
+        ? prev.filter(item => item !== impactArea)
+        : [...prev, impactArea]
+    );
+  };
+
+  const clearAllFilters = () => {
+    setSelectedExpertiseAreas([]);
+    setSelectedImpactAreas([]);
+  };
 
   const filteredExperts = useMemo(() => {
     return experts.filter((expert) => {
       const nameMatch = expert.name.toLowerCase().includes(searchTerm.toLowerCase());
-      const expertiseMatch = selectedExpertise ? expert.expertise.includes(selectedExpertise) : true;
-      const impactAreaMatch = selectedImpactArea ? expert.impactArea === selectedImpactArea : true;
+      
+      const expertiseMatch = selectedExpertiseAreas.length === 0
+        ? true
+        : expert.expertise.some(area => selectedExpertiseAreas.includes(area));
+        
+      const impactAreaMatch = selectedImpactAreas.length === 0
+        ? true
+        : selectedImpactAreas.includes(expert.impactArea || '');
+
       return nameMatch && expertiseMatch && impactAreaMatch;
     });
-  }, [experts, searchTerm, selectedExpertise, selectedImpactArea]);
+  }, [experts, searchTerm, selectedExpertiseAreas, selectedImpactAreas]);
 
   const groupedExpertsForList = useMemo(() => {
     if (viewMode !== 'list') return {};
@@ -66,25 +93,19 @@ const ExpertListClient = ({ experts, allExpertise, allImpactAreas }: ExpertListC
     const sortedExperts = [...filteredExperts].sort((a, b) => {
       const nameTrimmedA = a.name.trim();
       const nameTrimmedB = b.name.trim();
-
-      // Get the last word for sorting, from the trimmed name
       const partsA = nameTrimmedA.split(' ');
-      // Fallback to full trimmed name if pop results in undefined (e.g. name was empty after split)
       const lastNameA = partsA.length > 0 ? (partsA.pop() || nameTrimmedA) : nameTrimmedA;
-      
       const partsB = nameTrimmedB.split(' ');
       const lastNameB = partsB.length > 0 ? (partsB.pop() || nameTrimmedB) : nameTrimmedB;
-        
       let comparison = lastNameA.localeCompare(lastNameB);
       if (comparison === 0) {
-        // If last words are the same, sort by the full trimmed name
         comparison = nameTrimmedA.localeCompare(nameTrimmedB);
       }
       return comparison;
     });
 
     return sortedExperts.reduce((acc, expert) => {
-      const initial = getLastNameInitial(expert.name); // Use the robust getLastNameInitial
+      const initial = getLastNameInitial(expert.name);
       if (!acc[initial]) {
         acc[initial] = [];
       }
@@ -97,11 +118,11 @@ const ExpertListClient = ({ experts, allExpertise, allImpactAreas }: ExpertListC
   return (
     <div>
       <div className="mb-8 p-6 bg-card rounded-lg shadow-md">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-end">
-          <div>
-            <label htmlFor="search-expert" className="block text-sm font-medium text-foreground mb-1">
+        <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6">
+          <div className="flex-grow">
+            <Label htmlFor="search-expert" className="block text-sm font-medium text-foreground mb-1">
               Search by Name
-            </label>
+            </Label>
             <div className="relative">
               <Input
                 id="search-expert"
@@ -114,63 +135,76 @@ const ExpertListClient = ({ experts, allExpertise, allImpactAreas }: ExpertListC
               <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-muted-foreground" />
             </div>
           </div>
-          <div>
-            <label htmlFor="filter-expertise" className="block text-sm font-medium text-foreground mb-1">
-              Filter by Expertise
-            </label>
-            <div className="flex items-center gap-2">
-              <Select value={selectedExpertise} onValueChange={setSelectedExpertise}>
-                <SelectTrigger id="filter-expertise" className="w-full">
-                  <SelectValue placeholder="All Expertise" />
-                </SelectTrigger>
-                <SelectContent>
-                  {allExpertise.map((area) => (
-                    <SelectItem key={area} value={area}>
-                      {area}
-                    </SelectItem>
-                  ))}
-                </SelectContent>
-              </Select>
-              {selectedExpertise && (
-                <button
-                  onClick={() => setSelectedExpertise('')}
-                  className="p-2 text-muted-foreground hover:text-foreground transition-colors"
-                  aria-label="Clear expertise filter"
-                >
-                  <X className="h-5 w-5" />
-                </button>
-              )}
-            </div>
-          </div>
-          <div>
-            <label htmlFor="filter-impact-area" className="block text-sm font-medium text-foreground mb-1">
-              Filter by Impact Area
-            </label>
-            <div className="flex items-center gap-2">
-              <Select value={selectedImpactArea} onValueChange={setSelectedImpactArea}>
-                <SelectTrigger id="filter-impact-area" className="w-full">
-                  <SelectValue placeholder="All Impact Areas" />
-                </SelectTrigger>
-                <SelectContent>
-                  {allImpactAreas.map((area) => (
-                    <SelectItem key={area} value={area}>
-                      {area}
-                    </SelectItem>
-                  ))}
-                </SelectContent>
-              </Select>
-              {selectedImpactArea && (
-                <button
-                  onClick={() => setSelectedImpactArea('')}
-                  className="p-2 text-muted-foreground hover:text-foreground transition-colors"
-                  aria-label="Clear impact area filter"
-                >
-                  <X className="h-5 w-5" />
-                </button>
-              )}
-            </div>
+
+          <div className="flex-shrink-0">
+            <Popover open={isPopoverOpen} onOpenChange={setIsPopoverOpen}>
+              <PopoverTrigger asChild>
+                <Button variant="outline" className="w-full md:w-auto">
+                  <FilterIcon className="mr-2 h-4 w-4" />
+                  Filter ({selectedExpertiseAreas.length + selectedImpactAreas.length})
+                </Button>
+              </PopoverTrigger>
+              <PopoverContent className="w-80 p-0" align="end">
+                <div className="p-4 flex justify-between items-center border-b">
+                    <h3 className="text-lg font-medium">Filter Experts</h3>
+                    <Button variant="ghost" size="icon" onClick={() => setIsPopoverOpen(false)} className="h-8 w-8">
+                        <X className="h-4 w-4" />
+                    </Button>
+                </div>
+                <ScrollArea className="h-[400px]">
+                  <div className="p-4">
+                    <div className="mb-4">
+                      <h4 className="mb-3 text-sm font-semibold text-muted-foreground uppercase tracking-wide">Filter by Expertise</h4>
+                      <div className="space-y-2">
+                        {allExpertise.map((area) => (
+                          <div key={area} className="flex items-center space-x-2">
+                            <Checkbox
+                              id={`exp-${area}`}
+                              checked={selectedExpertiseAreas.includes(area)}
+                              onCheckedChange={() => handleExpertiseChange(area)}
+                            />
+                            <Label htmlFor={`exp-${area}`} className="font-normal text-sm cursor-pointer">
+                              {area}
+                            </Label>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+
+                    <Separator className="my-4" />
+
+                    <div className="mb-4">
+                      <h4 className="mb-3 text-sm font-semibold text-muted-foreground uppercase tracking-wide">Filter by Impact Area</h4>
+                      <div className="space-y-2">
+                        {allImpactAreas.map((area) => (
+                          <div key={area} className="flex items-center space-x-2">
+                            <Checkbox
+                              id={`imp-${area}`}
+                              checked={selectedImpactAreas.includes(area)}
+                              onCheckedChange={() => handleImpactAreaChange(area)}
+                            />
+                            <Label htmlFor={`imp-${area}`} className="font-normal text-sm cursor-pointer">
+                              {area}
+                            </Label>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                </ScrollArea>
+                <div className="border-t p-4 flex justify-between items-center">
+                  <Button onClick={clearAllFilters} variant="ghost" size="sm">
+                    Clear All Filters
+                  </Button>
+                   <Button onClick={() => setIsPopoverOpen(false)} size="sm">
+                    Apply
+                  </Button>
+                </div>
+              </PopoverContent>
+            </Popover>
           </div>
         </div>
+        
         <div className="mt-6 flex justify-end gap-2">
           <Button
             variant={viewMode === 'card' ? 'default' : 'outline'}
@@ -231,4 +265,3 @@ const ExpertListClient = ({ experts, allExpertise, allImpactAreas }: ExpertListC
 };
 
 export default ExpertListClient;
-
