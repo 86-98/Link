@@ -166,7 +166,7 @@ const ExpertListClient = ({ experts, allExpertise, allImpactAreas }: ExpertListC
                   <div className="p-4">
                     <div className="mb-4">
                       <h4 className="mb-3 text-sm font-semibold text-muted-foreground uppercase tracking-wide">Filter by Expertise</h4>
-                      <ScrollArea className="h-70 pr-3"> {/* Approx 17.5rem for 7 items */}
+                      <ScrollArea className="h-48"> {/* Changed from h-70 pr-3 to h-48 */}
                         <div className="space-y-2">
                           {allExpertise.map((area) => (
                             <div key={area} className="flex items-center space-x-2">
@@ -278,3 +278,4 @@ const ExpertListClient = ({ experts, allExpertise, allImpactAreas }: ExpertListC
 };
 
 export default ExpertListClient;
+
