@@ -12,9 +12,10 @@ export default function HomePage() {
     <>
       <PageHeader
         title="Meet the AI Oracles"
-        description="Discover leading experts in Artificial Intelligence and explore their groundbreaking predictions and insights."
+        description="Discover leading experts in Artificial Intelligence and explore their predictions and insights."
       />
       <ExpertListClient experts={allExperts} allExpertise={expertiseAreas} allImpactAreas={impactAreas} />
     </>
   );
 }
+
