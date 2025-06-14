@@ -1,3 +1,4 @@
+
 'use client';
 
 import type { Expert } from '@/types';
@@ -5,29 +6,32 @@ import { useState, useMemo } from 'react';
 import ExpertCard from '@/components/ExpertCard';
 import { Input } from '@/components/ui/input';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
-import { Search, X } from 'lucide-react';
+import { Search, X, Zap } from 'lucide-react'; // Added Zap for Impact Area
 
 interface ExpertListClientProps {
   experts: Expert[];
   allExpertise: string[];
+  allImpactAreas: string[]; // New prop
 }
 
-const ExpertListClient = ({ experts, allExpertise }: ExpertListClientProps) => {
+const ExpertListClient = ({ experts, allExpertise, allImpactAreas }: ExpertListClientProps) => {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedExpertise, setSelectedExpertise] = useState<string>('');
+  const [selectedImpactArea, setSelectedImpactArea] = useState<string>(''); // New state
 
   const filteredExperts = useMemo(() => {
     return experts.filter((expert) => {
       const nameMatch = expert.name.toLowerCase().includes(searchTerm.toLowerCase());
       const expertiseMatch = selectedExpertise ? expert.expertise.includes(selectedExpertise) : true;
-      return nameMatch && expertiseMatch;
+      const impactAreaMatch = selectedImpactArea ? expert.impactArea === selectedImpactArea : true;
+      return nameMatch && expertiseMatch && impactAreaMatch;
     });
-  }, [experts, searchTerm, selectedExpertise]);
+  }, [experts, searchTerm, selectedExpertise, selectedImpactArea]);
 
   return (
     <div>
       <div className="mb-8 p-6 bg-card rounded-lg shadow-md">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-end">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-end">
           <div>
             <label htmlFor="search-expert" className="block text-sm font-medium text-foreground mb-1">
               Search by Name
@@ -49,28 +53,55 @@ const ExpertListClient = ({ experts, allExpertise }: ExpertListClientProps) => {
               Filter by Expertise
             </label>
             <div className="flex items-center gap-2">
-            <Select value={selectedExpertise} onValueChange={setSelectedExpertise}>
-              <SelectTrigger id="filter-expertise" className="w-full">
-                <SelectValue placeholder="All Expertise" />
-              </SelectTrigger>
-              <SelectContent>
-                {/* <SelectItem value="">All Expertise</SelectItem>  <- This item caused the error */}
-                {allExpertise.map((area) => (
-                  <SelectItem key={area} value={area}>
-                    {area}
-                  </SelectItem>
-                ))}
-              </SelectContent>
-            </Select>
-            {selectedExpertise && (
+              <Select value={selectedExpertise} onValueChange={setSelectedExpertise}>
+                <SelectTrigger id="filter-expertise" className="w-full">
+                  <SelectValue placeholder="All Expertise" />
+                </SelectTrigger>
+                <SelectContent>
+                  {allExpertise.map((area) => (
+                    <SelectItem key={area} value={area}>
+                      {area}
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
+              {selectedExpertise && (
                 <button
-                    onClick={() => setSelectedExpertise('')}
-                    className="p-2 text-muted-foreground hover:text-foreground transition-colors"
-                    aria-label="Clear expertise filter"
+                  onClick={() => setSelectedExpertise('')}
+                  className="p-2 text-muted-foreground hover:text-foreground transition-colors"
+                  aria-label="Clear expertise filter"
                 >
-                    <X className="h-5 w-5" />
+                  <X className="h-5 w-5" />
                 </button>
-            )}
+              )}
+            </div>
+          </div>
+          <div>
+            <label htmlFor="filter-impact-area" className="block text-sm font-medium text-foreground mb-1">
+              Filter by Impact Area
+            </label>
+            <div className="flex items-center gap-2">
+              <Select value={selectedImpactArea} onValueChange={setSelectedImpactArea}>
+                <SelectTrigger id="filter-impact-area" className="w-full">
+                  <SelectValue placeholder="All Impact Areas" />
+                </SelectTrigger>
+                <SelectContent>
+                  {allImpactAreas.map((area) => (
+                    <SelectItem key={area} value={area}>
+                      {area}
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
+              {selectedImpactArea && (
+                <button
+                  onClick={() => setSelectedImpactArea('')}
+                  className="p-2 text-muted-foreground hover:text-foreground transition-colors"
+                  aria-label="Clear impact area filter"
+                >
+                  <X className="h-5 w-5" />
+                </button>
+              )}
             </div>
           </div>
         </div>

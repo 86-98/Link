@@ -1,3 +1,4 @@
+
 export type Prediction = {
   id: string;
   text: string;
@@ -13,6 +14,7 @@ export type Expert = {
   bio: string;
   avatarUrl: string; // placeholder
   expertise: string[]; // e.g., ["Machine Learning", "Natural Language Processing"]
+  impactArea?: string; // New field for impact category
   predictions: Prediction[];
   company?: string;
   linkedin?: string;
