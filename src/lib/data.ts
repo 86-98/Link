@@ -269,7 +269,7 @@ export const experts: Expert[] = [
     name: 'Yoshua Bengio',
     title: 'Scientific Director, Mila / Professor, University of Montreal',
     bio: 'A "Godfather of Deep Learning," known for his significant contributions to deep learning, recurrent neural networks (RNNs), and attention mechanisms. Scientific Director of Mila and Professor at the University of Montreal.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: 'https://commons.wikimedia.org/wiki/File:Yoshua_Bengio_2019_cropped.jpg',
     dataAiHint: 'Yoshua Bengio',
     expertise: ['Deep Learning', 'Neural Networks', 'Reinforcement Learning', 'Recurrent Neural Networks', 'Attention Mechanisms'],
     impactArea: 'Pioneers & Foundational Researchers',
