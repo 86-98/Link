@@ -20,4 +20,8 @@ export type Expert = {
   company?: string;
   linkedin?: string;
   twitter?: string;
+  instagram?: string;
+  facebook?: string;
+  github?: string;
+  website?: string;
 };

@@ -10,8 +10,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
 import { Button } from '@/components/ui/button';
-import RecommendedExperts from './RecommendedExperts';
-import { Briefcase, Linkedin, Twitter, CalendarDays, Tag, FileText, ExternalLink, Sparkles } from 'lucide-react';
+import { Briefcase, Linkedin, Twitter, CalendarDays, Tag, FileText, ExternalLink, Sparkles, Instagram, Facebook, Github, Globe as WebsiteIcon } from 'lucide-react';
 
 interface ExpertProfilePageProps {
   params: { id: string };
@@ -36,12 +35,23 @@ export async function generateStaticParams() {
   }));
 }
 
+const socialPlatforms = [
+  { key: 'linkedin', name: 'LinkedIn', Icon: Linkedin },
+  { key: 'twitter', name: 'Twitter', Icon: Twitter },
+  { key: 'instagram', name: 'Instagram', Icon: Instagram },
+  { key: 'facebook', name: 'Facebook', Icon: Facebook },
+  { key: 'github', name: 'GitHub', Icon: Github },
+  { key: 'website', name: 'Website', Icon: WebsiteIcon },
+];
+
 export default function ExpertProfilePage({ params }: ExpertProfilePageProps) {
   const expert = experts.find((e) => e.id === params.id);
 
   if (!expert) {
     notFound();
   }
+
+  const availableSocialLinks = socialPlatforms.filter(platform => expert[platform.key as keyof Expert]);
 
   return (
     <div className="max-w-5xl mx-auto">
@@ -81,25 +91,24 @@ export default function ExpertProfilePage({ params }: ExpertProfilePageProps) {
                   );
                 })}
               </div>
-              {(expert.linkedin || expert.twitter) && (
+              {availableSocialLinks.length > 0 && (
                 <>
                   <Separator className="my-4" />
                   <h3 className="font-semibold text-foreground mb-3 text-lg">Connect</h3>
-                  <div className="flex gap-3">
-                    {expert.linkedin && (
-                      <Button variant="outline" size="sm" asChild>
-                        <Link href={expert.linkedin} target="_blank" rel="noopener noreferrer">
-                          <Linkedin className="w-4 h-4 mr-2" /> LinkedIn
-                        </Link>
-                      </Button>
-                    )}
-                    {expert.twitter && (
-                      <Button variant="outline" size="sm" asChild>
-                        <Link href={expert.twitter} target="_blank" rel="noopener noreferrer">
-                          <Twitter className="w-4 h-4 mr-2" /> Twitter
-                        </Link>
-                      </Button>
-                    )}
+                  <div className="flex flex-wrap gap-3">
+                    {availableSocialLinks.map(platform => {
+                      const url = expert[platform.key as keyof Expert] as string | undefined;
+                      if (url) {
+                        return (
+                          <Button variant="outline" size="sm" asChild key={platform.key}>
+                            <Link href={url} target="_blank" rel="noopener noreferrer">
+                              <platform.Icon className="w-4 h-4 mr-2" /> {platform.name}
+                            </Link>
+                          </Button>
+                        );
+                      }
+                      return null;
+                    })}
                   </div>
                 </>
               )}
@@ -132,7 +141,7 @@ export default function ExpertProfilePage({ params }: ExpertProfilePageProps) {
                 <ul className="space-y-6">
                   {expert.predictions.map((prediction) => (
                     <li key={prediction.id} className="p-4 bg-background rounded-md border border-border">
-                      <p className="text-foreground mb-2 text-base leading-relaxed">{prediction.text}</p>
+                      <p className="text-foreground mb-2 text-base leading-relaxed whitespace-pre-line">{prediction.text}</p>
                       <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-muted-foreground">
                         <div className="flex items-center">
                           <CalendarDays className="w-3.5 h-3.5 mr-1.5" />
@@ -157,8 +166,6 @@ export default function ExpertProfilePage({ params }: ExpertProfilePageProps) {
               )}
             </CardContent>
           </Card>
-          
-          <RecommendedExperts expert={expert} />
         </div>
       </div>
     </div>

@@ -240,6 +240,8 @@ export const experts: Expert[] = [
       }
     ],
     company: 'Google / University of Toronto',
+    twitter: 'https://twitter.com/geoffreyhinton', // Example
+    website: 'https://www.cs.toronto.edu/~hinton/', // Example
   },
   {
     id: '8',
@@ -307,6 +309,9 @@ export const experts: Expert[] = [
       }
     ],
     company: 'Meta / NYU',
+    twitter: 'https://twitter.com/ylecun', // Example
+    facebook: 'https://www.facebook.com/yann.lecun', // Example
+    website: 'http://yann.lecun.com/', // Example
   },
   {
     id: '9',
@@ -380,6 +385,8 @@ export const experts: Expert[] = [
       },
     ],
     company: 'Mila / University of Montreal',
+    twitter: 'https://twitter.com/yoshuabengio', // Example
+    website: 'https://yoshuabengio.org/', // Example
   },
   {
     id: '10',
@@ -392,6 +399,7 @@ export const experts: Expert[] = [
     impactArea: 'Pioneers & Foundational Researchers',
     predictions: [],
     company: 'NNAISENSE / IDSIA',
+    website: 'http://people.idsia.ch/~juergen/',
   },
   {
     id: '11',
@@ -404,6 +412,7 @@ export const experts: Expert[] = [
     impactArea: 'Pioneers & Foundational Researchers',
     predictions: [],
     company: 'UC Berkeley',
+    website: 'https://people.eecs.berkeley.edu/~jordan/',
   },
   {
     id: '12',
@@ -416,6 +425,7 @@ export const experts: Expert[] = [
     impactArea: 'Pioneers & Foundational Researchers',
     predictions: [],
     company: 'UC Berkeley',
+    website: 'https://people.eecs.berkeley.edu/~russell/',
   },
   {
     id: '13',
@@ -428,6 +438,7 @@ export const experts: Expert[] = [
     impactArea: 'Pioneers & Foundational Researchers',
     predictions: [],
     company: 'Stanford / Google',
+    website: 'http://norvig.com/',
   },
   {
     id: '14',
@@ -440,6 +451,8 @@ export const experts: Expert[] = [
     impactArea: 'Pioneers & Foundational Researchers',
     predictions: [],
     company: 'Robust.AI / MIT',
+    website: 'https://rodneybrooks.com/',
+    twitter: 'https://twitter.com/rodneyabrooks',
   },
   {
     id: '15',
@@ -452,6 +465,8 @@ export const experts: Expert[] = [
     impactArea: 'Pioneers & Foundational Researchers',
     predictions: [],
     company: 'Kitty Hawk / Stanford / Udacity',
+    twitter: 'https://twitter.com/SebastianThrun',
+    website: 'https://profiles.stanford.edu/sebastian-thrun',
   },
   {
     id: '16',
@@ -464,6 +479,8 @@ export const experts: Expert[] = [
     impactArea: 'Pioneers & Foundational Researchers',
     predictions: [],
     company: 'Insitro / Stanford / Coursera',
+    linkedin: 'https://www.linkedin.com/in/daphne-koller-4598631/',
+    website: 'https://www.insitro.com/about-us#daphne-koller',
   },
   {
     id: '17',
@@ -476,6 +493,7 @@ export const experts: Expert[] = [
     impactArea: 'Pioneers & Foundational Researchers',
     predictions: [],
     company: 'Salk Institute / UCSD',
+    website: 'https://www.salk.edu/scientist/terrence-sejnowski/',
   },
   {
     id: '18',
@@ -488,6 +506,8 @@ export const experts: Expert[] = [
     impactArea: 'Pioneers & Foundational Researchers',
     predictions: [],
     company: 'Stanford HAI',
+    twitter: 'https://twitter.com/drfeifei',
+    website: 'https://profiles.stanford.edu/fei-fei-li',
   },
   {
     id: '19',
@@ -500,6 +520,7 @@ export const experts: Expert[] = [
     impactArea: 'Leaders at Major AI Labs & Companies',
     predictions: [],
     company: 'Google DeepMind',
+    twitter: 'https://twitter.com/demishassabis',
   },
   {
     id: '20',
@@ -512,6 +533,7 @@ export const experts: Expert[] = [
     impactArea: 'Leaders at Major AI Labs & Companies',
     predictions: [],
     company: 'OpenAI (formerly)',
+    twitter: 'https://twitter.com/ilyasut',
   },
   {
     id: '21',
@@ -524,6 +546,7 @@ export const experts: Expert[] = [
     impactArea: 'Leaders at Major AI Labs & Companies',
     predictions: [],
     company: 'OpenAI',
+    twitter: 'https://twitter.com/sama',
   },
   {
     id: '22',
@@ -536,6 +559,7 @@ export const experts: Expert[] = [
     impactArea: 'Leaders at Major AI Labs & Companies',
     predictions: [],
     company: 'OpenAI',
+    twitter: 'https://twitter.com/gdb',
   },
   {
     id: '23',
@@ -548,6 +572,7 @@ export const experts: Expert[] = [
     impactArea: 'Leaders at Major AI Labs & Companies',
     predictions: [],
     company: 'Google AI',
+    twitter: 'https://twitter.com/jeffdean',
   },
   {
     id: '24',
@@ -560,6 +585,7 @@ export const experts: Expert[] = [
     impactArea: 'Leaders at Major AI Labs & Companies',
     predictions: [],
     company: 'Google DeepMind',
+    twitter: 'https://twitter.com/ShaneLegg',
   },
   {
     id: '25',
@@ -572,6 +598,8 @@ export const experts: Expert[] = [
     impactArea: 'Leaders at Major AI Labs & Companies',
     predictions: [],
     company: 'Microsoft AI (formerly DeepMind, Inflection AI)',
+    twitter: 'https://twitter.com/mustafasuleyman',
+    linkedin: 'https://www.linkedin.com/in/mustafasuleyman1/',
   },
   {
     id: '26',
@@ -584,6 +612,8 @@ export const experts: Expert[] = [
     impactArea: 'Leaders at Major AI Labs & Companies',
     predictions: [],
     company: 'Meta / McGill University',
+    twitter: 'https://twitter.com/JoellePineau',
+    website: 'https://www.cs.mcgill.ca/~jpineau/',
   },
   {
     id: '27',
@@ -596,6 +626,9 @@ export const experts: Expert[] = [
     impactArea: 'Leaders at Major AI Labs & Companies',
     predictions: [],
     company: 'OpenAI (Founding Member) / Tesla (formerly)',
+    twitter: 'https://twitter.com/karpathy',
+    website: 'https://karpathy.ai/',
+    github: 'https://github.com/karpathy',
   },
   {
     id: '28',
@@ -608,6 +641,8 @@ export const experts: Expert[] = [
     impactArea: 'Leaders at Major AI Labs & Companies',
     predictions: [],
     company: 'Google DeepMind',
+    twitter: 'https://twitter.com/oriolvinyalsml',
+    website: 'https://research.google/people/OriolVinyals/',
   },
   {
     id: '29',
@@ -620,6 +655,7 @@ export const experts: Expert[] = [
     impactArea: 'Leaders at Major AI Labs & Companies',
     predictions: [],
     company: 'OpenAI',
+    website: 'http://joschu.net/',
   },
   {
     id: '30',
@@ -632,6 +668,7 @@ export const experts: Expert[] = [
     impactArea: 'Leaders at Major AI Labs & Companies',
     predictions: [],
     company: 'OpenAI',
+    twitter: 'https://twitter.com/woj_zaremba',
   },
   {
     id: '31',
@@ -644,6 +681,7 @@ export const experts: Expert[] = [
     impactArea: 'Leaders at Major AI Labs & Companies',
     predictions: [],
     company: 'Google DeepMind',
+    twitter: 'https://twitter.com/NandoDF',
   },
   {
     id: '32',
@@ -656,6 +694,8 @@ export const experts: Expert[] = [
     impactArea: 'Leaders at Major AI Labs & Companies',
     predictions: [],
     company: 'Google DeepMind',
+    twitter: 'https://twitter.com/RaiaHadsell',
+    website: 'https://raiahadsell.com/',
   },
   {
     id: '33',
@@ -668,6 +708,8 @@ export const experts: Expert[] = [
     impactArea: 'Leaders at Major AI Labs & Companies',
     predictions: [],
     company: 'Google DeepMind',
+    twitter: 'https://twitter.com/pushmeet',
+    website: 'https://pushmeet.com/',
   },
   {
     id: '34',
@@ -680,6 +722,7 @@ export const experts: Expert[] = [
     impactArea: 'Leaders at Major AI Labs & Companies',
     predictions: [],
     company: 'Apple (formerly Google)',
+    website: 'https://research.google/people/SamyBengio/',
   },
   {
     id: '35',
@@ -692,6 +735,8 @@ export const experts: Expert[] = [
     impactArea: 'Leaders at Major AI Labs & Companies',
     predictions: [],
     company: 'Google AI / University of Cambridge',
+    twitter: 'https://twitter.com/zoubin',
+    website: 'http://mlg.eng.cam.ac.uk/zoubin/',
   },
   {
     id: '36',
@@ -704,6 +749,7 @@ export const experts: Expert[] = [
     impactArea: 'Leaders at Major AI Labs & Companies',
     predictions: [],
     company: 'Microsoft',
+    website: 'https://erichorvitz.com/',
   },
   {
     id: '37',
@@ -716,6 +762,7 @@ export const experts: Expert[] = [
     impactArea: 'Leaders at Major AI Labs & Companies',
     predictions: [],
     company: 'Microsoft',
+    linkedin: 'https://www.linkedin.com/in/xuedonghuang/',
   },
   {
     id: '38',
@@ -728,6 +775,8 @@ export const experts: Expert[] = [
     impactArea: 'Leaders at Major AI Labs & Companies',
     predictions: [],
     company: 'Microsoft Research',
+    twitter: 'https://twitter.com/jianfenggao',
+    website: 'https://www.microsoft.com/en-us/research/people/jfgao/',
   },
   {
     id: '39',
@@ -740,6 +789,8 @@ export const experts: Expert[] = [
     impactArea: 'Leaders at Major AI Labs & Companies',
     predictions: [],
     company: 'Amazon Web Services / Carnegie Mellon University',
+    twitter: 'https://twitter.com/alexsmola',
+    website: 'http://alex.smola.org/',
   },
   {
     id: '40',
@@ -752,6 +803,7 @@ export const experts: Expert[] = [
     impactArea: 'Leaders at Major AI Labs & Companies',
     predictions: [],
     company: 'J.P. Morgan AI Research / Carnegie Mellon University',
+    website: 'https://www.cs.cmu.edu/~mmv/',
   },
   {
     id: '41',
@@ -764,6 +816,8 @@ export const experts: Expert[] = [
     impactArea: 'Key Innovators & Entrepreneurs',
     predictions: [],
     company: 'Cohere',
+    twitter: 'https://twitter.com/aidangomez',
+    linkedin: 'https://www.linkedin.com/in/aidan-gomez/',
   },
   {
     id: '42',
@@ -776,6 +830,7 @@ export const experts: Expert[] = [
     impactArea: 'Key Innovators & Entrepreneurs',
     predictions: [],
     company: 'Character.ai (formerly Google)',
+    linkedin: 'https://www.linkedin.com/in/noam-shazeer-5778a9131/',
   },
   {
     id: '43',
@@ -788,6 +843,8 @@ export const experts: Expert[] = [
     impactArea: 'Key Innovators & Entrepreneurs',
     predictions: [],
     company: 'Essential AI (formerly Google)',
+    linkedin: 'https://www.linkedin.com/in/ashish-vaswani-b842911/',
+    twitter: 'https://twitter.com/ashvaswani',
   },
   {
     id: '44',
@@ -800,6 +857,7 @@ export const experts: Expert[] = [
     impactArea: 'Key Innovators & Entrepreneurs',
     predictions: [],
     company: 'Inceptive (formerly Google)',
+    linkedin: 'https://www.linkedin.com/in/jakob-uszkoreit-49397518/',
   },
   {
     id: '45',
@@ -812,6 +870,8 @@ export const experts: Expert[] = [
     impactArea: 'Key Innovators & Entrepreneurs',
     predictions: [],
     company: 'Sakana AI (formerly Google)',
+    twitter: 'https://twitter.com/llionj',
+    github: 'https://github.com/llion',
   },
   {
     id: '46',
@@ -824,6 +884,8 @@ export const experts: Expert[] = [
     impactArea: 'Key Innovators & Entrepreneurs',
     predictions: [],
     company: 'NEAR Protocol (formerly Google)',
+    twitter: 'https://twitter.com/ilblackdragon',
+    github: 'https://github.com/ilblackdragon',
   },
   {
     id: '47',
@@ -836,6 +898,8 @@ export const experts: Expert[] = [
     impactArea: 'Key Innovators & Entrepreneurs',
     predictions: [],
     company: 'Essential AI (formerly Google)',
+    linkedin: 'https://www.linkedin.com/in/nikiparmar/',
+    twitter: 'https://twitter.com/nikiparmar',
   },
   {
     id: '48',
@@ -848,6 +912,8 @@ export const experts: Expert[] = [
     impactArea: 'Leaders at Major AI Labs & Companies',
     predictions: [],
     company: 'OpenAI (formerly Google)',
+    twitter: 'https://twitter.com/lukaszkaiser',
+    github: 'https://github.com/lukaszkaiser',
   },
   {
     id: '49',
@@ -860,6 +926,7 @@ export const experts: Expert[] = [
     impactArea: 'Leaders at Major AI Labs & Companies',
     predictions: [],
     company: 'Google DeepMind',
+    website: 'https://research.google/people/DavidSilver/',
   },
   {
     id: '50',
@@ -872,6 +939,7 @@ export const experts: Expert[] = [
     impactArea: 'Leaders at Major AI Labs & Companies',
     predictions: [],
     company: 'Apple (formerly Intel Labs)',
+    website: 'http://vladlen.info/',
   },
   {
     id: '51',
@@ -884,6 +952,8 @@ export const experts: Expert[] = [
     impactArea: 'Influential Academics',
     predictions: [],
     company: 'Landing AI / AI Fund / Coursera / Stanford University',
+    twitter: 'https://twitter.com/AndrewYNg',
+    website: 'https://www.andrewng.org/',
   },
   {
     id: '52',
@@ -896,6 +966,8 @@ export const experts: Expert[] = [
     impactArea: 'Influential Academics',
     predictions: [],
     company: 'UC Berkeley / Covariant',
+    twitter: 'https://twitter.com/pabbeel',
+    website: 'https://people.eecs.berkeley.edu/~pabbeel/',
   },
   {
     id: '53',
@@ -908,6 +980,8 @@ export const experts: Expert[] = [
     impactArea: 'Influential Academics',
     predictions: [],
     company: 'Caltech / NVIDIA',
+    twitter: 'https://twitter.com/AnimaAnandkumar',
+    website: 'http://tensorlab.cms.caltech.edu/users/anima/',
   },
   {
     id: '54',
@@ -920,6 +994,8 @@ export const experts: Expert[] = [
     impactArea: 'Influential Academics',
     predictions: [],
     company: 'Stanford HAI',
+    twitter: 'https://twitter.com/percyliang',
+    website: 'https://cs.stanford.edu/~pliang/',
   },
   {
     id: '55',
@@ -932,6 +1008,8 @@ export const experts: Expert[] = [
     impactArea: 'Influential Academics',
     predictions: [],
     company: 'Stanford University',
+    twitter: 'https://twitter.com/chrmanning',
+    website: 'https://nlp.stanford.edu/manning/',
   },
   {
     id: '56',
@@ -944,6 +1022,7 @@ export const experts: Expert[] = [
     impactArea: 'Influential Academics',
     predictions: [],
     company: 'MIT CSAIL',
+    website: 'https://danielarus.csail.mit.edu/',
   },
   {
     id: '57',
@@ -956,6 +1035,8 @@ export const experts: Expert[] = [
     impactArea: 'Influential Academics',
     predictions: [],
     company: 'University of Washington / Allen Institute for AI (AI2)',
+    twitter: 'https://twitter.com/yejinchoi_uw',
+    website: 'https://homes.cs.washington.edu/~yejin/',
   },
   {
     id: '58',
@@ -968,6 +1049,8 @@ export const experts: Expert[] = [
     impactArea: 'Influential Academics',
     predictions: [],
     company: 'Stanford University',
+    twitter: 'https://twitter.com/chelseabfinn',
+    website: 'https://ai.stanford.edu/~cbfinn/',
   },
   {
     id: '59',
@@ -980,6 +1063,8 @@ export const experts: Expert[] = [
     impactArea: 'Influential Academics',
     predictions: [],
     company: 'University of Toronto / Waabi',
+    twitter: 'https://twitter.com/RaquelUrtasun',
+    website: 'http://www.cs.toronto.edu/~urtasun/',
   },
   {
     id: '60',
@@ -992,6 +1077,8 @@ export const experts: Expert[] = [
     impactArea: 'Influential Academics',
     predictions: [],
     company: 'Carnegie Mellon University (formerly Apple)',
+    twitter: 'https://twitter.com/rsalakhu',
+    website: 'https://www.cs.cmu.edu/~rsalakhu/',
   },
   {
     id: '61',
@@ -1004,6 +1091,7 @@ export const experts: Expert[] = [
     impactArea: 'Influential Academics',
     predictions: [],
     company: 'Max Planck Institute for Intelligent Systems',
+    website: 'https://is.mpg.de/~bs',
   },
   {
     id: '62',
@@ -1016,6 +1104,8 @@ export const experts: Expert[] = [
     impactArea: 'Influential Academics',
     predictions: [],
     company: 'University of Amsterdam / Microsoft Research',
+    twitter: 'https://twitter.com/maxwelling',
+    website: 'https://staff.fnwi.uva.nl/m.welling/',
   },
   {
     id: '63',
@@ -1028,6 +1118,7 @@ export const experts: Expert[] = [
     impactArea: 'Influential Academics',
     predictions: [],
     company: 'MIT',
+    website: 'https://people.csail.mit.edu/lpk/',
   },
   {
     id: '64',
@@ -1040,6 +1131,8 @@ export const experts: Expert[] = [
     impactArea: 'Influential Academics',
     predictions: [],
     company: 'University of Washington',
+    twitter: 'https://twitter.com/pmddomingos',
+    website: 'https://homes.cs.washington.edu/~pedrod/',
   },
   {
     id: '65',
@@ -1052,6 +1145,7 @@ export const experts: Expert[] = [
     impactArea: 'Influential Academics',
     predictions: [],
     company: 'CIIRC CTU (formerly Facebook, Google)',
+    github: 'https://github.com/tmikolov',
   },
   {
     id: '66',
@@ -1064,6 +1158,8 @@ export const experts: Expert[] = [
     impactArea: 'Influential Academics',
     predictions: [],
     company: 'Google DeepMind',
+    twitter: 'https://twitter.com/beenwkim',
+    website: 'https://beenkim.github.io/',
   },
   {
     id: '67',
@@ -1076,6 +1172,8 @@ export const experts: Expert[] = [
     impactArea: 'Influential Academics',
     predictions: [],
     company: 'Duke University',
+    twitter: 'https://twitter.com/CynthiaRudin',
+    website: 'https://users.cs.duke.edu/~cynthia/',
   },
   {
     id: '68',
@@ -1088,6 +1186,8 @@ export const experts: Expert[] = [
     impactArea: 'Influential Academics',
     predictions: [],
     company: 'Columbia University',
+    twitter: 'https://twitter.com/shuransong',
+    website: 'https://www.cs.columbia.edu/~shurans/',
   },
   {
     id: '69',
@@ -1100,6 +1200,7 @@ export const experts: Expert[] = [
     impactArea: 'Influential Academics',
     predictions: [],
     company: 'UC Berkeley / Meta AI',
+    website: 'https://people.eecs.berkeley.edu/~malik/',
   },
   {
     id: '70',
@@ -1112,6 +1213,7 @@ export const experts: Expert[] = [
     impactArea: 'Influential Academics',
     predictions: [],
     company: 'UC Berkeley',
+    website: 'https://people.eecs.berkeley.edu/~efros/',
   },
   {
     id: '71',
@@ -1124,6 +1226,8 @@ export const experts: Expert[] = [
     impactArea: 'Influential Academics',
     predictions: [],
     company: 'Georgia Tech / Meta AI',
+    twitter: 'https://twitter.com/deviparikh',
+    website: 'https://www.cc.gatech.edu/~parikh/',
   },
   {
     id: '72',
@@ -1136,6 +1240,8 @@ export const experts: Expert[] = [
     impactArea: 'Influential Academics',
     predictions: [],
     company: 'NYU / Genentech',
+    twitter: 'https://twitter.com/kchonyc',
+    github: 'https://github.com/kyunghyuncho',
   },
   {
     id: '73',
@@ -1148,6 +1254,7 @@ export const experts: Expert[] = [
     impactArea: 'Influential Academics',
     predictions: [],
     company: 'UC San Diego',
+    website: 'http://cseweb.ucsd.edu/~dasgupta/',
   },
   {
     id: '74',
@@ -1172,6 +1279,8 @@ export const experts: Expert[] = [
     impactArea: 'Key Innovators & Entrepreneurs',
     predictions: [],
     company: 'You.com (formerly Salesforce)',
+    twitter: 'https://twitter.com/RichardSocher',
+    linkedin: 'https://www.linkedin.com/in/richardsocher/',
   },
   {
     id: '76',
@@ -1184,6 +1293,8 @@ export const experts: Expert[] = [
     impactArea: 'Key Innovators & Entrepreneurs',
     predictions: [],
     company: 'Hugging Face',
+    twitter: 'https://twitter.com/ClementDelangue',
+    linkedin: 'https://www.linkedin.com/in/clementdelangue/',
   },
   {
     id: '77',
@@ -1196,6 +1307,7 @@ export const experts: Expert[] = [
     impactArea: 'Key Innovators & Entrepreneurs',
     predictions: [],
     company: 'Formerly Google',
+    website: 'https://www.cs.toronto.edu/~kriz/',
   },
   {
     id: '78',
@@ -1208,6 +1320,7 @@ export const experts: Expert[] = [
     impactArea: 'Key Innovators & Entrepreneurs',
     predictions: [],
     company: 'Apple (formerly Google, OpenAI)',
+    github: 'https://github.com/goodfeli',
   },
   {
     id: '79',
@@ -1220,6 +1333,8 @@ export const experts: Expert[] = [
     impactArea: 'Key Innovators & Entrepreneurs',
     predictions: [],
     company: 'Perplexity AI',
+    twitter: 'https://twitter.com/AravSrinivas',
+    linkedin: 'https://www.linkedin.com/in/aravind-srinivas-7b555958/',
   },
   {
     id: '80',
@@ -1232,6 +1347,7 @@ export const experts: Expert[] = [
     impactArea: 'Key Innovators & Entrepreneurs',
     predictions: [],
     company: 'Aleph Alpha',
+    linkedin: 'https://www.linkedin.com/in/jonasandrulis/',
   },
   {
     id: '81',
@@ -1244,6 +1360,8 @@ export const experts: Expert[] = [
     impactArea: 'Key Innovators & Entrepreneurs',
     predictions: [],
     company: 'Mistral AI',
+    twitter: 'https://twitter.com/arthurmensch',
+    linkedin: 'https://www.linkedin.com/in/arthur-mensch-5962562b/',
   },
   {
     id: '82',
@@ -1256,6 +1374,8 @@ export const experts: Expert[] = [
     impactArea: 'Key Innovators & Entrepreneurs',
     predictions: [],
     company: 'Aurora (formerly Google Self-Driving)',
+    twitter: 'https://twitter.com/chris_urmson',
+    linkedin: 'https://www.linkedin.com/in/chrisurmson/',
   },
   {
     id: '83',
@@ -1268,6 +1388,7 @@ export const experts: Expert[] = [
     impactArea: 'Key Innovators & Entrepreneurs',
     predictions: [],
     company: 'Quora / Poe',
+    twitter: 'https://twitter.com/adamdangelo',
   },
   {
     id: '84',
@@ -1280,6 +1401,8 @@ export const experts: Expert[] = [
     impactArea: 'Key Innovators & Entrepreneurs',
     predictions: [],
     company: 'Wayve',
+    twitter: 'https://twitter.com/alexkendall',
+    linkedin: 'https://www.linkedin.com/in/alex-kendall-52989748/',
   },
   {
     id: '85',
@@ -1292,6 +1415,7 @@ export const experts: Expert[] = [
     impactArea: 'Key Innovators & Entrepreneurs',
     predictions: [],
     company: 'Gradient Ventures (Google)',
+    linkedin: 'https://www.linkedin.com/in/annapatterson/',
   },
   {
     id: '86',
@@ -1304,6 +1428,8 @@ export const experts: Expert[] = [
     impactArea: 'Leaders at Major AI Labs & Companies',
     predictions: [],
     company: 'Salesforce AI',
+    twitter: 'https://twitter.com/clarashih',
+    linkedin: 'https://www.linkedin.com/in/clarashih/',
   },
   {
     id: '87',
@@ -1316,6 +1442,7 @@ export const experts: Expert[] = [
     impactArea: 'Key Innovators & Entrepreneurs',
     predictions: [],
     company: 'The AI Institute / Boston Dynamics',
+    website: 'https://www.theaiinstitute.com/person/marc-raibert',
   },
   {
     id: '88',
@@ -1328,6 +1455,8 @@ export const experts: Expert[] = [
     impactArea: 'Prominent Voices in AI Ethics & Safety',
     predictions: [],
     company: 'DAIR Institute (formerly Google)',
+    twitter: 'https://twitter.com/timnitGebru',
+    website: 'https://www.dair-institute.org/team/timnit-gebru',
   },
   {
     id: '89',
@@ -1340,6 +1469,8 @@ export const experts: Expert[] = [
     impactArea: 'Prominent Voices in AI Ethics & Safety',
     predictions: [],
     company: 'Algorithmic Justice League',
+    twitter: 'https://twitter.com/jovialjoy',
+    website: 'https://www.ajl.org/about',
   },
   {
     id: '90',
@@ -1352,6 +1483,8 @@ export const experts: Expert[] = [
     impactArea: 'Prominent Voices in AI Ethics & Safety',
     predictions: [],
     company: 'USC Annenberg / Microsoft Research',
+    twitter: 'https://twitter.com/katecrawford',
+    website: 'https://www.katecrawford.net/',
   },
   {
     id: '91',
@@ -1364,6 +1497,8 @@ export const experts: Expert[] = [
     impactArea: 'Prominent Voices in AI Ethics & Safety',
     predictions: [],
     company: 'Allen Institute for AI (AI2) / University of Washington',
+    twitter: 'https://twitter.com/etzioni',
+    website: 'https://homes.cs.washington.edu/~etzioni/',
   },
   {
     id: '92',
@@ -1376,6 +1511,8 @@ export const experts: Expert[] = [
     impactArea: 'Prominent Voices in AI Ethics & Safety',
     predictions: [],
     company: 'NYU / Robust.AI',
+    twitter: 'https://twitter.com/GaryMarcus',
+    website: 'https://garymarcus.com/',
   },
   {
     id: '93',
@@ -1388,6 +1525,8 @@ export const experts: Expert[] = [
     impactArea: 'Prominent Voices in AI Ethics & Safety',
     predictions: [],
     company: 'IBM',
+    twitter: 'https://twitter.com/frossi_pai',
+    linkedin: 'https://www.linkedin.com/in/francesca-rossi-25891a/',
   },
   {
     id: '94',
@@ -1400,6 +1539,8 @@ export const experts: Expert[] = [
     impactArea: 'Prominent Voices in AI Ethics & Safety',
     predictions: [],
     company: 'Humane Intelligence (formerly Twitter)',
+    twitter: 'https://twitter.com/ruchowdh',
+    linkedin: 'https://www.linkedin.com/in/rumman/',
   },
   {
     id: '95',
@@ -1412,6 +1553,8 @@ export const experts: Expert[] = [
     impactArea: 'Prominent Voices in AI Ethics & Safety',
     predictions: [],
     company: 'Formerly Google, NSCAI',
+    twitter: 'https://twitter.com/ericschmidt',
+    website: 'https://www.schmidtfutures.com/',
   },
   {
     id: '96',
@@ -1424,6 +1567,7 @@ export const experts: Expert[] = [
     impactArea: 'Prominent Voices in AI Ethics & Safety',
     predictions: [],
     company: 'Google',
+    linkedin: 'https://www.linkedin.com/in/jamesmanyika/',
   },
   {
     id: '97',
@@ -1436,6 +1580,8 @@ export const experts: Expert[] = [
     impactArea: 'Prominent Voices in AI Ethics & Safety',
     predictions: [],
     company: 'Devoted Health (formerly U.S. Government)',
+    twitter: 'https://twitter.com/dpatil',
+    linkedin: 'https://www.linkedin.com/in/dpatil/',
   },
   {
     id: '98',
@@ -1448,6 +1594,8 @@ export const experts: Expert[] = [
     impactArea: 'Prominent Voices in AI Ethics & Safety',
     predictions: [],
     company: 'Center for Security and Emerging Technology (CSET) (formerly OpenAI board)',
+    twitter: 'https://twitter.com/hlntnr',
+    linkedin: 'https://www.linkedin.com/in/helen-toner-2749911a/',
   },
   {
     id: '99',
@@ -1460,6 +1608,8 @@ export const experts: Expert[] = [
     impactArea: 'Prominent Voices in AI Ethics & Safety',
     predictions: [],
     company: 'Machine Intelligence Research Institute (MIRI)',
+    twitter: 'https://twitter.com/ESYudkowsky',
+    website: 'https://intelligence.org/author/eliezer-yudkowsky/',
   },
   {
     id: '100',
@@ -1472,6 +1622,7 @@ export const experts: Expert[] = [
     impactArea: 'Prominent Voices in AI Ethics & Safety',
     predictions: [],
     company: 'University of Oxford / Future of Humanity Institute',
+    website: 'https://nickbostrom.com/',
   },
   {
     id: '101',
@@ -1484,6 +1635,8 @@ export const experts: Expert[] = [
     impactArea: 'Prominent Voices in AI Ethics & Safety',
     predictions: [],
     company: 'MIT / Future of Life Institute',
+    twitter: 'https://twitter.com/tegmark',
+    website: 'https://space.mit.edu/home/tegmark/',
   },
   {
     id: '102',
@@ -1496,6 +1649,8 @@ export const experts: Expert[] = [
     impactArea: 'Leaders at Major AI Labs & Companies',
     predictions: [],
     company: 'Meta AI',
+    twitter: 'https://twitter.com/noambrown',
+    website: 'https://www.cs.cmu.edu/~noamb/',
   },
   {
     id: '103',
@@ -1508,6 +1663,8 @@ export const experts: Expert[] = [
     impactArea: 'Leaders at Major AI Labs & Companies',
     predictions: [],
     company: 'Meta AI',
+    website: 'https://research.facebook.com/people/joulin-armand/',
+    github: 'https://github.com/facebookresearch/fastText/tree/master/python/doc', // fastText repo, not personal
   },
   {
     id: '104',
@@ -1520,6 +1677,7 @@ export const experts: Expert[] = [
     impactArea: 'Leaders at Major AI Labs & Companies',
     predictions: [],
     company: 'Google DeepMind',
+    website: 'https://www.cs.toronto.edu/~vmnih/',
   },
   {
     id: '105',
@@ -1532,6 +1690,7 @@ export const experts: Expert[] = [
     impactArea: 'Leaders at Major AI Labs & Companies',
     predictions: [],
     company: 'Google (formerly Samsung, Microsoft)',
+    linkedin: 'https://www.linkedin.com/in/larryheck',
   },
   {
     id: '106',
@@ -1544,6 +1703,7 @@ export const experts: Expert[] = [
     impactArea: 'Leaders at Major AI Labs & Companies',
     predictions: [],
     company: 'Citadel (formerly Microsoft, DeepMind)',
+    linkedin: 'https://www.linkedin.com/in/li-deng-406095/',
   }
 ];
 
@@ -1558,4 +1718,3 @@ export const getAllExpertise = (): string[] => {
 export const getAllImpactAreas = (): string[] => {
   return IMPACT_AREAS_ORDERED;
 };
-
