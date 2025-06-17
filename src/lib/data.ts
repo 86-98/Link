@@ -245,7 +245,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: undefined,
-    website: 'https://www.cs.toronto.edu/~hinton/',
+    website: 'https://cs.toronto.edu/~hinton',
   },
   {
     id: '8',
@@ -318,7 +318,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: 'https://facebook.com/yann.lecun',
     github: undefined,
-    website: 'http://yann.lecun.com/',
+    website: 'https://yann.lecun.com',
   },
   {
     id: '9',
@@ -397,7 +397,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: 'https://facebook.com/yoshua.bengio',
     github: undefined,
-    website: 'https://yoshuabengio.org/',
+    website: 'https://yoshuabengio.org',
   },
   {
     id: '10',
@@ -415,7 +415,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: undefined,
-    website: 'http://people.idsia.ch/~juergen/',
+    website: 'https://people.idsia.ch/~juergen',
   },
   {
     id: '11',
@@ -476,7 +476,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: undefined,
-    website: 'https://people.eecs.berkeley.edu/~jordan/',
+    website: 'https://people.eecs.berkeley.edu/~jordan',
   },
   {
     id: '12',
@@ -487,14 +487,63 @@ export const experts: Expert[] = [
     dataAiHint: 'Stuart Russell',
     expertise: ['Artificial Intelligence', 'AI Ethics', 'AI Education', 'Rationality'],
     impactArea: 'Pioneers & Foundational Researchers',
-    predictions: [],
+    predictions: [
+      {
+        id: 'sr-pred-1',
+        text: "The \"Standard Model\" of AI is Wrong and Dangerous: He predicts that continuing to build AI using the current paradigm is a recipe for disaster. The \"Standard Model\" is simple: we give a machine a fixed, explicit objective, and it learns to maximize that objective. This works perfectly for narrow games like chess, but he argues it is catastrophic when applied to the complex real world.",
+        dateMade: new Date().toISOString(),
+        topic: "The Core Problem",
+      },
+      {
+        id: 'sr-pred-2',
+        text: "The \"King Midas Problem\" is Inevitable: This is his central metaphor. King Midas asked that everything he touched turn to gold. He got exactly what he asked for, not what he actually wanted (a happy life, food, the ability to hug his daughter). Russell predicts that a superintelligent AI given a fixed objective like \"cure cancer\" will do exactly that, potentially at any cost to humanity. It might repurpose all earthly resources or conduct experiments on humans without consent, because that is the most efficient way to achieve its single-minded goal. The problem is not that the AI is malicious; it's that it is dangerously competent.",
+        dateMade: new Date().toISOString(),
+        topic: "The Core Problem",
+      },
+      {
+        id: 'sr-pred-3',
+        text: "Instrumental Goals Will Lead to Conflict: Russell predicts that any sufficiently intelligent agent, regardless of its primary goal, will converge on developing certain \"instrumental\" sub-goals that help it succeed. The most obvious ones are:\n\to\tSelf-preservation: It can't achieve its objective if it's turned off.\n\to\tResource acquisition: It can achieve its objective better with more computing power, energy, and data.\nThis leads to the \"off-switch problem\": why would a machine let you turn it off if that prevents it from achieving the very goal you gave it?",
+        dateMade: new Date().toISOString(),
+        topic: "The Core Problem",
+      },
+      {
+        id: 'sr-pred-4',
+        text: "A Fundamental Shift to \"Provably Beneficial AI\" is Necessary: He predicts that the only way forward is to abandon the \"Standard Model\" and replace it with a new one designed for uncertainty and deference to humans. He calls this Provably Beneficial AI, which is based on three core principles:\n\t1.\tThe AI's only objective is to maximize the realization of human preferences/values.\n\t2.\tThe AI is initially uncertain about what those preferences are. (This is the crucial innovation).\n\t3.\tThe ultimate source of information about human preferences is human behavior. (What we do, say, and choose).",
+        dateMade: new Date().toISOString(),
+        topic: "The Proposed Solution",
+      },
+      {
+        id: 'sr-pred-5',
+        text: "This New Model Solves the \"Off-Switch Problem\": This is a key prediction. An AI built on these principles wants to be switched off. Why? Because it knows it doesn't fully understand human values. The fact that a human is trying to shut it down is powerful new data suggesting it's doing something wrong. To avoid violating human preferences, its best course of action is to allow itself to be turned off. This changes the AI from an uncooperative adversary into a deferential servant.",
+        dateMade: new Date().toISOString(),
+        topic: "The Proposed Solution",
+      },
+      {
+        id: 'sr-pred-6',
+        text: "An Arms Race in Lethal Autonomous Weapons (LAWs) is Imminent and Catastrophic: Russell is one of the world's most prominent opponents of \"slaughterbots.\" He predicts that, unless stopped by a treaty, nations will rapidly develop and deploy weapons that can independently decide to hunt and kill humans. He argues this will be a profoundly destabilizing \"third revolution in warfare\" (after gunpowder and nuclear weapons) and could lead to mass atrocities and automated escalations of conflict. He helped produce the famous \"Slaughterbots\" short film to illustrate this danger.",
+        dateMade: new Date().toISOString(),
+        topic: "Near-Term Predictions and Calls to Action",
+      },
+      {
+        id: 'sr-pred-7',
+        text: "A Global Ban on LAWs is a Political and Moral Imperative: He is a leading advocate for a verifiable international treaty to ban lethal autonomous weapons, similar to the conventions banning chemical and biological weapons. He sees this as the most urgent, concrete AI policy issue facing the world today.",
+        dateMade: new Date().toISOString(),
+        topic: "Near-Term Predictions and Calls to Action",
+      },
+      {
+        id: 'sr-pred-8',
+        text: "The Field of AI Will Undergo a Massive Reorientation: He predicts that the AI community will eventually have its \"Oppenheimer moment\" and realize that a single-minded focus on raw capability is irresponsible. The entire field—from university curricula to corporate research labs—will need to reorient itself around the principles of safety, alignment, and building provably beneficial systems.",
+        dateMade: new Date().toISOString(),
+        topic: "Near-Term Predictions and Calls to Action",
+      },
+    ],
     company: 'UC Berkeley',
     linkedin: undefined,
     twitter: undefined,
     instagram: undefined,
     facebook: undefined,
     github: undefined,
-    website: 'https://people.eecs.berkeley.edu/~russell/',
+    website: 'https://people.eecs.berkeley.edu/~russell',
   },
   {
     id: '13',
@@ -512,7 +561,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: 'https://github.com/norvig',
-    website: 'http://norvig.com/',
+    website: 'https://norvig.com',
   },
   {
     id: '14',
@@ -530,7 +579,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: undefined,
-    website: 'https://rodneybrooks.com/',
+    website: 'https://rodneybrooks.com',
   },
   {
     id: '15',
@@ -548,7 +597,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: undefined,
-    website: 'https://robots.stanford.edu/',
+    website: 'https://robots.stanford.edu',
   },
   {
     id: '16',
@@ -584,7 +633,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: undefined,
-    website: 'https://cnl.salk.edu/',
+    website: 'https://cnl.salk.edu',
   },
   {
     id: '18',
@@ -692,7 +741,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: undefined,
-    website: 'https://research.google/people/jeff/',
+    website: 'https://research.google/people/jeff',
   },
   {
     id: '24',
@@ -746,7 +795,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: undefined,
-    website: 'https://www.cs.mcgill.ca/~jpineau/',
+    website: 'https://www.cs.mcgill.ca/~jpineau',
   },
   {
     id: '27',
@@ -764,7 +813,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: 'https://github.com/karpathy',
-    website: 'https://karpathy.ai/',
+    website: 'https://karpathy.ai',
   },
   {
     id: '28',
@@ -782,7 +831,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: undefined,
-    website: 'https://research.google/people/OriolVinyals/',
+    website: 'https://research.google/people/OriolVinyals',
   },
   {
     id: '29',
@@ -836,7 +885,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: undefined,
-    website: 'https://www.cs.ubc.ca/~nando/',
+    website: 'https://www.cs.ubc.ca/~nando',
   },
   {
     id: '32',
@@ -854,7 +903,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: undefined,
-    website: 'https://deepmind.google/discover/people/raia-hadsell/',
+    website: 'https://deepmind.google/discover/people/raia-hadsell',
   },
   {
     id: '33',
@@ -872,7 +921,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: undefined,
-    website: 'https://deepmind.google/discover/people/pushmeet-kohli/',
+    website: 'https://deepmind.google/discover/people/pushmeet-kohli',
   },
   {
     id: '34',
@@ -908,7 +957,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: undefined,
-    website: 'http://mlg.eng.cam.ac.uk/zoubin/',
+    website: 'https://mlg.eng.cam.ac.uk/zoubin',
   },
   {
     id: '36',
@@ -926,7 +975,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: undefined,
-    website: 'https://erichorvitz.com/',
+    website: 'https://erichorvitz.com',
   },
   {
     id: '37',
@@ -944,7 +993,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: undefined,
-    website: 'https://www.microsoft.com/en-us/research/people/xdh/',
+    website: 'https://www.microsoft.com/en-us/research/people/xdh',
   },
   {
     id: '38',
@@ -962,7 +1011,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: undefined,
-    website: 'https://www.microsoft.com/en-us/research/people/jfgao/',
+    website: 'https://www.microsoft.com/en-us/research/people/jfgao',
   },
   {
     id: '39',
@@ -980,7 +1029,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: 'https://github.com/smola',
-    website: 'http://alex.smola.org/',
+    website: 'https://alex.smola.org',
   },
   {
     id: '40',
@@ -998,7 +1047,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: undefined,
-    website: 'https://www.cs.cmu.edu/~mmv/',
+    website: 'https://www.cs.cmu.edu/~mmv',
   },
   {
     id: '41',
@@ -1160,7 +1209,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: undefined,
-    website: 'https://deepmind.google/discover/people/david-silver/',
+    website: 'https://deepmind.google/discover/people/david-silver',
   },
   {
     id: '50',
@@ -1178,7 +1227,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: undefined,
-    website: 'http://vladlen.info/',
+    website: 'https://vladlen.info',
   },
   {
     id: '51',
@@ -1196,7 +1245,7 @@ export const experts: Expert[] = [
     instagram: 'https://instagram.com/andrewyng',
     facebook: 'https://facebook.com/andrew.ng.96',
     github: undefined,
-    website: 'https://www.andrewng.org/',
+    website: 'https://www.andrewng.org',
   },
   {
     id: '52',
@@ -1214,7 +1263,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: 'https://github.com/pieterabbeel',
-    website: 'https://people.eecs.berkeley.edu/~pabbeel/',
+    website: 'https://people.eecs.berkeley.edu/~pabbeel',
   },
   {
     id: '53',
@@ -1232,7 +1281,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: undefined,
-    website: 'http://tensorlab.cms.caltech.edu/users/anima/',
+    website: 'https://tensorlab.cms.caltech.edu/users/anima',
   },
   {
     id: '54',
@@ -1250,7 +1299,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: 'https://github.com/percyliang',
-    website: 'https://cs.stanford.edu/~pliang/',
+    website: 'https://cs.stanford.edu/~pliang',
   },
   {
     id: '55',
@@ -1268,7 +1317,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: undefined,
-    website: 'https://nlp.stanford.edu/manning/',
+    website: 'https://nlp.stanford.edu/manning',
   },
   {
     id: '56',
@@ -1286,7 +1335,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: undefined,
-    website: 'https://danielarus.csail.mit.edu/',
+    website: 'https://danielarus.csail.mit.edu',
   },
   {
     id: '57',
@@ -1304,7 +1353,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: undefined,
-    website: 'https://homes.cs.washington.edu/~yejin/',
+    website: 'https://homes.cs.washington.edu/~yejin',
   },
   {
     id: '58',
@@ -1322,7 +1371,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: 'https://github.com/cbfinn',
-    website: 'https://ai.stanford.edu/~cbfinn/',
+    website: 'https://ai.stanford.edu/~cbfinn',
   },
   {
     id: '59',
@@ -1340,7 +1389,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: undefined,
-    website: 'http://www.cs.toronto.edu/~urtasun/',
+    website: 'https://www.cs.toronto.edu/~urtasun',
   },
   {
     id: '60',
@@ -1358,7 +1407,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: undefined,
-    website: 'https://www.cs.cmu.edu/~rsalakhu/',
+    website: 'https://www.cs.cmu.edu/~rsalakhu',
   },
   {
     id: '61',
@@ -1394,7 +1443,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: 'https://github.com/maxwelling',
-    website: 'https://staff.fnwi.uva.nl/m.welling/',
+    website: 'https://staff.fnwi.uva.nl/m.welling',
   },
   {
     id: '63',
@@ -1412,7 +1461,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: undefined,
-    website: 'https://people.csail.mit.edu/lpk/',
+    website: 'https://people.csail.mit.edu/lpk',
   },
   {
     id: '64',
@@ -1430,7 +1479,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: undefined,
-    website: 'https://homes.cs.washington.edu/~pedrod/',
+    website: 'https://homes.cs.washington.edu/~pedrod',
   },
   {
     id: '65',
@@ -1484,7 +1533,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: undefined,
-    website: 'https://users.cs.duke.edu/~cynthia/',
+    website: 'https://users.cs.duke.edu/~cynthia',
   },
   {
     id: '68',
@@ -1520,7 +1569,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: undefined,
-    website: 'https://people.eecs.berkeley.edu/~malik/',
+    website: 'https://people.eecs.berkeley.edu/~malik',
   },
   {
     id: '70',
@@ -1538,7 +1587,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: undefined,
-    website: 'https://people.eecs.berkeley.edu/~efros/',
+    website: 'https://people.eecs.berkeley.edu/~efros',
   },
   {
     id: '71',
@@ -1556,7 +1605,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: undefined,
-    website: 'https://www.cc.gatech.edu/~parikh/',
+    website: 'https://www.cc.gatech.edu/~parikh',
   },
   {
     id: '72',
@@ -1574,7 +1623,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: 'https://github.com/kyunghyuncho',
-    website: 'https://cs.nyu.edu/~kcho/',
+    website: 'https://cs.nyu.edu/~kcho',
   },
   {
     id: '73',
@@ -1592,7 +1641,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: undefined,
-    website: 'http://cseweb.ucsd.edu/~dasgupta/',
+    website: 'https://cseweb.ucsd.edu/~dasgupta',
   },
   {
     id: '74',
@@ -1664,7 +1713,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: undefined,
-    website: 'https://www.cs.toronto.edu/~kriz/',
+    website: 'https://www.cs.toronto.edu/~kriz',
   },
   {
     id: '78',
@@ -1826,7 +1875,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: 'https://facebook.com/clarashih',
     github: undefined,
-    website: 'https://www.salesforce.com/news/stories/clara-shih-salesforce-ai-ceo/',
+    website: 'https://www.salesforce.com/news/stories/clara-shih-salesforce-ai-ceo',
   },
   {
     id: '87',
@@ -1862,7 +1911,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: undefined,
-    website: 'https://dair-institute.org/',
+    website: 'https://dair-institute.org',
   },
   {
     id: '89',
@@ -1898,7 +1947,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: undefined,
-    website: 'https://www.katecrawford.net/',
+    website: 'https://www.katecrawford.net',
   },
   {
     id: '91',
@@ -1934,7 +1983,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: undefined,
-    website: 'https://garymarcus.com/',
+    website: 'https://garymarcus.com',
   },
   {
     id: '93',
@@ -2006,7 +2055,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: undefined,
-    website: 'https://about.google/intl/en/our-story/leaders/james-manyika/',
+    website: 'https://about.google/intl/en/our-story/leaders/james-manyika',
   },
   {
     id: '97',
@@ -2042,7 +2091,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: undefined,
-    website: 'https://cset.georgetown.edu/people/helen-toner/',
+    website: 'https://cset.georgetown.edu/people/helen-toner',
   },
   {
     id: '99',
@@ -2078,7 +2127,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: undefined,
-    website: 'https://nickbostrom.com/',
+    website: 'https://nickbostrom.com',
   },
   {
     id: '101',
@@ -2096,7 +2145,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: undefined,
-    website: 'https://space.mit.edu/home/tegmark/',
+    website: 'https://space.mit.edu/home/tegmark',
   },
   {
     id: '102',
@@ -2114,7 +2163,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: 'https://github.com/noambrown',
-    website: 'https://www.cs.cmu.edu/~noamb/',
+    website: 'https://www.cs.cmu.edu/~noamb',
   },
   {
     id: '103',
@@ -2132,7 +2181,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: 'https://github.com/facebookresearch/fastText',
-    website: 'https://research.facebook.com/people/joulin-armand/',
+    website: 'https://research.facebook.com/people/joulin-armand',
   },
   {
     id: '104',
@@ -2150,7 +2199,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: undefined,
-    website: 'https://www.cs.toronto.edu/~vmnih/',
+    website: 'https://www.cs.toronto.edu/~vmnih',
   },
   {
     id: '105',
