@@ -11,105 +11,105 @@ export const expertiseIcons: { [key: string]: React.ElementType } = {
   'Deep Learning': Layers,
   'AGI Research': Sparkles,
   'Reinforcement Learning': Repeat,
-  'AI Strategy': UserCog, // Changed from Users to UserCog for more specific meaning
+  'AI Strategy': UserCog, 
   'AI Investment': TrendingUp,
-  'Default': Lightbulb, // Changed from Sparkles to Lightbulb for a more generic default
-  'Neural Networks': Network, // Changed from Layers
-  'AI Governance': Scale, // Changed from Shield
-  'Large Language Models': FileText, // Changed from MessageCircle
+  'Default': Lightbulb, 
+  'Neural Networks': Network, 
+  'AI Governance': Scale, 
+  'Large Language Models': FileText, 
   'Computational Linguistics': MessageCircle,
-  'Image Recognition': Aperture, // Changed from Eye
+  'Image Recognition': Aperture, 
   'Cognitive Architectures': Brain,
-  'Human-Robot Interaction': UsersRound, // Changed from Bot
-  'Mechatronics': Cpu, // Changed from Bot
-  'Venture Capital': DollarSign, // Changed from TrendingUp
-  'AI Startups': Building, // Changed from Users
-  'AI Safety': ShieldCheck, // Changed from Shield
-  'AI Policy': Landmark, // Changed from Shield
-  'Transformers': Shuffle, // Changed from Layers
-  'Statistics': BarChart3, // Changed from Brain
-  'AI Education': BookOpen, // Changed from Users
+  'Human-Robot Interaction': UsersRound, 
+  'Mechatronics': Cpu, 
+  'Venture Capital': DollarSign, 
+  'AI Startups': Building, 
+  'AI Safety': ShieldCheck, 
+  'AI Policy': Landmark, 
+  'Transformers': Shuffle, 
+  'Statistics': BarChart3, 
+  'AI Education': BookOpen, 
   'Neuroscience': Brain,
-  'Generative AI': Palette, // Changed from Sparkles
-  'Applied AI': Zap, // Changed from Sparkles
-  'Dialogue Systems': Speech, // Changed from MessageCircle
-  'AI Platforms': Server, // Changed from Layers
+  'Generative AI': Palette, 
+  'Applied AI': Zap, 
+  'Dialogue Systems': Speech, 
+  'AI Platforms': Server, 
   'Speech Recognition': Speech,
-  'Interpretability': SearchCode, // Changed from Eye
-  'Causal Inference': Link2, // Changed from Brain
-  'GPU Technology': Cpu, // Changed from Layers
-  'Democratizing AI': Globe, // Changed from Users
-  'Algorithmic Bias': Filter, // Changed from Shield
-  'Existential Risk': AlertTriangle, // Changed from Shield
-  'Responsible AI': ShieldCheck, // Changed from Shield
-  'AI Theory': Sigma, // Changed from Brain
-  'Search Algorithms': SearchCode, // Changed from Layers
+  'Interpretability': SearchCode, 
+  'Causal Inference': Link2, 
+  'GPU Technology': Cpu, 
+  'Democratizing AI': Globe, 
+  'Algorithmic Bias': Filter, 
+  'Existential Risk': AlertTriangle, 
+  'Responsible AI': ShieldCheck, 
+  'AI Theory': Sigma, 
+  'Search Algorithms': SearchCode, 
   'Behavior-based AI': Bot,
   'Embodied AI': Bot,
-  'Self-Driving Cars': Bot, // Consider a Car icon if available
-  'Probabilistic Models': BarChart3, // Changed from Brain
-  'Computational Biology': Microscope, // Changed from Brain
+  'Self-Driving Cars': Bot, 
+  'Probabilistic Models': BarChart3, 
+  'Computational Biology': Microscope, 
   'AI Leadership': Users,
-  'Technology Entrepreneurship': Lightbulb, // Changed from Users
-  'Software Engineering': Code, // Changed from Layers
-  'Generative Models': Palette, // Changed from Sparkles
-  'Large-Scale Systems': Server, // Changed from Layers
-  'Machine Learning Infrastructure': Database, // Changed from Layers
+  'Technology Entrepreneurship': Lightbulb, 
+  'Software Engineering': Code, 
+  'Generative Models': Palette, 
+  'Large-Scale Systems': Server, 
+  'Machine Learning Infrastructure': Database, 
   'Continual Learning': Repeat,
-  'AI for Science': FlaskConical, // Changed from Sparkles
-  'Bayesian Methods': Sigma, // Changed from Brain
-  'Human-AI Collaboration': UsersRound, // Changed from Users
+  'AI for Science': FlaskConical, 
+  'Bayesian Methods': Sigma, 
+  'Human-AI Collaboration': UsersRound, 
   'Decision Theory': Brain,
-  'Scalable AI': Cloud, // Changed from Layers
-  'Optimization': Target, // Changed from Brain
-  'Sequence Modeling': PencilLine, // Changed from Layers
-  'AI Entrepreneurship': Lightbulb, // Changed from Users
-  'Search Technology': SearchCode, // Changed from Layers
-  'European AI': Globe, // Changed from Users
+  'Scalable AI': Cloud, 
+  'Optimization': Target, 
+  'Sequence Modeling': PencilLine, 
+  'AI Entrepreneurship': Lightbulb, 
+  'Search Technology': SearchCode, 
+  'European AI': Globe, 
   'Social Technology': Users,
-  'CRM Technology': Keyboard, // Changed from Layers, consider a more specific icon
+  'CRM Technology': Keyboard, 
   'Dynamic Control Systems': Bot,
-  'AI Hardware': Cpu, // Changed from Layers
-  'Fairness in AI': Scale, // Changed from Shield
-  'Social Implications of AI': Group, // Changed from Shield
-  'Data Studies': Database, // Changed from Brain
-  'AI Impact': Zap, // Changed from Sparkles
+  'AI Hardware': Cpu, 
+  'Fairness in AI': Scale, 
+  'Social Implications of AI': Group, 
+  'Data Studies': Database, 
+  'AI Impact': Zap, 
   'Commonsense Reasoning': Brain,
-  'AI Criticism': Megaphone, // Changed from MessageCircle
+  'AI Criticism': Megaphone, 
   'National Security': Shield,
-  'AI Economics': DollarSign, // Changed from TrendingUp
-  'Technology Research': Monitor, // Changed from Layers
-  'Data Ethics': ShieldCheck, // Changed from Shield
-  'AI for Good': LifeBuoy, // Changed from Sparkles
-  'Technology Governance': Landmark, // Changed from Shield
-  'International Security': Globe, // Changed from Shield
+  'AI Economics': DollarSign, 
+  'Technology Research': Monitor, 
+  'Data Ethics': ShieldCheck, 
+  'AI for Good': LifeBuoy, 
+  'Technology Governance': Landmark, 
+  'International Security': Globe, 
   'Rationality': Brain,
-  'Philosophy of AI': Library, // Changed from Brain, consider specific philosophy icon
+  'Philosophy of AI': Library, 
   'Future of AI': Sparkles,
-  'Game AI': Bot, // Consider a game controller icon
+  'Game AI': Bot, 
   'Multi-Agent Systems': Users,
   'Efficient AI Models': Layers,
   '3D Reconstruction': Eye,
   'AI Planning': Brain,
   'Decision Making': Brain,
   'Word Embeddings': MessageCircle,
-  'Explainable AI': Info, // Changed from Eye
-  'Interpretable Machine Learning': Info, // Changed from Eye
+  'Explainable AI': Info, 
+  'Interpretable Machine Learning': Info, 
   '3D Computer Vision': Eye,
   'Robot Learning': Bot,
-  'Computational Photography': Aperture, // Changed from Eye
-  'Graphics': Palette, // Changed from Layers
-  'AI for Creativity': Palette, // Changed from Sparkles
+  'Computational Photography': Aperture, 
+  'Graphics': Palette, 
+  'AI for Creativity': Palette, 
   'Machine Translation': MessageCircle,
-  'Theoretical Machine Learning': Sigma, // Changed from Brain
-  'Algorithms': Code, // Changed from Layers
-  'AI Security': Lock, // Changed from Shield
-  'Open Source AI': GitBranch, // Changed from Users
+  'Theoretical Machine Learning': Sigma, 
+  'Algorithms': Code, 
+  'AI Security': Lock, 
+  'Open Source AI': GitBranch, 
   'Consumer AI': Users,
-  'Financial AI': DollarSign, // Changed from TrendingUp
-  'LSTM': PencilLine, // Changed from Layers
-  'Blockchain': Link2, // Changed from Layers
-  'Decentralized Systems': Network, // Changed from Layers
+  'Financial AI': DollarSign, 
+  'LSTM': PencilLine, 
+  'Blockchain': Link2, 
+  'Decentralized Systems': Network, 
   'Tensor Methods': Sigma,
   'High-Performance Computing': Cpu,
   'Trustworthy AI': ShieldCheck,
@@ -122,10 +122,51 @@ export const expertiseIcons: { [key: string]: React.ElementType } = {
   'Cognitive Science': Brain,
   'Neuro-Symbolic AI': Brain,
   'Superintelligence': Sparkles,
-  'Physics': Sigma, // Placeholder, consider atom or similar
+  'Physics': Sigma, 
   'Deep Q-Networks (DQN)': Layers,
   'Conversational AI': Speech,
   'Enterprise AI': Building,
+  'Backpropagation': Repeat,
+  'Boltzmann Machines': Layers,
+  'Convolutional Neural Networks': Network,
+  'Recurrent Neural Networks': Repeat,
+  'Attention Mechanisms': Eye,
+  'ImageNet': Aperture,
+  'TensorFlow': Cpu,
+  'PPO': TrendingUp,
+  'TRPO': TrendingUp,
+  'AlphaGo': Bot,
+  'AlphaZero': Bot,
+  'Foundation Models': Layers,
+  'Sentiment Analysis': MessageCircle,
+  'Navigation': Globe,
+  'AlphaFold': Brain,
+  'Markov Logic Networks': Network,
+  'GRUs': Layers,
+  'Clustering': Group,
+  'Active Learning': UserCog,
+  'Image Synthesis': Palette,
+  '3D Perception': Eye,
+  'Simulation': Monitor,
+  'Online Education': BookOpen,
+  'Power Dynamics': Users,
+  'Startups': Lightbulb,
+  'Accountability': ShieldCheck,
+  'Social Justice': Scale,
+  'Government': Landmark,
+  'Future of Work': Briefcase,
+  'Public Policy': FileText,
+  'China AI': Globe,
+  'Transhumanism': Sparkles,
+  'Consciousness': Brain,
+  'Computational Game Theory': BarChart3,
+  'fastText': MessageCircle,
+  'Legged Locomotion': Bot,
+  'Genomics': Microscope,
+  'Networked Systems': Network,
+  'Developmental Psychology': Brain,
+  'Constraint Satisfaction': Sigma,
+  'Bias Mitigation': Filter,
 };
 
 
@@ -138,108 +179,6 @@ export const IMPACT_AREAS_ORDERED: string[] = [
 ];
 
 export const experts: Expert[] = [
-  {
-    id: '1',
-    name: 'Dr. Aris Thorne',
-    title: 'Chief AI Ethicist, FutureForward AI',
-    bio: 'Dr. Aris Thorne is a leading voice in AI ethics and responsible AI development. With over 15 years of experience, Aris focuses on creating frameworks for transparent and equitable AI systems.',
-    avatarUrl: 'https://placehold.co/400x400.png',
-    dataAiHint: 'Dr. Aris',
-    expertise: ['AI Ethics', 'Responsible AI', 'AI Governance'],
-    impactArea: 'Prominent Voices in AI Ethics & Safety',
-    predictions: [
-      { id: 'p1-1', text: 'By 2028, AI ethics boards will be mandatory for all major tech companies.', dateMade: '2023-05-10', topic: 'AI Governance' },
-      { id: 'p1-2', text: 'Explainable AI (XAI) will see significant breakthroughs, making complex models more understandable.', dateMade: '2023-08-22', topic: 'Explainable AI' },
-    ],
-    company: 'FutureForward AI',
-    linkedin: 'https://linkedin.com/in/aristhorne',
-    twitter: 'https://twitter.com/aristhorne',
-  },
-  {
-    id: '2',
-    name: 'Lena Hanson',
-    title: 'Lead NLP Researcher, LinguaTech',
-    bio: 'Lena Hanson specializes in Natural Language Processing and computational linguistics. Her work on large language models has pushed the boundaries of machine understanding and generation.',
-    avatarUrl: 'https://placehold.co/400x400.png',
-    dataAiHint: 'Lena Hanson',
-    expertise: ['Natural Language Processing', 'Large Language Models', 'Computational Linguistics'],
-    impactArea: 'Key Innovators & Entrepreneurs',
-    predictions: [
-      { id: 'p2-1', text: 'Cross-lingual understanding in LLMs will reach near human-level parity by 2027.', dateMade: '2023-01-15', topic: 'NLP' },
-      { id: 'p2-2', text: 'AI-powered tools for creative writing and coding assistance will become ubiquitous in the next 3 years.', dateMade: '2023-11-02', topic: 'Generative AI' },
-    ],
-    company: 'LinguaTech',
-    linkedin: 'https://linkedin.com/in/lenahanson',
-    twitter: 'https://twitter.com/lenahanson',
-  },
-  {
-    id: '3',
-    name: 'Marcus Chen',
-    title: 'Principal Investigator, Visionary Machines Lab',
-    bio: 'Marcus Chen is at the forefront of Computer Vision research. His lab develops innovative algorithms for image recognition, object detection, and real-time video analysis.',
-    avatarUrl: 'https://placehold.co/400x400.png',
-    dataAiHint: 'Marcus Chen',
-    expertise: ['Computer Vision', 'Deep Learning', 'Image Recognition'],
-    impactArea: 'Influential Academics',
-    predictions: [
-      { id: 'p3-1', text: 'Autonomous vehicles will rely heavily on federated learning for vision systems by 2029.', dateMade: '2023-03-30', topic: 'Computer Vision' },
-      { id: 'p3-2', text: 'Generative adversarial networks (GANs) for image synthesis will produce photorealistic results indistinguishable from real photos by 2026.', dateMade: '2023-09-12', topic: 'Generative AI' },
-    ],
-    company: 'Visionary Machines Lab',
-    linkedin: 'https://linkedin.com/in/marcuschen',
-    twitter: 'https://twitter.com/marcuschen',
-  },
-  {
-    id: '4',
-    name: 'Dr. Evelyn Reed',
-    title: 'Director of AGI Research, Nova Dynamics',
-    bio: 'Dr. Evelyn Reed leads a team dedicated to achieving Artificial General Intelligence. Her research explores novel architectures and learning paradigms for more versatile and adaptive AI.',
-    avatarUrl: 'https://placehold.co/400x400.png',
-    dataAiHint: 'Dr. Evelyn',
-    expertise: ['AGI Research', 'Cognitive Architectures', 'Reinforcement Learning'],
-    impactArea: 'Leaders at Major AI Labs & Companies',
-    predictions: [
-      { id: 'p4-1', text: 'A significant step towards AGI, demonstrating robust transfer learning across vastly different domains, will occur before 2035.', dateMade: '2022-12-01', topic: 'AGI' },
-      { id: 'p4-2', text: 'Neuro-symbolic AI approaches will be critical in bridging the gap between current AI and AGI.', dateMade: '2023-07-20', topic: 'AI Architectures' },
-    ],
-    company: 'Nova Dynamics',
-    linkedin: 'https://linkedin.com/in/evelynreed',
-    twitter: 'https://twitter.com/evelynreed',
-  },
-  {
-    id: '5',
-    name: 'Kenji Tanaka',
-    title: 'Robotics Innovator & CEO, Cyber шаг (Cyber Step)',
-    bio: 'Kenji Tanaka is a pioneer in humanoid robotics and human-robot interaction. His company, Cyber шаг, develops advanced robotic systems for various industries, from manufacturing to healthcare.',
-    avatarUrl: 'https://placehold.co/400x400.png',
-    dataAiHint: 'Kenji Tanaka',
-    expertise: ['Robotics', 'Human-Robot Interaction', 'Mechatronics'],
-    impactArea: 'Key Innovators & Entrepreneurs',
-    predictions: [
-      { id: 'p5-1', text: 'Collaborative robots (cobots) will become standard in small and medium-sized enterprises by 2030.', dateMade: '2023-02-18', topic: 'Robotics' },
-      { id: 'p5-2', text: 'AI-driven robotic surgery will allow for new levels of precision and minimally invasive procedures within the next decade.', dateMade: '2023-10-05', topic: 'Healthcare AI' },
-    ],
-    company: 'Cyber шаг',
-    linkedin: 'https://linkedin.com/in/kenjitanaka',
-    twitter: 'https://twitter.com/kenjitanaka',
-  },
-   {
-    id: '6',
-    name: 'Sofia Petrova',
-    title: 'AI Investment Strategist, Quantum Leap Capital',
-    bio: 'Sofia Petrova identifies and invests in groundbreaking AI startups. With a keen eye for disruptive technologies, she helps shape the future of AI through strategic funding and mentorship.',
-    avatarUrl: 'https://placehold.co/400x400.png',
-    dataAiHint: 'Sofia Petrova',
-    expertise: ['AI Investment', 'Venture Capital', 'AI Startups'],
-    impactArea: 'Key Innovators & Entrepreneurs',
-    predictions: [
-      { id: 'p6-1', text: 'Investment in AI for drug discovery will triple by 2027.', dateMade: '2023-06-25', topic: 'AI Investment' },
-      { id: 'p6-2', text: 'Edge AI will attract significant venture capital funding as demand for on-device processing grows.', dateMade: '2023-11-15', topic: 'Edge AI' },
-    ],
-    company: 'Quantum Leap Capital',
-    linkedin: 'https://linkedin.com/in/sofiapetrova',
-    twitter: 'https://twitter.com/sofiapetrova',
-  },
   {
     id: '7',
     name: 'Geoffrey Hinton',
@@ -269,7 +208,7 @@ export const experts: Expert[] = [
     name: 'Yoshua Bengio',
     title: 'Scientific Director, Mila / Professor, University of Montreal',
     bio: 'A "Godfather of Deep Learning," known for his significant contributions to deep learning, recurrent neural networks (RNNs), and attention mechanisms. Scientific Director of Mila and Professor at the University of Montreal.',
-    avatarUrl: 'https://commons.wikimedia.org/wiki/File:Yoshua_Bengio_2019_cropped.jpg',
+    avatarUrl: 'https://placehold.co/400x400.png',
     dataAiHint: 'Yoshua Bengio',
     expertise: ['Deep Learning', 'Neural Networks', 'Reinforcement Learning', 'Recurrent Neural Networks', 'Attention Mechanisms'],
     impactArea: 'Pioneers & Foundational Researchers',
@@ -716,7 +655,7 @@ export const experts: Expert[] = [
     avatarUrl: 'https://placehold.co/400x400.png',
     dataAiHint: 'Illia Polosukhin',
     expertise: ['Blockchain', 'Natural Language Processing', 'Transformers', 'Decentralized Systems', 'TensorFlow'],
-    impactArea: 'Pioneers & Foundational Researchers', // Reclassified based on diverse impact
+    impactArea: 'Pioneers & Foundational Researchers', 
     predictions: [],
     company: 'NEAR Protocol (formerly Google)',
   },
@@ -739,8 +678,8 @@ export const experts: Expert[] = [
     bio: 'Co-author of "Attention Is All You Need" and the Tensor2Tensor library while at Google. Now a researcher at OpenAI.',
     avatarUrl: 'https://placehold.co/400x400.png',
     dataAiHint: 'Lukasz Kaiser',
-    expertise: ['Deep Learning', 'Natural Language Processing', 'Transformers', 'Machine Learning Systems', 'Tensor2Tensor'],
-    impactArea: 'Pioneers & Foundational Researchers', // Reclassified based on fundamental contributions
+    expertise: ['Deep Learning', 'Natural Language Processing', 'Transformers', 'Machine Learning Systems', 'TensorFlow'],
+    impactArea: 'Pioneers & Foundational Researchers', 
     predictions: [],
     company: 'OpenAI (formerly Google)',
   },
@@ -1388,7 +1327,7 @@ export const experts: Expert[] = [
     avatarUrl: 'https://placehold.co/400x400.png',
     dataAiHint: 'Noam Brown',
     expertise: ['Game AI', 'Reinforcement Learning', 'Multi-Agent Systems', 'Deep Learning', 'Computational Game Theory'],
-    impactArea: 'Leaders at Major AI Labs & Companies', // Or Key Innovators due to specific breakthroughs
+    impactArea: 'Leaders at Major AI Labs & Companies', 
     predictions: [],
     company: 'Meta AI',
   },
