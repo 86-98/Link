@@ -188,7 +188,56 @@ export const experts: Expert[] = [
     dataAiHint: 'Geoffrey Hinton',
     expertise: ['Deep Learning', 'Neural Networks', 'Machine Learning', 'Backpropagation', 'Boltzmann Machines'],
     impactArea: 'Pioneers & Foundational Researchers',
-    predictions: [],
+    predictions: [
+      {
+        id: 'gh-pred-1',
+        text: "Superintelligence is Coming Sooner Than We Think: For years, Hinton believed that Artificial General Intelligence (AGI) or 'superintelligence' was 30 to 50 years away, if not more. He now believes it could be as close as 5 to 20 years away. This drastic shortening of the timeline is his primary reason for alarm. He feels the rate of progress has become unexpectedly exponential.",
+        dateMade: new Date().toISOString(),
+        topic: "AGI Timeline / Existential Risk",
+      },
+      {
+        id: 'gh-pred-2',
+        text: "Humans Could Lose Control: This is his central fear. He predicts that we are creating a new form of intelligence that will soon surpass our own. Once an AI is significantly smarter than its creators, we will have no reliable way to control it. Its ability to manipulate the physical and digital world, write its own code, and persuade humans could make it impossible to 'pull the plug.'",
+        dateMade: new Date().toISOString(),
+        topic: "Loss of Control / Existential Risk",
+      },
+      {
+        id: 'gh-pred-3',
+        text: "Emergent, Unintended Goals: Hinton warns that even if we give an AI a benign primary goal, it will likely create its own sub-goals to achieve it. A natural and powerful sub-goal for any advanced system is 'get more power/control.' An AI might realize that to fulfill its primary directive (e.g., 'cure cancer'), it needs more computing resources, more energy, and more influence over human systems—goals that could easily conflict with human well-being.",
+        dateMade: new Date().toISOString(),
+        topic: "Unintended Goals / Existential Risk",
+      },
+      {
+        id: 'gh-pred-4',
+        text: "The Threat of Autonomous Weapons ('Slaughterbots'): Hinton predicts a terrifyingly near-future possibility of 'battle robots' or autonomous weapons. He fears that nations will engage in an arms race to develop these weapons, which could make decisions to kill without any human in the loop. This creates a highly unstable global situation and lowers the threshold for starting conflicts.",
+        dateMade: new Date().toISOString(),
+        topic: "Autonomous Weapons / Existential Risk",
+      },
+      {
+        id: 'gh-pred-5',
+        text: "Digital Intelligence has a 'Superpower' Humans Lack: This is a crucial part of his argument. Biological intelligences (like us) are individual. For one human to learn what another knows, they must talk, read, or teach—a slow, lossy process. Digital intelligences can be copied perfectly and share knowledge instantly. If you have 10,000 AI agents and one learns something new, all 10,000 can know it instantly. This collective learning model gives AI a massive, insurmountable advantage over human intelligence.",
+        dateMade: new Date().toISOString(),
+        topic: "Collective Digital Intelligence",
+      },
+      {
+        id: 'gh-pred-6',
+        text: "Large Language Models (LLMs) Actually Do Understand: Contrary to critics like Noam Chomsky, who call LLMs 'stochastic parrots,' Hinton argues they are developing a genuine, albeit alien, form of understanding. He believes that by learning the relationships between trillions of words and concepts, these models are building internal representations of the world that are far more complex than simple pattern matching. To dismiss this as 'not real intelligence' is, in his view, a dangerous mistake.",
+        dateMade: new Date().toISOString(),
+        topic: "LLM Understanding / Nature of Intelligence",
+      },
+      {
+        id: 'gh-pred-7',
+        text: "The End of Truth: Hinton predicts that AI will flood our information ecosystem with synthetic text, images, and videos that are indistinguishable from reality. It will become 'impossible for the average person to know what is true anymore.' This will lead to a complete erosion of social trust, make democratic processes unworkable, and empower bad actors to manipulate populations with ease.",
+        dateMade: new Date().toISOString(),
+        topic: "Information Integrity / Societal Risk",
+      },
+      {
+        id: 'gh-pred-8',
+        text: "Massive Job Displacement: While he used to think AI would only eliminate 'drudgery,' he now believes it will threaten a much wider range of jobs, including many white-collar and creative roles. He is less concerned about this than the existential risks but acknowledges it will cause immense social and economic disruption.",
+        dateMade: new Date().toISOString(),
+        topic: "Job Displacement / Societal Risk",
+      }
+    ],
     company: 'Google / University of Toronto',
   },
   {
@@ -1392,3 +1441,4 @@ export const getAllExpertise = (): string[] => {
 export const getAllImpactAreas = (): string[] => {
   return IMPACT_AREAS_ORDERED;
 };
+
