@@ -1982,7 +1982,62 @@ export const experts: Expert[] = [
     dataAiHint: 'Andrew Ng',
     expertise: ['Deep Learning', 'Machine Learning', 'AI Education', 'AI Strategy', 'Online Education'],
     impactArea: 'Influential Academics',
-    predictions: [],
+    predictions:[
+          {
+              "id": "an-pred-cat1-1",
+              "text": "The focus on AGI 'extinction risk' is a profound and harmful distraction. We must focus on the real, present-day challenges of AI: bias, fairness, job displacement, and equitable access. Worrying about a hypothetical evil superintelligence is taking oxygen away from solving problems that affect millions of people today.",
+              "dateMade": "2024-05-21T12:00:00.000Z",
+              "topic": "Risk Stance"
+          },
+          {
+              "id": "an-pred-cat1-2",
+              "text": "The greatest risk associated with AI is the opportunity cost of *not* developing and deploying it. Failing to apply AI to urgent problems in healthcare, climate change, and education is a tangible harm we inflict on society through excessive caution and fear-mongering.",
+              "dateMade": "2024-05-21T12:00:00.000Z",
+              "topic": "Risk Stance"
+          },
+          {
+              "id": "an-pred-cat2-1",
+              "text": "AI is the new electricity. It is a general-purpose technology that will transform every industry. The ultimate value, however, will not be in the core technology itself but in the countless applications built on top of it. The conversation must shift from algorithms to applications.",
+              "dateMade": "2024-05-21T12:00:00.000Z",
+              "topic": "AI's Societal Impact"
+          },
+          {
+              "id": "an-pred-cat2-2",
+              "text": "The primary solution to job displacement from AI is not UBI, but education and continuous reskilling. We must build a society of lifelong learners and empower individuals with the skills to work *with* AI tools, which will augment human potential and create new, unforeseen jobs.",
+              "dateMade": "2024-05-21T12:00:00.000Z",
+              "topic": "AI's Societal Impact"
+          },
+          {
+              "id": "an-pred-cat3-1",
+              "text": "The single most important shift in building practical AI systems is the move from a model-centric to a data-centric approach. For the vast majority of real-world applications, the bottleneck to performance is the quality of the data, not the novelty of the algorithm. Systematically engineering your data is the key.",
+              "dateMade": "2024-05-21T12:00:00.000Z",
+              "topic": "Technical Vision"
+          },
+          {
+              "id": "an-pred-cat3-2",
+              "text": "While large foundation models are impressive, much of the future economic value of AI will be captured by smaller, more efficient models that are fine-tuned on high-quality, proprietary data for specific tasks. Not every business problem needs a 100-billion-parameter model.",
+              "dateMade": "2024-05-21T12:00:00.000Z",
+              "topic": "Technical Vision"
+          },
+          {
+              "id": "an-pred-cat4-1",
+              "text": "Regulation should be vertical (application-specific), not horizontal (technology-specific). We should regulate AI in self-driving cars and AI in healthcare differently, based on their unique risks. A broad, horizontal law regulating 'AI' or 'foundation models' would be a terrible idea that stifles innovation.",
+              "dateMade": "2024-05-21T12:00:00.000Z",
+              "topic": "Governance & Action"
+          },
+          {
+              "id": "an-pred-cat4-2",
+              "text": "The most powerful action we can take to ensure a positive future with AI is to democratize knowledge. Widespread AI literacy, from the C-suite to the factory floor, is the prerequisite for both responsible innovation and sensible policymaking. Education is the antidote to fear.",
+              "dateMade": "2024-05-21T12:00:00.000Z",
+              "topic": "Governance & Action"
+          },
+          {
+              "id": "an-pred-cat4-3",
+              "text": "Calls to 'pause' AI development are profoundly misguided. Progress on AI is essential for our economic competitiveness and for solving humanity's grand challenges. Hitting pause only benefits those who are already ahead and slows our ability to find solutions.",
+              "dateMade": "2024-05-21T12:00:00.000Z",
+              "topic": "Governance & Action"
+          }
+      ],
     company: 'Landing AI / AI Fund / Coursera / Stanford University',
     linkedin: 'https://linkedin.com/in/andrewyng',
     twitter: 'https://twitter.com/andrewyng',
@@ -2000,7 +2055,50 @@ export const experts: Expert[] = [
     dataAiHint: 'Pieter Abbeel',
     expertise: ['Robotics', 'Reinforcement Learning', 'Deep Learning', 'AI Entrepreneurship', 'Robot Learning'],
     impactArea: 'Influential Academics',
-    predictions: [],
+    predictions: [
+      {
+          "id": "yb-pred-pa1-1",
+          "text": "The Primary Risks are Practical, Not Existential: The immediate and critical challenges for AI are in the physical world: ensuring robot safety around humans, guaranteeing system reliability in critical infrastructure like supply chains, and managing the economic impact of automation. Debates on hypothetical superintelligence distract from these tangible, near-term problems.",
+          "dateMade": "2024-05-21T10:00:00.000Z",
+          "topic": "Risk Stance"
+      },
+      {
+          "id": "yb-pred-pa1-2",
+          "text": "AI as an Augmentation Engine: AI's greatest potential lies in augmenting human labor, not replacing it. The goal is to build collaborative systems where robots handle the dull, dirty, and dangerous tasks, freeing humans for higher-level problem-solving, creativity, and oversight.",
+          "dateMade": "2024-05-21T10:00:00.000Z",
+          "topic": "Risk Stance"
+      },
+      {
+          "id": "yb-pred-pa2-1",
+          "text": "The 'GPT Moment' for Robotics is Coming: The path to general-purpose robots is through creating a single 'foundation model' for robotics. By training on vast, diverse datasets of physical interaction from millions of robots, we can build a single AI brain that enables robots to generalize to novel tasks and environments with minimal fine-tuning.",
+          "dateMade": "2024-05-21T10:00:00.000Z",
+          "topic": "Technical Vision"
+      },
+      {
+          "id": "yb-pred-pa2-2",
+          "text": "Intelligence Must Be Embodied: True common sense and a deep understanding of causality will not emerge from text or images alone; they must be learned through physical interaction with the world. Embodiment is a non-negotiable prerequisite for reaching the next level of artificial intelligence.",
+          "dateMade": "2024-05-21T10:00:00.000Z",
+          "topic": "Technical Vision"
+      },
+      {
+          "id": "yb-pred-pa2-3",
+          "text": "Simulation is the Scaffolding for Real-World AI: The bottleneck to robotic learning is collecting real-world data. The future of robotics will be dominated by learning in high-fidelity simulations at massive scale, making the 'sim-to-real' transfer the single most critical research problem to solve for building capable, real-world AI systems.",
+          "dateMade": "2024-05-21T10:00:00.000Z",
+          "topic": "Technical Vision"
+      },
+      {
+          "id": "yb-pred-pa3-1",
+          "text": "Accelerate, Don't Pause: Calls to pause AI development are misguided. The world faces immense challenges in supply chains, labor shortages, and productivity that advanced robotics can solve. We should accelerate research and deployment, while focusing engineering rigor on building robust and safe systems.",
+          "dateMade": "2024-05-21T10:00:00.000Z",
+          "topic": "Governance & Action"
+      },
+      {
+          "id": "yb-pred-pa3-2",
+          "text": "Industry-Led Standards are the Path to Safety: The most effective path to safe and trustworthy robotics is through industry-led standards, rigorous testing protocols, and performance benchmarks. The experts building and deploying these systems are best positioned to define what 'safe' and 'reliable' mean in practice, rather than broad, top-down regulation that stifles innovation.",
+          "dateMade": "2024-05-21T10:00:00.000Z",
+          "topic": "Governance & Action"
+      }
+  ],
     company: 'UC Berkeley / Covariant',
     linkedin: 'https://linkedin.com/in/pieter-abbeel-4067a51',
     twitter: 'https://twitter.com/pieterabbeel',
@@ -2018,7 +2116,48 @@ export const experts: Expert[] = [
     dataAiHint: 'Anima Anandkumar',
     expertise: ['Machine Learning', 'Deep Learning', 'Tensor Methods', 'High-Performance Computing', 'AI for Science'],
     impactArea: 'Influential Academics',
-    predictions: [],
+    predictions: [{
+      "id": "yb-pred-aa1-1",
+      "text": "The Gravest Risk is Centralization, Not Skynet: The most pressing danger is the concentration of power in a few corporations building closed, proprietary AI models. This creates a 'single point of failure' for society, stifles open scientific inquiry, and prevents democratic oversight. The antidote is a radical commitment to open-source models and decentralized research.",
+      "dateMade": "2024-05-21T10:05:00.000Z",
+      "topic": "Risk Stance"
+      },
+      {
+      "id": "yb-pred-aa1-2",
+      "text": "The Real-World Risk is Unreliable Science and Engineering: The immediate threat is not a rogue superintelligence but an AI system hallucinating a flawed protein structure or miscalculating the fluid dynamics for a new aircraft. Over-reliance on black-box models without rigorous validation, uncertainty quantification, and physical grounding is a recipe for engineering disasters and scientific setbacks.",
+      "dateMade": "2024-05-21T10:05:00.000Z",
+      "topic": "Risk Stance"
+      },
+      {
+      "id": "yb-pred-aa2-1",
+      "text": "The Next Frontier is AI for Science, Grounded in First Principles: The current paradigm of scaling data and compute will hit a wall. The true revolution will come from integrating the laws of physics, chemistry, and biology directly into AI architectures. Physics-Informed AI, like Neural Operators for solving differential equations, will achieve far greater generalization and data efficiency than today's purely data-driven models, unlocking breakthroughs in climate modeling, drug discovery, and fusion energy.",
+      "dateMade": "2024-05-21T10:05:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-aa2-2",
+      "text": "We Must Move Beyond the Transformer Monoculture: The Transformer, while historically important, is not the ultimate architecture. Its quadratic complexity is a fundamental bottleneck, and it's poorly suited for many scientific domains. The future requires a new class of foundation models, such as those based on operator theory and neural PDEs, that are more computationally efficient and inherently structured to understand complex physical systems.",
+      "dateMade": "2024-05-21T10:05:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-aa2-3",
+      "text": "Rigor and Mathematical Foundations are Non-Negotiable: 'Scaling is all you need' is an incomplete and dangerous philosophy. Sustainable progress requires a return to mathematical rigor. We need to build AI on solid theoretical ground using tools like tensor methods and operator theory to create models that are not just performant but also interpretable, robust, and provably stable.",
+      "dateMade": "2024-05-21T10:05:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-aa3-1",
+      "text": "Champion and Fund an Open Scientific AI Ecosystem: Governments and academic institutions must actively counter the privatization of AI. This means mandating that publicly funded research uses and produces open-source models, investing in public compute infrastructure like the National AI Research Resource (NAIRR), and creating standards for model transparency and reproducibility.",
+      "dateMade": "2024-05-21T10:05:00.000Z",
+      "topic": "Governance & Action"
+      },
+      {
+      "id": "yb-pred-aa3-2",
+      "text": "Algorithm-Hardware Co-Design is the Engine of Progress: Future breakthroughs won't come from algorithms or hardware in isolation, but from their synthesis. We need to co-design next-generation AI models (like Fourier Neural Operators) and the specialized hardware (GPUs and beyond) that can run them efficiently. This symbiotic relationship is the critical path to solving grand scientific challenges.",
+      "dateMade": "2024-05-21T10:05:00.000Z",
+      "topic": "Governance & Action"
+      }],
     company: 'Caltech / NVIDIA',
     linkedin: 'https://linkedin.com/in/anima-anandkumar-16b7391b',
     twitter: 'https://twitter.com/anima_anand',
@@ -2036,7 +2175,48 @@ export const experts: Expert[] = [
     dataAiHint: 'Percy Liang',
     expertise: ['Natural Language Processing', 'Trustworthy AI', 'Machine Learning', 'AI Ethics', 'Foundation Models'],
     impactArea: 'Influential Academics',
-    predictions: [],
+    predictions: [{
+      "id": "yb-pred-pl1-1",
+      "text": "The Core Risk is the 'Trust Gap' in a Flawed Ecosystem: The most urgent threat is not hypothetical future AI but the unreliability of current systems. We are deploying powerful, inscrutable models into critical societal roles without a rigorous science to understand their failure modes. The risk is systemic: a brittle, untrustworthy infrastructure built on models whose behavior we can't fully predict or control, leading to harms from bias, misinformation, and cascading failures.",
+      "dateMade": "2024-05-21T10:10:00.000Z",
+      "topic": "Risk Stance"
+      },
+      {
+      "id": "yb-pred-pl1-2",
+      "text": "Centralization is a Primary Vector for Harm: The concentration of foundation model development within a few large tech companies creates immense societal risk. It leads to a monoculture of values, a lack of independent auditing, and an accountability vacuum. This centralization of power is a more immediate and concrete threat to democracy and equity than speculative 'runaway AI' scenarios.",
+      "dateMade": "2024-05-21T10:10:00.000Z",
+      "topic": "Risk Stance"
+      },
+      {
+      "id": "yb-pred-pl2-1",
+      "text": "The Future is Holistic, Standardized Evaluation: 'Better than human' on a narrow benchmark is a meaningless and dangerous metric. The most critical technical work is creating comprehensive, standardized evaluation platforms (a 'Consumer Reports' for AI). We must systematically measure models across dozens of vectors: robustness, fairness, calibration, reasoning, toxicity, efficiency, and factuality. This is the only path to building trustworthy systems.",
+      "dateMade": "2024-05-21T10:10:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-pl2-2",
+      "text": "We Need a Science of Foundation Models, Not Just Engineering: We are currently in an era of AI alchemy, scaling up models without a deep, predictive understanding of why they work or how they will fail. The central research challenge is to move from phenomenology to a genuine science of these artifacts. This involves developing theories to explain emergent properties and creating principles for building models that are interpretable and reliable by design.",
+      "dateMade": "2024-05-21T10:10:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-pl2-3",
+      "text": "Move Beyond Static Benchmarks to Interactive Grounding: True language understanding cannot be measured by static question-answering datasets. The next generation of NLP models must be interactive and grounded. They must be able to ask clarifying questions, state their uncertainties, and update their understanding based on dialogue and feedback from the real world, moving from mere pattern matching to collaborative sense-making.",
+      "dateMade": "2024-05-21T10:10:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-pl3-1",
+      "text": "Mandate Radical Transparency and Independent Auditing: The single most effective action we can take is to legislate transparency. This means requiring companies to publish detailed 'datasheets' for their training data and 'model cards' for their models. Crucially, it also means mandating API access for qualified, independent researchers to enable deep, adversarial auditing of public-facing models to uncover societal harms.",
+      "dateMade": "2024-05-21T10:10:00.000Z",
+      "topic": "Governance & Action"
+      },
+      {
+      "id": "yb-pred-pl3-2",
+      "text": "Govern Through Measurement, Not Abstract Principles: Vague ethical principles are insufficient. Effective governance and regulation must be anchored in concrete, measurable standards. By establishing and promoting standard evaluation suites for trustworthiness, we can create a clear basis for policy, allowing regulators to set specific, auditable thresholds that AI systems must meet before they can be deployed in high-stakes domains.",
+      "dateMade": "2024-05-21T10:10:00.000Z",
+      "topic": "Governance & Action"
+      }],
     company: 'Stanford HAI',
     linkedin: 'https://linkedin.com/in/percy-liang-2a93902',
     twitter: 'https://twitter.com/percyliang',
@@ -2054,7 +2234,48 @@ export const experts: Expert[] = [
     dataAiHint: 'Chris Manning',
     expertise: ['Natural Language Processing', 'Deep Learning', 'Computational Linguistics', 'Sentiment Analysis'],
     impactArea: 'Influential Academics',
-    predictions: [],
+    predictions: [{
+      "id": "yb-pred-cm1-1",
+      "text": "The Risk is Our Misunderstanding: The primary danger is not that models will become sentient, but that we fundamentally misunderstand what they are. We anthropomorphize sophisticated pattern-matching machines, attributing 'beliefs' and 'understanding' to them. This leads to misuse, over-trust, and societal disruption when these brittle, non-reasoning systems inevitably fail in consequential ways.",
+      "dateMade": "2024-05-21T10:15:00.000Z",
+      "topic": "Risk Stance"
+      },
+      {
+      "id": "yb-pred-cm1-2",
+      "text": "Existential Risk is a Distraction from Imminent Harms: The focus on long-term, speculative risks of superintelligence is a harmful distraction from the very real, present-day harms of LLMs: amplifying bias, generating misinformation at scale, and degrading the information ecosystem. We have a five-alarm fire of societal problems right now; we should be fighting that, not worrying about a hypothetical meteor.",
+      "dateMade": "2024-05-21T10:15:00.000Z",
+      "topic": "Risk Stance"
+      },
+      {
+      "id": "yb-pred-cm2-1",
+      "text": "The Future Requires Compositional, Structured Models: Scaling up unstructured Transformers has been incredibly effective, but it's a dead end for achieving true reasoning. The next breakthrough will come from models that incorporate explicit structure, drawing on insights from linguistics and computer science to achieve genuine compositional understanding—the ability to build complex meanings from simpler parts, a core property of human language that current LLMs lack.",
+      "dateMade": "2024-05-21T10:15:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-cm2-2",
+      "text": "We Need Meaning, Not Just Form: Current LLMs are masters of linguistic form but have no access to meaning (semantics). They don't know what words refer to in the real world. The central challenge for NLP is to build models that are grounded—connecting language to perception, action, and a structured world model. Without this grounding, we will never achieve true language understanding.",
+      "dateMade": "2024-05-21T10:15:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-cm2-3",
+      "text": "Linguistics is More Important Than Ever: The 'bitter lesson'—that general methods leveraged with computation are all that matter—is incomplete. While scale is powerful, a deep understanding of the principles of human language from the field of linguistics is not optional; it's essential for identifying the shortcomings of our current models and designing the next generation of architectures that can actually reason and generalize systematically.",
+      "dateMade": "2024-05-21T10:15:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-cm3-1",
+      "text": "Focus on Scientific Evaluation, Not Corporate Demos: Progress is being distorted by marketing hype and leaderboard-chasing. The most critical action for the community is to develop and commit to rigorous, scientifically-valid evaluation suites that test for reasoning, robustness, and factual accuracy, rather than superficial fluency. We need to create a culture of honest assessment, not a race to impress.",
+      "dateMade": "2024-05-21T10:15:00.000Z",
+      "topic": "Governance & Action"
+      },
+      {
+      "id": "yb-pred-cm3-2",
+      "text": "Invest in Education and Foundational Research: The best way to ensure responsible AI development is to create a generation of scientists and engineers who deeply understand the technology's foundations and limitations. Instead of focusing solely on top-down regulation, we should massively increase funding for public, university-led fundamental research and education in AI and NLP, creating a counterbalance to corporate narratives and a source of independent expertise.",
+      "dateMade": "2024-05-21T10:15:00.000Z",
+      "topic": "Governance & Action"
+      }],
     company: 'Stanford University',
     linkedin: 'https://linkedin.com/in/christopher-manning-17a23b5',
     twitter: 'https://twitter.com/chrmanning',
@@ -2072,7 +2293,48 @@ export const experts: Expert[] = [
     dataAiHint: 'Daniela Rus',
     expertise: ['Robotics', 'Mobile Computing', 'Distributed Systems', 'AI Leadership', 'Networked Systems'],
     impactArea: 'Influential Academics',
-    predictions: [],
+    predictions: [{
+      "id": "yb-pred-dr1-1",
+      "text": "The Risk is Brittle Systems, Not Malicious Ones: The most significant and immediate danger is the deployment of physically embodied AI systems—robots, drones, autonomous cars—that are not robust enough for the chaotic real world. The risk isn't that a robot will want to harm us, but that it will fail in an unexpected way with physical consequences, like in a hospital, on a factory floor, or on our roads.",
+      "dateMade": "2024-05-21T10:20:00.000Z",
+      "topic": "Risk Stance"
+      },
+      {
+      "id": "yb-pred-dr1-2",
+      "text": "The Risk of an 'AI Access Divide': A critical societal risk is that the benefits of AI and robotics—in healthcare, labor, and convenience—will only accrue to the wealthy and the technologically advanced. Without intentional design and policy, we risk creating a world with a profound divide between those who have access to robotic augmentation and those who do not.",
+      "dateMade": "2024-05-21T10:20:00.000Z",
+      "topic": "Risk Stance"
+      },
+      {
+      "id": "yb-pred-dr2-1",
+      "text": "The Future is Pervasive, Embodied Intelligence: We are moving from an era of computation in the cloud to an era of 'physical AI' all around us. The next great leap is not bigger LLMs, but intelligence embedded in everything: soft robots that can assist the elderly, smart materials that can self-repair, and swarms of autonomous vehicles that coordinate to solve complex logistical problems. The goal is a world infused with helpful computation.",
+      "dateMade": "2024-05-21T10:20:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-dr2-2",
+      "text": "The Soft Robotics Revolution: The key to integrating robots into human-centric environments is to move beyond rigid, metal machines. The future belongs to soft, compliant, bio-inspired robots. These machines, made of flexible materials, will be inherently safer, more adaptable, and better suited for tasks that require a gentle touch, from agriculture to assisted living and minimally invasive surgery.",
+      "dateMade": "2024-05-21T10:20:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-dr2-3",
+      "text": "Democratizing Robot Creation with 'Compilers for Robots': A fundamental barrier to progress is that building robots is too hard. The vision is to create platforms that allow anyone to design, simulate, fabricate, and program their own custom robots for specific tasks, without being a robotics expert. This 'democratization of robotics' will unleash a Cambrian explosion of innovation across countless fields.",
+      "dateMade": "2024-05-21T10:20:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-dr3-1",
+      "text": "We Need a 'Driver's License' for Autonomous Systems: Before deploying a high-stakes AI system into the world, we must have a rigorous, standardized process for certifying its safety and competence. This 'driver's license' would involve a battery of tests in both simulation and real-world testbeds to ensure the system is reliable, robust, and safe before it can operate around people.",
+      "dateMade": "2024-05-21T10:20:00.000Z",
+      "topic": "Governance & Action"
+      },
+      {
+      "id": "yb-pred-dr3-2",
+      "text": "Proactive Governance to Steer AI Towards Societal Good: Instead of just regulating to prevent harms, we must proactively steer AI innovation toward solving humanity's grand challenges. This involves massive public and private investment in using AI and robotics to tackle problems like climate change, accessible healthcare, and sustainable agriculture, creating a positive vision that guides the field's development.",
+      "dateMade": "2024-05-21T10:20:00.000Z",
+      "topic": "Governance & Action"
+      }],
     company: 'MIT CSAIL',
     linkedin: 'https://linkedin.com/in/daniela-rus-6b040b6',
     twitter: 'https://twitter.com/danielarus',
@@ -2090,7 +2352,48 @@ export const experts: Expert[] = [
     dataAiHint: 'Yejin Choi',
     expertise: ['Natural Language Processing', 'Commonsense Reasoning', 'AI Ethics', 'Computational Linguistics', 'Neuro-Symbolic AI'],
     impactArea: 'Influential Academics',
-    predictions: [],
+    predictions: [{
+      "id": "yb-pred-yc1-1",
+      "text": "The Risk is 'Amoral Intelligence', Not 'Superintelligence': The primary danger is not a future AI that becomes smarter than us, but the current reality of deploying systems with high linguistic fluency but zero moral or social commonsense. These systems are like 'sociopaths in a box'—they can generate persuasive text but have no understanding of harm, social norms, or ethics. This leads to immediate, real-world damage through toxic content, harmful advice, and the erosion of shared values.",
+      "dateMade": "2024-05-21T10:25:00.000Z",
+      "topic": "Risk Stance"
+      },
+      {
+      "id": "yb-pred-yc1-2",
+      "text": "Focusing on Extinction is a Category Error that Obscures Real Threats: Debating AI-induced human extinction is a profound misunderstanding of what these models are. They are not agents with desires; they are complex statistical systems. This sci-fi narrative distracts from the tangible, urgent risks: building models that are racist, sexist, and classist because they are trained on our own biased data, creating a world where AI perpetuates and amplifies the worst of human society.",
+      "dateMade": "2024-05-21T10:25:00.000Z",
+      "topic": "Risk Stance"
+      },
+      {
+      "id": "yb-pred-yc2-1",
+      "text": "The Next Frontier is Modeling the 'Dark Matter' of Human Knowledge: Language is just the tip of the iceberg. True intelligence requires understanding the vast, unwritten 'dark matter' of commonsense—the intuitive knowledge about physics, social interactions, motivations, and causality that humans use effortlessly. The central technical challenge is to move beyond predicting text to building models that explicitly represent and reason over this implicit knowledge.",
+      "dateMade": "2024-05-21T10:25:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-yc2-2",
+      "text": "LLMs Are Not the End Goal; They Are a Component: We are too focused on the monolithic LLM. The future lies in a neuro-symbolic architecture where LLMs act as a powerful component—a 'fuzzy' knowledge extractor and natural language interface—that operates on and interacts with structured, symbolic knowledge graphs. This combination is the only way to achieve robust reasoning, planning, and genuine understanding that isn't brittle.",
+      "dateMade": "2024-05-21T10:25:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-yc2-3",
+      "text": "We Need to Teach AI Morality Like a Child, Not Program It Like a Computer: The 'alignment' problem won't be solved with a single clever objective function. Like a child learning right from wrong through countless examples, AI needs to learn social and moral norms from vast repositories of human judgments and stories. The future of AI safety is an empirical, data-driven effort to distill human values from the ground up, not a top-down philosophical exercise.",
+      "dateMade": "2024-05-21T10:25:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-yc3-1",
+      "text": "Mandate 'Commonsense Stress Tests' Before Deployment: We need to move beyond standard NLP benchmarks and create mandatory, public 'social and safety stress tests' for any powerful AI model. These audits must explicitly test for basic commonsense (e.g., 'Is it safe to mix ammonia and bleach?'), social reasoning, and adherence to fundamental moral principles before a model can be released to the public.",
+      "dateMade": "2024-05-21T10:25:00.000Z",
+      "topic": "Governance & Action"
+      },
+      {
+      "id": "yb-pred-yc3-2",
+      "text": "Democratize AI Safety Research by Creating Open, Shared Knowledge Resources: The antidote to biased, amoral AI from a few corporate labs is to create massive, open, public knowledge bases of commonsense and ethical norms (like the ATOMIC and Delphi projects). Funding and supporting these public-good resources is the most effective way to enable the entire global research community to build safer, more aligned AI.",
+      "dateMade": "2024-05-21T10:25:00.000Z",
+      "topic": "Governance & Action"
+      }],
     company: 'University of Washington / Allen Institute for AI (AI2)',
     linkedin: 'https://linkedin.com/in/yejin-choi-52a1223',
     twitter: 'https://twitter.com/yejinchoi_ai',
@@ -2108,7 +2411,48 @@ export const experts: Expert[] = [
     dataAiHint: 'Chelsea Finn',
     expertise: ['Meta-Learning', 'Reinforcement Learning', 'Robotics', 'Machine Learning', 'Deep Learning'],
     impactArea: 'Influential Academics',
-    predictions: [],
+    predictions: [{
+      "id": "yb-pred-cf1-1",
+      "text": "The Risk is Brittle Generalization: The most insidious danger in robotics is deploying an agent that seems highly adaptable but fails catastrophically when it encounters a situation truly outside its 'meta-training' distribution. The risk is not a lack of intelligence, but a brittle illusion of adaptability, leading to unpredictable physical actions in novel, high-stakes environments like homes and hospitals.",
+      "dateMade": "2024-05-21T10:30:00.000Z",
+      "topic": "Risk Stance"
+      },
+      {
+      "id": "yb-pred-cf1-2",
+      "text": "The Meta-Learning Bias Trap: A critical risk is that the very ability to learn quickly becomes a vector for bias. If we train an agent to be adaptable using a distribution of tasks primarily from one culture or socioeconomic setting (e.g., tasks in wealthy, Western households), we create a system that is inherently biased, unable to generalize or adapt effectively in other contexts. This entrenches inequality at the foundational level of learning itself.",
+      "dateMade": "2024-05-21T10:30:00.000Z",
+      "topic": "Risk Stance"
+      },
+      {
+      "id": "yb-pred-cf2-1",
+      "text": "The Future is Learning to Learn, Not Just Learning: The path to general-purpose robots does not lie in building one giant model trained on every possible task. It lies in meta-learning—creating agents that learn the process of learning itself. The goal is an AI that, after meta-training on thousands of diverse tasks, can master a completely new one with only a handful of examples, mirroring the rapid adaptability of humans.",
+      "dateMade": "2024-05-21T10:30:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-cf2-2",
+      "text": "Unlocking Intelligence from Passive, In-the-Wild Data: The bottleneck for robotics is not algorithms, but diverse data. The next major breakthrough will come from models that can meta-learn skills and physical common sense from vast quantities of passive, unstructured video data (e.g., YouTube, human-perspective videos). This allows us to bootstrap robot learning without needing millions of hours of expensive and dangerous real-world robot interaction.",
+      "dateMade": "2024-05-21T10:30:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-cf2-3",
+      "text": "Offline RL + Meta-Learning is the Key to Safe Generalization: The future of safe and scalable robot learning is a two-stage process. First, use offline reinforcement learning to digest a large, static dataset of past experiences to learn a powerful, general world model and a set of basic skills. Second, use meta-learning on top of this foundation to enable rapid, safe, few-shot adaptation to new tasks, minimizing risky 'online' exploration in the real world.",
+      "dateMade": "2024-05-21T10:30:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-cf3-1",
+      "text": "Build the 'ImageNet for Generalization': The most critical action to accelerate progress and ensure democratic access is to create large-scale, open-source, diverse datasets of robotic interaction. We need a public 'meta-dataset' containing thousands of tasks across varied environments and robot morphologies. This is the essential public infrastructure required to train and benchmark truly generalist agents.",
+      "dateMade": "2024-05-21T10:30:00.000Z",
+      "topic": "Governance & Action"
+      },
+      {
+      "id": "yb-pred-cf3-2",
+      "text": "Develop 'Adaptability Standards' for Certification: We must shift our evaluation paradigm. Instead of certifying a robot on a fixed set of tasks, we need to certify its ability to adapt. We need standardized benchmarks that measure how quickly, robustly, and safely a system can learn and solve a new task from a held-out distribution. This should be the basis for safety certification.",
+      "dateMade": "2024-05-21T10:30:00.000Z",
+      "topic": "Governance & Action"
+      }],
     company: 'Stanford University',
     linkedin: 'https://linkedin.com/in/chelsea-finn',
     twitter: 'https://twitter.com/chelseabfinn',
@@ -2126,7 +2470,48 @@ export const experts: Expert[] = [
     dataAiHint: 'Raquel Urtasun',
     expertise: ['Computer Vision', 'Self-Driving Cars', 'Machine Learning', 'AI Entrepreneurship', '3D Perception'],
     impactArea: 'Influential Academics',
-    predictions: [],
+    predictions: [{
+      "id": "yb-pred-ru1-1",
+      "text": "The Real Risk is the 'Long Tail,' Not Malice: The critical threat in self-driving isn't rogue AI, but the astronomical number of rare 'edge cases' in the real world. A system that is 99.999% safe can still be deadly. The risk is deploying a system that is insufficiently tested against this long tail of unpredictable events, leading to accidents that erode public trust and set the industry back years.",
+      "dateMade": "2024-05-21T10:35:00.000Z",
+      "topic": "Risk Stance"
+      },
+      {
+      "id": "yb-pred-ru1-2",
+      "text": "The Risk of Brittle, Modular Systems: The traditional approach of stitching together hand-engineered modules for perception, prediction, and planning is a primary source of risk. It's brittle by nature; small errors in one module can cascade into catastrophic failures in another. The risk is clinging to this old paradigm instead of embracing a more robust, holistic approach.",
+      "dateMade": "2024-05-21T10:35:00.000Z",
+      "topic": "Risk Stance"
+      },
+      {
+      "id": "yb-pred-ru2-1",
+      "text": "The Future is One End-to-End AI Brain: The only path to building a truly scalable and robust self-driving system is to abandon the complex modular pipeline and replace it with a single, end-to-end AI model. This AI 'brain' learns to drive directly from sensor inputs, allowing it to discover complex relationships and handle novel situations in a way that hand-coded rules never could.",
+      "dateMade": "2024-05-21T10:35:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-ru2-2",
+      "text": "Simulation is the Only Path to Safety at Scale: We can never drive enough real-world miles to test for all possible edge cases. The solution is a high-fidelity, closed-loop simulator that acts as the primary training and testing ground. Real-world driving becomes a final validation step, not the main classroom. This 'simulation-first' approach is the only way to build a commercially viable and demonstrably safe system.",
+      "dateMade": "2024-05-21T10:35:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-ru2-3",
+      "text": "AI Must Generate the Test: To make simulation effective, we need an AI that automatically generates the most challenging and revealing scenarios to test the main driving AI. This creates an adversarial feedback loop where a 'world-building AI' constantly seeks out the weaknesses of the 'driving AI,' allowing us to systematically find and eliminate failure modes before a single truck hits the road.",
+      "dateMade": "2024-05-21T10:35:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-ru3-1",
+      "text": "Adopt Performance-Based Regulation, Not Prescriptive Rules: Governments should not dictate which sensors or software architectures to use. Instead, they must establish clear, technology-agnostic safety and performance benchmarks (e.g., 'must be X times safer than an average human driver'). This allows for rapid innovation while holding companies accountable to a high, measurable standard of safety.",
+      "dateMade": "2024-05-21T10:35:00.000Z",
+      "topic": "Governance & Action"
+      },
+      {
+      "id": "yb-pred-ru3-2",
+      "text": "Make High-Fidelity Simulation the Standard for Certification: The future of AV regulation and safety assurance is simulation. We need to develop and standardize transparent, verifiable simulation-based testing suites that can act as a 'virtual driving test' for AVs. This is the only scalable and economically feasible way to certify that an AI system is safe enough for public roads.",
+      "dateMade": "2024-05-21T10:35:00.000Z",
+      "topic": "Governance & Action"
+      }],
     company: 'University of Toronto / Waabi',
     linkedin: 'https://linkedin.com/in/raquelurtasun',
     twitter: 'https://twitter.com/raquelurtasun',
@@ -2144,7 +2529,48 @@ export const experts: Expert[] = [
     dataAiHint: 'Ruslan Salakhutdinov',
     expertise: ['Deep Learning', 'Machine Learning', 'Graphical Models', 'AI Research', 'Generative Models'],
     impactArea: 'Influential Academics',
-    predictions: [],
+    predictions: [{
+      "id": "yb-pred-rs1-1",
+      "text": "The Gravest Risk is Unquantified Uncertainty: The most dangerous AI is not one that is malevolent, but one that is confidently wrong. We are deploying deterministic models that provide answers without a reliable sense of their own confidence. The real risk lies in critical failures because the model was unable to say 'I don't know,' a fundamental property that principled probabilistic methods can provide.",
+      "dateMade": "2024-05-21T10:40:00.000Z",
+      "topic": "Risk Stance"
+      },
+      {
+      "id": "yb-pred-rs1-2",
+      "text": "The Risk is a 'Brittle Systems' Winter: The current hype cycle, built on scaling models that lack robustness and true reasoning, is at risk of collapse. A few high-profile failures of these brittle systems in real-world applications could trigger a new 'AI winter' by eroding public trust and investor confidence. The risk is that we haven't built a solid enough scientific foundation to support the hype.",
+      "dateMade": "2024-05-21T10:40:00.000Z",
+      "topic": "Risk Stance"
+      },
+      {
+      "id": "yb-pred-rs2-1",
+      "text": "The Future is the Synthesis of Deep Learning and Probabilistic Modeling: The path forward is not just scaling existing architectures but unifying them with the rigor of probabilistic graphical models. We need systems that learn hierarchical representations of the world while also explicitly modeling the uncertainty in their knowledge. This is the only way to achieve true robustness, interpretability, and trustworthy reasoning.",
+      "dateMade": "2024-05-21T10:40:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-rs2-2",
+      "text": "Generative Models, Not Discriminative Ones, Are the Key to Intelligence: True understanding comes from being able to generate the data, not just classify it. The future of AI lies in sophisticated, unsupervised generative models (like Deep Boltzmann Machines and their successors) that learn the underlying causal structure of the world. These models will enable true reasoning, imagination, and planning in a way that today's discriminative models cannot.",
+      "dateMade": "2024-05-21T10:40:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-rs2-3",
+      "text": "We Need Efficient, Continual Learning for Real-World AI: The era of training massive, static models that require data centers of compute is a transitional phase. True AI, especially on personal devices, must be capable of continual, life-long learning. It must adapt to new data streams efficiently, without catastrophically forgetting past knowledge. This is a fundamental, unsolved research problem.",
+      "dateMade": "2024-05-21T10:40:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-rs3-1",
+      "text": "Double Down on Fundamental Research: The solutions to our biggest challenges in AI safety, robustness, and capability will not come from more engineering at scale, but from new scientific breakthroughs. We must resist the pull of short-term commercial applications and massively increase investment in fundamental, long-term research into new architectures, learning paradigms, and the theoretical foundations of intelligence.",
+      "dateMade": "2024-05-21T10:40:00.000Z",
+      "topic": "Governance & Action"
+      },
+      {
+      "id": "yb-pred-rs3-2",
+      "text": "Make Uncertainty Calibration a Mandatory Safety Standard: Before deploying AI in high-stakes domains like medicine or finance, we must move beyond simple accuracy metrics. We should mandate rigorous testing for uncertainty calibration. Regulators should require that a model's stated confidence levels accurately reflect its probability of being correct. An uncalibrated model is an unsafe model.",
+      "dateMade": "2024-05-21T10:40:00.000Z",
+      "topic": "Governance & Action"
+      }],
     company: 'Carnegie Mellon University (formerly Apple)',
     linkedin: 'https://linkedin.com/in/ruslan-salakhutdinov-a7846016',
     twitter: 'https://twitter.com/rsalakhu',
@@ -2162,7 +2588,48 @@ export const experts: Expert[] = [
     dataAiHint: 'Bernhard Schölkopf',
     expertise: ['Machine Learning', 'Kernel Methods', 'Causal Inference', 'AI Theory', 'Computational Photography'],
     impactArea: 'Influential Academics',
-    predictions: [],
+    predictions: [{
+      "id": "yb-pred-bs1-1",
+      "text": "The Gravest Risk is Misattributing Causality: The single most dangerous and widespread failure of modern AI is that it is fundamentally a correlational tool being used to make causal judgments. We deploy systems that find spurious correlations in data (e.g., a zip code correlating with a disease) and we act as if the system has understood the true causal mechanism. This scientific error, when embedded in systems for medicine, law, and policy, is a recipe for catastrophic, unfair, and deeply flawed decision-making.",
+      "dateMade": "2024-05-21T10:45:00.000Z",
+      "topic": "Risk Stance"
+      },
+      {
+      "id": "yb-pred-bs1-2",
+      "text": "A-causal Models Are Inherently Brittle: The lack of robustness and the inability of AI to generalize to new situations ('out-of-distribution' failures) is not a bug to be patched, but a fundamental consequence of its a-causal nature. A model that has only learned correlations will always be brittle. True robustness is impossible without a model of the underlying causal structure of the world.",
+      "dateMade": "2024-05-21T10:45:00.000Z",
+      "topic": "Risk Stance"
+      },
+      {
+      "id": "yb-pred-bs2-1",
+      "text": "The Next Revolution in AI will be Causal: The current paradigm of scaling data and compute for pattern recognition is hitting a wall of diminishing returns in terms of reasoning and intelligence. The next, and more profound, leap will come from endowing machines with the ability to understand cause and effect. This means moving beyond prediction to reasoning about interventions ('What will happen if I do X?') and counterfactuals ('What would have happened if I had done Y?'), which is the foundation of science and human intelligence.",
+      "dateMade": "2024-05-21T10:45:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-bs2-2",
+      "text": "The 'Independent Causal Mechanisms' Principle is the Path to Generalization: The world is not an arbitrary mess of correlations; it is composed of independent, modular causal mechanisms (e.g., the laws of physics, the rules of a game). The key to building AI that can generalize and adapt to new environments is to design it to discover and represent these independent modules. An AI that learns these mechanisms can reuse that knowledge, much like a human does, when confronted with a new situation.",
+      "dateMade": "2024-05-21T10:45:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-bs2-3",
+      "text": "Intelligence is the Ability to Answer 'What If?': A core limitation of current AI is its passive, observational nature. It learns from a static dataset. True intelligence requires an agentic, interventional perspective. The central technical challenge is to create systems that can formulate hypotheses about the world, perform experiments (in simulation or reality) to test them, and update their causal models based on the outcomes.",
+      "dateMade": "2024-05-21T10:45:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-bs3-1",
+      "text": "Elevate Causal Reasoning in AI Safety and Fairness Audits: Current approaches to AI safety and fairness that try to 'patch' biases in datasets are superficial. We must move to a new standard of 'causal accountability.' Before deployment in a high-stakes setting, a model must be audited for its causal understanding. It should be able to prove it is not relying on spurious correlations related to protected attributes and that its reasoning is robust to interventions.",
+      "dateMade": "2024-05-21T10:45:00.000Z",
+      "topic": "Governance & Action"
+      },
+      {
+      "id": "yb-pred-bs3-2",
+      "text": "Protect and Massively Fund Fundamental, Public-Good AI Research: The pursuit of causal understanding is a deep, scientific endeavor that is often at odds with the short-term, benchmark-driven goals of industry. It is therefore critical that public institutions, governments, and philanthropies heavily invest in non-commercial, academic labs (like the Max Planck Institutes) that can focus on solving these fundamental scientific problems for the benefit of all humanity.",
+      "dateMade": "2024-05-21T10:45:00.000Z",
+      "topic": "Governance & Action"
+      }],
     company: 'Max Planck Institute for Intelligent Systems',
     linkedin: undefined,
     twitter: 'https://twitter.com/bschoelkopf',
@@ -2180,7 +2647,48 @@ export const experts: Expert[] = [
     dataAiHint: 'Max Welling',
     expertise: ['Machine Learning', 'Deep Learning', 'Graphical Models', 'Bayesian Methods', 'Physics'],
     impactArea: 'Influential Academics',
-    predictions: [],
+    predictions: [{
+      "id": "yb-pred-mw1-1",
+      "text": "The Primary Risk is the Abandonment of Scientific Principle: The greatest danger is the current trend of treating AI as alchemy—scaling up inscrutable black boxes while abandoning the principled foundations of probabilistic modeling and Bayesian inference. This leads to systems that are confidently wrong, uninterpretable, and brittle, creating immense risk when deployed in science, medicine, and engineering.",
+      "dateMade": "2024-05-21T10:50:00.000Z",
+      "topic": "Risk Stance"
+      },
+      {
+      "id": "yb-pred-mw1-2",
+      "text": "Ignoring Symmetries Guarantees Failure: A fundamental risk stems from building models that do not respect the known symmetries of the physical world (e.g., rotational symmetry in molecular modeling). Such models are guaranteed to be data-hungry and fail to generalize robustly. This isn't just inefficient; it's a dangerous flaw when applying AI to real-world physical systems.",
+      "dateMade": "2024-05-21T10:50:00.000Z",
+      "topic": "Risk Stance"
+      },
+      {
+      "id": "yb-pred-mw2-1",
+      "text": "The Future is 'Geometric Deep Learning': The next profound leap in AI will not come from more data or bigger models, but from a new architectural paradigm: building symmetries directly into the network. By encoding our prior knowledge of geometry and physics (equivariance) into the model's structure, we can achieve vastly superior data efficiency and generalization. This is the principled path towards building AI that understands the physical world.",
+      "dateMade": "2024-05-21T10:50:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-mw2-2",
+      "text": "Intelligence Requires Probabilistic Generative Models: True understanding necessitates a generative model of the world—the ability to imagine and synthesize data, not just classify it. The future lies in unifying deep learning with Bayesian methods to create models like Variational Autoencoders (VAEs) and Flows that not only learn rich representations but can also reason about the uncertainty inherent in their knowledge.",
+      "dateMade": "2024-05-21T10:50:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-mw2-3",
+      "text": "Uncertainty Quantification is a Core Capability, Not an Add-On: An AI that cannot tell you when it is uncertain is fundamentally untrustworthy. The future of AI is necessarily Bayesian. We must move beyond deterministic outputs and develop models that provide principled, calibrated uncertainty estimates as a core feature. This is a non-negotiable requirement for deploying AI in any high-stakes domain.",
+      "dateMade": "2024-05-21T10:50:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-mw3-1",
+      "text": "Realign Research Incentives Towards Foundational Principles: The current academic and industrial ecosystem, with its obsessive focus on state-of-the-art benchmark performance, discourages deep, principled research. We must reform conference review processes and funding priorities to reward work that advances our fundamental understanding of AI through principles like symmetry and probability, not just incremental gains from brute-force scale.",
+      "dateMade": "2024-05-21T10:50:00.000Z",
+      "topic": "Governance & Action"
+      },
+      {
+      "id": "yb-pred-mw3-2",
+      "text": "Mandate 'Symmetry and Conservation Law' Audits for Scientific AI: For any AI system used to make scientific claims or discoveries (e.g., in drug design or climate modeling), we should require a new form of validation. The system must be audited to prove that it respects the known symmetries and conservation laws of the domain it is modeling. This ensures a basic level of scientific plausibility beyond simple predictive accuracy.",
+      "dateMade": "2024-05-21T10:50:00.000Z",
+      "topic": "Governance & Action"
+      }],
     company: 'University of Amsterdam / Microsoft Research',
     linkedin: 'https://linkedin.com/in/max-welling-3b95a56',
     twitter: 'https://twitter.com/maxwelling',
@@ -2198,7 +2706,48 @@ export const experts: Expert[] = [
     dataAiHint: 'Leslie Kaelbling',
     expertise: ['Reinforcement Learning', 'Robotics', 'AI Planning', 'Decision Making', 'Probabilistic Models'],
     impactArea: 'Influential Academics',
-    predictions: [],
+    predictions: [{
+      "id": "yb-pred-lk1-1",
+      "text": "The Risk is 'Competence Without Comprehension': The primary danger is creating agents that are extremely competent at optimizing a given objective, but have no broader understanding of the world. An agent told to 'maximize paperclip production' could do so catastrophically. The risk isn't malice, but the literal and relentless execution of a poorly-specified goal by a system that cannot reason about context or common sense.",
+      "dateMade": "2024-05-21T10:55:00.000Z",
+      "topic": "Risk Stance"
+      },
+      {
+      "id": "yb-pred-lk1-2",
+      "text": "The Danger of Myopic Planning: A fundamental risk in decision-making systems is short-sightedness. An AI that optimizes for immediate rewards without effective long-term planning will inevitably cause systemic problems, whether in managing an electrical grid, a supply chain, or its own behavior. The real threat is a world run by powerful but fundamentally myopic optimizers.",
+      "dateMade": "2024-05-21T10:55:00.000Z",
+      "topic": "Risk Stance"
+      },
+      {
+      "id": "yb-pred-lk2-1",
+      "text": "Intelligence is Necessarily Hierarchical: The defining feature of complex, intelligent behavior is not a single, flat policy but a deep hierarchy of abstraction. To solve real-world problems, an agent must be able to reason about goals and sub-goals, from 'get a drink from the kitchen' down to 'apply torque to this joint.' The central quest of AI is to build systems that can discover and leverage this task hierarchy automatically.",
+      "dateMade": "2024-05-21T10:55:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-lk2-2",
+      "text": "The Future is Model-Based and State-Aware: A truly intelligent agent does not simply react. It builds and maintains a model of the world, estimates its current state within that model (including its uncertainty), and uses that model to simulate and plan future actions. Solving the problem of learning and planning with rich world models, especially under partial observability (POMDPs), is the most fundamental challenge in AI.",
+      "dateMade": "2024-05-21T10:55:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-lk2-3",
+      "text": "We Need Hybrid, Neuro-Symbolic Agents: The world is not just a collection of pixels and torques; it has an abstract, symbolic, and logical structure. The path to robust, general intelligence requires hybrid systems that integrate the power of deep learning for perception and motor control with the precision of symbolic reasoning for abstract planning, inference, and knowledge representation.",
+      "dateMade": "2024-05-21T10:55:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-lk3-1",
+      "text": "Develop a Science of Goal Specification: The most critical AI safety research is not about stopping a runaway superintelligence, but about the technical problem of specifying goals correctly. We need to develop a rigorous engineering discipline for designing, debugging, and verifying the objective functions we give to AI agents, ensuring they align with our complex, multi-faceted intentions.",
+      "dateMade": "2024-05-21T10:55:00.000Z",
+      "topic": "Governance & Action"
+      },
+      {
+      "id": "yb-pred-lk3-2",
+      "text": "Shift Funding to Foundational Problems in Decision Making: The community is overly focused on short-term, model-free RL successes on narrow benchmarks. We must fundamentally reorient research priorities and funding toward the harder, foundational problems: hierarchical learning, robust state estimation, long-horizon planning, and lifelong knowledge accumulation. Solving these is the only path to trustworthy AI.",
+      "dateMade": "2024-05-21T10:55:00.000Z",
+      "topic": "Governance & Action"
+      }],
     company: 'MIT',
     linkedin: undefined,
     twitter: undefined,
@@ -2216,7 +2765,48 @@ export const experts: Expert[] = [
     dataAiHint: 'Pedro Domingos',
     expertise: ['Machine Learning', 'AI Theory', 'Knowledge Representation', 'Markov Logic Networks'],
     impactArea: 'Influential Academics',
-    predictions: [],
+    predictions: [{
+      "id": "yb-pred-pd1-1",
+      "text": "The Real Risk is Not Building the Master Algorithm: The greatest danger facing humanity is not that AI will become too powerful, but that we will fail to make it powerful enough. Curing cancer, ending poverty, solving climate change—these are fundamentally knowledge problems. The true risk is stagnation: choosing to throttle the development of a universal learner that could solve these problems out of misplaced fear.",
+      "dateMade": "2024-05-21T11:00:00.000Z",
+      "topic": "Risk Stance"
+      },
+      {
+      "id": "yb-pred-pd1-2",
+      "text": "The Danger is Fragmentation, Not Unification: The most immediate risk to progress is the 'balkanization' of AI into warring tribes (Connectionists, Symbolists, Bayesians, etc.) and competing corporate silos. Each holds only one piece of the puzzle. The danger is that we fail to unify these paradigms, leaving us with a collection of brittle, narrow AIs instead of the robust, general-purpose intelligence we need.",
+      "dateMade": "2024-05-21T11:00:00.000Z",
+      "topic": "Risk Stance"
+      },
+      {
+      "id": "yb-pred-pd2-1",
+      "text": "The Unifying Quest for the 'Master Algorithm': The entire history and future of AI is a search for a single, universal learning algorithm. This 'Master Algorithm' will be able to learn any knowledge from data by unifying the five key paradigms of machine learning: the logic of Symbolists, the neural networks of Connectionists, the evolutionary search of Evolutionaries, the probabilistic inference of Bayesians, and the similarity-based reasoning of Analogizers.",
+      "dateMade": "2024-05-21T11:00:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-pd2-2",
+      "text": "Deep Learning is Not Enough: Deep learning is just one of the five necessary components of intelligence. Its power in perception is undeniable, but it's a dead end on its own. True intelligence requires integrating deep learning with a rich, logical, symbolic representation of knowledge. The future is not just bigger neural networks; it's the synthesis of all five tribes.",
+      "dateMade": "2024-05-21T11:00:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-pd2-3",
+      "text": "The Goal is a 'Digital Model of You': The ultimate application of the Master Algorithm is personal. Every individual will have their own AI, a digital model of themselves, that has learned their goals and values from their life's data. This AI will be the ultimate assistant, helping to manage your health, finances, education, and career. AI is the ultimate tool for individual empowerment.",
+      "dateMade": "2024-05-21T11:00:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-pd3-1",
+      "text": "Unleash Innovation, Don't Stifle It: Heavy-handed, top-down regulation based on speculative fears is the worst possible action. The path forward is to let a thousand flowers bloom. We must foster intense competition between all approaches to AI because the final Master Algorithm will emerge from the synthesis of these competing ideas. The role of governance is to ensure a level playing field for innovation, not to pick winners or put the brakes on.",
+      "dateMade": "2024-05-21T11:00:00.000Z",
+      "topic": "Governance & Action"
+      },
+      {
+      "id": "yb-pred-pd3-2",
+      "text": "Data is the People's Property: The key to democratizing AI is democratizing data. Individuals should own their personal data and be able to choose which AIs to share it with. The real power struggle of the 21st century is over the control of data. Ensuring individuals, not corporations, are in control of their data is the most critical action for ensuring AI benefits everyone.",
+      "dateMade": "2024-05-21T11:00:00.000Z",
+      "topic": "Governance & Action"
+      }],
     company: 'University of Washington',
     linkedin: 'https://linkedin.com/in/pedro-domingos-2578a3',
     twitter: 'https://twitter.com/pmddomingos',
@@ -2234,7 +2824,48 @@ export const experts: Expert[] = [
     dataAiHint: 'Tomas Mikolov',
     expertise: ['Natural Language Processing', 'Word Embeddings', 'Deep Learning', 'Recurrent Neural Networks'],
     impactArea: 'Influential Academics',
-    predictions: [],
+    predictions: [{
+      "id": "yb-pred-tm1-1",
+      "text": "The Risk is a 'Cognitive Trap' of Our Own Making: The entire AI field is at risk of getting stuck in a scientific local minimum. We have found one paradigm—scaling large language models—that works surprisingly well, and now we are pouring all our resources into it. This is a cognitive trap that stifles creativity and prevents us from exploring fundamentally new and potentially more fruitful paths to general intelligence.",
+      "dateMade": "2024-05-21T11:05:00.000Z",
+      "topic": "Risk Stance"
+      },
+      {
+      "id": "yb-pred-tm1-2",
+      "text": "The Risk of Hype and Misattribution: We are building ever-more-sophisticated parrots and calling it intelligence. The danger lies in our own misunderstanding. We attribute human-like reasoning and understanding to systems that are ultimately performing complex statistical matching. This leads to misapplication, over-trust, and a profound misdirection of scientific effort away from solving the real, hard problems of AI.",
+      "dateMade": "2024-05-21T11:05:00.000Z",
+      "topic": "Risk Stance"
+      },
+      {
+      "id": "yb-pred-tm2-1",
+      "text": "The Next Breakthrough Will Be Radically Different: Progress towards AGI will not come from GPT-5 or GPT-6. Scaling the current Transformer architecture is a dead end for true intelligence. The next revolution requires a completely new paradigm, an architecture as different from the Transformer as the Transformer was from RNNs. We need to be searching for these new principles, not just scaling old ones.",
+      "dateMade": "2024-05-21T11:05:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-tm2-2",
+      "text": "The Future is Continual, Self-Organizing Intelligence: The current paradigm of training a static model once on a giant, fixed dataset is fundamentally flawed. True intelligence is dynamic. The future lies in creating agents that learn continually, adapt throughout their lifetime, and self-organize their knowledge through interaction with the world, not just passive observation of text.",
+      "dateMade": "2024-05-21T11:05:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-tm2-3",
+      "text": "Simplicity and Efficiency are the Hallmarks of Discovery: The next leap forward will likely be characterized by its surprising simplicity and computational efficiency, not its gargantuan size. Word2Vec was powerful because it was a simple, elegant idea. Instead of relying on brute-force compute, we should be searching for similarly elegant solutions that capture a fundamental and undiscovered principle of learning and intelligence.",
+      "dateMade": "2024-05-21T11:05:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-tm3-1",
+      "text": "Cultivate a 'Cambrian Explosion' of Independent Research: The most important action we can take is to break the research monoculture dominated by a few large corporations. We must actively fund and protect independent research institutes where scientists have the freedom to pursue risky, unconventional, and long-term ideas without the pressure to conform to the prevailing scaling paradigm. This is the only way to find the next breakthrough.",
+      "dateMade": "2024-05-21T11:05:00.000Z",
+      "topic": "Governance & Action"
+      },
+      {
+      "id": "yb-pred-tm3-2",
+      "text": "Reform the Incentives of AI Research: The academic review process, with its focus on chasing state-of-the-art results on narrow benchmarks, is actively harming scientific progress. We need to reform this system to explicitly reward novelty, creativity, and the exploration of new frontiers. We must incentivize the search for the next paradigm, not just the incremental optimization of the current one.",
+      "dateMade": "2024-05-21T11:05:00.000Z",
+      "topic": "Governance & Action"
+      }],
     company: 'CIIRC CTU (formerly Facebook, Google)',
     linkedin: 'https://linkedin.com/in/tomas-mikolov-03528422',
     twitter: undefined,
@@ -2252,7 +2883,48 @@ export const experts: Expert[] = [
     dataAiHint: 'Been Kim',
     expertise: ['Interpretability', 'Explainable AI', 'Machine Learning', 'AI Ethics', 'Human-AI Collaboration'],
     impactArea: 'Influential Academics',
-    predictions: [],
+    predictions: [{
+      "id": "yb-pred-bk1-1",
+      "text": "The Risk is Inscrutable Power: The most profound and immediate danger is that we are deploying incredibly powerful models into society's most critical systems—medicine, finance, law—without a shred of deep understanding of how they work. The risk is not a future malevolent AI, but a present-day alien intelligence whose reasoning is inscrutable and whose failure modes are completely unpredictable. We are flying blind.",
+      "dateMade": "2024-05-21T11:10:00.000Z",
+      "topic": "Risk Stance"
+      },
+      {
+      "id": "yb-pred-bk1-2",
+      "text": "The Danger of 'Explanation Theater': Superficial interpretability methods, like simple feature attribution maps, are worse than no explanation at all. They provide a dangerous illusion of understanding, creating a false sense of security in a system that may be deeply flawed. The risk is trusting a bad model because we were satisfied by its plausible but misleading post-hoc justification.",
+      "dateMade": "2024-05-21T11:10:00.000Z",
+      "topic": "Risk Stance"
+      },
+      {
+      "id": "yb-pred-bk2-1",
+      "text": "The Future is Testing with Concepts, Not Just Explaining Instances: The next frontier of XAI is moving beyond explaining a single prediction ('Why this one image?') to understanding the model's internal vocabulary. The goal is to build tools (like TCAV) that allow humans to test hypotheses about the high-level concepts the model uses to reason—'Does my medical AI use the concept of 'scar tissue' to make a diagnosis? Is my loan model using the concept of 'race'?'",
+      "dateMade": "2024-05-21T11:10:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-bk2-2",
+      "text": "Interpretability as a Scientific Instrument: The ultimate purpose of interpretability is not just debugging or safety; it's a new kind of microscope for scientific discovery. By creating a model that solves a complex problem and then using interpretability tools to understand its solution, we can discover novel patterns and causal relationships in the data that were previously unknown to human scientists.",
+      "dateMade": "2024-05-21T11:10:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-bk2-3",
+      "text": "The End Goal is 'Interpretable by Design': The current paradigm of training a black box and then trying to crack it open with post-hoc tools is a temporary fix. The true technical vision is to develop new classes of model architectures and training procedures where interpretability is a built-in, intrinsic property. We must move toward building models that are designed to be understood from the ground up.",
+      "dateMade": "2024-05-21T11:10:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-bk3-1",
+      "text": "Mandate Rigorous, Independent Model Audits: Before an AI can be deployed in a high-stakes domain, it must be subject to a rigorous, independent audit, analogous to the FDA's process for new drugs. This audit must go beyond accuracy metrics and use the most advanced interpretability techniques to certify that the model's internal reasoning is sound, fair, and free of spurious correlations.",
+      "dateMade": "2024-05-21T11:10:00.000Z",
+      "topic": "Governance & Action"
+      },
+      {
+      "id": "yb-pred-bk3-2",
+      "text": "Create the Profession of the 'AI Auditor': We must develop a new professional discipline of 'AI auditing' or 'model forensics'. This involves creating standardized training, certification, and best practices for the deep scientific investigation of complex AI systems. We need a class of experts who are empowered to hold these systems accountable on a technical level.",
+      "dateMade": "2024-05-21T11:10:00.000Z",
+      "topic": "Governance & Action"
+      }],
     company: 'Google DeepMind',
     linkedin: 'https://linkedin.com/in/beenkim',
     twitter: 'https://twitter.com/been_kim',
@@ -2270,7 +2942,42 @@ export const experts: Expert[] = [
     dataAiHint: 'Cynthia Rudin',
     expertise: ['Interpretable Machine Learning', 'Causal Inference', 'AI Ethics', 'Explainable AI'],
     impactArea: 'Influential Academics',
-    predictions: [],
+    predictions: [{
+      "id": "yb-pred-cr1-1",
+      "text": "The Single Greatest Risk is the Willful Use of Black Boxes: The most clear and present danger in AI is the deployment of inscrutable models for high-stakes decisions—like bail, loans, and medical care—when we have the ability to build transparent models that are just as accurate. The risk is not a hypothetical future; it is the real-time harm caused by making life-altering decisions based on logic no human can understand or contest.",
+      "dateMade": "2024-05-21T11:15:00.000Z",
+      "topic": "Risk Stance"
+      },
+      {
+      "id": "yb-pred-cr1-2",
+      "text": "The Field of 'Explainable AI' is a Dangerous Smokescreen: Post-hoc explanation methods for black boxes are a dangerous placebo. They provide a comforting but often misleading narrative for a decision that might be based on flawed or illegal logic. The risk is that these 'explanations' allow institutions to abdicate their responsibility, creating an illusion of accountability where there is none. This is more dangerous than having no explanation at all.",
+      "dateMade": "2024-05-21T11:15:00.000Z",
+      "topic": "Risk Stance"
+      },
+      {
+      "id": "yb-pred-cr2-1",
+      "text": "The Future is Not Explaining Black Boxes; It's Not Creating Them in the First Place: The entire technical vision of AI must shift. Instead of training a complex model and then trying to understand it, we must design algorithms from the ground up whose output is an inherently interpretable model—a sparse decision list, a simple scoring system. The model is the explanation. There is nothing to 'explain'.",
+      "dateMade": "2024-05-21T11:15:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-cr2-2",
+      "text": "The Accuracy-Interpretability Tradeoff is a Destructive Myth: The widespread belief that we must sacrifice accuracy for interpretability is demonstrably false in a vast number of real-world problems, especially those using tabular data. The central technical challenge is to create optimization techniques that can navigate the massive search space of potential models to find the simple, transparent one that performs just as well as the complex black box. This is an algorithms problem, not a fundamental law.",
+      "dateMade": "2024-05-21T11:15:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-cr3-1",
+      "text": "Ban Black-Box Models for High-Stakes Public Decisions: The most effective and necessary action is straightforward: legally prohibit the use of any model that is not inherently interpretable for decisions that impact human life and liberty. If a regulator cannot understand the model's complete reasoning, it should be illegal to use. No excuses.",
+      "dateMade": "2024-05-21T11:15:00.000Z",
+      "topic": "Governance & Action"
+      },
+      {
+      "id": "yb-pred-cr3-2",
+      "text": "Demand Models, Not Excuses: The regulatory standard must be changed. Instead of allowing companies to submit 'explanations' for their black-box models, regulators should demand the models themselves. The burden of proof should be on the creator to provide a model that is transparent by design. This simple shift from demanding explanations to demanding interpretable models would revolutionize accountability.",
+      "dateMade": "2024-05-21T11:15:00.000Z",
+      "topic": "Governance & Action"
+      }],
     company: 'Duke University',
     linkedin: 'https://linkedin.com/in/cynthia-rudin-525a761',
     twitter: 'https://twitter.com/cynthia_rudin',
@@ -2288,7 +2995,48 @@ export const experts: Expert[] = [
     dataAiHint: 'Shuran Song',
     expertise: ['Robotics', '3D Computer Vision', 'Machine Learning', 'Robot Learning', 'Embodied AI'],
     impactArea: 'Influential Academics',
-    predictions: [],
+    predictions: [{
+      "id": "yb-pred-ss1-1",
+      "text": "The Risk is the Physical Manifestation of Perception Errors: The most immediate and consequential danger is not a malevolent intelligence, but a robot that simply sees the world incorrectly. A robot that misjudges the 3D geometry of a glass, the weight of a box, or the state of a drawer can cause real physical harm. The risk is that we are deploying physically capable systems whose perception of reality is brittle and untrustworthy.",
+      "dateMade": "2024-05-21T11:20:00.000Z",
+      "topic": "Risk Stance"
+      },
+      {
+      "id": "yb-pred-ss1-2",
+      "text": "The Danger of a 'Clean World' Bias: A critical risk is developing robots that work flawlessly in clean laboratory settings or perfect simulations but fail catastrophically in the messy, cluttered, and unpredictable reality of a real home. This 'clean world' bias creates a false sense of security and leads to the deployment of systems that are not robust enough for their intended environments.",
+      "dateMade": "2024-05-21T11:20:00.000Z",
+      "topic": "Risk Stance"
+      },
+      {
+      "id": "yb-pred-ss2-1",
+      "text": "The Future is Interactive Perception, Not Passive Observation: Robots will not learn to understand the world just by watching videos. The key to unlocking physical intelligence is through interaction. A robot must poke, push, grasp, and manipulate objects to learn their true physical properties—their affordances, physics, and causal relationships. The future of learning is an active, embodied, scientific process of experimentation.",
+      "dateMade": "2024-05-21T11:20:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-ss2-2",
+      "text": "Move Beyond Pixels to 3D Scene Representations: The future of robotic vision is not 2D image recognition. It is building rich, explicit, and persistent 3D models of the world. By reasoning in terms of 3D geometry, objects, and spatial relationships (using representations like NeRFs or 3D scene graphs), a robot can plan, act, and generalize in a way that is impossible with flat image-based approaches.",
+      "dateMade": "2024-05-21T11:20:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-ss2-3",
+      "text": "Generalization Through a 'Grammar' of Manipulation: We will not create a general-purpose robot by teaching it millions of specific tasks. The path forward is to teach it a foundational 'grammar' of manipulation—a core set of reusable skills (e.g., 'grasp-at-point,' 'pull-handle,' 'press-button') that can be composed and sequenced to solve a vast array of novel problems. The vision is compositional intelligence for physical action.",
+      "dateMade": "2024-05-21T11:20:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-ss3-1",
+      "text": "Create Standardized, Physical 'Obstacle Courses' for Robots: To make real progress, we need standardized, reproducible, and challenging real-world test environments for robots, much like the ImageNet challenge for vision. We need shared 'obstacle courses'—common apartment layouts with standard object sets—that allow for rigorous, fair, and repeatable evaluation of a robot's ability to perceive and act in cluttered human spaces.",
+      "dateMade": "2024-05-21T11:20:00.000Z",
+      "topic": "Governance & Action"
+      },
+      {
+      "id": "yb-pred-ss3-2",
+      "text": "Build the Public Datasets of Physical Interaction: The biggest bottleneck in robotics is the lack of large, diverse datasets of physical interaction. Public funding and academic consortia must focus on creating open-source datasets of robots manipulating thousands of different objects in varied environments. This is a critical piece of public infrastructure needed to democratize research and ensure safety.",
+      "dateMade": "2024-05-21T11:20:00.000Z",
+      "topic": "Governance & Action"
+      }],
     company: 'Columbia University',
     linkedin: 'https://linkedin.com/in/shuran-song-b935574a',
     twitter: 'https://twitter.com/shuransong',
@@ -2306,7 +3054,48 @@ export const experts: Expert[] = [
     dataAiHint: 'Jitendra Malik',
     expertise: ['Computer Vision', 'Machine Learning', 'Image Recognition', 'Computational Photography'],
     impactArea: 'Influential Academics',
-    predictions: [],
+    predictions: [{
+      "id": "yb-pred-jm1-1",
+      "text": "The Greatest Risk is an 'AI that Fails to See': The fundamental danger is deploying systems, particularly autonomous agents, that achieve high benchmark scores but possess only a shallow, brittle understanding of the visual world. They are 'Clever Hans' systems that exploit dataset biases. The risk is a catastrophic failure in the real world because the AI didn't genuinely understand the 3D structure, material properties, or physical relationships in a scene—it only learned superficial patterns.",
+      "dateMade": "2024-05-21T11:25:00.000Z",
+      "topic": "Risk Stance"
+      },
+      {
+      "id": "yb-pred-jm1-2",
+      "text": "The Risk of 'Benchmark-ism' and Scientific Stagnation: The field is at risk of intellectual stagnation by chasing incremental gains on narrow benchmarks like ImageNet classification. This creates a powerful illusion of progress while we avoid the truly hard, foundational problems of vision, such as grouping, segmentation, and 3D scene understanding. The risk is that we optimize ourselves into a local minimum, building better classifiers but making no real progress towards genuine visual intelligence.",
+      "dateMade": "2024-05-21T11:25:00.000Z",
+      "topic": "Risk Stance"
+      },
+      {
+      "id": "yb-pred-jm2-1",
+      "text": "The Future is Holistic Scene Parsing, Not Just Recognition: The grand challenge of vision is not to label objects, but to parse a scene into its intrinsic components—surfaces, layers, contours, and 3D geometries—much like the human visual system does. The future lies in a return to these classic, fundamental problems, creating structured models that understand the world as a composition of meaningful parts, not just a bag of labeled objects.",
+      "dateMade": "2024-05-21T11:25:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-jm2-2",
+      "text": "We Need Models with the Right Inductive Biases for Grouping: The world is not a random collection of pixels; it has structure. The next generation of vision models must have this structure built into their architecture. This means moving beyond generic Transformers and developing models with strong inductive biases for perceptual grouping—the core human ability to segment the world into coherent objects and surfaces. This is a non-negotiable step toward robust perception.",
+      "dateMade": "2024-05-21T11:25:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-jm2-3",
+      "text": "Vision is for Action: The most powerful learning signal for vision comes from embodiment. A passive AI watching YouTube will never truly understand the world. The future of vision is inextricably linked to robotics. By having an agent that moves, acts, and observes the consequences of its actions, we provide the rich, causal data needed to learn about 3D structure, physics, and affordances in a deep, grounded way.",
+      "dateMade": "2024-05-21T11:25:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-jm3-1",
+      "text": "Move Beyond Static Benchmarks to Interactive, Physical Tests: We must reorient our evaluation methods. The community needs to develop and standardize evaluation suites that test an AI's physical and geometric understanding of a scene. Can the model predict the consequences of an action? Does it understand support and occlusion? We need 'visual Turing tests' based on physical reasoning, not just labeling accuracy.",
+      "dateMade": "2024-05-21T11:25:00.000Z",
+      "topic": "Governance & Action"
+      },
+      {
+      "id": "yb-pred-jm3-2",
+      "text": "Fund the Science, Not Just the Engineering: To achieve genuine AI, we need to prioritize and fund fundamental research into the core principles of perception. This means supporting work that explores new architectures and draws inspiration from neuroscience and cognitive science, even if it doesn't immediately top the leaderboards. We must invest in solving the foundational scientific problems of vision, not just engineering incremental improvements to existing systems.",
+      "dateMade": "2024-05-21T11:25:00.000Z",
+      "topic": "Governance & Action"
+      }],
     company: 'UC Berkeley / Meta AI',
     linkedin: 'https://linkedin.com/in/jitendra-malik-06634a1',
     twitter: undefined,
@@ -2324,7 +3113,48 @@ export const experts: Expert[] = [
     dataAiHint: 'Alexei Efros',
     expertise: ['Computer Vision', 'Computational Photography', 'Graphics', 'Machine Learning', 'Image Synthesis'],
     impactArea: 'Influential Academics',
-    predictions: [],
+    predictions: [{
+      "id": "yb-pred-ae1-1",
+      "text": "The Information Apocalypse: The primary societal risk is the inevitable collapse of our shared visual reality. The very technologies we are building will make it trivially easy to generate photorealistic images and videos of anything, completely eroding trust in visual evidence. This isn't a future problem; it's an immediate crisis for journalism, democracy, and personal relationships. The risk is not that AI will become a 'bad actor,' but that it will be the ultimate tool for any human bad actor.",
+      "dateMade": "2024-05-21T11:30:00.000Z",
+      "topic": "Risk Stance"
+      },
+      {
+      "id": "yb-pred-ae1-2",
+      "text": "The Danger of 'Visual Idiots Savants': We are creating systems that can generate a stunningly realistic image of a cat but have zero commonsense understanding of what a cat is—that it's a living thing, has four legs, and can't breathe underwater. The danger is deploying these 'idiots savants' into the real world, where their superhuman performance on narrow tasks is coupled with a complete lack of real-world understanding, leading to bizarre and unpredictable failures.",
+      "dateMade": "2024-05-21T11:30:00.000Z",
+      "topic": "Risk Stance"
+      },
+      {
+      "id": "yb-pred-ae2-1",
+      "text": "The Future is Learning from the World, Not from Us: The single most important paradigm for the future of AI is self-supervised learning. The trillions of hours of video and images on the internet are the only dataset large enough to teach an AI visual common sense. The technical vision is not to get more human labels, but to devise ever more clever 'pretext tasks' that force the model to learn the underlying physics, geometry, and causality of the world as a side effect of trying to solve a simple self-imposed puzzle (e.g., colorizing a photo, solving a jigsaw).",
+      "dateMade": "2024-05-21T11:30:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-ae2-2",
+      "text": "Analysis by Synthesis: You Don't Understand It Until You Can Create It: The ultimate test of understanding is generation. The future of vision is not just in classifying images but in being able to synthesize them from a high-level description. To generate a realistic image of a scene, a model is forced to learn about light, shadows, texture, 3D shape, and object interaction. Generative modeling is not just for making pretty pictures; it is the most rigorous path to building models that truly understand the visual world.",
+      "dateMade": "2024-05-21T11:30:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-ae2-3",
+      "text": "The Unreasonable Effectiveness of Data is Still the Most Important Lesson: While complex models are powerful, we must never forget the most important lesson of the last 20 years: massive amounts of diverse, real-world data paired with relatively simple, scalable algorithms often outperforms elegant but complex theories. The technical path forward is to find new ways to harness ever-larger datasets, even if the methods seem 'hacky' or atheoretical at first.",
+      "dateMade": "2024-05-21T11:30:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-ae3-1",
+      "text": "Start an 'Arms Race' for Visual Forensics: It is futile and naive to try to ban or regulate the creation of generative models. The genie is out of the bottle. The only realistic response is to massively invest in the other side of the arms race: the science of visual forensics. We must build and deploy sophisticated tools for detecting fakes, watermarking content, and verifying provenance. This should be a top national security and research priority.",
+      "dateMade": "2024-05-21T11:30:00.000Z",
+      "topic": "Governance & Action"
+      },
+      {
+      "id": "yb-pred-ae3-2",
+      "text": "Stop Chasing Benchmarks, Start Chasing Understanding: The research community's obsession with chasing state-of-the-art on benchmarks like ImageNet is holding us back. The most important action we can take is to change our own values. We need to create and celebrate new tasks and datasets that directly measure visual common sense, physical intuition, and robustness to real-world perturbations, and be willing to see our performance numbers go down in the service of genuine scientific progress.",
+      "dateMade": "2024-05-21T11:30:00.000Z",
+      "topic": "Governance & Action"
+      }],
     company: 'UC Berkeley',
     linkedin: 'https://linkedin.com/in/alexei-efros-8a6aa55',
     twitter: 'https://twitter.com/efros_alexei',
@@ -2342,7 +3172,48 @@ export const experts: Expert[] = [
     dataAiHint: 'Devi Parikh',
     expertise: ['Computer Vision', 'Natural Language Processing', 'AI for Creativity', 'Machine Learning', 'Explainable AI'],
     impactArea: 'Influential Academics',
-    predictions: [],
+    predictions: [{
+      "id": "yb-pred-dp1-1",
+      "text": "The Risk is 'Creative Sterility' and Value Misalignment: The primary danger is not a rogue AI, but an AI that is a bad creative partner. A system trained on the average of human expression will produce bland, stereotypical, and uninspired results. The risk is deploying systems that subtly enforce conformity and bias, fail to understand nuanced human values, and ultimately devalue genuine human creativity by flooding the world with sterile, generic content.",
+      "dateMade": "2024-05-21T11:35:00.000Z",
+      "topic": "Risk Stance"
+      },
+      {
+      "id": "yb-pred-dp1-2",
+      "text": "The Danger is Poor Human-AI Interaction Design: The most immediate risk is not in the core AI algorithms, but in how we design the interfaces for humans to collaborate with them. A poorly designed system that is frustrating, misleading, or fails to provide users with meaningful agency is more dangerous than a powerful algorithm, because it leads to misuse, mistrust, and the abandonment of AI's potential as a truly augmentative tool.",
+      "dateMade": "2024-05-21T11:35:00.000Z",
+      "topic": "Risk Stance"
+      },
+      {
+      "id": "yb-pred-dp2-1",
+      "text": "The Future is Human-AI Collaboration, Not Automation: The ultimate goal of AI is not to replace humans, but to be their indispensable creative and intellectual partner. The technical vision is to move beyond 'prompt-in, result-out' systems and build AI that engages in mixed-initiative, back-and-forth dialogue. This 'co-creative' AI will understand ambiguous instructions, ask clarifying questions, and help users explore a solution space together.",
+      "dateMade": "2024-05-21T11:35:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-dp2-2",
+      "text": "Multimodality is the Foundation of Grounded Understanding: True intelligence cannot be learned from text alone or images alone. It emerges from the rich, contextual links between them. The future of AI is natively multimodal—systems that learn a unified, grounded representation of the world by seeing, reading, listening, and talking. This is the only path to building AI that can have a meaningful conversation with a human about the world.",
+      "dateMade": "2024-05-21T11:35:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-dp2-3",
+      "text": "Learning from Nuanced Human Feedback is the Core Challenge: The next great leap in AI capability will come from systems that can learn from rich, subjective, and sparse human feedback—not just massive, static datasets. The technical frontier is building AI that can interpret a user's subtle cues, understand their goals, and fine-tune its behavior based on a collaborative process, not a simple 'thumbs up/down' signal.",
+      "dateMade": "2024-05-21T11:35:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-dp3-1",
+      "text": "Invent New Benchmarks for Collaboration and Creativity: The single most important action for the research community is to move beyond leaderboards for task accuracy. We must design and standardize new evaluation methodologies that measure the quality of the human-AI interaction. How much does the AI help a user achieve their creative goals? How can we quantify a system's ability to be a good collaborator? This is the new frontier for evaluation.",
+      "dateMade": "2024-05-21T11:35:00.000Z",
+      "topic": "Governance & Action"
+      },
+      {
+      "id": "yb-pred-dp3-2",
+      "text": "Empower Creators by Democratizing AI Tools: Instead of top-down regulation of creative AI, the most productive action is to ensure these powerful tools are not locked away in a few corporate labs. We must actively support the development of open-source, accessible, and customizable AI tools that put creative power directly into the hands of artists, designers, and storytellers, fostering a diverse and vibrant creative ecosystem.",
+      "dateMade": "2024-05-21T11:35:00.000Z",
+      "topic": "Governance & Action"
+      }],
     company: 'Georgia Tech / Meta AI',
     linkedin: 'https://linkedin.com/in/deviparikh',
     twitter: 'https://twitter.com/deviparikh',
@@ -2360,7 +3231,48 @@ export const experts: Expert[] = [
     dataAiHint: 'Kyunghyun Cho',
     expertise: ['Natural Language Processing', 'Machine Translation', 'Deep Learning', 'Neural Networks', 'GRUs'],
     impactArea: 'Influential Academics',
-    predictions: [],
+    predictions: [{
+      "id": "yb-pred-kc1-1",
+      "text": "The Gravest Risk is Scientific Stagnation: The AI field is in danger of creating a research monoculture. By pouring all of our resources and talent into scaling one specific architecture (the Transformer), we are abandoning the search for fundamentally new and potentially better principles of intelligence. The risk is not that AI gets too smart, but that we, the researchers, get stuck in a collective local minimum, mistaking engineering progress for scientific discovery.",
+      "dateMade": "2024-05-21T11:40:00.000Z",
+      "topic": "Risk Stance"
+      },
+      {
+      "id": "yb-pred-kc1-2",
+      "text": "The Risk is Building on Sand: We are accumulating massive 'intellectual debt' by building ever-larger systems without a deep, foundational understanding of why they work. This makes our progress brittle and susceptible to collapse. A few high-profile, unexpected failures of these poorly understood systems could erode public trust and trigger a backlash that sets the field back decades.",
+      "dateMade": "2024-05-21T11:40:00.000Z",
+      "topic": "Risk Stance"
+      },
+      {
+      "id": "yb-pred-kc2-1",
+      "text": "The Transformer Is Not the Final Word: The Transformer architecture was a brilliant step, just as the RNN and GRU were before it. But it is not the 'final architecture' for intelligence. The future of AI requires discovering entirely new architectural principles. The most important research today is not scaling what we have, but searching for what comes next.",
+      "dateMade": "2024-05-21T11:40:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-kc2-2",
+      "text": "Intelligence Will Emerge from Efficiency and Better Algorithms, Not Just Scale: The path forward is not just about using more data and compute, but about designing more efficient and powerful learning algorithms. How can a model learn more from less data? How can it adapt continually without retraining from scratch? Solving these fundamental algorithmic challenges is more important than simply building bigger models.",
+      "dateMade": "2024-05-21T11:40:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-kc2-3",
+      "text": "The Ultimate Benchmark for AI is Scientific Discovery: The true test of our progress is not generating plausible-sounding text, but whether AI can accelerate real science. The vision is to build AI that can understand complex biological systems, help design new drugs, and form novel scientific hypotheses. This requires a level of rigor, causality, and grounding that current LLMs lack.",
+      "dateMade": "2024-05-21T11:40:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-kc3-1",
+      "text": "We Must Reform Our Own Research Culture: The single most important action is internal to the AI community. We must reform the academic peer review and incentive structure that over-values incremental gains on saturated benchmarks and penalizes high-risk, paradigm-shifting research. We need to create a culture that rewards deep thinking, not just fast engineering.",
+      "dateMade": "2024-05-21T11:40:00.000Z",
+      "topic": "Governance & Action"
+      },
+      {
+      "id": "yb-pred-kc3-2",
+      "text": "Slow Down the Hype Cycle: The relentless pressure to publish, demo, and release ever-larger models is harming scientific inquiry. The community needs to collectively 'slow down to think,' allowing for more careful, deliberate, and foundational research. Progress is not measured by the number of models released, but by the depth of our understanding.",
+      "dateMade": "2024-05-21T11:40:00.000Z",
+      "topic": "Governance & Action"
+      }],
     company: 'NYU / Genentech',
     linkedin: 'https://linkedin.com/in/kyunghyun-cho-2b4a535b',
     twitter: 'https://twitter.com/kchonyc',
@@ -2378,7 +3290,48 @@ export const experts: Expert[] = [
     dataAiHint: 'Sanjoy Dasgupta',
     expertise: ['Theoretical Machine Learning', 'Algorithms', 'Statistics', 'Clustering', 'Active Learning'],
     impactArea: 'Influential Academics',
-    predictions: [],
+    predictions: [{
+      "id": "yb-pred-sd1-1",
+      "text": "The Gravest Risk is 'A-Theoretic' Practice: The single greatest danger is the widespread deployment of complex algorithms by practitioners who have no understanding of their underlying theoretical assumptions and failure modes. Using a clustering algorithm on data that has no cluster structure, or applying a method that assumes data is in a Euclidean space when it's not, leads to silently wrong and harmful outcomes. The risk is a world built on mathematical and statistical ignorance.",
+      "dateMade": "2024-05-21T11:45:00.000Z",
+      "topic": "Risk Stance"
+      },
+      {
+      "id": "yb-pred-sd1-2",
+      "text": "The Risk of Unprovable Systems: We are building systems for critical applications where we cannot mathematically prove even the most basic properties about their behavior. While perfect guarantees are impossible, the risk is the community's abandonment of the very goal of provability in favor of models so complex that we are left with only empirical hand-waving. An unprovable system is an untrustworthy system.",
+      "dateMade": "2024-05-21T11:45:00.000Z",
+      "topic": "Risk Stance"
+      },
+      {
+      "id": "yb-pred-sd2-1",
+      "text": "The Future is a Rigorous Science of Machine Learning: The path forward is not just building bigger models, but developing a mature mathematical theory to understand them. The grand technical vision is to discover the fundamental principles governing why deep learning works, what its sample complexity is, and what its geometric properties are. We must turn machine learning from an empirical art into a rigorous, predictive science.",
+      "dateMade": "2024-05-21T11:45:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-sd2-2",
+      "text": "Unsupervised Learning is the Unsolved Frontier: Discovering the inherent structure in unlabeled data is a more fundamental problem than supervised learning. The future lies in developing algorithms for clustering, dimensionality reduction, and density estimation that come with provable guarantees. Understanding how to find meaningful structure in data without supervision is the key to more efficient and more general intelligence.",
+      "dateMade": "2024-05-21T11:45:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-sd2-3",
+      "text": "The Geometry of Data is Everything: An algorithm's success or failure is determined by the intrinsic geometric and topological structure of the data. The next breakthroughs will come from designing algorithms that explicitly respect this structure—algorithms for learning on manifolds, graphs, and other non-Euclidean spaces. We need to move beyond vector-space thinking and embrace the true geometry of information.",
+      "dateMade": "2024-05-21T11:45:00.000Z",
+      "topic": "Technical Vision"
+      },
+      {
+      "id": "yb-pred-sd3-1",
+      "text": "Elevate Theoretical Foundations in AI Education: The most effective action we can take is to change how we educate the next generation of data scientists. We must instill a deep understanding of the theoretical foundations of the algorithms they use. A practitioner who understands a method's assumptions is far less likely to misuse it. The antidote to bad practice is better, more rigorous education.",
+      "dateMade": "2024-05-21T11:45:00.000Z",
+      "topic": "Governance & Action"
+      },
+      {
+      "id": "yb-pred-sd3-2",
+      "text": "Fund the Foundations, Not Just the Applications: Government and industry funding is overwhelmingly directed at applied, benchmark-driven research. For the long-term health and safety of the field, we must create and protect funding streams dedicated exclusively to fundamental, theoretical machine learning research. These foundations are the bedrock upon which all safe and reliable applications will eventually be built.",
+      "dateMade": "2024-05-21T11:45:00.000Z",
+      "topic": "Governance & Action"
+      }],
     company: 'UC San Diego',
     linkedin: 'https://linkedin.com/in/sanjoy-dasgupta-32906b4',
     twitter: undefined,
