@@ -1196,7 +1196,32 @@ export const experts: Expert[] = [
     dataAiHint: 'Shane Legg',
     expertise: ['AGI Research', 'Machine Learning', 'AI Theory', 'Reinforcement Learning'],
     impactArea: 'Leaders at Major AI Labs & Companies',
-    predictions: [],
+    predictions: [
+      {
+        id: 'sl-pred-1',
+        text: "From Hand-Crafted to Self-Organizing Systems: Today, we hand-design architectures with components like 'attention' or 'memory'. The future lies in creating a more general, flexible computational substrate and a meta-learning process that discovers and wires together the optimal components for a given task. Imagine an agent that, when faced with a complex problem, learns to dynamically allocate computational resources, spawning specialized sub-modules for perception, memory retrieval, and tool use, and then composing them. The final architecture isn't designed by a human; it is the result of a learning process.",
+        dateMade: new Date().toISOString(),
+        topic: "The Emergence of the Meta-Learned Agent Architecture"
+      },
+      {
+        id: 'sl-pred-2',
+        text: "Reinforcement Learning as the Master Algorithm: While large-scale unsupervised learning has given us powerful world models, Reinforcement Learning (RL) is the key to agency. The next five years will see a deep fusion of these two paradigms. We will use the rich world models learned from internet-scale data as a foundational 'imagination' or simulator for a master RL agent. This agent will learn to achieve complex, long-horizon goals not by interacting with the slow, expensive real world, but by planning and 'dreaming' within its own internal, learned model of reality.",
+        dateMade: new Date().toISOString(),
+        topic: "The Emergence of the Meta-Learned Agent Architecture"
+      },
+      {
+        id: 'sl-pred-3',
+        text: "The Rebirth of Search: The brute-force pattern completion of language models will be augmented and guided by deliberate, systematic search algorithms, reminiscent of our work with AlphaGo. An agent will not just generate a single 'best guess' solution. It will generate a tree of possible plans, evaluate their likelihood of success within its world model, and execute the most promising one. If it fails, it will backtrack, analyze the failure, update its plan, and try again. This fusion of fast, intuitive 'System 1' thinking (the LLM) with slow, deliberate 'System 2' reasoning (search and planning) is the architectural key to reliability and true problem-solving.",
+        dateMade: new Date().toISOString(),
+        topic: "Solving for Autonomous, Multi-Step Reasoning"
+      },
+      {
+        id: 'sl-pred-4',
+        text: "Agent Autonomy as a Measurable Capability: We will move beyond benchmarking models on static Q&A datasets. The new measure of progress, the new 'ImageNet challenge' for AGI, will be performance on open-ended, interactive environments that require an agent to autonomously explore, experiment, and achieve complex goals over long time horizons with no human in the loop. Think of an agent given a cloud computing account and the goal of 'building and deploying a profitable web service,' or a science agent tasked with 'discovering a novel catalyst' within a simulated chemistry lab. Progress will be measured in autonomy, not just accuracy.",
+        dateMade: new Date().toISOString(),
+        topic: "Solving for Autonomous, Multi-Step Reasoning"
+      }
+    ],
     company: 'Google DeepMind',
     linkedin: 'https://linkedin.com/in/shane-legg-5a2a536',
     twitter: 'https://twitter.com/shanelegg',
@@ -1214,7 +1239,32 @@ export const experts: Expert[] = [
     dataAiHint: 'Mustafa Suleyman',
     expertise: ['AI Leadership', 'Applied AI', 'AI Ethics', 'AI Strategy', 'AGI Research'],
     impactArea: 'Leaders at Major AI Labs & Companies',
-    predictions: [],
+    predictions: [
+      {
+        id: 'ms-pred-1',
+        text: "From Tool to Teammate: We will move from using AI as a one-shot tool (like a search engine or a grammar checker) to interacting with it as a persistent teammate. This AI will live across all your devices and platforms. It will have memory and context about you, your projects, your goals, and your preferences. You'll say, 'Hey, remember that idea we discussed last week about the marketing campaign? Let's flesh out the budget for it,' and it will know exactly what you're talking about.",
+        dateMade: new Date().toISOString(),
+        topic: "The Universal Conversational Interface"
+      },
+      {
+        id: 'ms-pred-2',
+        text: "Action, Not Just Answers: The defining feature of this new interface will be its ability to do things on your behalf. It's not enough to get an answer; the AI must take the action. It will book the flight, schedule the meeting, draft the email, file the expense report, and order the groceries. This requires deep integration into the API ecosystem and a level of reliability that makes you trust it with real-world tasks.",
+        dateMade: new Date().toISOString(),
+        topic: "The Universal Conversational Interface"
+      },
+      {
+        id: 'ms-pred-3',
+        text: "Beyond Text: Reading the Subtext: The next generation of personal AIs will be deeply multi-modal, but not just for understanding the world—for understanding you. It will integrate signals from your tone of voice, your facial expressions (with your permission), and your patterns of speech to understand your emotional state. The AI's tone, pacing, and suggestions will adapt accordingly. This isn't about manipulation; it's about making interaction feel natural and supportive.",
+        dateMade: new Date().toISOString(),
+        topic: "The Primacy of EQ: Engineering Empathetic AI"
+      },
+      {
+        id: 'ms-pred-4',
+        text: "Personalization as a Core Tenet: Your AI will be uniquely yours. It will learn your communication style, your quirks, your personal and professional relationships. It will know you prefer concise summaries in the morning and more detailed reports in the afternoon. This deep personalization is what will transform it from a generic utility into an indispensable part of your life.",
+        dateMade: new Date().toISOString(),
+        topic: "The Primacy of EQ: Engineering Empathetic AI"
+      }
+    ],
     company: 'Microsoft AI (formerly DeepMind, Inflection AI)',
     linkedin: 'https://linkedin.com/in/mustafasuleyman',
     twitter: 'https://twitter.com/mustafasuleyman',
@@ -1232,7 +1282,44 @@ export const experts: Expert[] = [
     dataAiHint: 'Joelle Pineau',
     expertise: ['Reinforcement Learning', 'Dialogue Systems', 'Robotics', 'AI Research', 'Machine Learning'],
     impactArea: 'Leaders at Major AI Labs & Companies',
-    predictions: [],
+    predictions: [
+      {
+        id: 'jp-pred-1',
+        text: "From Static Datasets to Dynamic Interaction: We will move beyond training models on static datasets of preferences. The future of alignment involves creating interactive training loops where the AI actively engages with human experts to resolve ambiguity. Imagine a medical diagnostic AI asking clarifying questions to differentiate between conditions based on patient history.",
+        dateMade: new Date().toISOString(),
+        topic: "The Centrality of RLHF and Beyond"
+      },
+      {
+        id: 'jp-pred-2',
+        text: "Formalizing Safety and Value Alignment: 'Safety' and 'helpfulness' will be formalized. We will develop robust methodologies, drawing from causal inference and formal verification, to test and guarantee model behavior. We will move towards creating 'AI constitutions'—explicit sets of principles and rules a model must adhere to, which can be audited.",
+        dateMade: new Date().toISOString(),
+        topic: "The Centrality of RLHF and Beyond"
+      },
+      {
+        id: 'jp-pred-3',
+        text: "Robotics as the Ultimate Grounding Mechanism: The most profound progress will come from systems that learn from multi-modal, real-world interaction. An AI that learns 'fragile' from experiencing breaking a simulated glass develops deeper understanding. We'll see convergence of simulation, RL, and robotics for complex physical tasks.",
+        dateMade: new Date().toISOString(),
+        topic: "The Renaissance of Embodied and Grounded AI"
+      },
+      {
+        id: 'jp-pred-4',
+        text: "Dialogue Systems Grounded in Fact and Action: Hallucination in dialogue agents is due to being ungrounded. Next-gen conversational AI will be integrated with external knowledge sources and APIs, learning to formulate queries, read documentation, and execute API calls for verifiable information.",
+        dateMade: new Date().toISOString(),
+        topic: "The Renaissance of Embodied and Grounded AI"
+      },
+      {
+        id: 'jp-pred-5',
+        text: "Sharing Models, Datasets, and Methodologies: To build safe AI, the community needs to scrutinize, replicate, and build upon advances. We'll see a push for releasing models with extensive documentation, evaluation suites, and training methodologies for independent audits and bias discovery.",
+        dateMade: new Date().toISOString(),
+        topic: "The Imperative of Reproducibility and Open Science"
+      },
+      {
+        id: 'jp-pred-6',
+        text: "Developing Universal Evaluation Standards: We lack robust benchmarks for critical AI behaviors beyond task performance—like reasoning, adversarial robustness, and factual consistency. A major collaborative effort will emerge to create comprehensive evaluations for meaningful comparison and progress tracking.",
+        dateMade: new Date().toISOString(),
+        topic: "The Imperative of Reproducibility and Open Science"
+      }
+    ],
     company: 'Meta / McGill University',
     linkedin: 'https://linkedin.com/in/joelle-pineau-1b913a4',
     twitter: 'https://twitter.com/joellepineau',
@@ -1250,7 +1337,44 @@ export const experts: Expert[] = [
     dataAiHint: 'Andrej Karpathy',
     expertise: ['Computer Vision', 'Deep Learning', 'AI Education', 'Neural Networks', 'Self-Driving Cars'],
     impactArea: 'Leaders at Major AI Labs & Companies',
-    predictions: [],
+    predictions: [
+      {
+        id: 'ak-pred-1',
+        text: "From Explicit Commands to Fuzzy Intent: Today, you tell a computer how to do something. With the LLM OS, you will state what you want to accomplish. Instead of writing a Python script to plot a graph, you'll say, 'Analyze sales_data.csv, find top regional growth trends, visualize as bar chart, highlight anomalies in red.' The LLM OS will interpret intent, write/execute code, analyze results, and present the product.",
+        dateMade: new Date().toISOString(),
+        topic: "The 'LLM OS': The Abstraction Layer for Intelligence"
+      },
+      {
+        id: 'ak-pred-2',
+        text: "The Token as the New Universal Data Type: Everything will be convertible to tokens—text, images, code, UI elements, audio, button clicks. The LLM OS will operate on these token streams, making it a universal processor. This allows seamless multi-modality, fusing different input streams (e.g., mouse clicks and voice commands) to understand queries in full context.",
+        dateMade: new Date().toISOString(),
+        topic: "The 'LLM OS': The Abstraction Layer for Intelligence"
+      },
+      {
+        id: 'ak-pred-3',
+        text: "From Manual Tweaking to Automated Optimization: Designing efficient neural networks is currently a dark art. The future is a compiler that takes a large 'teacher' network and performance constraints (e.g., run on smartphone with <2GB RAM, <100ms latency) and automatically generates an optimal 'student' network using quantization, pruning, and distillation systematically.",
+        dateMade: new Date().toISOString(),
+        topic: "The 'Neural Network Compiler': Optimizing for the AI Factory"
+      },
+      {
+        id: 'ak-pred-4',
+        text: "The Data Refinery: Data is Software 2.0's source code. We will build sophisticated 'AI factories' to crawl, clean, filter, and augment massive datasets. Model quality directly functions from this data refinery's quality. Engineering will focus on automated pipelines to curate petabytes of data, identify high-value examples, and synthesize training problems.",
+        dateMade: new Date().toISOString(),
+        topic: "The 'Neural Network Compiler': Optimizing for the AI Factory"
+      },
+      {
+        id: 'ak-pred-5',
+        text: "Silicon for Tokens: New NPU (Neural Processing Unit) hardware will be architected for core Software 2.0 operations: massive matrix multiplications and attention computations. They'll have specialized memory for model parameters and be designed for extreme inference efficiency.",
+        dateMade: new Date().toISOString(),
+        topic: "The Proliferation of 'AI CPUs': Specialized Hardware Accelerators"
+      },
+      {
+        id: 'ak-pred-6',
+        text: "From Data Center to Edge: Specialized hardware will integrate into laptops, phones, cars, and cameras, enabling powerful, low-latency AI locally. This preserves privacy and supports real-time apps (like autonomous driving). The LLM OS will decide tasks for local 'AI CPU' vs. cloud escalation.",
+        dateMade: new Date().toISOString(),
+        topic: "The Proliferation of 'AI CPUs': Specialized Hardware Accelerators"
+      }
+    ],
     company: 'OpenAI (Founding Member) / Tesla (formerly)',
     linkedin: 'https://linkedin.com/in/andrej-karpathy-9a655223',
     twitter: 'https://twitter.com/karpathy',
@@ -2694,4 +2818,5 @@ export const getAllExpertise = (): string[] => {
 export const getAllImpactAreas = (): string[] => {
   return IMPACT_AREAS_ORDERED;
 };
+
 
