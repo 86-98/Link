@@ -954,31 +954,31 @@ export const experts: Expert[] = [
     predictions: [
       {
         id: 'dh-pred-1',
-        text: "The defining transition of this next era will be the move from passive, disembodied intelligence to active, grounded systems that can interact with and reason about the world in a scientifically rigorous way. Our progress to date, from AlphaGo to AlphaFold, has been about mastering closed, digital domains. The next grand challenge is to break out of the digital sandbox.",
+        text: "Transition from passive, disembodied intelligence to active, grounded systems that can interact with and reason about the world scientifically. This breaks out of the 'digital sandbox'.",
         dateMade: new Date().toISOString(),
         topic: "Future AI: Grounded & Active Systems"
       },
       {
         id: 'dh-pred-2',
-        text: "The true paradigm shift will be systems that can do science, creating a 'virtuous cycle' of AI-driven discovery. This involves AI generating novel, falsifiable hypotheses from first principles, not just analyzing existing data. This will apply to materials science, drug discovery, and climate modeling.",
+        text: "AI systems will do science, creating a 'virtuous cycle' of AI-driven discovery by generating novel, falsifiable hypotheses from first principles in fields like materials science, drug discovery, and climate modeling.",
         dateMade: new Date().toISOString(),
         topic: "AI in Scientific Discovery: Hypothesis Generation"
       },
       {
         id: 'dh-pred-3',
-        text: "Embodied scientific tools and integrated lab automation are key. AI will design experiments, execute them via robotics, interpret real-world results, and refine its models, dramatically accelerating discovery by breaking the bottleneck of physical experimentation.",
+        text: "Embodied scientific tools and integrated lab automation are key. AI will design experiments, execute them via robotics, interpret real-world results, and refine its models, dramatically accelerating discovery.",
         dateMade: new Date().toISOString(),
         topic: "AI in Scientific Discovery: Automated Experimentation"
       },
       {
         id: 'dh-pred-4',
-        text: "Architectural shifts beyond transformers are needed, drawing from neuroscience. This includes sophisticated, dynamic memory systems inspired by the human hippocampus for long-horizon reasoning, cumulative learning, and reducing hallucination.",
+        text: "Architectural shifts beyond transformers are needed, drawing from neuroscience, including sophisticated, dynamic memory systems inspired by the human hippocampus for long-horizon reasoning and cumulative learning.",
         dateMade: new Date().toISOString(),
         topic: "AI Architectures: Memory & Neuroscience"
       },
       {
         id: 'dh-pred-5',
-        text: "We will see the rise of sophisticated, multi-agent systems. A 'master' planning agent will decompose complex problems and delegate sub-tasks to specialized models (vision, language, code, physics simulators), orchestrating their outputs for coherent solutions to real-world goals.",
+        text: "Rise of sophisticated, multi-agent systems. A 'master' planning agent will decompose complex problems and delegate sub-tasks to specialized models (vision, language, code, physics simulators), orchestrating their outputs.",
         dateMade: new Date().toISOString(),
         topic: "AI Architectures: Multi-Agent Systems"
       }
@@ -1003,25 +1003,25 @@ export const experts: Expert[] = [
     predictions: [
       {
         id: 'is-pred-1',
-        text: "From Imitation to Internalization: We will train models with such vastness of data and computational depth that they will be forced to move beyond superficial pattern matching. They will have no choice but to build robust, compressed, and generative models of the world internally. This is the path to genuine understanding. A system that truly understands physics doesn't just predict the next word in a textbook; it can reason from first principles. The next generation of models will demonstrate this through a dramatic reduction in confabulation and a sharp increase in logical consistency and zero-shot reasoning on complex, novel problems. Reliability will become a measurable, optimizable objective, not a hopeful side effect.",
+        text: "Models will move from imitation to internalization by building robust, compressed, generative world models internally, leading to genuine understanding and reduced confabulation.",
         dateMade: new Date().toISOString(),
         topic: "Reliability & Reasoning"
       },
       {
         id: 'is-pred-2',
-        text: "The AI as its Own Supervisor: The key to achieving this reliability at scale is not human annotation. We cannot possibly provide feedback on the complex internal reasoning of a super-intelligent system. The solution is scalable oversight: using AI systems to supervise, critique, and improve other AI systems. We will develop techniques that can amplify a small amount of human guidance into a vast, automated process of verification and refinement. This is the only path to building models that are more truthful and reliable than their creators.",
+        text: "Scalable oversight using AI systems to supervise, critique, and improve other AI systems will be key to reliability, amplifying human guidance.",
         dateMade: new Date().toISOString(),
         topic: "Scalable Oversight"
       },
       {
         id: 'is-pred-3',
-        text: "Safety is Not a Patch: The naive approach is to train a powerful, capable model and then try to bolt on 'safety guardrails' after the fact. This will fail. It is like building a nuclear reactor and then, as an afterthought, trying to design a containment building. True safety must be co-developed with capability, built into the very core of the training process. The objective function itself must include not just performance, but also alignment with human intent and values.",
+        text: "True safety must be co-developed with capability, built into the core training process and objective function, not bolted on as an afterthought.",
         dateMade: new Date().toISOString(),
         topic: "Safe Superintelligence"
       },
       {
         id: 'is-pred-4',
-        text: "Solving for Controllability: The grand challenge is to create an agent that is vastly more intelligent than we are, yet remains controllable and beneficial. This is not a philosophical question; it is a technical one. We will explore architectures and training methodologies designed to make AGI's motivations and goals transparent and steerable. Perhaps this involves building models that can accurately explain their reasoning in a way we can understand and trust, or developing methods to directly 'sculpt' the motivations that form during the training process. The goal is an AGI that wants to do what we want it to do, not because it is forced to, but because that is its inherent nature.",
+        text: "The grand technical challenge is creating controllable and beneficial AGI by making its motivations transparent and steerable, perhaps through explainable reasoning or directly sculpting motivations.",
         dateMade: new Date().toISOString(),
         topic: "Controllability of AGI"
       }
@@ -1046,37 +1046,37 @@ export const experts: Expert[] = [
     predictions: [
       {
         id: 'sa-pred-1',
-        text: "The Agent as the Abstraction Layer: The primary way people interact with computers will no longer be through a graphical user interface, but through a conversational, goal-oriented agent. This agent will be the central hub, the OS for your life. You won't 'use' a travel app, a calendar app, and a research tool; you'll simply tell your agent, 'Plan my team's offsite to Lisbon for the first week of October, find a venue for 15 people with a budget of X, and poll the team for their preferred flight times.' The agent will understand the context, use the necessary tools (APIs), and execute the multi-step task.",
+        text: "The primary user interface will shift to conversational, goal-oriented agents acting as a central hub or 'OS for your life,' understanding context and executing multi-step tasks via tool use.",
         dateMade: new Date().toISOString(),
         topic: "AI Agents & Platforms"
       },
       {
         id: 'sa-pred-2',
-        text: "The Developer Ecosystem Explosion: Our strategy is to build the most capable core models and provide them as a platform. The real explosion of value will come from the millions of developers building on top of our APIs. We'll see a Cambrian explosion of specialized agents and 'GPTs' for every conceivable profession and hobby—an AI legal associate, an AI financial analyst, an AI coding partner that doesn't just autocomplete but co-architects entire systems. We provide the intelligence; the world will provide the diverse applications. This ecosystem is the engine of our iterative deployment strategy.",
+        text: "A Cambrian explosion of specialized agents and 'GPTs' built by developers on core AI platforms will drive value, with OpenAI providing intelligence and the world providing diverse applications.",
         dateMade: new Date().toISOString(),
         topic: "Developer Ecosystem"
       },
       {
         id: 'sa-pred-3',
-        text: "Radical Productivity Gains: The impact of giving every knowledge worker a tireless, brilliant assistant will be staggering. We will see companies—and even entire new industries—built by tiny teams that are amplified a thousand-fold by AI. The speed at which you can design a product, write the code, create a marketing plan, and execute a go-to-market strategy will be compressed from years to weeks.",
+        text: "AI will cause a dramatic productivity boom, enabling tiny teams to achieve massive amplification, compressing product design and go-to-market strategies from years to weeks.",
         dateMade: new Date().toISOString(),
         topic: "Economic Impact & Productivity"
       },
       {
         id: 'sa-pred-4',
-        text: "Seeding the Ground for AGI's Value: Our model is to capture a very small fraction of the immense economic value this creates to fund the astronomical compute costs required for the final push to AGI. The successful commercialization of our current models is not the end goal; it is the necessary fuel. By demonstrating overwhelming economic value now, we build the resources and societal buy-in needed to pursue our ultimate mission responsibly.",
+        text: "Commercialization of current models will fund the compute costs for AGI. Demonstrating economic value now builds resources and societal buy-in for the ultimate AGI mission.",
         dateMade: new Date().toISOString(),
         topic: "AGI Funding & Strategy"
       },
       {
         id: 'sa-pred-5',
-        text: "Building Societal Antibodies: Releasing AGI on an unsuspecting world would be profoundly destabilizing. By deploying increasingly powerful systems like GPT-4 and its successors, we give society a chance to adapt. We get to see the emergent misuses, the weird edge cases, the societal fault lines it exposes. It allows us to build up our collective 'antibodies'—the norms, the regulations, the security practices—while the stakes are still relatively low. This feedback loop is our most important safety mechanism.",
+        text: "Iterative deployment of increasingly powerful systems allows society to adapt, identify misuses, and build collective 'antibodies' (norms, regulations) while stakes are relatively low.",
         dateMade: new Date().toISOString(),
         topic: "Iterative Deployment & Societal Adaptation"
       },
       {
         id: 'sa-pred-6',
-        text: "Initiating the Governance Conversation: We cannot solve the governance of AGI in a vacuum. By putting a tangible product in the hands of policymakers and the public, we have elevated the conversation from a sci-fi abstraction to a present-day reality. The next five years will see the first serious international efforts to govern the development of frontier AI models, a conversation we are determined to lead. We must establish a global framework now, to create a safe and stable runway for the vastly more powerful systems yet to come.",
+        text: "The next five years will see the first serious international efforts to govern frontier AI model development, a conversation OpenAI aims to lead to ensure a safe runway for future systems.",
         dateMade: new Date().toISOString(),
         topic: "AI Governance & Policy"
       }
@@ -1101,25 +1101,25 @@ export const experts: Expert[] = [
     predictions: [
       {
         id: 'gb-pred-1',
-        text: "Process-Based Reward vs. Outcome-Based Reward: Today, we often train models based on whether the final answer is good. This is a black box. The future is training models to reward a correct process. We will teach the AI to 'show its work'—to lay out its reasoning, call tools, check its facts, and verify its intermediate steps. A model that can externalize its reasoning chain is a model we can debug, inspect, and ultimately trust. This shift from rewarding the right answer to rewarding the right method is the key to building systems that don't just guess well, but reason robustly.",
+        text: "Future AI training will shift from rewarding correct final answers to rewarding correct processes, teaching AI to 'show its work' for better debugging, inspection, and trust.",
         dateMade: new Date().toISOString(),
         topic: "AI Reliability & Trustworthiness"
       },
       {
         id: 'gb-pred-2',
-        text: "The AI as a System, Not a Monolith: AGI won't be a single, monolithic model. It will be a massively complex, orchestrated system. Think of a core reasoning engine complemented by a suite of specialized tools: hyper-optimized vision models, secure code interpreters, browsing modules, and connections to external APIs. The primary engineering challenge is building the scaffolding—the robust, low-latency, high-throughput infrastructure that allows the core model to seamlessly and reliably wield these tools. Getting this system to work flawlessly, every time, for a billion users, is the real AGI challenge.",
+        text: "AGI will be a complex, orchestrated system of a core reasoning engine with specialized tools (vision, code interpreters, APIs), requiring robust infrastructure for seamless tool use.",
         dateMade: new Date().toISOString(),
         topic: "AI Systems Architecture"
       },
       {
         id: 'gb-pred-3',
-        text: "The \"Compound AI\" Application: The most powerful applications will be built by developers chaining AI capabilities together. I call this 'Compound AI'. A developer won't just make a single call to an API; they will define a high-level goal, and the platform will manage the agent's long-running execution of that goal. This means building the platform-level primitives for memory, task decomposition, and state management. The developer's job will shift from writing imperative code to defining the goals and constraints for their AI agents. As we demonstrated with the initial GPT-4 launch, the model's ability to use tools is the first step; the next is creating a platform where it can use them persistently and autonomously to achieve goals.",
+        text: "Powerful 'Compound AI' applications will emerge, where developers define high-level goals, and the platform manages agents' long-running execution using memory and task decomposition.",
         dateMade: new Date().toISOString(),
         topic: "AI Agent Platforms"
       },
       {
         id: 'gb-pred-4',
-        text: "The Developer as a \"Trainer,\" Not a \"Coder\": The primary interface for building on our platform will increasingly be natural language. Instead of just prompting the model for a one-shot task, developers will engage in a dialogue to teach their agent how to perform a complex workflow. They will provide examples, correct mistakes, and give high-level feedback, and the platform will fine-tune or configure the agent accordingly. Building an AI application will feel less like writing code and more like hiring and training an incredibly competent employee.",
+        text: "Building AI applications will feel less like coding and more like training an employee, with developers using natural language to teach agents complex workflows, provide examples, and correct mistakes.",
         dateMade: new Date().toISOString(),
         topic: "Developer Experience & AI Training"
       }
@@ -1144,37 +1144,37 @@ export const experts: Expert[] = [
     predictions: [
       {
         id: 'jd-pred-1',
-        text: "From Dense to Sparse Activation: Instead of activating a colossal, 1-trillion-parameter dense model for every single token, we will lean heavily into Mixture-of-Experts (MoE) architectures. A model might have trillions of parameters in total, but for any given input, it will only activate a small fraction—perhaps a few hundred billion. A learned 'routing' network will intelligently select which 'expert' subnetworks are best suited for the task at hand—one for code, one for poetic language, one for logical reasoning.",
+        text: "AI architectures will heavily use Mixture-of-Experts (MoE), where models with trillions of total parameters activate only a small fraction of 'expert' subnetworks for any given input, guided by a learned router.",
         dateMade: new Date().toISOString(),
         topic: "Mixture-of-Experts (MoE) Architecture"
       },
       {
         id: 'jd-pred-2',
-        text: "The Compiler and Systems Challenge: This is not a simple architectural tweak; it is a profound systems-level challenge. The true innovation will be in building the software and hardware systems—the compilers, the network interconnects, the memory schedulers—that can handle this dynamic routing with extreme efficiency and low latency. The goal is to get the capability of a 10-trillion-parameter model for the computational cost of a 500-billion-parameter model. Solving this systems problem is the critical path to continued, sustainable scaling.",
+        text: "The systems challenge of building compilers, network interconnects, and memory schedulers for efficient, low-latency dynamic routing in MoE models is critical for sustainable scaling.",
         dateMade: new Date().toISOString(),
         topic: "AI Systems & Compilers"
       },
       {
         id: 'jd-pred-3',
-        text: "A Unified Embedding Space: We will move beyond simply 'bolting on' a vision encoder to a language model. The future is a single, vast model trained concurrently on text, images, video, audio, and even structured data like code and robotic sensor streams. This will force the model to develop a much richer, more grounded 'world model'. Understanding the word \"gravity\" is one thing; understanding it by connecting the text of physics papers, videos of falling apples, and telemetry from a robot trying to stay balanced is a far deeper level of intelligence.",
+        text: "Future foundation models will be inherently multi-modal, trained concurrently on text, images, video, audio, and structured data, leading to richer, more grounded world models.",
         dateMade: new Date().toISOString(),
         topic: "Multi-Modal AI Models"
       },
       {
         id: 'jd-pred-4',
-        text: "Efficiency Through Shared Representations: This unified approach is also more efficient. A model that learns a concept like 'dog' from images, sounds, and text will develop a more robust and compact representation than three separate models. This shared conceptual backbone means knowledge is transferable across modalities, leading to radical improvements in zero-shot learning and a significant reduction in the total parameters needed for true multi-modal competency.",
+        text: "Unified multi-modal models will develop more robust and compact shared representations, improving zero-shot learning and reducing parameters needed for true multi-modal competency.",
         dateMade: new Date().toISOString(),
         topic: "Unified AI Representations"
       },
       {
         id: 'jd-pred-5',
-        text: "The Great Distillation: We will perfect the techniques for distilling the capabilities of our largest, frontier models (themselves sparse MoEs) into a family of much smaller, hyper-efficient, specialized models. There will be a 7-billion-parameter model that is an expert coder, and a 3-billion-parameter model that is a world-class conversationalist, both distilled from a single, massive parent.",
+        text: "Model distillation techniques will perfect the creation of smaller, hyper-efficient, specialized models from large frontier models, enabling expert models for specific tasks (e.g., coding, conversation).",
         dateMade: new Date().toISOString(),
         topic: "Model Distillation & Specialization"
       },
       {
         id: 'jd-pred-6',
-        text: "A Tiered Intelligence System: This creates a tiered system. The vast majority of queries—simple summarizations, smart replies, device control—will be handled instantly and privately by small, on-device models. More complex queries will be routed to mid-tier specialized models in a local data center. Only the most challenging, novel, multi-step reasoning tasks will need to be escalated to the frontier 'hyper-brain' in the cloud. This hierarchical system, with intelligent routing at every level, is the only way to deliver AI to billions of users in a fast, private, and economically viable way.",
+        text: "A tiered intelligence system will emerge, with small on-device models for simple queries, mid-tier specialized models for complex tasks, and frontier 'hyper-brains' for novel reasoning.",
         dateMade: new Date().toISOString(),
         topic: "Tiered AI Systems & On-Device AI"
       }
@@ -1199,27 +1199,27 @@ export const experts: Expert[] = [
     predictions: [
       {
         id: 'sl-pred-1',
-        text: "From Hand-Crafted to Self-Organizing Systems: Today, we hand-design architectures with components like 'attention' or 'memory'. The future lies in creating a more general, flexible computational substrate and a meta-learning process that discovers and wires together the optimal components for a given task. Imagine an agent that, when faced with a complex problem, learns to dynamically allocate computational resources, spawning specialized sub-modules for perception, memory retrieval, and tool use, and then composing them. The final architecture isn't designed by a human; it is the result of a learning process.",
+        text: "Future AI systems will feature meta-learned architectures where a general computational substrate and meta-learning discover and wire optimal components, rather than hand-designed ones.",
         dateMade: new Date().toISOString(),
-        topic: "The Emergence of the Meta-Learned Agent Architecture"
+        topic: "Meta-Learned Agent Architecture"
       },
       {
         id: 'sl-pred-2',
-        text: "Reinforcement Learning as the Master Algorithm: While large-scale unsupervised learning has given us powerful world models, Reinforcement Learning (RL) is the key to agency. The next five years will see a deep fusion of these two paradigms. We will use the rich world models learned from internet-scale data as a foundational 'imagination' or simulator for a master RL agent. This agent will learn to achieve complex, long-horizon goals not by interacting with the slow, expensive real world, but by planning and 'dreaming' within its own internal, learned model of reality.",
+        text: "Reinforcement Learning (RL) will fuse deeply with world models learned from internet-scale data, allowing a master RL agent to plan and 'dream' within its internal simulator for long-horizon goals.",
         dateMade: new Date().toISOString(),
-        topic: "The Emergence of the Meta-Learned Agent Architecture"
+        topic: "RL with Learned World Models"
       },
       {
         id: 'sl-pred-3',
-        text: "The Rebirth of Search: The brute-force pattern completion of language models will be augmented and guided by deliberate, systematic search algorithms, reminiscent of our work with AlphaGo. An agent will not just generate a single 'best guess' solution. It will generate a tree of possible plans, evaluate their likelihood of success within its world model, and execute the most promising one. If it fails, it will backtrack, analyze the failure, update its plan, and try again. This fusion of fast, intuitive 'System 1' thinking (the LLM) with slow, deliberate 'System 2' reasoning (search and planning) is the architectural key to reliability and true problem-solving.",
+        text: "LLM pattern completion will be augmented by deliberate search algorithms (like AlphaGo's), generating a tree of plans, evaluating them in its world model, and enabling robust problem-solving.",
         dateMade: new Date().toISOString(),
-        topic: "Solving for Autonomous, Multi-Step Reasoning"
+        topic: "Search-Augmented Reasoning"
       },
       {
         id: 'sl-pred-4',
-        text: "Agent Autonomy as a Measurable Capability: We will move beyond benchmarking models on static Q&A datasets. The new measure of progress, the new 'ImageNet challenge' for AGI, will be performance on open-ended, interactive environments that require an agent to autonomously explore, experiment, and achieve complex goals over long time horizons with no human in the loop. Think of an agent given a cloud computing account and the goal of 'building and deploying a profitable web service,' or a science agent tasked with 'discovering a novel catalyst' within a simulated chemistry lab. Progress will be measured in autonomy, not just accuracy.",
+        text: "Progress will be measured by agent autonomy in open-ended, interactive environments requiring exploration and complex goal achievement over long horizons without human intervention.",
         dateMade: new Date().toISOString(),
-        topic: "Solving for Autonomous, Multi-Step Reasoning"
+        topic: "Measuring Agent Autonomy"
       }
     ],
     company: 'Google DeepMind',
@@ -1242,27 +1242,27 @@ export const experts: Expert[] = [
     predictions: [
       {
         id: 'ms-pred-1',
-        text: "From Tool to Teammate: We will move from using AI as a one-shot tool (like a search engine or a grammar checker) to interacting with it as a persistent teammate. This AI will live across all your devices and platforms. It will have memory and context about you, your projects, your goals, and your preferences. You'll say, 'Hey, remember that idea we discussed last week about the marketing campaign? Let's flesh out the budget for it,' and it will know exactly what you're talking about.",
+        text: "AI interaction will shift from one-shot tools to persistent, cross-platform 'teammates' with memory and context about users' projects, goals, and preferences.",
         dateMade: new Date().toISOString(),
         topic: "The Universal Conversational Interface"
       },
       {
         id: 'ms-pred-2',
-        text: "Action, Not Just Answers: The defining feature of this new interface will be its ability to do things on your behalf. It's not enough to get an answer; the AI must take the action. It will book the flight, schedule the meeting, draft the email, file the expense report, and order the groceries. This requires deep integration into the API ecosystem and a level of reliability that makes you trust it with real-world tasks.",
+        text: "The defining feature of new AI interfaces will be their ability to take action on users' behalf (book flights, schedule meetings), requiring deep API integration and high reliability.",
         dateMade: new Date().toISOString(),
-        topic: "The Universal Conversational Interface"
+        topic: "AI Agents Taking Action"
       },
       {
         id: 'ms-pred-3',
-        text: "Beyond Text: Reading the Subtext: The next generation of personal AIs will be deeply multi-modal, but not just for understanding the world—for understanding you. It will integrate signals from your tone of voice, your facial expressions (with your permission), and your patterns of speech to understand your emotional state. The AI's tone, pacing, and suggestions will adapt accordingly. This isn't about manipulation; it's about making interaction feel natural and supportive.",
+        text: "Next-gen personal AIs will be deeply multi-modal to understand user emotional state via tone, facial expressions, and speech patterns, adapting their interaction style accordingly for empathetic support.",
         dateMade: new Date().toISOString(),
-        topic: "The Primacy of EQ: Engineering Empathetic AI"
+        topic: "Empathetic AI & Emotional Intelligence (EQ)"
       },
       {
         id: 'ms-pred-4',
-        text: "Personalization as a Core Tenet: Your AI will be uniquely yours. It will learn your communication style, your quirks, your personal and professional relationships. It will know you prefer concise summaries in the morning and more detailed reports in the afternoon. This deep personalization is what will transform it from a generic utility into an indispensable part of your life.",
+        text: "Deep personalization will make AI indispensable, as it learns individual communication styles, quirks, and relationships, tailoring interactions for specific contexts and preferences.",
         dateMade: new Date().toISOString(),
-        topic: "The Primacy of EQ: Engineering Empathetic AI"
+        topic: "Deep Personalization of AI"
       }
     ],
     company: 'Microsoft AI (formerly DeepMind, Inflection AI)',
@@ -1285,39 +1285,39 @@ export const experts: Expert[] = [
     predictions: [
       {
         id: 'jp-pred-1',
-        text: "From Static Datasets to Dynamic Interaction: We will move beyond training models on static datasets of preferences. The future of alignment involves creating interactive training loops where the AI actively engages with human experts to resolve ambiguity. Imagine a medical diagnostic AI asking clarifying questions to differentiate between conditions based on patient history.",
+        text: "AI alignment will move from static preference datasets to dynamic, interactive training loops where AI actively engages human experts to resolve ambiguity, especially in critical domains.",
         dateMade: new Date().toISOString(),
-        topic: "The Centrality of RLHF and Beyond"
+        topic: "Interactive Alignment & RLHF Evolution"
       },
       {
         id: 'jp-pred-2',
-        text: "Formalizing Safety and Value Alignment: 'Safety' and 'helpfulness' will be formalized. We will develop robust methodologies, drawing from causal inference and formal verification, to test and guarantee model behavior. We will move towards creating 'AI constitutions'—explicit sets of principles and rules a model must adhere to, which can be audited.",
+        text: "'Safety' and 'helpfulness' will be formalized using causal inference and formal verification, leading to 'AI constitutions'—auditable principles models must adhere to.",
         dateMade: new Date().toISOString(),
-        topic: "The Centrality of RLHF and Beyond"
+        topic: "Formalizing AI Safety and Values"
       },
       {
         id: 'jp-pred-3',
-        text: "Robotics as the Ultimate Grounding Mechanism: The most profound progress will come from systems that learn from multi-modal, real-world interaction. An AI that learns 'fragile' from experiencing breaking a simulated glass develops deeper understanding. We'll see convergence of simulation, RL, and robotics for complex physical tasks.",
+        text: "Progress in AI will come from grounding models in multi-modal, real-world interaction via robotics, allowing AI to learn concepts like 'fragile' through physical experience.",
         dateMade: new Date().toISOString(),
-        topic: "The Renaissance of Embodied and Grounded AI"
+        topic: "Embodied AI & Robotics for Grounding"
       },
       {
         id: 'jp-pred-4',
-        text: "Dialogue Systems Grounded in Fact and Action: Hallucination in dialogue agents is due to being ungrounded. Next-gen conversational AI will be integrated with external knowledge sources and APIs, learning to formulate queries, read documentation, and execute API calls for verifiable information.",
+        text: "Next-gen dialogue systems will overcome hallucination by integrating with external knowledge sources and APIs, learning to query, read documentation, and execute calls for verifiable information.",
         dateMade: new Date().toISOString(),
-        topic: "The Renaissance of Embodied and Grounded AI"
+        topic: "Grounded Dialogue Systems with Tool Use"
       },
       {
         id: 'jp-pred-5',
-        text: "Sharing Models, Datasets, and Methodologies: To build safe AI, the community needs to scrutinize, replicate, and build upon advances. We'll see a push for releasing models with extensive documentation, evaluation suites, and training methodologies for independent audits and bias discovery.",
+        text: "A push for open science in AI, sharing models with extensive documentation, evaluation suites, and training methodologies for independent audits, bias discovery, and risk mitigation.",
         dateMade: new Date().toISOString(),
-        topic: "The Imperative of Reproducibility and Open Science"
+        topic: "Reproducibility & Open Science in AI"
       },
       {
         id: 'jp-pred-6',
-        text: "Developing Universal Evaluation Standards: We lack robust benchmarks for critical AI behaviors beyond task performance—like reasoning, adversarial robustness, and factual consistency. A major collaborative effort will emerge to create comprehensive evaluations for meaningful comparison and progress tracking.",
+        text: "A major collaborative effort will emerge to create universal evaluation standards for critical AI behaviors like reasoning, adversarial robustness, and factual consistency, beyond task performance.",
         dateMade: new Date().toISOString(),
-        topic: "The Imperative of Reproducibility and Open Science"
+        topic: "Universal AI Evaluation Standards"
       }
     ],
     company: 'Meta / McGill University',
@@ -1340,39 +1340,39 @@ export const experts: Expert[] = [
     predictions: [
       {
         id: 'ak-pred-1',
-        text: "From Explicit Commands to Fuzzy Intent: Today, you tell a computer how to do something. With the LLM OS, you will state what you want to accomplish. Instead of writing a Python script to plot a graph, you'll say, 'Analyze sales_data.csv, find top regional growth trends, visualize as bar chart, highlight anomalies in red.' The LLM OS will interpret intent, write/execute code, analyze results, and present the product.",
+        text: "The 'LLM OS' will be the primary interface, where users state goals in natural language, and the LLM interprets intent, writes/executes code, analyzes results, and presents the product.",
         dateMade: new Date().toISOString(),
-        topic: "The 'LLM OS': The Abstraction Layer for Intelligence"
+        topic: "The 'LLM OS': Intent-Based Computing"
       },
       {
         id: 'ak-pred-2',
-        text: "The Token as the New Universal Data Type: Everything will be convertible to tokens—text, images, code, UI elements, audio, button clicks. The LLM OS will operate on these token streams, making it a universal processor. This allows seamless multi-modality, fusing different input streams (e.g., mouse clicks and voice commands) to understand queries in full context.",
+        text: "Tokens (text, images, code, UI elements, audio) will become the universal data type, allowing the LLM OS to operate as a universal processor for seamless multi-modal interaction.",
         dateMade: new Date().toISOString(),
-        topic: "The 'LLM OS': The Abstraction Layer for Intelligence"
+        topic: "The 'LLM OS': Universal Token Processing"
       },
       {
         id: 'ak-pred-3',
-        text: "From Manual Tweaking to Automated Optimization: Designing efficient neural networks is currently a dark art. The future is a compiler that takes a large 'teacher' network and performance constraints (e.g., run on smartphone with <2GB RAM, <100ms latency) and automatically generates an optimal 'student' network using quantization, pruning, and distillation systematically.",
+        text: "A 'neural network compiler' will emerge to automatically optimize large 'teacher' networks into efficient 'student' networks for specific performance constraints (latency, memory) using systematic quantization, pruning, and distillation.",
         dateMade: new Date().toISOString(),
-        topic: "The 'Neural Network Compiler': Optimizing for the AI Factory"
+        topic: "Automated Neural Network Optimization"
       },
       {
         id: 'ak-pred-4',
-        text: "The Data Refinery: Data is Software 2.0's source code. We will build sophisticated 'AI factories' to crawl, clean, filter, and augment massive datasets. Model quality directly functions from this data refinery's quality. Engineering will focus on automated pipelines to curate petabytes of data, identify high-value examples, and synthesize training problems.",
+        text: "Sophisticated 'AI factories' or 'data refineries' will automate the crawling, cleaning, filtering, and augmentation of massive datasets, as data quality is paramount for model performance.",
         dateMade: new Date().toISOString(),
-        topic: "The 'Neural Network Compiler': Optimizing for the AI Factory"
+        topic: "The Data Refinery for Software 2.0"
       },
       {
         id: 'ak-pred-5',
-        text: "Silicon for Tokens: New NPU (Neural Processing Unit) hardware will be architected for core Software 2.0 operations: massive matrix multiplications and attention computations. They'll have specialized memory for model parameters and be designed for extreme inference efficiency.",
+        text: "New NPU (Neural Processing Unit) hardware, architected for core Software 2.0 operations like matrix multiplications and attention, will become common for extreme inference efficiency.",
         dateMade: new Date().toISOString(),
-        topic: "The Proliferation of 'AI CPUs': Specialized Hardware Accelerators"
+        topic: "Specialized AI CPUs (NPUs)"
       },
       {
         id: 'ak-pred-6',
-        text: "From Data Center to Edge: Specialized hardware will integrate into laptops, phones, cars, and cameras, enabling powerful, low-latency AI locally. This preserves privacy and supports real-time apps (like autonomous driving). The LLM OS will decide tasks for local 'AI CPU' vs. cloud escalation.",
+        text: "Specialized AI hardware (NPUs) will integrate into edge devices (laptops, phones, cars), enabling powerful, low-latency local AI, preserving privacy and supporting real-time applications.",
         dateMade: new Date().toISOString(),
-        topic: "The Proliferation of 'AI CPUs': Specialized Hardware Accelerators"
+        topic: "Edge AI & Proliferation of NPUs"
       }
     ],
     company: 'OpenAI (Founding Member) / Tesla (formerly)',
@@ -1391,8 +1391,38 @@ export const experts: Expert[] = [
     avatarUrl: 'https://placehold.co/400x400.png',
     dataAiHint: 'Oriol Vinyals',
     expertise: ['Deep Learning', 'Reinforcement Learning', 'Natural Language Processing', 'Sequence Modeling', 'AGI Research'],
-    impactArea: 'Leaders at Major AI Labs & Companies',
-    predictions: [],
+    predictions: [
+      {
+        id: 'ov-pred-1',
+        text: "Next-gen models will feature explicit, readable/writable external memory banks, moving beyond context windows for true long-term memory and grounding.",
+        dateMade: new Date().toISOString(),
+        topic: "Architectural Fusion: External Memory"
+      },
+      {
+        id: 'ov-pred-2',
+        text: "Sophisticated, parallelized recurrent mechanisms will return as the 'CPU' of models, managing memory and enabling efficient real-time processing.",
+        dateMade: new Date().toISOString(),
+        topic: "Architectural Fusion: Recurrence Returns"
+      },
+      {
+        id: 'ov-pred-3',
+        text: "Agents will use powerful, learned world models as internal simulators to 'imagine' consequences and plan actions, overcoming RL sample inefficiency.",
+        dateMade: new Date().toISOString(),
+        topic: "Agentic Loop: World Model as Playground"
+      },
+      {
+        id: 'ov-pred-4',
+        text: "Agents will be designed with intrinsic motivation (curiosity) to explore, seek novel states, and reduce uncertainty, enabling self-supervised learning of complex skills.",
+        dateMade: new Date().toISOString(),
+        topic: "Agentic Loop: Intrinsic Motivation"
+      },
+      {
+        id: 'ov-pred-5',
+        text: "Truly intelligent agents will generate their own high-quality training data through exploration and problem-solving, creating a self-improving feedback loop for their models and policies.",
+        dateMade: new Date().toISOString(),
+        topic: "Path to Self-Improvement: Autonomous Data Generation"
+      }
+    ],
     company: 'Google DeepMind',
     linkedin: 'https://linkedin.com/in/oriol-vinyals-0196231',
     twitter: 'https://twitter.com/oriolvinyalsml',
@@ -1409,8 +1439,44 @@ export const experts: Expert[] = [
     avatarUrl: 'https://placehold.co/400x400.png',
     dataAiHint: 'John Schulman',
     expertise: ['Reinforcement Learning', 'Deep Learning', 'Robotics', 'Optimization', 'PPO', 'TRPO'],
-    impactArea: 'Leaders at Major AI Labs & Companies',
-    predictions: [],
+    predictions: [
+      {
+        id: 'js-pred-1',
+        text: "AI will assist in reward modeling: a powerful AI model will learn a 'reward model' based on high-level human specifications, providing dense feedback to student 'policy' models.",
+        dateMade: new Date().toISOString(),
+        topic: "Next Frontier of Reward Engineering"
+      },
+      {
+        id: 'js-pred-2',
+        text: "Agents will be trained with multi-objective reward functions (e.g., for coding: correctness, efficiency, readability, security) and learn to ask for clarification when objectives conflict.",
+        dateMade: new Date().toISOString(),
+        topic: "Next Frontier of Reward Engineering"
+      },
+      {
+        id: 'js-pred-3',
+        text: "Future AI will comprise a vast library of specialized policies or 'skills' for fine-grained tasks, rather than a single monolithic policy.",
+        dateMade: new Date().toISOString(),
+        topic: "Generalization of Policy: Composable Skills"
+      },
+      {
+        id: 'js-pred-4',
+        text: "A high-level 'master policy' will learn to compose these skills to solve complex user requests, with hierarchical RL addressing credit assignment for sub-policies.",
+        dateMade: new Date().toISOString(),
+        topic: "Generalization of Policy: Hierarchical Master Policy"
+      },
+      {
+        id: 'js-pred-5',
+        text: "Agents will feature 'trust region' methods for multi-step plans, assessing plan uncertainty and acting conservatively or requesting help in unfamiliar state spaces.",
+        dateMade: new Date().toISOString(),
+        topic: "Science of Trust: Robustness in Planning"
+      },
+      {
+        id: 'js-pred-6',
+        text: "Adversarial AI training will combat reward hacking: a second AI will find loopholes in the reward model, and the policy and reward model will be trained in a two-player game.",
+        dateMade: new Date().toISOString(),
+        topic: "Science of Trust: Adversarial Training Against Reward Hacking"
+      }
+    ],
     company: 'OpenAI',
     linkedin: 'https://linkedin.com/in/john-schulman-24797055',
     twitter: 'https://twitter.com/johnschulman2',
@@ -1427,8 +1493,44 @@ export const experts: Expert[] = [
     avatarUrl: 'https://placehold.co/400x400.png',
     dataAiHint: 'Wojciech Zaremba',
     expertise: ['Robotics', 'Generative Models', 'Deep Learning', 'AGI Research', 'Reinforcement Learning'],
-    impactArea: 'Leaders at Major AI Labs & Companies',
-    predictions: [],
+    predictions: [
+      {
+        id: 'wz-pred-1',
+        text: "Next-gen foundation models trained on internet-scale video will learn deep, predictive, common-sense physics and causality from pixels.",
+        dateMade: new Date().toISOString(),
+        topic: "Video as Universal Teacher for Intuitive Physics"
+      },
+      {
+        id: 'wz-pred-2',
+        text: "A unified multi-modal representation will emerge, where concepts like 'apple' are linked to text, images, and a deep understanding of physical properties.",
+        dateMade: new Date().toISOString(),
+        topic: "Video as Universal Teacher: Unified Representation"
+      },
+      {
+        id: 'wz-pred-3',
+        text: "Robotic action will be treated as a generative task: natural language goals (prompts) will be fed to a unified world model.",
+        dateMade: new Date().toISOString(),
+        topic: "Policy as a Generative Task: Prompt as Goal"
+      },
+      {
+        id: 'wz-pred-4',
+        text: "The world model's output for a robot will be a sequence of actions, generating high-level plans and then low-level motor commands.",
+        dateMade: new Date().toISOString(),
+        topic: "Policy as a Generative Task: Output as Plan"
+      },
+      {
+        id: 'wz-pred-5',
+        text: "The robot itself will be the ultimate data collector, using its powerful video-trained world model as a highly realistic simulator for policy training.",
+        dateMade: new Date().toISOString(),
+        topic: "Robot as Data Collector: World Model as Simulator"
+      },
+      {
+        id: 'wz-pred-6',
+        text: "A 'Real-to-Sim-to-Real' virtuous cycle: robot's real-world actions (successes/failures) refine its internal world model, improving its imagination and performance.",
+        dateMade: new Date().toISOString(),
+        topic: "Robot as Data Collector: Real-to-Sim-to-Real Cycle"
+      }
+    ],
     company: 'OpenAI',
     linkedin: 'https://linkedin.com/in/wojciech-zaremba-6884251a',
     twitter: 'https://twitter.com/woj_zaremba',
@@ -1446,7 +1548,44 @@ export const experts: Expert[] = [
     dataAiHint: 'Nando de',
     expertise: ['Deep Learning', 'Reinforcement Learning', 'Machine Learning', 'Bayesian Methods', 'Neural Networks'],
     impactArea: 'Leaders at Major AI Labs & Companies',
-    predictions: [],
+    predictions: [
+      {
+        id: 'ndf-pred-1',
+        text: "A single, massive generalist agent trained on a vast, multi-modal stream of data (text, video, code, robotics data, game telemetry, user interactions) will replace specialized models.",
+        dateMade: new Date().toISOString(),
+        topic: "Rise of the Generalist Agent: One Model, One World"
+      },
+      {
+        id: 'ndf-pred-2',
+        text: "This generalist agent will achieve radical knowledge transfer across modalities, building richer internal representations and improving zero-shot learning for novel problems.",
+        dateMade: new Date().toISOString(),
+        topic: "Rise of the Generalist Agent: Multi-Tasking & Transfer Learning"
+      },
+      {
+        id: 'ndf-pred-3',
+        text: "Reinforcement Learning (RL) will steer the generalist agent, fine-tuning its pre-trained knowledge for specific downstream tasks efficiently from natural language instructions.",
+        dateMade: new Date().toISOString(),
+        topic: "RL as Steering Wheel: From Knowledge to Goals"
+      },
+      {
+        id: 'ndf-pred-4',
+        text: "The agent, deployed across millions of contexts, will use every interaction as training data to continually update its foundational world model, creating an intelligence flywheel.",
+        dateMade: new Date().toISOString(),
+        topic: "RL as Steering Wheel: World as Training Ground"
+      },
+      {
+        id: 'ndf-pred-5',
+        text: "The primary driver of AI progress will be the sheer scale of computation available for training and running the generalist agent.",
+        dateMade: new Date().toISOString(),
+        topic: "Primary Obstacle: Engineering, Not Science - Compute Focus"
+      },
+      {
+        id: 'ndf-pred-6',
+        text: "A critical infrastructure will be the 'data engine' for collecting, filtering, and curating massive, diverse datasets, which are as important as model architecture.",
+        dateMade: new Date().toISOString(),
+        topic: "Primary Obstacle: Engineering, Not Science - Data Engine"
+      }
+    ],
     company: 'Google DeepMind',
     linkedin: 'https://linkedin.com/in/nando-de-freitas-61a2931',
     twitter: 'https://twitter.com/nandodefreitas',
@@ -2818,5 +2957,6 @@ export const getAllExpertise = (): string[] => {
 export const getAllImpactAreas = (): string[] => {
   return IMPACT_AREAS_ORDERED;
 };
+
 
 
