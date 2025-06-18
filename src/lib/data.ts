@@ -950,7 +950,38 @@ export const experts: Expert[] = [
     dataAiHint: 'Demis Hassabis',
     expertise: ['AGI Research', 'Neuroscience', 'Machine Learning', 'AI Leadership', 'Game AI'],
     impactArea: 'Leaders at Major AI Labs & Companies',
-    predictions: [],
+    predictions: [
+      {
+        id: 'dh-pred-1',
+        text: "The defining transition of this next era will be the move from passive, disembodied intelligence to active, grounded systems that can interact with and reason about the world in a scientifically rigorous way. Our progress to date, from AlphaGo to AlphaFold, has been about mastering closed, digital domains. The next grand challenge is to break out of the digital sandbox.",
+        dateMade: new Date().toISOString(),
+        topic: "Future AI: Grounded & Active Systems"
+      },
+      {
+        id: 'dh-pred-2',
+        text: "The true paradigm shift will be systems that can do science, creating a 'virtuous cycle' of AI-driven discovery. This involves AI generating novel, falsifiable hypotheses from first principles, not just analyzing existing data. This will apply to materials science, drug discovery, and climate modeling.",
+        dateMade: new Date().toISOString(),
+        topic: "AI in Scientific Discovery: Hypothesis Generation"
+      },
+      {
+        id: 'dh-pred-3',
+        text: "Embodied scientific tools and integrated lab automation are key. AI will design experiments, execute them via robotics, interpret real-world results, and refine its models, dramatically accelerating discovery by breaking the bottleneck of physical experimentation.",
+        dateMade: new Date().toISOString(),
+        topic: "AI in Scientific Discovery: Automated Experimentation"
+      },
+      {
+        id: 'dh-pred-4',
+        text: "Architectural shifts beyond transformers are needed, drawing from neuroscience. This includes sophisticated, dynamic memory systems inspired by the human hippocampus for long-horizon reasoning, cumulative learning, and reducing hallucination.",
+        dateMade: new Date().toISOString(),
+        topic: "AI Architectures: Memory & Neuroscience"
+      },
+      {
+        id: 'dh-pred-5',
+        text: "We will see the rise of sophisticated, multi-agent systems. A 'master' planning agent will decompose complex problems and delegate sub-tasks to specialized models (vision, language, code, physics simulators), orchestrating their outputs for coherent solutions to real-world goals.",
+        dateMade: new Date().toISOString(),
+        topic: "AI Architectures: Multi-Agent Systems"
+      }
+    ],
     company: 'Google DeepMind',
     linkedin: 'https://linkedin.com/in/demishassabis',
     twitter: 'https://twitter.com/demishassabis',
@@ -2538,3 +2569,4 @@ export const getAllExpertise = (): string[] => {
 export const getAllImpactAreas = (): string[] => {
   return IMPACT_AREAS_ORDERED;
 };
+
