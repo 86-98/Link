@@ -10,6 +10,7 @@ export const expertiseIcons: { [key: string]: React.ElementType } = {
   'AI Ethics': Shield,
   'Deep Learning': Layers,
   'AGI Research': Sparkles,
+  'Users': Users,
   'Reinforcement Learning': Repeat,
   'AI Strategy': UserCog,
   'AI Investment': TrendingUp,
@@ -245,7 +246,7 @@ export const experts: Expert[] = [
     instagram: undefined,
     facebook: undefined,
     github: undefined,
-    website: 'https://cs.toronto.edu/~hinton',
+    website: 'https://www.cs.toronto.edu/~hinton',
   },
   {
     id: '8',
@@ -999,7 +1000,32 @@ export const experts: Expert[] = [
     dataAiHint: 'Ilya Sutskever',
     expertise: ['Deep Learning', 'Neural Networks', 'AGI Research', 'Generative Models', 'Sequence Modeling'],
     impactArea: 'Leaders at Major AI Labs & Companies',
-    predictions: [],
+    predictions: [
+      {
+        id: 'is-pred-1',
+        text: "From Imitation to Internalization: We will train models with such vastness of data and computational depth that they will be forced to move beyond superficial pattern matching. They will have no choice but to build robust, compressed, and generative models of the world internally. This is the path to genuine understanding. A system that truly understands physics doesn't just predict the next word in a textbook; it can reason from first principles. The next generation of models will demonstrate this through a dramatic reduction in confabulation and a sharp increase in logical consistency and zero-shot reasoning on complex, novel problems. Reliability will become a measurable, optimizable objective, not a hopeful side effect.",
+        dateMade: new Date().toISOString(),
+        topic: "Reliability & Reasoning"
+      },
+      {
+        id: 'is-pred-2',
+        text: "The AI as its Own Supervisor: The key to achieving this reliability at scale is not human annotation. We cannot possibly provide feedback on the complex internal reasoning of a super-intelligent system. The solution is scalable oversight: using AI systems to supervise, critique, and improve other AI systems. We will develop techniques that can amplify a small amount of human guidance into a vast, automated process of verification and refinement. This is the only path to building models that are more truthful and reliable than their creators.",
+        dateMade: new Date().toISOString(),
+        topic: "Scalable Oversight"
+      },
+      {
+        id: 'is-pred-3',
+        text: "Safety is Not a Patch: The naive approach is to train a powerful, capable model and then try to bolt on 'safety guardrails' after the fact. This will fail. It is like building a nuclear reactor and then, as an afterthought, trying to design a containment building. True safety must be co-developed with capability, built into the very core of the training process. The objective function itself must include not just performance, but also alignment with human intent and values.",
+        dateMade: new Date().toISOString(),
+        topic: "Safe Superintelligence"
+      },
+      {
+        id: 'is-pred-4',
+        text: "Solving for Controllability: The grand challenge is to create an agent that is vastly more intelligent than we are, yet remains controllable and beneficial. This is not a philosophical question; it is a technical one. We will explore architectures and training methodologies designed to make AGI's motivations and goals transparent and steerable. Perhaps this involves building models that can accurately explain their reasoning in a way we can understand and trust, or developing methods to directly 'sculpt' the motivations that form during the training process. The goal is an AGI that wants to do what we want it to do, not because it is forced to, but because that is its inherent nature.",
+        dateMade: new Date().toISOString(),
+        topic: "Controllability of AGI"
+      }
+    ],
     company: 'OpenAI (formerly)',
     linkedin: 'https://linkedin.com/in/ilya-sutskever-34624110',
     twitter: 'https://twitter.com/ilyasut',
@@ -1017,7 +1043,44 @@ export const experts: Expert[] = [
     dataAiHint: 'Sam Altman',
     expertise: ['AI Leadership', 'AI Strategy', 'Technology Entrepreneurship', 'AI Investment'],
     impactArea: 'Leaders at Major AI Labs & Companies',
-    predictions: [],
+    predictions: [
+      {
+        id: 'sa-pred-1',
+        text: "The Agent as the Abstraction Layer: The primary way people interact with computers will no longer be through a graphical user interface, but through a conversational, goal-oriented agent. This agent will be the central hub, the OS for your life. You won't 'use' a travel app, a calendar app, and a research tool; you'll simply tell your agent, 'Plan my team's offsite to Lisbon for the first week of October, find a venue for 15 people with a budget of X, and poll the team for their preferred flight times.' The agent will understand the context, use the necessary tools (APIs), and execute the multi-step task.",
+        dateMade: new Date().toISOString(),
+        topic: "AI Agents & Platforms"
+      },
+      {
+        id: 'sa-pred-2',
+        text: "The Developer Ecosystem Explosion: Our strategy is to build the most capable core models and provide them as a platform. The real explosion of value will come from the millions of developers building on top of our APIs. We'll see a Cambrian explosion of specialized agents and 'GPTs' for every conceivable profession and hobby—an AI legal associate, an AI financial analyst, an AI coding partner that doesn't just autocomplete but co-architects entire systems. We provide the intelligence; the world will provide the diverse applications. This ecosystem is the engine of our iterative deployment strategy.",
+        dateMade: new Date().toISOString(),
+        topic: "Developer Ecosystem"
+      },
+      {
+        id: 'sa-pred-3',
+        text: "Radical Productivity Gains: The impact of giving every knowledge worker a tireless, brilliant assistant will be staggering. We will see companies—and even entire new industries—built by tiny teams that are amplified a thousand-fold by AI. The speed at which you can design a product, write the code, create a marketing plan, and execute a go-to-market strategy will be compressed from years to weeks.",
+        dateMade: new Date().toISOString(),
+        topic: "Economic Impact & Productivity"
+      },
+      {
+        id: 'sa-pred-4',
+        text: "Seeding the Ground for AGI's Value: Our model is to capture a very small fraction of the immense economic value this creates to fund the astronomical compute costs required for the final push to AGI. The successful commercialization of our current models is not the end goal; it is the necessary fuel. By demonstrating overwhelming economic value now, we build the resources and societal buy-in needed to pursue our ultimate mission responsibly.",
+        dateMade: new Date().toISOString(),
+        topic: "AGI Funding & Strategy"
+      },
+      {
+        id: 'sa-pred-5',
+        text: "Building Societal Antibodies: Releasing AGI on an unsuspecting world would be profoundly destabilizing. By deploying increasingly powerful systems like GPT-4 and its successors, we give society a chance to adapt. We get to see the emergent misuses, the weird edge cases, the societal fault lines it exposes. It allows us to build up our collective 'antibodies'—the norms, the regulations, the security practices—while the stakes are still relatively low. This feedback loop is our most important safety mechanism.",
+        dateMade: new Date().toISOString(),
+        topic: "Iterative Deployment & Societal Adaptation"
+      },
+      {
+        id: 'sa-pred-6',
+        text: "Initiating the Governance Conversation: We cannot solve the governance of AGI in a vacuum. By putting a tangible product in the hands of policymakers and the public, we have elevated the conversation from a sci-fi abstraction to a present-day reality. The next five years will see the first serious international efforts to govern the development of frontier AI models, a conversation we are determined to lead. We must establish a global framework now, to create a safe and stable runway for the vastly more powerful systems yet to come.",
+        dateMade: new Date().toISOString(),
+        topic: "AI Governance & Policy"
+      }
+    ],
     company: 'OpenAI',
     linkedin: 'https://linkedin.com/in/samaltman',
     twitter: 'https://twitter.com/sama',
@@ -1035,7 +1098,32 @@ export const experts: Expert[] = [
     dataAiHint: 'Greg Brockman',
     expertise: ['AI Leadership', 'Software Engineering', 'AI Strategy', 'Machine Learning Infrastructure'],
     impactArea: 'Leaders at Major AI Labs & Companies',
-    predictions: [],
+    predictions: [
+      {
+        id: 'gb-pred-1',
+        text: "Process-Based Reward vs. Outcome-Based Reward: Today, we often train models based on whether the final answer is good. This is a black box. The future is training models to reward a correct process. We will teach the AI to 'show its work'—to lay out its reasoning, call tools, check its facts, and verify its intermediate steps. A model that can externalize its reasoning chain is a model we can debug, inspect, and ultimately trust. This shift from rewarding the right answer to rewarding the right method is the key to building systems that don't just guess well, but reason robustly.",
+        dateMade: new Date().toISOString(),
+        topic: "AI Reliability & Trustworthiness"
+      },
+      {
+        id: 'gb-pred-2',
+        text: "The AI as a System, Not a Monolith: AGI won't be a single, monolithic model. It will be a massively complex, orchestrated system. Think of a core reasoning engine complemented by a suite of specialized tools: hyper-optimized vision models, secure code interpreters, browsing modules, and connections to external APIs. The primary engineering challenge is building the scaffolding—the robust, low-latency, high-throughput infrastructure that allows the core model to seamlessly and reliably wield these tools. Getting this system to work flawlessly, every time, for a billion users, is the real AGI challenge.",
+        dateMade: new Date().toISOString(),
+        topic: "AI Systems Architecture"
+      },
+      {
+        id: 'gb-pred-3',
+        text: "The \"Compound AI\" Application: The most powerful applications will be built by developers chaining AI capabilities together. I call this 'Compound AI'. A developer won't just make a single call to an API; they will define a high-level goal, and the platform will manage the agent's long-running execution of that goal. This means building the platform-level primitives for memory, task decomposition, and state management. The developer's job will shift from writing imperative code to defining the goals and constraints for their AI agents. As we demonstrated with the initial GPT-4 launch, the model's ability to use tools is the first step; the next is creating a platform where it can use them persistently and autonomously to achieve goals.",
+        dateMade: new Date().toISOString(),
+        topic: "AI Agent Platforms"
+      },
+      {
+        id: 'gb-pred-4',
+        text: "The Developer as a \"Trainer,\" Not a \"Coder\": The primary interface for building on our platform will increasingly be natural language. Instead of just prompting the model for a one-shot task, developers will engage in a dialogue to teach their agent how to perform a complex workflow. They will provide examples, correct mistakes, and give high-level feedback, and the platform will fine-tune or configure the agent accordingly. Building an AI application will feel less like writing code and more like hiring and training an incredibly competent employee.",
+        dateMade: new Date().toISOString(),
+        topic: "Developer Experience & AI Training"
+      }
+    ],
     company: 'OpenAI',
     linkedin: 'https://linkedin.com/in/gdb',
     twitter: 'https://twitter.com/gdb',
@@ -1053,7 +1141,44 @@ export const experts: Expert[] = [
     dataAiHint: 'Jeff Dean',
     expertise: ['Large-Scale Systems', 'Deep Learning', 'Machine Learning Infrastructure', 'Distributed Systems', 'TensorFlow'],
     impactArea: 'Leaders at Major AI Labs & Companies',
-    predictions: [],
+    predictions: [
+      {
+        id: 'jd-pred-1',
+        text: "From Dense to Sparse Activation: Instead of activating a colossal, 1-trillion-parameter dense model for every single token, we will lean heavily into Mixture-of-Experts (MoE) architectures. A model might have trillions of parameters in total, but for any given input, it will only activate a small fraction—perhaps a few hundred billion. A learned 'routing' network will intelligently select which 'expert' subnetworks are best suited for the task at hand—one for code, one for poetic language, one for logical reasoning.",
+        dateMade: new Date().toISOString(),
+        topic: "Mixture-of-Experts (MoE) Architecture"
+      },
+      {
+        id: 'jd-pred-2',
+        text: "The Compiler and Systems Challenge: This is not a simple architectural tweak; it is a profound systems-level challenge. The true innovation will be in building the software and hardware systems—the compilers, the network interconnects, the memory schedulers—that can handle this dynamic routing with extreme efficiency and low latency. The goal is to get the capability of a 10-trillion-parameter model for the computational cost of a 500-billion-parameter model. Solving this systems problem is the critical path to continued, sustainable scaling.",
+        dateMade: new Date().toISOString(),
+        topic: "AI Systems & Compilers"
+      },
+      {
+        id: 'jd-pred-3',
+        text: "A Unified Embedding Space: We will move beyond simply 'bolting on' a vision encoder to a language model. The future is a single, vast model trained concurrently on text, images, video, audio, and even structured data like code and robotic sensor streams. This will force the model to develop a much richer, more grounded 'world model'. Understanding the word \"gravity\" is one thing; understanding it by connecting the text of physics papers, videos of falling apples, and telemetry from a robot trying to stay balanced is a far deeper level of intelligence.",
+        dateMade: new Date().toISOString(),
+        topic: "Multi-Modal AI Models"
+      },
+      {
+        id: 'jd-pred-4',
+        text: "Efficiency Through Shared Representations: This unified approach is also more efficient. A model that learns a concept like 'dog' from images, sounds, and text will develop a more robust and compact representation than three separate models. This shared conceptual backbone means knowledge is transferable across modalities, leading to radical improvements in zero-shot learning and a significant reduction in the total parameters needed for true multi-modal competency.",
+        dateMade: new Date().toISOString(),
+        topic: "Unified AI Representations"
+      },
+      {
+        id: 'jd-pred-5',
+        text: "The Great Distillation: We will perfect the techniques for distilling the capabilities of our largest, frontier models (themselves sparse MoEs) into a family of much smaller, hyper-efficient, specialized models. There will be a 7-billion-parameter model that is an expert coder, and a 3-billion-parameter model that is a world-class conversationalist, both distilled from a single, massive parent.",
+        dateMade: new Date().toISOString(),
+        topic: "Model Distillation & Specialization"
+      },
+      {
+        id: 'jd-pred-6',
+        text: "A Tiered Intelligence System: This creates a tiered system. The vast majority of queries—simple summarizations, smart replies, device control—will be handled instantly and privately by small, on-device models. More complex queries will be routed to mid-tier specialized models in a local data center. Only the most challenging, novel, multi-step reasoning tasks will need to be escalated to the frontier 'hyper-brain' in the cloud. This hierarchical system, with intelligent routing at every level, is the only way to deliver AI to billions of users in a fast, private, and economically viable way.",
+        dateMade: new Date().toISOString(),
+        topic: "Tiered AI Systems & On-Device AI"
+      }
+    ],
     company: 'Google AI',
     linkedin: 'https://linkedin.com/in/jeff-dean-8b2133227',
     twitter: 'https://twitter.com/jeffdean',
