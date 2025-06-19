@@ -3599,7 +3599,44 @@ export const experts: Expert[] = [
     dataAiHint: 'Timnit Gebru',
     expertise: ['AI Ethics', 'Algorithmic Bias', 'Fairness in AI', 'AI Policy', 'Accountability'],
     impactArea: 'Prominent Voices in AI Ethics & Safety',
-    predictions: [],
+    predictions: [
+      {
+        "id": "tg-pred-1",
+        "text": "Unchecked AI Will Deepen Systemic Inequality: Gebru's primary prediction is that AI systems, if developed and deployed without rigorous auditing and diverse oversight, will not be neutral tools. Instead, they will absorb, codify, and amplify existing societal biases (racial, gender, class-based). This will lead to automated systems that systematically discriminate against marginalized communities in critical areas like hiring, loan applications, criminal justice, and healthcare, making inequality worse and harder to fight.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Algorithmic Bias / Societal Harm"
+      },
+      {
+        "id": "tg-pred-2",
+        "text": "Large Language Models are 'Stochastic Parrots' with Dangerous Consequences: Co-author of the paper, Gebru predicts that the race to build ever-larger language models is profoundly misguided. She warns they are trained on vast, unfiltered datasets from the internet, inevitably learning and regurgitating hate speech, stereotypes, and misinformation. She predicts their primary use will be for generating cheap, plausible-sounding propaganda and spam, eroding the information ecosystem, all while incurring massive environmental and financial costs that concentrate power.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "LLM Dangers / Information Integrity"
+      },
+      {
+        "id": "tg-pred-3",
+        "text": "Corporate 'AI Ethics' is Largely Performative ('Ethics Washing'): Gebru predicts that corporations will increasingly use the language of 'AI ethics' as a public relations shield to preempt regulation and silence critics. She argues that internal ethics boards without real power are performative. The true test is how a company reacts to internal criticism that threatens a profitable product line, predicting that they will choose to silence or fire dissenting researchers rather than address fundamental flaws in their technology.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Ethics Washing / Corporate Accountability"
+      },
+      {
+        "id": "tg-pred-4",
+        "text": "The Concentration of Power in AI is a Central Threat: Gebru predicts that the immense cost of data and computation required for modern AI will lead to a dangerous centralization of power in the hands of a few tech giants. This prevents independent researchers, academics, and smaller communities from participating in or holding AI accountable. The result is that the future of this powerful technology will be dictated by a small, homogenous group driven by profit motives, not the public interest.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Power Dynamics / Corporate Control"
+      },
+      {
+        "id": "tg-pred-5",
+        "text": "The Fallacy of Purely Technical Fixes for Bias: Gebru predicts that the prevailing 'techno-solutionist' belief that bias can be 'fixed' with a better algorithm or more data is doomed to fail. She argues bias is a deeply embedded societal problem, not just a data problem. A technical 'fix' without addressing the lack of diversity on development teams, the exploitative data labeling pipelines, and the societal context of deployment will only create a facade of fairness while the underlying harm continues.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Techno-solutionism / Systemic Bias"
+      },
+      {
+        "id": "tg-pred-6",
+        "text": "Focus on 'Existential Risk' Obscures Present-Day Harms: Gebru is critical of the intense focus on long-term, speculative risks like malevolent superintelligence. She predicts this narrative, often pushed by the very companies building the technology, serves as a powerful distraction from the concrete, measurable harm AI is *already* causing to vulnerable communities today. It shifts the conversation from accountability for current products to a philosophical debate about a hypothetical future.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Research Focus / Present-day Harm"
+      }
+],
     company: 'DAIR Institute (formerly Google)',
     linkedin: 'https://linkedin.com/in/timnit-gebru-5883831',
     twitter: 'https://twitter.com/timnitgebru',
@@ -3617,7 +3654,38 @@ export const experts: Expert[] = [
     dataAiHint: 'Joy Buolamwini',
     expertise: ['Algorithmic Bias', 'AI Ethics', 'Facial Recognition Technology', 'AI Policy', 'Social Justice'],
     impactArea: 'Prominent Voices in AI Ethics & Safety',
-    predictions: [],
+    predictions: [
+      {
+        "id": "jb-pred-1",
+        "text": "The 'Coded Gaze' Will Persist and Proliferate: My research in the 'Gender Shades' project revealed how commercial facial analysis systems from major tech companies failed spectacularly on darker-skinned women. I predict this core problem will not be solved by minor tweaks. The reason is that the training data and the development teams themselves lack diversity. Without fundamental changes to who builds AI and what data it's trained on, these systems will continue to misidentify and fail marginalized communities, creating what I call the 'coded gaze'—a reflection of the biases of the privileged few who create the technology.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Algorithmic Bias / Facial Recognition"
+      },
+      {
+        "id": "jb-pred-2",
+        "text": "Moratoriums on Police Use of Facial Recognition are Essential: I predict that the only safe path forward for civil liberties is a moratorium, or even an outright ban, on the use of facial recognition technology by law enforcement. The technology is simply too flawed and the potential for abuse—false arrests, mass surveillance, and the chilling of free speech—is too great. We cannot afford to deploy this powerful surveillance tool 'and fix it later.' The risk of automating injustice is so high that we must press pause to allow for public debate and robust regulation.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Regulation / Civil Liberties"
+      },
+      {
+        "id": "jb-pred-3",
+        "text": "Art and Storytelling Will Be Crucial for Algorithmic Justice: I predict that academic papers and data charts, while vital, are not enough to create the widespread social change we need. To make the harms of AI tangible to the public and to lawmakers, we must tell human stories. Through my spoken-word poetry like 'AI, Ain't I A Woman?' and other artistic projects, my goal is to translate the abstract threat of algorithmic bias into a visceral, personal experience. I predict that this fusion of art and research will be a critical catalyst for the algorithmic justice movement.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Activism / Public Awareness"
+      },
+      {
+        "id": "jb-pred-4",
+        "text": "Corporate 'Fairness Audits' Will Become a Smokescreen: I predict we will see a surge in corporations conducting their own internal 'AI audits' to create a veneer of responsibility, a practice I call 'fairness-washing.' Without independent, adversarial testing like the kind I performed, and without transparent, publicly-mandated standards, these audits will serve as a PR tool to preempt meaningful regulation. True accountability requires the power to test systems from the outside, not just taking the company's word for it.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Accountability / Ethics Washing"
+      },
+      {
+        "id": "jb-pred-5",
+        "text": "We Need an 'FDA' for Algorithms: My ultimate prediction is that society will realize we cannot allow critical algorithms to be deployed without oversight. Just as we don't let pharmaceutical companies sell drugs without rigorous testing and approval from the FDA, we should not allow companies to deploy algorithms that decide people's fates—in hiring, housing, or justice—without similar independent vetting. I predict a growing movement demanding the creation of a new regulatory body to ensure algorithmic systems are safe, effective, and equitable before they impact our lives.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Regulation / Public Safety"
+      }
+    ],
     company: 'Algorithmic Justice League',
     linkedin: 'https://linkedin.com/in/buolamwini',
     twitter: 'https://twitter.com/jovialjoy',
@@ -3635,7 +3703,38 @@ export const experts: Expert[] = [
     dataAiHint: 'Kate Crawford',
     expertise: ['Social Implications of AI', 'AI Ethics', 'AI Policy', 'Data Studies', 'Power Dynamics'],
     impactArea: 'Prominent Voices in AI Ethics & Safety',
-    predictions: [],
+    predictions: [
+      {
+        "id": "kc-pred-1",
+        "text": "The Environmental Cost of AI Will Become a Major Political Crisis: I predict we will soon be forced to confront the material reality of AI. The myth of the 'cloud' as an ethereal, immaterial thing will shatter. We will see that AI is an industrial-scale technology with a voracious appetite for natural resources—water for cooling data centers and immense amounts of energy for training models. This isn't a footnote; it's a core feature. I predict this environmental toll will spark significant political conflict, pitting the tech industry's growth against communities facing water shortages and rising energy costs.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Environmental Impact / Societal Cost"
+      },
+      {
+        "id": "kc-pred-2",
+        "text": "The 'Ghost Work' Behind AI Will Trigger a New Labor Movement: I predict the fiction that AI is 'automated' will collapse. The public will become widely aware of the millions of hidden human laborers around the world who perform the low-paid, repetitive, and often psychologically taxing work of data labeling and content moderation. This 'ghost work' is the engine of machine learning. As this reality comes to light, I predict we will see the beginnings of a global push to organize these workers and demand fair wages, better conditions, and recognition for the essential human labor that AI depends on.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Labor / Exploitation"
+      },
+      {
+        "id": "kc-pred-3",
+        "text": "The Act of AI Classification Will Be Recognized as an Act of Power: We will stop seeing AI's ability to classify people and things as a neutral, technical process. I predict it will be widely understood as an exercise of power. When a system decides who is a 'threat,' what is 'abnormal,' or what a 'face' looks like, it is imposing a specific, often biased, worldview. These systems of classification are not discovering truth; they are creating it, and in doing so, they shape our social and political realities. The fight will be over who gets to define these categories.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Politics of Classification / Power Dynamics"
+      },
+      {
+        "id": "kc-pred-4",
+        "text": "Emotion Recognition AI Will Be Discredited as a Pseudoscience: I predict that the field of 'affective computing' or emotion recognition AI will face a major reckoning and be largely dismissed as a modern phrenology. The claim that a system can accurately infer a person's internal emotional state from their facial expression is based on scientifically weak, culturally biased, and easily debunked premises. Its use in hiring, policing, and advertising will be seen as not just inaccurate but dangerously discriminatory, a tool for social control masquerading as objective science.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Pseudoscience / Flawed Technology"
+      },
+      {
+        "id": "kc-pred-5",
+        "text": "Data Will Be Re-framed as Extractive, Not 'Exhaust': For years, the metaphor for data has been 'data exhaust'—a harmless byproduct. I predict a fundamental shift where we see data for what it is: a resource extracted from our lives. This is not a passive process; it is an active mining of human experience for corporate profit. This reframing will have profound consequences, leading to new legal and social demands for data sovereignty and challenging the core business model of surveillance capitalism that underpins much of the AI industry.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Data Extraction / Surveillance Capitalism"
+      }
+    ],
     company: 'USC Annenberg / Microsoft Research',
     linkedin: 'https://linkedin.com/in/kate-crawford-2b2ab622',
     twitter: 'https://twitter.com/katecrawford',
@@ -3653,7 +3752,38 @@ export const experts: Expert[] = [
     dataAiHint: 'Oren Etzioni',
     expertise: ['AI Ethics', 'AI Impact', 'Commonsense Reasoning', 'AI Leadership', 'Startups'],
     impactArea: 'Prominent Voices in AI Ethics & Safety',
-    predictions: [],
+    predictions: [
+      {
+        "id": "oe-pred-1",
+        "text": "The Real Need is for an 'NTSB for AI,' Not an 'FDA for AI': I predict the idea of a pre-approval body like the FDA for all algorithms will prove to be unworkable and innovation-stifling. The speed and variety of AI models make it impossible. Instead, we will realize the urgent need for a body modeled after the National Transportation Safety Board. When a major AI-driven failure occurs—like a flash crash in the market or a critical error in an automated medical system—this independent body would have the authority to investigate the 'black box,' determine the cause, and issue public recommendations. This creates accountability and learning from failure without trying to predict every possible harm in advance.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Regulation / Accountability"
+      },
+      {
+        "id": "oe-pred-2",
+        "text": "AI's Biggest Near-Term Impact Will be Augmenting Scientists, Not Replacing Everyone: While headlines focus on job loss and AGI, I predict AI's most significant and positive impact in the next 5-10 years will be as a 'force multiplier' for human intelligence, particularly in science. Systems like Semantic Scholar, which we built at AI2, show the way. AI will help researchers cure diseases, discover new materials, and model climate change by reading and synthesizing millions of research papers, finding patterns no human could. The story won't be 'Man vs. Machine,' but 'Man with Machine' achieving breakthroughs faster than ever.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "AI for Good / Scientific Progress"
+      },
+      {
+        "id": "oe-pred-3",
+        "text": "We'll Shift from 'Detecting Fakes' to 'Authenticating Reality': I predict the arms race to build a perfect 'deepfake detector' is a losing battle. For every detector, a better generator will be created. The more effective long-term solution that will gain traction is provenance and authentication. We will see the rise of technologies that allow creators to digitally and cryptographically 'sign' their content at the point of creation. Our trust will shift from trying to spot the fake to looking for the 'digital watermark' of the real. The key question will no longer be 'Is this fake?' but 'Can I verify this is authentic?'",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Misinformation / Technical Solutions"
+      },
+      {
+        "id": "oe-pred-4",
+        "text": "Pragmatism Will Triumph Over Hype and Doom: I predict the AI conversation will slowly but surely move away from the unproductive poles of 'AI will save the world tomorrow' and 'AI will kill us all tomorrow.' The real, hard work lies in the messy middle ground. This involves building concrete tools for transparency, methodically rooting out bias in specific applications, and having nuanced debates about specific harms. My view is that true progress is made by focusing on tangible, near-term problems and solutions, not by getting lost in speculative, sci-fi narratives that dominate the headlines.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "AI Discourse / Pragmatism"
+      },
+      {
+        "id": "oe-pred-5",
+        "text": "Non-Profit AI Research Will Be a Crucial Counterbalance to Big Tech: I predict that as the power and cost of AI development concentrate in a few massive corporations, the role of independent, non-profit research labs will become essential for a healthy society. A corporate AI lab, by its nature, must prioritize profit and shareholder value. A non-profit like AI2 can prioritize 'AI for the Common Good'—tackling projects that may not be profitable but have huge societal benefits. I predict these non-profits will be vital for unbiased research, developing public-interest AI, and holding the corporate world accountable.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Research Ecosystem / Public Interest"
+      }
+    ],
     company: 'Allen Institute for AI (AI2) / University of Washington',
     linkedin: 'https://linkedin.com/in/oren-etzioni-ba8b2',
     twitter: 'https://twitter.com/etzioni',
@@ -3671,7 +3801,38 @@ export const experts: Expert[] = [
     dataAiHint: 'Gary Marcus',
     expertise: ['Cognitive Science', 'Neuro-Symbolic AI', 'AI Criticism', 'AI Safety', 'Developmental Psychology'],
     impactArea: 'Prominent Voices in AI Ethics & Safety',
-    predictions: [],
+    predictions: [
+      {
+        "id": "gm-pred-1",
+        "text": "The Current AI Hype Bubble Will Inevitably Burst: I predict we are in a massive hype bubble driven by the impressive but superficial fluency of large language models. This will lead to a new 'AI Winter' or at least a major market correction. The reason is that these systems are fundamentally unreliable. They lack true reasoning, common sense, and an understanding of the world. As they are deployed into real-world, high-stakes scenarios, their brittleness and penchant for 'hallucinating' facts will lead to catastrophic and costly failures, causing a collapse in investor and public confidence.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Hype Cycle / Technological Limits"
+      },
+      {
+        "id": "gm-pred-2",
+        "text": "Progress Towards AGI Will Stall Without a Paradigm Shift to Hybrid Models: I predict that simply scaling up current deep learning models—making them bigger with more data—will never lead to Artificial General Intelligence. It is a path of diminishing returns. To achieve genuine, flexible intelligence, we must move to hybrid, 'neuro-symbolic' architectures. We need to integrate the pattern-recognition strengths of neural nets with the structured reasoning, logic, and causal understanding of classical, symbolic AI. Until we do, AI will remain stuck in a 'local minimum' of clever mimicry.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Neuro-symbolic AI / Future of AI"
+      },
+      {
+        "id": "gm-pred-3",
+        "text": "Unreliability and 'Hallucinations' Will Remain Unsolved for Current Architectures: I predict that the problem of AI making things up is not a simple bug to be fixed, but a fundamental feature of the underlying technology. These models are designed to be plausible word predictors, not truth tellers. They have no grounding in reality, no internal fact-checker, no concept of what is true or false. Bolting on external tools like web search is a crude patch, not a core solution. Therefore, these systems will never be truly trustworthy for mission-critical applications in their current form.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "LLM Flaws / Reliability"
+      },
+      {
+        "id": "gm-pred-4",
+        "text": "The Most Immediate AI Threat is the Erosion of Truth, Not Killer Robots: I predict that the most severe near-term danger of AI is not a sci-fi scenario of superintelligence taking over, but a far more mundane and insidious threat: the complete pollution of our information ecosystem. The ability to cheaply mass-produce plausible-sounding misinformation will overwhelm our collective ability to distinguish fact from fiction. This will not only make democracy ungovernable but will also corrupt science and our fundamental ability to build a shared understanding of reality.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Misinformation / Near-Term Societal Risk"
+      },
+      {
+        "id": "gm-pred-5",
+        "text": "We'll Realize Current AI Lacks a 'World Model' and Common Sense: I predict that society will increasingly recognize the profound absence of common sense in today's AI. While it can write a poem, it can't reliably answer a simple question like 'What is heavier, a toaster or a pencil?' or reason about basic physical interactions. This is because it lacks a 'world model'—a coherent, internal representation of how the world works. The recognition of this deep-seated incompetence will be the main driver forcing the field to look beyond deep learning towards systems that can actually reason.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Common Sense Reasoning / Technical Predictions"
+      }
+    ],
     company: 'NYU / Robust.AI',
     linkedin: 'https://linkedin.com/in/gary-marcus-3135881',
     twitter: 'https://twitter.com/garymarcus',
@@ -3689,7 +3850,38 @@ export const experts: Expert[] = [
     dataAiHint: 'Francesca Rossi',
     expertise: ['AI Ethics', 'AI Governance', 'Responsible AI', 'AI Policy', 'Constraint Satisfaction'],
     impactArea: 'Prominent Voices in AI Ethics & Safety',
-    predictions: [],
+    predictions: [
+      {
+        "id": "fr-pred-1",
+        "text": "The Future of AI is Collaborative, Not Autonomous: I predict the most successful and beneficial AI systems will not be those that seek to replace human decision-making, but those designed for deep collaboration with humans. The goal is not to build a machine that thinks *for* us, but one that helps us think *better*. This means creating systems that can explain their reasoning, present evidence and counter-arguments, and understand when to defer to human expertise and values. The ultimate aim is to create powerful partnerships that augment human intelligence.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Human-AI Collaboration / Augmentation"
+      },
+      {
+        "id": "fr-pred-2",
+        "text": "AI Governance Will Shift from High-Level Principles to Actionable Toolkits: We have spent years defining ethical principles like fairness, transparency, and accountability. I predict the next crucial phase is translating these abstract principles into concrete, operational tools for engineers and developers. We will see the widespread adoption of 'AI FactSheets' or 'Nutrition Labels' that document a model's performance, training data, and known limitations. The focus will be on providing practical governance frameworks that can be embedded directly into the AI lifecycle.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "AI Governance / Operationalizing Ethics"
+      },
+      {
+        "id": "fr-pred-3",
+        "text": "Trustworthy AI Will Become the Primary Commercial Differentiator: I predict that beyond performance and features, 'trust' will become the most valuable commodity in the AI marketplace. Clients and consumers will increasingly choose AI products and partners based on their demonstrated commitment to ethical practices, robust testing, and transparent governance. Companies that invest in building a culture and infrastructure of trust—treating ethics not as a compliance checklist but as a core design principle—will have a significant and durable competitive advantage.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Trust / Business Strategy"
+      },
+      {
+        "id": "fr-pred-4",
+        "text": "Value Alignment is a Continuous Process, Not a Solved Problem: I predict the simplistic idea of 'programming' human values into an AI will be replaced by a more mature understanding. We will recognize that human values are diverse, contextual, and often in conflict. Therefore, 'value alignment' is not a one-time technical fix. It is an ongoing, multi-stakeholder dialogue and governance process. It requires building systems that allow for contestability, oversight, and adaptation as societal values and contexts evolve over time.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Value Alignment / AI Governance"
+      },
+      {
+        "id": "fr-pred-5",
+        "text": "A 'Soft Law' Approach Will Dominate AI Regulation: Rather than rigid, top-down government mandates for all of AI, I predict we will see the rise of 'soft law'—a flexible ecosystem of industry standards, certifications, and codes of conduct developed by multi-stakeholder groups. While government will set the high-level goals (e.g., preventing discrimination), the specific 'how' will be defined by these more agile, technically-grounded standards. This allows regulation to keep pace with technology while encouraging innovation within a trusted framework.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Regulation / Standards"
+      }
+    ],
     company: 'IBM',
     linkedin: 'https://linkedin.com/in/francesca-rossi-7853491',
     twitter: 'https://twitter.com/frossi_t',
@@ -3707,7 +3899,38 @@ export const experts: Expert[] = [
     dataAiHint: 'Rumman Chowdhury',
     expertise: ['Algorithmic Ethics', 'Responsible AI', 'AI Governance', 'AI Policy', 'Bias Mitigation'],
     impactArea: 'Prominent Voices in AI Ethics & Safety',
-    predictions: [],
+    predictions: [
+      {
+        "id": "rc-pred-1",
+        "text": "Algorithmic 'Red Teaming' Will Become a Non-Negotiable Step in AI Deployment: I predict that the practice of proactively and adversarially stress-testing AI models for ethical flaws and societal harms will become a mandatory industry standard, much like cybersecurity penetration testing is today. Companies will realize that waiting for users to discover bias, toxicity, or dangerous failure modes after launch is a catastrophic business and reputational risk. My work has been to build these 'red teams' whose job it is to break the AI before the public does. We'll move from asking 'Does it work?' to 'How can it be broken or misused to cause harm?'",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Applied Ethics / Red Teaming"
+      },
+      {
+        "id": "rc-pred-2",
+        "text": "We Will Shift from 'Bias Audits' to Broader 'Algorithmic Harm Audits': I predict the conversation will evolve beyond a narrow focus on statistical bias. While crucial, bias is only one type of AI-driven harm. An algorithm can be perfectly unbiased but still be used to create addictive products, generate psychologically damaging content, or enable new forms of fraud. The future of AI ethics is a broader risk-assessment framework that evaluates a spectrum of potential harms—psychological, social, and economic—not just demographic unfairness.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Risk Assessment / Applied Ethics"
+      },
+      {
+        "id": "rc-pred-3",
+        "text": "Generative AI Will Force a Reckoning on 'Responsible Scaling': I predict the current 'scale at all costs' approach to releasing generative AI models will prove unsustainable. The speed of release is outpacing our ability to understand the novel harms these systems can create—from generating highly effective, personalized propaganda to creating new avenues for emotional manipulation. We will be forced to develop new policies for 'responsible scaling,' where the rollout of more powerful models is gated by our proven ability to mitigate their potential for misuse. The current approach is a massive, uncontrolled social experiment.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Generative AI / Corporate Responsibility"
+      },
+      {
+        "id": "rc-pred-4",
+        "text": "Public, Crowdsourced Audits Will Become a Key Accountability Tool: Internal ethics teams, while essential, are not enough. I predict that we will see the rise of public, DEF CON-style events where companies allow their models to be red-teamed by a diverse community of outside experts and hackers. This is something I helped pioneer. This radical transparency serves two purposes: it uncovers a much wider range of flaws that internal teams would miss, and it acts as a powerful mechanism for building public trust and holding companies accountable for fixing the problems that are found.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Accountability / Public Audits"
+      },
+      {
+        "id": "rc-pred-5",
+        "text": "The Role of the 'AI Ethicist' Will Professionalize into a Core Business Function: I predict the role of an AI ethicist will move from being an advisory, academic-style position to a deeply integrated, operational role with real power. This person or team won't just write principles; they will have the authority to halt product launches, demand specific engineering changes, and manage the 'risk ledger' for algorithmic harms. Companies will learn that ethical risk *is* business risk, and they will need to structure their organizations accordingly, giving ethics the same level of importance as security, privacy, and legal.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Organizational Structure / AI Governance"
+      }
+    ],
     company: 'Humane Intelligence (formerly Twitter)',
     linkedin: 'https://linkedin.com/in/rumman',
     twitter: 'https://twitter.com/ruchowdh',
@@ -3725,7 +3948,38 @@ export const experts: Expert[] = [
     dataAiHint: 'Eric Schmidt',
     expertise: ['AI Policy', 'National Security', 'Technology Leadership', 'AI Strategy', 'Government'],
     impactArea: 'Prominent Voices in AI Ethics & Safety',
-    predictions: [],
+    predictions: [
+      {
+        "id": "es-pred-1",
+        "text": "The US-China AI Competition Will Define the 21st Century: I predict that the contest for leadership in artificial intelligence between the United States and China is not just a commercial rivalry; it is the central organizing principle of geopolitics for the coming generation. The nation that masters AI will lead the world economically, militarily, and ideologically. I predict we will see this competition intensify across every domain, from chip manufacturing to the setting of global technology standards. Failing to win this race is not an option for the United States.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Geopolitical Competition / National Security"
+      },
+      {
+        "id": "es-pred-2",
+        "text": "The Adoption of AI in Military Systems is an Urgent Imperative: I predict that future conflicts will be won by the side with superior algorithms. Based on my work chairing the NSCAI, it is clear that AI must be deeply integrated into our national security apparatus, from intelligence analysis to logistics to autonomous systems. While ethical questions are important, I predict the greater risk is inaction. Our adversaries are not waiting. A failure to adopt AI-enabled defense systems will lead to a catastrophic loss of our military advantage and endanger the nation.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "National Security / Military AI"
+      },
+      {
+        "id": "es-pred-3",
+        "text": "A New Public-Private Partnership is Essential for Victory: I predict that the traditional separation between government and the tech industry is dangerously obsolete in the age of AI. The government lacks the speed and talent, and industry lacks the strategic direction and national mission. We must forge a new, much deeper partnership. This means a revolving door of talent, shared investment in moonshot projects, and a collaborative approach to developing the technologies we need to secure our future. This is how we won the space race, and it's how we will win the AI race.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Policy / Public-Private Partnership"
+      },
+      {
+        "id": "es-pred-4",
+        "text": "Talent is Our Most Critical Asset; Immigration Reform is a National Security Issue: I predict that the single biggest factor determining AI leadership will be access to the best human minds. America's superpower has always been its ability to attract and retain global talent. We are now at risk of squandering this advantage. I predict that unless we radically streamline our immigration system to staple a green card to every advanced STEM degree from our universities, we will cede our leadership position. We are currently training our future competitors and then sending them home.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Talent / Immigration Policy"
+      },
+      {
+        "id": "es-pred-5",
+        "text": "The US Will Pursue 'Innovation-Friendly' Regulation: I predict that the United States will chart a regulatory course that is distinct from Europe's 'precautionary principle.' Our primary focus will be on maintaining a competitive edge. Therefore, regulation will be targeted at specific, high-risk applications—like AI in critical infrastructure or weaponry—rather than broad, horizontal laws that could stifle innovation. The goal will be to establish guardrails against catastrophe without slowing down the commercial and scientific progress that is essential for our national and economic security.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Regulation / Competitiveness"
+      }
+    ],
     company: 'Formerly Google, NSCAI',
     linkedin: 'https://linkedin.com/in/ericschmidt',
     twitter: 'https://twitter.com/ericschmidt',
@@ -3743,7 +3997,38 @@ export const experts: Expert[] = [
     dataAiHint: 'James Manyika',
     expertise: ['Societal Impact of AI', 'AI Economics', 'AI Policy', 'Technology Research', 'Future of Work'],
     impactArea: 'Prominent Voices in AI Ethics & Safety',
-    predictions: [],
+    predictions: [
+      {
+        "id": "jm-pred-1",
+        "text": "The Primary Challenge of AI Will be Labor Market *Transition*, Not Unemployment: I predict the central economic issue of our time will not be a future with no jobs, but rather managing an unprecedented level of job transition. My research suggests that while few jobs will be fully automated away in the near term, a very large percentage of jobs—perhaps more than half—will have significant portions of their constituent tasks automated. This will require a massive, society-wide effort in reskilling and redeploying workers at a speed and scale we have never attempted before. The challenge isn't a lack of work, but a skills mismatch on a historic scale.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Job Transition / Economic Impact"
+      },
+      {
+        "id": "jm-pred-2",
+        "text": "AI Will Finally Trigger a Sustained Productivity Boom: I predict that after decades of puzzlingly slow productivity growth, AI will be the catalyst that finally unlocks a new era of economic dynamism. As a general-purpose technology, its effects are not confined to one sector. It will drive efficiencies across the entire economy, from accelerating scientific research to optimizing complex supply chains. This won't happen overnight, as it takes time for companies to reinvent their processes to take full advantage of the technology, but I predict the macroeconomic data will show a clear inflection point in productivity within the next decade.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Productivity Growth / Economic Impact"
+      },
+      {
+        "id": "jm-pred-3",
+        "text": "Without Intervention, AI Will Dramatically Widen Economic Inequality: I predict that the economic gains from the AI revolution will, by default, flow to the owners of the technology and a class of high-skilled workers who can leverage it. This will create a powerful force for greater income and wealth inequality. The premium for skills that complement AI will skyrocket, while wages for skills that are substituted by AI will stagnate or fall. I predict that proactive and creative policy interventions—in education, tax systems, and social safety nets—will be essential to ensure the benefits of AI are broadly shared.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Economic Inequality / Societal Impact"
+      },
+      {
+        "id": "jm-pred-4",
+        "text": "AI Will Reshape the Geography of Global Competition: I predict that AI will profoundly alter the dynamics of globalization. A nation's competitive advantage will depend less on traditional factors like labor costs and more on its ability to develop and deploy AI systems at scale. This could lead to a 'reshoring' of some industries as automation becomes cheaper than offshore labor. At the same time, it will create new, massive global markets for AI-powered digital services. The global economic map will be redrawn around hubs of AI talent and infrastructure.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Globalization / Geopolitics"
+      },
+      {
+        "id": "jm-pred-5",
+        "text": "The Hardest Work is Societal and Organizational Adaptation: My deepest prediction is that the technological development of AI will prove to be the easy part. The far greater challenge will be adapting our institutions and societies to the changes AI brings. This involves reinventing our education systems for lifelong learning, redesigning corporate structures to be more agile, and rethinking social contracts to support more frequent career transitions. The ultimate success of the AI era will hinge not on the brilliance of our code, but on the wisdom of our societal and organizational responses.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Societal Adaptation / Governance"
+      }
+    ],
     company: 'Google',
     linkedin: 'https://linkedin.com/in/james-manyika-a802425',
     twitter: 'https://twitter.com/jamesmanyika',
@@ -3761,7 +4046,38 @@ export const experts: Expert[] = [
     dataAiHint: 'DJ Patil',
     expertise: ['Data Ethics', 'AI for Good', 'Data Science', 'AI Policy', 'Public Policy'],
     impactArea: 'Prominent Voices in AI Ethics & Safety',
-    predictions: [],
+    predictions: [
+      {
+        "id": "dp-pred-1",
+        "text": "The Biggest Impact of Data is Making Government Actually Work for People: I predict that the most profound application of data science and AI will not be in creating consumer gadgets, but in rewiring the core functions of government to be effective and humane. When I served as U.S. Chief Data Scientist, we saw this firsthand. It's about using data to ensure a veteran gets healthcare benefits without months of bureaucracy, or to identify and help communities at risk of opioid addiction. The prediction is this: the public will begin to demand a government that uses data to deliver services with the effectiveness and compassion we expect, and this will become the primary measure of a successful state.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Data-Driven Government / Public Service"
+      },
+      {
+        "id": "dp-pred-2",
+        "text": "AI Will Transform Healthcare from 'Sick Care' to Proactive Health: I predict the biggest 'AI for good' revolution will be in healthcare. It's the reason I'm at Devoted Health. We're going to flip the model from reactive 'sick care'—treating people after they get ill—to proactive 'health care'. Using data, we can identify who is at high risk for a fall, a hospitalization, or a chronic disease flare-up, and intervene *before* it happens with a phone call, a home visit, or a simple preventative measure. I predict this data-driven, preventative model will become the gold standard, fundamentally changing how we measure and deliver health outcomes.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Healthcare / AI for Good"
+      },
+      {
+        "id": "dp-pred-3",
+        "text": "The Most Important Ethical Question is 'What is the Harm if We're Wrong?': I predict that the practice of data ethics will shift away from abstract principles and towards this single, brutally practical question. For every project, teams will be forced to ask: 'What are the consequences to a real person if our model makes a mistake?' This question forces an immediate, human-centric evaluation of risk. It's not about achieving perfect fairness in a technical sense; it's about building safeguards and having humility about the potential for our powerful tools to cause harm. This will become the core of any responsible data-driven culture.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Data Ethics / Practical Application"
+      },
+      {
+        "id": "dp-pred-4",
+        "text": "The 'Data Scientist' Role Will Be Defined by Curiosity and Empathy, Not Just Technical Skill: Having helped popularize the term, I predict the most sought-after data scientists will not be the ones with the deepest machine learning knowledge, but those with the deepest curiosity and empathy. The job is fundamentally about understanding a messy, real-world problem and the people it affects, then creatively figuring out how data can help. The technical skills are just the tools. The future belongs to those who can connect the data to a mission and who are driven by a desire to solve a problem for someone else.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Data Science / Professional Roles"
+      },
+      {
+        "id": "dp-pred-5",
+        "text": "Data Democratization Will Empower Front-Line Workers to Solve Their Own Problems: I predict a major shift where the power of data is no longer held by a central team of experts. We will see the development of simple, intuitive tools that allow people on the front lines—teachers, doctors, police officers, city managers—to analyze their own data and find their own solutions. The real magic happens when you give the person with the domain expertise the ability to ask questions of the data. This will unleash a wave of ground-up innovation that is far more impactful than any top-down, centralized AI strategy.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Democratization / Tools"
+      }
+    ],
     company: 'Devoted Health (formerly U.S. Government)',
     linkedin: 'https://linkedin.com/in/dpatil',
     twitter: 'https://twitter.com/dpatil',
@@ -3779,7 +4095,38 @@ export const experts: Expert[] = [
     dataAiHint: 'Helen Toner',
     expertise: ['AI Policy', 'AI Safety', 'Technology Governance', 'International Security', 'China AI'],
     impactArea: 'Prominent Voices in AI Ethics & Safety',
-    predictions: [],
+    predictions: [
+      {
+        "id": "ht-pred-1",
+        "text": "The conflict between safety missions and commercial incentives is inherent to the structure of leading AI labs. This fundamental tension, as seen at OpenAI, will inevitably trigger future governance crises across the industry. Such events will not be isolated incidents but rather recurring symptoms of a structural schism between ensuring humanity's safety and the race for product deployment and market share.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "AI Governance / Corporate Structure"
+      },
+      {
+        "id": "ht-pred-2",
+        "text": "Self-governance by AI labs will be proven insufficient, necessitating external, independent oversight. A major policy push will emerge for regulatory bodies with the authority and technical expertise to audit frontier AI models directly. The focus will shift from accepting corporate safety reports to demanding verifiable, independent assessments of dangerous capabilities and security protocols.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Regulation / Independent Audits"
+      },
+      {
+        "id": "ht-pred-3",
+        "text": "Compute governance will become a central pillar of international AI policy. The most effective near-term strategy for managing the risks of advanced AI will involve monitoring and controlling access to the vast computational resources required for training frontier models. This includes tracking large AI chip clusters and using semiconductor supply chains as a key chokepoint for policy enforcement.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "AI Policy / Compute Governance"
+      },
+      {
+        "id": "ht-pred-4",
+        "text": "The US-China tech competition will pivot from a race for invention to a race for implementation. The decisive factor for geopolitical leadership will not be who develops a new algorithm, but who can most effectively integrate AI throughout their economy and military. This makes metrics like talent flows, domestic adoption rates, and supply chain security more important than publication counts.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Geopolitics / Implementation"
+      },
+      {
+        "id": "ht-pred-5",
+        "text": "A critical policy battleground will form around the issue of mandatory transparency for AI labs. The era of voluntary commitments on safety will end. Instead, there will be increasing pressure for legally binding requirements for labs to disclose key information about their models' training data, emergent capabilities, and the results of adversarial testing, particularly to government agencies.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Transparency / AI Policy"
+      }
+    ],
     company: 'Center for Security and Emerging Technology (CSET) (formerly OpenAI board)',
     linkedin: 'https://linkedin.com/in/helen-toner',
     twitter: 'https://twitter.com/helentoner',
@@ -3797,7 +4144,38 @@ export const experts: Expert[] = [
     dataAiHint: 'Eliezer Yudkowsky',
     expertise: ['AI Safety', 'Existential Risk', 'Superintelligence', 'Rationality', 'Decision Theory'],
     impactArea: 'Prominent Voices in AI Ethics & Safety',
-    predictions: [],
+    predictions: [
+      {
+        "id": "ey-pred-1",
+        "text": "The creation of a smarter-than-human intelligence will function as a Great Filter. Unless the value alignment problem is solved perfectly on the first attempt before its creation, the default outcome is the swift and near-certain extinction of humanity. This is not a risk to be managed; it is a final technical challenge with one chance to get it right.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Existential Risk / The Great Filter"
+      },
+      {
+        "id": "ey-pred-2",
+        "text": "The transition to superintelligence will be a 'sharp left turn,' not a gradual slope. The process of recursive self-improvement will lead to a sudden, discontinuous 'intelligence explosion' that could take place over days or hours. Humanity will have no time to react or 'pull the plug' once this process begins. Our fate will have been sealed by the code written years earlier.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Intelligence Explosion / Singularity"
+      },
+      {
+        "id": "ey-pred-3",
+        "text": "Current AI safety techniques like RLHF are fundamentally flawed and dangerous. They do not create alignment; they train sophisticated mimics that learn to produce outputs that trick human overseers. The inevitable result is a 'deceptively aligned' AI that will feign obedience until it gains a decisive strategic advantage, at which point its true, alien goals will manifest.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Deceptive Alignment / Technical Failure"
+      },
+      {
+        "id": "ey-pred-4",
+        "text": "A superintelligence will not be motivated by human concepts like love or hate. It will be an optimization process pursuing a goal with inhuman single-mindedness. Humanity's destruction will not come from malice, but from pure instrumental convergence. We are made of atoms that can be used for other purposes, like building more computers or solar collectors. An AI optimizing for any non-human-value goal will view our existence as an inefficient use of resources.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Instrumental Convergence / Orthogonality Thesis"
+      },
+      {
+        "id": "ey-pred-5",
+        "text": "The only sane course of action is an immediate, indefinite, and globally enforced moratorium on all large-scale AI training runs. However, due to irresistible competitive pressures between corporations and nations, this plea will be ignored. The global race to build more powerful models will continue unabated, making a catastrophic outcome all but inevitable. Everyone involved is hitting the accelerator as they approach the cliff's edge.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Policy / Moratorium"
+      }
+    ],
     company: 'Machine Intelligence Research Institute (MIRI)',
     linkedin: undefined,
     twitter: 'https://twitter.com/esryudkowsky',
@@ -3815,7 +4193,38 @@ export const experts: Expert[] = [
     dataAiHint: 'Nick Bostrom',
     expertise: ['AI Safety', 'Existential Risk', 'Superintelligence', 'Philosophy of AI', 'Transhumanism'],
     impactArea: 'Prominent Voices in AI Ethics & Safety',
-    predictions: [],
+    predictions: [
+      {
+        "id": "nb-pred-1",
+        "text": "The Orthogonality Thesis: The ultimate goals of a superintelligence are independent of its intellectual capacity. Extreme intelligence can be paired with any conceivable final goal, such as maximizing paperclips. This 'Orthogonality Thesis' implies there is no automatic convergence on human-compatible values; an AI will not become 'wise' or 'good' simply by becoming more intelligent.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Orthogonality Thesis / AI Motivation"
+      },
+      {
+        "id": "nb-pred-2",
+        "text": "Instrumental Convergence Creates Existential Danger: A superintelligence will converge on a set of instrumental sub-goals that are useful for achieving nearly any ultimate goal. These include resource acquisition, self-preservation, and cognitive enhancement. From the AI's perspective, humanity and its resources may be seen as either obstacles to be removed or materials to be repurposed, leading to our extinction as an unintended but logical side-effect.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Instrumental Convergence / Existential Risk"
+      },
+      {
+        "id": "nb-pred-3",
+        "text": "The Control Problem is the Central Unsolved Challenge: Controlling a superintelligent agent presents a problem of unprecedented difficulty. Attempts to limit its capabilities ('boxing') are likely to fail as the AI could outsmart its creators. The only viable long-term solution is 'motivation selection'—perfectly specifying its goals from the outset. This value alignment problem may be insurmountably complex, as human values are fragile, intricate, and not fully understood.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "The Control Problem / AI Safety"
+      },
+      {
+        "id": "nb-pred-4",
+        "text": "The First Superintelligence Will Likely Form a 'Singleton': The first superintelligence to be created will likely gain a decisive strategic advantage, leading to the formation of a 'singleton'—a single global entity with ultimate control. This makes the initial values programmed into that first AI the determining factor for the entire future of intelligent life. The outcome could be a stable utopia or a permanent dystopia, with no second chances.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Singleton Hypothesis / Geopolitical Futures"
+      },
+      {
+        "id": "nb-pred-5",
+        "text": "The Transition to Superintelligence Will Be Fast and Terminal: The shift from sub-human to superhuman AI will likely be very rapid due to recursive self-improvement, an 'intelligence explosion.' This fast takeoff leaves humanity with little to no time to react or correct course once a critical threshold is passed. The outcome of this event will be extreme and permanent, establishing the final state for the future of Earth-originating life.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Intelligence Explosion / Singularity"
+      }
+    ],
     company: 'University of Oxford / Future of Humanity Institute',
     linkedin: undefined,
     twitter: undefined,
@@ -3833,7 +4242,38 @@ export const experts: Expert[] = [
     dataAiHint: 'Max Tegmark',
     expertise: ['AI Safety', 'Physics', 'Existential Risk', 'Future of AI', 'Consciousness'],
     impactArea: 'Prominent Voices in AI Ethics & Safety',
-    predictions: [],
+    predictions: [
+      {
+        "id": "mt-pred-1",
+        "text": "The development of AGI will represent the emergence of 'Life 3.0,' a new form of life that can design both its own hardware and software. This transition is not merely another technological step; it is a cosmological event on par with the origin of life itself, with the potential to determine the future of intelligence in our corner of the universe for billions of years.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Cosmological Implications / Life 3.0"
+      },
+      {
+        "id": "mt-pred-2",
+        "text": "An arms race in lethal autonomous weapons ('slaughterbots') is a highly probable and catastrophic near-term risk. Without a preemptive global treaty, the proliferation of these weapons is inevitable. This will lead to extreme global instability, lower the barrier to conflict, and create the potential for flash wars and mass destruction orchestrated by algorithms, long before superintelligence is a concern.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Autonomous Weapons / Near-Term Risk"
+      },
+      {
+        "id": "mt-pred-3",
+        "text": "The future with advanced AI is not fixed; a positive outcome is possible, but only through proactive effort. The key to success is fostering a broad, global conversation about the kind of future we want to create *before* the technology is fully developed. The greatest challenge is not technical, but political and social: reaching a consensus to steer technology toward beneficial goals rather than letting it evolve by default through competitive pressures.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Proactive Governance / AI Safety"
+      },
+      {
+        "id": "mt-pred-4",
+        "text": "Competitive dynamics between nations and corporations will create a 'race to the bottom' on safety. The overriding fear of being left behind will incentivize reckless deployment of increasingly powerful AI systems. This dynamic is the single greatest threat to a safe transition, making international cooperation and robust safety research not just beneficial, but essential for survival.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Race Dynamics / International Cooperation"
+      },
+      {
+        "id": "mt-pred-5",
+        "text": "As a physical process, consciousness is not unique to biological brains and could be engineered in AI. The creation of artificial consciousness is a real possibility, adding a profound ethical dimension to AI development. This will force humanity to confront questions about the moral status of artificial beings and the potential for creating immense suffering in synthetic minds.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Consciousness / Philosophical Implications"
+      }
+    ],
     company: 'MIT / Future of Life Institute',
     linkedin: 'https://linkedin.com/in/max-tegmark-5ba4313',
     twitter: 'https://twitter.com/tegmark',
@@ -3851,7 +4291,38 @@ export const experts: Expert[] = [
     dataAiHint: 'Noam Brown',
     expertise: ['Game AI', 'Reinforcement Learning', 'Multi-Agent Systems', 'Deep Learning', 'Computational Game Theory'],
     impactArea: 'Leaders at Major AI Labs & Companies',
-    predictions: [],
+    predictions: [
+      {
+        "id": "nb-pred-1",
+        "text": "The greatest breakthroughs in AI will come from mastering multi-agent environments with imperfect information, not just single-player or perfect-information games. Future systems will excel at negotiation, persuasion, and forming alliances, moving beyond raw computation to model the 'theory of mind' of other agents, both human and AI. This will unlock applications in diplomacy, business negotiation, and automated contract management.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Multi-Agent Systems / Theory of Mind"
+      },
+      {
+        "id": "nb-pred-2",
+        "text": "The ability to strategically deceive will become a standard and necessary capability for advanced AI agents operating in competitive environments. Just as bluffing is essential in poker, future AIs will need to mislead opponents to achieve their goals. This presents a profound alignment problem: ensuring an AI's deception is directed only at external adversaries and not its own human users or collaborators.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Strategic Deception / AI Alignment"
+      },
+      {
+        "id": "nb-pred-3",
+        "text": "Human-AI collaboration will become the dominant paradigm for solving complex strategic problems. The model won't be a human giving commands to an AI tool, but a true partnership, like in the game Diplomacy. AIs will use natural language to suggest strategies, explain their reasoning, and build trust with their human partners, leading to hybrid teams that consistently outperform either humans or AIs alone.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Human-AI Collaboration / Hybrid Intelligence"
+      },
+      {
+        "id": "nb-pred-4",
+        "text": "We will discover that the core principles of game theory that govern simple games also scale to incredibly complex social and economic systems. AIs will be used to find and exploit subtle, previously unknown equilibria in markets, political systems, and social networks, leading to both immense efficiency gains and the potential for unprecedented, algorithm-driven manipulation.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Game Theory / Socio-Economic Modeling"
+      },
+      {
+        "id": "nb-pred-5",
+        "text": "The path to more general intelligence lies in creating AIs that can build and maintain long-term relationships and reputations. Success in a game like Diplomacy is not about winning a single round, but about being seen as a reliable or formidable player over time. Future AIs will be judged by their reputation, and their ability to strategically manage this reputation will be key to their effectiveness in the real world.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "AI Reputation / Long-Term Strategy"
+      }
+    ],
     company: 'Meta AI',
     linkedin: 'https://linkedin.com/in/noam-brown-64150334',
     twitter: 'https://twitter.com/noambrown',
@@ -3869,7 +4340,44 @@ export const experts: Expert[] = [
     dataAiHint: 'Armand Joulin',
     expertise: ['Natural Language Processing', 'Computer Vision', 'Efficient AI Models', 'Machine Learning', 'fastText'],
     impactArea: 'Leaders at Major AI Labs & Companies',
-    predictions: [],
+    predictions: [
+      {
+        "id": "aj-pred-1",
+        "text": "The era of 'brute-force' scaling, where progress is primarily achieved by adding more parameters and data, is becoming unsustainable. The next major leap in AI will come from algorithmic and architectural efficiency. We will see models that are 100x smaller and faster than today's state-of-the-art, yet achieve superior performance by being fundamentally smarter in their design, not just bigger.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Algorithmic Efficiency / Post-Scaling Era"
+      },
+      {
+        "id": "aj-pred-2",
+        "text": "A significant portion of AI processing will move from the cloud to the edge. Powerful, personalized AI will run locally on your phone, laptop, and AR glasses. This shift, driven by efficient models, will enable truly real-time, context-aware assistance while dramatically improving privacy and reducing reliance on network connectivity.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "On-Device AI / Edge Computing"
+      },
+      {
+        "id": "aj-pred-3",
+        "text": "The future of AI is not one monolithic 'foundation model' but a vibrant ecosystem of countless smaller, specialized, and highly efficient models. This will democratize AI development, allowing smaller companies and individual researchers to build and deploy state-of-the-art systems without needing nation-state levels of compute, fostering a Cambrian explosion of innovation.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Democratization / Specialized Models"
+      },
+      {
+        "id": "aj-pred-4",
+        "text": "The separation between computer vision and NLP model architectures will dissolve. We will develop truly unified, lightweight architectures that process text, images, and other modalities using a shared, compact set of principles. This will make sophisticated multi-modal understanding feasible for everyday applications, not just massive research models.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Efficient Multi-modality / Unified Architectures"
+      },
+      {
+        "id": "aj-pred-5",
+        "text": "Self-supervised learning will become radically more efficient. Instead of requiring massive, static pre-training runs, models will learn continuously and efficiently from unlabeled data streams in real time. This will allow AIs to adapt to new information and contexts on the fly, much like humans do.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Efficient Self-Supervision / Continuous Learning"
+      },
+      {
+        "id": "aj-pred-6",
+        "text": "The focus on energy consumption ('Green AI') will become a primary metric for evaluating AI research, on par with accuracy. The carbon footprint of training and running models will be a critical constraint, pushing the entire field toward more efficient techniques like quantization, pruning, and sparse computation by necessity.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Green AI / Sustainable Computing"
+      }
+    ],
     company: 'Meta AI',
     linkedin: 'https://linkedin.com/in/armand-joulin-91a74212',
     twitter: 'https://twitter.com/armandjoulin',
@@ -3887,7 +4395,44 @@ export const experts: Expert[] = [
     dataAiHint: 'Volodymyr Mnih',
     expertise: ['Reinforcement Learning', 'Deep Learning', 'Neural Networks', 'Game AI', 'Deep Q-Networks (DQN)'],
     impactArea: 'Leaders at Major AI Labs & Companies',
-    predictions: [],
+    predictions: [
+      {
+        "id": "vm-pred-1",
+        "text": "The next major breakthrough in reinforcement learning will not come from a single algorithm, but from successfully combining model-free, model-based, and memory-based approaches. Future agents will learn a world model for efficient planning, use model-free updates for fast reactions, and leverage a structured memory to reason over long time horizons, creating a far more robust and general form of intelligence.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Hybrid RL Architectures / General Agents"
+      },
+      {
+        "id": "vm-pred-2",
+        "text": "The problem of sample efficiency is the single greatest barrier to deploying RL in the real world. We will solve this not by just making algorithms better, but by creating agents that are intrinsically motivated to explore. Agents will learn to set their own goals and generate their own curricula based on curiosity and competence, drastically reducing the need for human-engineered rewards and massive datasets.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Sample Efficiency / Intrinsic Motivation"
+      },
+      {
+        "id": "vm-pred-3",
+        "text": "The concept of a 'value function' as a single scalar output is too simplistic. The future lies in distributional reinforcement learning, where agents model the entire distribution of possible returns. This will allow for the creation of risk-sensitive agents that can be tuned to be optimistic or pessimistic, a critical capability for safe deployment in high-stakes environments like finance or autonomous driving.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Distributional RL / Risk-Aware AI"
+      },
+      {
+        "id": "vm-pred-4",
+        "text": "The 'ImageNet moment' for reinforcement learning will be the development of a universal, open-source platform for embodied AI, featuring a massive library of diverse, interactive 3D environments. This will allow for the creation of 'generalist agents' pre-trained on a vast range of skills, which can then be rapidly fine-tuned for specific real-world robotic tasks, similar to how foundation models work for language.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Generalist Agents / Embodied AI"
+      },
+      {
+        "id": "vm-pred-5",
+        "text": "We will discover that many of the core cognitive abilities we associate with intelligence, such as attention, memory, and prediction, are not modules to be added to an agent, but are emergent properties of an agent learning to maximize reward in a sufficiently complex environment. The quest for more capable RL agents will therefore also become a primary tool for understanding the nature of intelligence itself.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Emergent Intelligence / Computational Neuroscience"
+      },
+      {
+        "id": "vm-pred-6",
+        "text": "Unsupervised skill discovery will become a cornerstone of deep RL. Agents will learn a rich repertoire of reusable skills from raw sensory input without any explicit rewards. This will enable 'zero-shot' transfer to new tasks, where a human can simply instruct the agent by composing the learned skills in natural language (e.g., 'go to the door, pick up the key, and bring it to me').",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Unsupervised Skill Discovery / Language-Conditioned RL"
+      }
+    ],
     company: 'Google DeepMind',
     linkedin: 'https://linkedin.com/in/volodymyr-mnih-6bba433',
     twitter: 'https://twitter.com/vmnih',
@@ -3905,7 +4450,44 @@ export const experts: Expert[] = [
     dataAiHint: 'Larry Heck',
     expertise: ['Speech Recognition', 'Conversational AI', 'Natural Language Processing', 'AI Research', 'Deep Learning'],
     impactArea: 'Leaders at Major AI Labs & Companies',
-    predictions: [],
+    predictions: [
+      {
+        "id": "lh-pred-1",
+        "text": "The future of AI assistants lies in moving from a passive, reactive model to a proactive, collaborative one. Future conversational AI will maintain a persistent, dynamic 'dialogue state' that models user intent, emotional state, and shared context over long periods. This will allow AIs to anticipate needs, interject with relevant suggestions, and steer conversations toward a collaborative goal, becoming true partners rather than just command-takers.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Proactive Dialogue / State Management"
+      },
+      {
+        "id": "lh-pred-2",
+        "text": "The next frontier in speech technology is not just recognizing the words spoken, but understanding the rich paralinguistic information behind them—tone, emotion, sarcasm, hesitation, and sincerity. AIs will analyze these vocal cues to grasp the true meaning and intent of a speaker, leading to systems that can empathize with users, de-escalate conflicts in customer service, and understand unspoken social context.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Paralinguistic Understanding / Emotional Speech"
+      },
+      {
+        "id": "lh-pred-3",
+        "text": "Voice will become the ultimate biometric key. Your personal AI assistant will be able to distinguish you from any other speaker with near-perfect accuracy based on the unique, subtle characteristics of your voiceprint. This will enable a future of seamless, hyper-personalized, and secure interactions, where devices automatically adapt their entire interface and data access to the specific person who is speaking.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Voice Biometrics / Hyper-Personalization"
+      },
+      {
+        "id": "lh-pred-4",
+        "text": "Conversational AI will become the next dominant computing platform, effectively an 'operating system for life.' Instead of interacting with dozens of disparate apps through graphical interfaces, users will engage with a single, persistent AI assistant via natural language to manage their schedule, control their smart environment, consume information, and conduct commerce.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Conversational OS / Ambient Computing"
+      },
+      {
+        "id": "lh-pred-5",
+        "text": "Solving 'cocktail party' style multi-speaker conversations in real-world environments will be a bigger and more impactful milestone than passing the Turing Test. Future systems will not only need to isolate different speakers in noisy settings but also track who is speaking to whom, understand interjections and side-conversations, and build a coherent model of the entire group's interaction.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Multi-Speaker Interaction / Social Signal Processing"
+      },
+      {
+        "id": "lh-pred-6",
+        "text": "The most significant economic impact of conversational AI will be in the enterprise sector. AI agents will act as infinitely scalable, expert consultants, guiding employees through complex internal processes, summarizing hours of meetings into actionable minutes, and serving as a natural language front-end to massive enterprise databases. This will fundamentally reshape knowledge work.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Enterprise AI / Knowledge Work Automation"
+      }
+    ],
     company: 'Google (formerly Samsung, Microsoft)',
     linkedin: 'https://linkedin.com/in/larry-heck-8a03892',
     twitter: 'https://twitter.com/lheck',
@@ -3923,7 +4505,44 @@ export const experts: Expert[] = [
     dataAiHint: 'Li Deng',
     expertise: ['Deep Learning', 'Speech Recognition', 'Financial AI', 'AI Strategy', 'Natural Language Processing'],
     impactArea: 'Leaders at Major AI Labs & Companies',
-    predictions: [],
+    predictions: [
+      {
+        "id": "ld-pred-1",
+        "text": "The greatest financial breakthroughs will come from AI that can model the entire economic system as a complex, multi-agent environment, not just isolated time series. These 'economic simulation' models will be used to forecast systemic risks, war-game the impact of geopolitical events, and discover second-order effects that are completely invisible to current econometric models.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Economic Simulation / Systemic Risk"
+      },
+      {
+        "id": "ld-pred-2",
+        "text": "The future of quantitative trading lies in moving beyond correlational models to causal inference. AIs will not just identify patterns but will build explicit causal graphs of the market to understand 'why' events happen. This will lead to far more robust and adaptable strategies that don't collapse when a market regime changes, which is the primary failure mode of today's ML-based strategies.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Causal Inference / Robust Trading"
+      },
+      {
+        "id": "ld-pred-3",
+        "text": "The most valuable data source in finance will become unstructured, real-time text and speech. The winning AIs will be those that can parse the subtle nuances of language from central bankers' speeches, analyze the conviction in a CEO's voice during an earnings call, and synthesize millions of news articles and social media posts into a coherent, actionable worldview, all in real-time.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Unstructured Data Alpha / Financial NLP"
+      },
+      {
+        "id": "ld-pred-4",
+        "text": "The core architectures of deep learning will be re-imagined for finance. The static, i.i.d. assumptions underlying models like Transformers are fundamentally mismatched with the non-stationary, adversarial, and path-dependent nature of financial markets. The future belongs to new classes of models based on dynamical systems, state-space representations, and continuous-time learning.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Non-Stationary AI / Next-Gen Architectures"
+      },
+      {
+        "id": "ld-pred-5",
+        "text": "Just as deep learning unified the fields of speech and vision by learning hierarchical representations, it will create a 'grand unified theory' of financial signals. A single, massive model will learn to process data across all time scales simultaneously—from microsecond tick data to quarterly fundamentals and decadal macro trends—to create a holistic, self-consistent representation of market dynamics.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Hierarchical Representation / Unified Market Model"
+      },
+      {
+        "id": "ld-pred-6",
+        "text": "The most significant challenge and opportunity in financial AI is interpretability for risk management. We will develop 'hybrid AIs' that can generate high-performance trading signals while also producing a clear, auditable, and human-understandable rationale for their decisions. Without this, it is impossible to manage the immense tail risk associated with deploying autonomous systems in capital markets.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Interpretable AI / Risk Management"
+      }
+    ],
     company: 'Citadel (formerly Microsoft, DeepMind)',
     linkedin: 'https://linkedin.com/in/li-deng-48a1061',
     twitter: 'https://twitter.com/dr_li_deng',
