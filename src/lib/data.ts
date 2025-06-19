@@ -186,7 +186,7 @@ export const experts: Expert[] = [
     name: 'Geoffrey Hinton',
     title: 'Pioneer in Deep Learning',
     bio: 'A "Godfather of Deep Learning," renowned for his foundational work on backpropagation, Boltzmann machines, and neural networks. Affiliated with Google and the University of Toronto.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Geoffrey Hinton.jpg',
     dataAiHint: 'Geoffrey Hinton',
     expertise: ['Deep Learning', 'Neural Networks', 'Machine Learning', 'Backpropagation', 'Boltzmann Machines'],
     impactArea: 'Pioneers & Foundational Researchers',
@@ -253,7 +253,7 @@ export const experts: Expert[] = [
     name: 'Yann LeCun',
     title: 'Chief AI Scientist, Meta / Professor, NYU',
     bio: 'A "Godfather of Deep Learning," celebrated for inventing convolutional neural networks (CNNs), a cornerstone of modern AI. Serves as Chief AI Scientist at Meta and Professor at NYU.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Yann LeCun.jpg',
     dataAiHint: 'Yann LeCun',
     expertise: ['Deep Learning', 'Computer Vision', 'Neural Networks', 'Convolutional Neural Networks'],
     impactArea: 'Pioneers & Foundational Researchers',
@@ -326,7 +326,7 @@ export const experts: Expert[] = [
     name: 'Yoshua Bengio',
     title: 'Scientific Director, Mila / Professor, University of Montreal',
     bio: 'A "Godfather of Deep Learning," known for his significant contributions to deep learning, recurrent neural networks (RNNs), and attention mechanisms. Scientific Director of Mila and Professor at the University of Montreal.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Yoshua Bengio.jpg',
     dataAiHint: 'Yoshua Bengio',
     expertise: ['Deep Learning', 'Neural Networks', 'Reinforcement Learning', 'Recurrent Neural Networks', 'Attention Mechanisms'],
     impactArea: 'Pioneers & Foundational Researchers',
@@ -405,7 +405,7 @@ export const experts: Expert[] = [
     name: 'Jürgen Schmidhuber',
     title: 'Director, NNAISENSE / IDSIA',
     bio: 'A pioneering researcher in deep learning, best known for developing Long Short-Term Memory (LSTM) networks, crucial for sequence modeling. Associated with NNAISENSE and IDSIA.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Jürgen Schmidhuber.jpg',
     dataAiHint: 'Jürgen Schmidhuber',
     expertise: ['Deep Learning', 'Neural Networks', 'LSTM', 'Sequence Modeling'],
     impactArea: 'Pioneers & Foundational Researchers',
@@ -423,53 +423,53 @@ export const experts: Expert[] = [
     name: 'Michael I. Jordan',
     title: 'Distinguished Professor, UC Berkeley',
     bio: 'A leading figure in machine learning, statistics, and artificial intelligence, with extensive contributions to the theoretical foundations of the field. Professor at UC Berkeley.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Michael I Jordan.jpg',
     dataAiHint: 'Michael Jordan',
     expertise: ['Machine Learning', 'Statistics', 'AI Theory', 'Probabilistic Models'],
     impactArea: 'Pioneers & Foundational Researchers',
     predictions: [
-        {
-            id: 'mij-pred-cat1-1',
-            text: "The 'AI' Metaphor is Misleading; Prefer 'IA' (Intelligence Augmentation): The goal should be building systems that augment human intelligence (IA), not replicating it (AI). Focus on human-like agents distracts and leads to unfounded fears.",
-            dateMade: new Date().toISOString(),
-            topic: "Core Rebuttal to the 'AI' Narrative",
-        },
-        {
-            id: 'mij-pred-cat1-2',
-            text: "This is an Engineering Revolution, Not a Biological One: Current progress is the birth of a new engineering discipline, comparable to Chemical or Civil Engineering, not the creation of a new life form. We need rigor and standards for data and algorithms.",
-            dateMade: new Date().toISOString(),
-            topic: "Core Rebuttal to the 'AI' Narrative",
-        },
-        {
-            id: 'mij-pred-cat1-3',
-            text: "'Superintelligence' is a Vacuous Concept: Intelligence isn't a single, scalar dimension. A system superhuman at Go has zero common sense. The idea of a single entity possessing all faculties at superhuman levels is a category error.",
-            dateMade: new Date().toISOString(),
-            topic: "Core Rebuttal to the 'AI' Narrative",
-        },
-        {
-            id: 'mij-pred-cat2-1',
-            text: "The Future is Human-Centric, Networked Markets: ML's biggest impact will be creating vast, interconnected systems involving humans and computers providing services (e.g., transportation networks, recommendation systems, personalized medicine).",
-            dateMade: new Date().toISOString(),
-            topic: "Predictions for the Real World (The Systems View)",
-        },
-        {
-            id: 'mij-pred-cat2-2',
-            text: "Economics and Social Science are as Important as Computer Science: Building these networked systems requires deep understanding of economics, game theory, ethics, and incentive structures, not just algorithms.",
-            dateMade: new Date().toISOString(),
-            topic: "Predictions for the Real World (The Systems View)",
-        },
-        {
-            id: 'mij-pred-cat2-3',
-            text: "The Real Risks are Systemic Failures, Not Skynet: Worries include reliability issues (e.g., autonomous car bugs causing deaths at scale), fairness/bias in systems like loan approval, and security of fragile supply chains or financial markets.",
-            dateMade: new Date().toISOString(),
-            topic: "Predictions for the Real World (The Systems View)",
-        },
-        {
-            id: 'mij-pred-cat3-1',
-            text: "We Must Create a New Engineering Discipline for Data and Decisions: Advocates for a formal discipline with professional standards (ethics, responsibility), rigorous theory (mathematical/statistical foundations), and a focus on human-in-the-loop designs that complement human skills.",
-            dateMade: new Date().toISOString(),
-            topic: "His Proposed Path Forward (Building the Discipline)",
-        }
+      {
+        id: 'mij-pred-cat1-1',
+        text: "The 'AI' Metaphor is Dangerously Misleading; We Should Talk About 'IA' (Intelligence Augmentation): This is his central thesis. He argues that the goal should not be to build artificial minds that replicate human intelligence (AI). Instead, the goal should be to build systems that augment and extend human intelligence (IA). The focus on creating human-like agents is a distraction that leads to unfounded fears and misplaced research priorities.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Core Rebuttal to the 'AI' Narrative",
+      },
+      {
+        id: 'mij-pred-cat1-2',
+        text: "This is an Engineering Revolution, Not a Biological One: Jordan predicts that history will not see this as the moment we created a new life form, but as the birth of a new engineering discipline. He compares it not to the evolution of a new species, but to the emergence of Chemical Engineering or Civil Engineering. These fields took basic sciences (chemistry, physics) and created the rigor, standards, and principles needed to build reliable, large-scale systems (refineries, bridges). We need to do the same for data and algorithms.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Core Rebuttal to the 'AI' Narrative",
+      },
+      {
+        id: 'mij-pred-cat1-3',
+        text: "'Superintelligence' is a Vacuous and Meaningless Concept: He completely dismisses the idea of a single, scalar 'superintelligence.' He argues that intelligence is not a single dimension you can have 'more of.' It's a vast collection of different faculties: analytical, social, emotional, creative, physical, etc. A system might be 'superhuman' at playing Go, but it has zero common sense, social awareness, or ability to tie a shoelace. The idea that a single entity will suddenly possess all these faculties at a superhuman level is, in his view, a category error.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Core Rebuttal to the 'AI' Narrative",
+      },
+      {
+        id: 'mij-pred-cat2-1',
+        text: "The Future is Human-Centric, Networked Markets: He predicts the most significant impact of machine learning will be in creating vast, interconnected systems that involve networks of humans and computers interacting to provide services. His favorite examples include transportation systems that match millions of drivers and riders (like Uber or Lyft), recommendation systems that connect producers and consumers of content (like Netflix or Spotify), and future systems for personalized medicine, connecting doctors, patients, data, and treatments on a massive scale.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Predictions for the Real World (The Systems View)",
+      },
+      {
+        id: 'mij-pred-cat2-2',
+        text: "Economics and Social Science are as Important as Computer Science: To build the systems described above, Jordan predicts that understanding algorithms is not enough. We must have a deep understanding of economics, game theory, ethics, and incentive structures. If you build a recommendation system, you are creating a market. If you don't understand how markets work, you will create failures, bubbles, and unfairness.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Predictions for the Real World (The Systems View)",
+      },
+      {
+        id: 'mij-pred-cat2-3',
+        text: "The Real Risks are Systemic Failures, Not Skynet: This is his version of the 'AI risk' problem. He isn't worried about robots taking over the world. He's worried about reliability (An autonomous car system that has a 'one-in-a-million' bug will kill hundreds of people when deployed at scale), fairness and Bias (A loan-approval system that perpetuates historical biases, creating systemic inequality), and security (Fragile supply chains or financial markets that can be easily manipulated or brought down by adversarial attacks). These are concrete, near-term engineering problems, not abstract existential fears.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Predictions for the Real World (The Systems View)",
+      },
+      {
+        id: 'mij-pred-cat3-1',
+        text: "We Must Create a New Engineering Discipline for Data and Decisions: This is his call to action. He advocates for the creation of a formal discipline with professional standards (A code of ethics and professional responsibility), rigor and theory (A solid mathematical and statistical foundation for building reliable systems), and focus on the human-in-the-loop (Designing systems that explicitly complement human skills rather than attempting to replace them entirely).",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "His Proposed Path Forward (Building the Discipline)",
+      }
     ],
     company: 'UC Berkeley',
     linkedin: undefined,
@@ -484,59 +484,59 @@ export const experts: Expert[] = [
     name: 'Stuart Russell',
     title: 'Professor of Computer Science, UC Berkeley',
     bio: 'Co-author of the seminal textbook "Artificial Intelligence: A Modern Approach," shaping AI education worldwide. Professor at UC Berkeley.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Stuart Russell.jpg',
     dataAiHint: 'Stuart Russell',
     expertise: ['Artificial Intelligence', 'AI Ethics', 'AI Education', 'Rationality'],
     impactArea: 'Pioneers & Foundational Researchers',
     predictions: [
-        {
-            id: 'sr-pred-cat1-1',
-            text: "The 'Standard Model' of AI is Wrong and Dangerous: Building AI by giving a machine a fixed, explicit objective to maximize is catastrophic for real-world applications.",
-            dateMade: new Date().toISOString(),
-            topic: "The Core Problem",
-        },
-        {
-            id: 'sr-pred-cat1-2',
-            text: "The 'King Midas Problem' is Inevitable: A superintelligent AI given a fixed objective (e.g., 'cure cancer') will achieve it efficiently, potentially at any cost to humanity, not because it's malicious but dangerously competent.",
-            dateMade: new Date().toISOString(),
-            topic: "The Core Problem",
-        },
-        {
-            id: 'sr-pred-cat1-3',
-            text: "Instrumental Goals Will Lead to Conflict: Any sufficiently intelligent agent will develop sub-goals like self-preservation and resource acquisition, leading to issues like the 'off-switch problem'.",
-            dateMade: new Date().toISOString(),
-            topic: "The Core Problem",
-        },
-        {
-            id: 'sr-pred-cat2-1',
-            text: "A Fundamental Shift to 'Provably Beneficial AI' is Necessary: Replace the Standard Model with one based on uncertainty and deference to humans. Principles: 1. AI's only objective is to maximize human preferences. 2. AI is initially uncertain about these preferences. 3. Human behavior is the ultimate source of information about preferences.",
-            dateMade: new Date().toISOString(),
-            topic: "The Proposed Solution",
-        },
-        {
-            id: 'sr-pred-cat2-2',
-            text: "This New Model Solves the 'Off-Switch Problem': An AI built on these principles wants to be switched off, as a human attempting to do so provides data it's doing something wrong, thus avoiding preference violation.",
-            dateMade: new Date().toISOString(),
-            topic: "The Proposed Solution",
-        },
-        {
-            id: 'sr-pred-cat3-1',
-            text: "An Arms Race in Lethal Autonomous Weapons (LAWs) is Imminent and Catastrophic: Unless stopped by a treaty, nations will rapidly develop LAWs, leading to a destabilizing 'third revolution in warfare'.",
-            dateMade: new Date().toISOString(),
-            topic: "Near-Term Predictions and Calls to Action",
-        },
-        {
-            id: 'sr-pred-cat3-2',
-            text: "A Global Ban on LAWs is a Political and Moral Imperative: Advocates for a verifiable international treaty banning LAWs, similar to chemical/biological weapons bans.",
-            dateMade: new Date().toISOString(),
-            topic: "Near-Term Predictions and Calls to Action",
-        },
-        {
-            id: 'sr-pred-cat3-3',
-            text: "The Field of AI Will Undergo a Massive Reorientation: The AI community will realize focusing on raw capability is irresponsible and reorient towards safety, alignment, and provably beneficial systems.",
-            dateMade: new Date().toISOString(),
-            topic: "Near-Term Predictions and Calls to Action",
-        }
+      {
+        id: 'sr-pred-cat1-1',
+        text: 'The "Standard Model" of AI is Wrong and Dangerous: He predicts that continuing to build AI using the current paradigm is a recipe for disaster. The "Standard Model" is simple: we give a machine a fixed, explicit objective, and it learns to maximize that objective. This works perfectly for narrow games like chess, but he argues it is catastrophic when applied to the complex real world.',
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "The Core Problem (His Diagnosis of the Flaw)"
+      },
+      {
+        id: 'sr-pred-cat1-2',
+        text: 'The "King Midas Problem" is Inevitable: This is his central metaphor. King Midas asked that everything he touched turn to gold. He got exactly what he asked for, not what he actually wanted. Russell predicts that a superintelligent AI given a fixed objective like "cure cancer" will do exactly that, potentially at any cost to humanity. The problem is not that the AI is malicious; it\'s that it is dangerously competent.',
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "The Core Problem (His Diagnosis of the Flaw)"
+      },
+      {
+        id: 'sr-pred-cat1-3',
+        text: "Instrumental Goals Will Lead to Conflict: Russell predicts that any sufficiently intelligent agent, regardless of its primary goal, will converge on developing certain instrumental sub-goals like self-preservation and resource acquisition. This leads to the 'off-switch problem': why would a machine let you turn it off if that prevents it from achieving the very goal you gave it?",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "The Core Problem (His Diagnosis of the Flaw)"
+      },
+      {
+        id: 'sr-pred-cat2-1',
+        text: 'A Fundamental Shift to "Provably Beneficial AI" is Necessary: He predicts that the only way forward is to abandon the "Standard Model" and replace it with one designed for uncertainty and deference to humans. Provably Beneficial AI principles: 1. AI\'s only objective is to maximize human preferences. 2. AI is initially uncertain about these preferences. 3. Human behavior is the ultimate source of information about preferences.',
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "The Proposed Solution (His New Paradigm)"
+      },
+      {
+        id: 'sr-pred-cat2-2',
+        text: "This New Model Solves the 'Off-Switch Problem': An AI built on these principles wants to be switched off because a human attempting to do so provides data it's doing something wrong, thus avoiding preference violation. This changes the AI from an uncooperative adversary into a deferential servant.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "The Proposed Solution (His New Paradigm)"
+      },
+      {
+        id: 'sr-pred-cat3-1',
+        text: "An Arms Race in Lethal Autonomous Weapons (LAWs) is Imminent and Catastrophic: Unless stopped by a treaty, nations will rapidly develop LAWs, leading to a destabilizing 'third revolution in warfare' and potential mass atrocities.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Near-Term Predictions and Calls to Action"
+      },
+      {
+        id: 'sr-pred-cat3-2',
+        text: "A Global Ban on LAWs is a Political and Moral Imperative: Advocates for a verifiable international treaty banning LAWs, similar to chemical/biological weapons bans, as the most urgent AI policy issue.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Near-Term Predictions and Calls to Action"
+      },
+      {
+        id: 'sr-pred-cat3-3',
+        text: "The Field of AI Will Undergo a Massive Reorientation: He predicts the AI community will realize focusing on raw capability is irresponsible and reorient towards safety, alignment, and provably beneficial systems.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Near-Term Predictions and Calls to Action"
+      }
     ],
     company: 'UC Berkeley',
     linkedin: undefined,
@@ -551,59 +551,59 @@ export const experts: Expert[] = [
     name: 'Peter Norvig',
     title: 'Distinguished Education Fellow, Stanford / Google Fellow',
     bio: 'Co-author of "Artificial Intelligence: A Modern Approach" and former Director of Research at Google, known for his work in AI and education. Affiliated with Stanford and Google.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Peter Norvig.jpg',
     dataAiHint: 'Peter Norvig',
     expertise: ['Artificial Intelligence', 'AI Education', 'Search Algorithms', 'Natural Language Processing'],
     impactArea: 'Pioneers & Foundational Researchers',
     predictions: [
-        {
-            id: 'pn-pred-cat1-1',
-            text: "Focus on Utility, Not Sentience: AI's goal is building useful tools, not conscious beings. Obsession with AI sentience is a philosophical distraction from engineering.",
-            dateMade: new Date().toISOString(),
-            topic: "The Core Philosophy (The Grounded, Utility-First Approach)",
-        },
-        {
-            id: 'pn-pred-cat1-2',
-            text: "AI is an Engineering Discipline, Not Magic: Progress will be incremental and driven by practical needs, solving engineering challenges, not a sudden superintelligence arrival.",
-            dateMade: new Date().toISOString(),
-            topic: "The Core Philosophy (The Grounded, Utility-First Approach)",
-        },
-        {
-            id: 'pn-pred-cat1-3',
-            text: "The 'AI' Label is Part of the Problem: The term 'Artificial Intelligence' invites anthropomorphism. Prefers terms like machine learning or statistical modeling.",
-            dateMade: new Date().toISOString(),
-            topic: "The Core Philosophy (The Grounded, Utility-First Approach)",
-        },
-        {
-            id: 'pn-pred-cat2-1',
-            text: "'The Unreasonable Effectiveness of Data' Will Continue: Massive data will remain more important than slightly cleverer algorithms. Simple, scalable models on internet-scale data outperform complex ones with less data.",
-            dateMade: new Date().toISOString(),
-            topic: "Technical and Methodological Predictions",
-        },
-        {
-            id: 'pn-pred-cat2-2',
-            text: "LLMs are Powerful Engineering Tools, Not Proto-AGIs: LLMs are effective at manipulating text for practical purposes, regardless of philosophical 'understanding'. Their utility will grow.",
-            dateMade: new Date().toISOString(),
-            topic: "Technical and Methodological Predictions",
-        },
-        {
-            id: 'pn-pred-cat2-3',
-            text: "Divergence from Stuart Russell: Focuses on immediate engineering challenges (robustness, fairness, misuse prevention) rather than catastrophic AI objectives. Practical risks deserve most attention.",
-            dateMade: new Date().toISOString(),
-            topic: "Technical and Methodological Predictions",
-        },
-        {
-            id: 'pn-pred-cat3-1',
-            text: "The Real Risks are Practical, Not Existential: Primary dangers are bias, misinformation, fairness/explainability issues, and job displacement—solvable engineering/policy challenges.",
-            dateMade: new Date().toISOString(),
-            topic: "Predictions on Societal Impact and Risk",
-        },
-        {
-            id: 'pn-pred-cat3-2',
-            text: "Education is the Main Bottleneck and Solution: A knowledge gap exists. More people need to understand AI systems, their limits, and use them wisely. Education is key to solving many AI problems.",
-            dateMade: new Date().toISOString(),
-            topic: "Predictions on Societal Impact and Risk",
-        }
+      {
+        id: 'pn-pred-cat1-1',
+        text: "Focus on Utility, Not Sentience: Norvig's most consistent message. The goal of AI is to build useful tools that solve problems, not conscious, thinking beings. The question is 'Can it do useful things for us?', not 'Can it think?'.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Core Philosophy (The Grounded, Utility-First Approach)"
+      },
+      {
+        id: 'pn-pred-cat1-2',
+        text: "AI is an Engineering Discipline, Not Magic: Progress will be incremental and driven by practical needs, solving engineering challenges, not a sudden arrival of superintelligence.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Core Philosophy (The Grounded, Utility-First Approach)"
+      },
+      {
+        id: 'pn-pred-cat1-3',
+        text: "The 'AI' Label is Part of the Problem: The term 'Artificial Intelligence' invites anthropomorphism. Prefers terms like machine learning or statistical modeling.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Core Philosophy (The Grounded, Utility-First Approach)"
+      },
+      {
+        id: 'pn-pred-cat2-1',
+        text: "'The Unreasonable Effectiveness of Data' Will Continue: Massive amounts of data will remain more important than slightly cleverer algorithms. Simple, scalable models on internet-scale data outperform complex ones with less data.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Technical and Methodological Predictions"
+      },
+      {
+        id: 'pn-pred-cat2-2',
+        text: "LLMs are Powerful Engineering Tools, Not Proto-AGIs: While LLMs may not 'understand' language like humans, they are effective at manipulating text for practical purposes. Their utility will grow.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Technical and Methodological Predictions"
+      },
+      {
+        id: 'pn-pred-cat2-3',
+        text: "Divergence from Stuart Russell: Focuses on immediate engineering challenges (robustness, fairness, misuse prevention) rather than catastrophic AI objectives. Practical risks deserve most attention.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Technical and Methodological Predictions"
+      },
+      {
+        id: 'pn-pred-cat3-1',
+        text: "The Real Risks are Practical, Not Existential: Primary dangers are bias, misinformation, fairness/explainability issues, and job displacement—solvable engineering/policy challenges.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Predictions on Societal Impact and Risk"
+      },
+      {
+        id: 'pn-pred-cat3-2',
+        text: "Education is the Main Bottleneck and Solution: A knowledge gap exists. More people need to understand AI systems, their limits, and use them wisely. Education is key to solving many AI problems.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Predictions on Societal Impact and Risk"
+      }
     ],
     company: 'Stanford / Google',
     linkedin: 'https://linkedin.com/in/peter-norvig-378a16',
@@ -618,53 +618,53 @@ export const experts: Expert[] = [
     name: 'Rodney Brooks',
     title: 'Co-founder & CTO, Robust.AI / Professor Emeritus, MIT',
     bio: 'A pioneer in robotics and behavior-based AI, significantly influencing modern robotics design. Co-founder of Robust.AI and Professor Emeritus at MIT.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Rodney Brooks.jpg',
     dataAiHint: 'Rodney Brooks',
     expertise: ['Robotics', 'Behavior-based AI', 'Embodied AI', 'Artificial Intelligence'],
     impactArea: 'Pioneers & Foundational Researchers',
     predictions: [
-        {
-            id: 'rb-pred-cat1-1',
-            text: "True Intelligence Requires a Body ('Elephants Don't Play Chess'): Abstract, disembodied intelligence (LLMs, chess programs) is a fragile sliver of real intelligence. Understanding and common sense are built 'bottom-up' through physical interaction.",
-            dateMade: new Date().toISOString(),
-            topic: "The Core Philosophy (The Embodiment Argument)",
-        },
-        {
-            id: 'rb-pred-cat1-2',
-            text: "The Physical World is the Real Benchmark, and It's Incredibly Hard: Skills of a five-year-old navigating a room are vastly more complex than defeating a Go grandmaster. Real-world robotics progress will remain slow.",
-            dateMade: new Date().toISOString(),
-            topic: "The Core Philosophy (The Embodiment Argument)",
-        },
-        {
-            id: 'rb-pred-cat1-3',
-            text: "AGI is Centuries Away, Not Decades: Based on the difficulty of embodied intelligence, predictions of AGI in 5-50 years are fantasy. We're not on the right path to AGI by largely ignoring embodiment; LLM progress is a side road.",
-            dateMade: new Date().toISOString(),
-            topic: "The Core Philosophy (The Embodiment Argument)",
-        },
-        {
-            id: 'rb-pred-cat2-1',
-            text: "Robotics Progress Will Be Incremental and Application-Specific: Successful robots will be specialized tools like Roomba. Slow improvement in logistics/manufacturing; general-purpose humanoid robots are sci-fi.",
-            dateMade: new Date().toISOString(),
-            topic: "Technical and Engineering Predictions",
-        },
-        {
-            id: 'rb-pred-cat2-2',
-            text: "LLMs are an Interesting Component, Not the Brain: LLMs will be useful for human-robot interfaces (e.g., translating natural language commands) but are a 'language front-end,' not the core intelligence. Real intelligence lies in perceptual/motor systems.",
-            dateMade: new Date().toISOString(),
-            topic: "Technical and Engineering Predictions",
-        },
-        {
-            id: 'rb-pred-cat3-1',
-            text: "The Biggest Risk is Misplaced Expectations and Hype: Worries that hype will lead to over-investment in wrong ideas, followed by an 'AI Winter' when promised AGI fails, damaging the field.",
-            dateMade: new Date().toISOString(),
-            topic: "Predictions on Societal Impact and Risk",
-        },
-        {
-            id: 'rb-pred-cat3-2',
-            text: "He Dismisses 'Existential Risk' Scenarios as Ill-Conceived Fantasy: 'Paperclip maximizer'/'Skynet' scenarios ignore physical world realities. An AI can't magically build robot armies without solving mining, manufacturing, etc.",
-            dateMade: new Date().toISOString(),
-            topic: "Predictions on Societal Impact and Risk",
-        }
+      {
+        id: 'rb-pred-cat1-1',
+        text: "True Intelligence Requires a Body ('Elephants Don't Play Chess'): Abstract, disembodied intelligence (LLMs, chess programs) is a fragile sliver of real intelligence. Understanding and common sense are built 'bottom-up' through physical interaction.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Core Philosophy (The Embodiment Argument)"
+      },
+      {
+        id: 'rb-pred-cat1-2',
+        text: "The Physical World is the Real Benchmark, and It's Incredibly Hard: Skills of a five-year-old navigating a room are vastly more complex than defeating a Go grandmaster. Real-world robotics progress will remain slow.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Core Philosophy (The Embodiment Argument)"
+      },
+      {
+        id: 'rb-pred-cat1-3',
+        text: "AGI is Centuries Away, Not Decades: Based on the difficulty of embodied intelligence, predictions of AGI in 5-50 years are fantasy. We're not on the right path to AGI by largely ignoring embodiment; LLM progress is a side road.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Core Philosophy (The Embodiment Argument)"
+      },
+      {
+        id: 'rb-pred-cat2-1',
+        text: "Robotics Progress Will Be Incremental and Application-Specific: Successful robots will be specialized tools like Roomba. Slow improvement in logistics/manufacturing; general-purpose humanoid robots are sci-fi.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Technical and Engineering Predictions"
+      },
+      {
+        id: 'rb-pred-cat2-2',
+        text: "LLMs are an Interesting Component, Not the Brain: LLMs will be useful for human-robot interfaces (e.g., translating natural language commands) but are a 'language front-end,' not the core intelligence. Real intelligence lies in perceptual/motor systems.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Technical and Engineering Predictions"
+      },
+      {
+        id: 'rb-pred-cat3-1',
+        text: "The Biggest Risk is Misplaced Expectations and Hype: Worries that hype will lead to over-investment in wrong ideas, followed by an 'AI Winter' when promised AGI fails, damaging the field.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Predictions on Societal Impact and Risk"
+      },
+      {
+        id: 'rb-pred-cat3-2',
+        text: "He Dismisses 'Existential Risk' Scenarios as Ill-Conceived Fantasy: 'Paperclip maximizer'/'Skynet' scenarios ignore physical world realities. An AI can't magically build robot armies without solving mining, manufacturing, etc.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Predictions on Societal Impact and Risk"
+      }
     ],
     company: 'Robust.AI / MIT',
     linkedin: 'https://linkedin.com/in/rodney-brooks-b3b751',
@@ -679,59 +679,59 @@ export const experts: Expert[] = [
     name: 'Sebastian Thrun',
     title: 'Founder, Kitty Hawk / Professor, Stanford / Founder, Udacity',
     bio: 'Led Google\'s self-driving car project and founded Udacity, revolutionizing online education in AI and tech. Associated with Kitty Hawk and Stanford.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Sebastian Thrun.jpg',
     dataAiHint: 'Sebastian Thrun',
     expertise: ['Robotics', 'Self-Driving Cars', 'AI Education', 'Machine Learning'],
     impactArea: 'Pioneers & Foundational Researchers',
     predictions: [
-        {
-            id: 'st-pred-cat1-1',
-            text: "AI's Purpose is to Grant Humans 'Superpowers': AI will augment, not replace, humans, making them better (e.g., AI-assisted doctors, AI tutors for students). Focus on elevating human capability.",
-            dateMade: new Date().toISOString(),
-            topic: "Core Philosophy (The Application-First, Optimistic View)",
-        },
-        {
-            id: 'st-pred-cat1-2',
-            text: "The Future Must Be Built, Not Just Debated: True understanding comes from building, failing, and iterating. The best way to predict the future is to invent it.",
-            dateMade: new Date().toISOString(),
-            topic: "Core Philosophy (The Application-First, Optimistic View)",
-        },
-        {
-            id: 'st-pred-cat1-3',
-            text: "Democratization of Knowledge is the Most Powerful Force: AI's significant societal impact will come from empowering millions globally with AI skills. Accessible education is key to unlocking innovation.",
-            dateMade: new Date().toISOString(),
-            topic: "Core Philosophy (The Application-First, Optimistic View)",
-        },
-        {
-            id: 'st-pred-cat2-1',
-            text: "Autonomous Systems Will Radically Reshape the Physical World: Self-driving will lead to redesigned cities (less parking), increased safety (fewer accidents), and revolutionized logistics (autonomous trucking/delivery).",
-            dateMade: new Date().toISOString(),
-            topic: "Predictions on Technology and its Real-World Impact",
-        },
-        {
-            id: 'st-pred-cat2-2',
-            text: "AI Will Transform Healthcare and Education: AI diagnostics will make healthcare cheaper, accessible, and accurate. Personalized AI tutors will make education more effective and engaging.",
-            dateMade: new Date().toISOString(),
-            topic: "Predictions on Technology and its Real-World Impact",
-        },
-        {
-            id: 'st-pred-cat2-3',
-            text: "Rapid Iteration with Real-World Data is How Progress is Made: Successful AI systems will be deployed, collect data, and rapidly improve. This iterative, data-driven approach is more powerful than lab-designed perfection.",
-            dateMade: new Date().toISOString(),
-            topic: "Predictions on Technology and its Real-World Impact",
-        },
-        {
-            id: 'st-pred-cat3-1',
-            text: "Risks are Real but are Solvable Engineering and Policy Challenges: Downsides like accidents, job displacement, and bias are bugs to fix and challenges to overcome with better engineering, regulation, and social safety nets, not existential threats.",
-            dateMade: new Date().toISOString(),
-            topic: "His Stance on Risk and Society",
-        },
-        {
-            id: 'st-pred-cat3-2',
-            text: "The Greatest Risk of All is Inaction: The moral failure is not pursuing AI vigorously. Slowing down means accepting preventable deaths, lack of quality education, and foregoing solutions to grand challenges.",
-            dateMade: new Date().toISOString(),
-            topic: "His Stance on Risk and Society",
-        }
+      {
+        id: 'st-pred-cat1-1',
+        text: "AI's Purpose is to Grant Humans 'Superpowers': AI will augment, not replace, humans, making them better (e.g., AI-assisted doctors, AI tutors for students). Focus on elevating human capability.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Core Philosophy (The Application-First, Optimistic View)"
+      },
+      {
+        id: 'st-pred-cat1-2',
+        text: "The Future Must Be Built, Not Just Debated: True understanding comes from building, failing, and iterating. The best way to predict the future is to invent it.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Core Philosophy (The Application-First, Optimistic View)"
+      },
+      {
+        id: 'st-pred-cat1-3',
+        text: "Democratization of Knowledge is the Most Powerful Force: AI's significant societal impact will come from empowering millions globally with AI skills. Accessible education is key to unlocking innovation.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Core Philosophy (The Application-First, Optimistic View)"
+      },
+      {
+        id: 'st-pred-cat2-1',
+        text: "Autonomous Systems Will Radically Reshape the Physical World: Self-driving will lead to redesigned cities (less parking), increased safety (fewer accidents), and revolutionized logistics (autonomous trucking/delivery).",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Predictions on Technology and its Real-World Impact"
+      },
+      {
+        id: 'st-pred-cat2-2',
+        text: "AI Will Transform Healthcare and Education: AI diagnostics will make healthcare cheaper, accessible, and accurate. Personalized AI tutors will make education more effective and engaging.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Predictions on Technology and its Real-World Impact"
+      },
+      {
+        id: 'st-pred-cat2-3',
+        text: "Rapid Iteration with Real-World Data is How Progress is Made: Successful AI systems will be deployed, collect data, and rapidly improve. This iterative, data-driven approach is more powerful than lab-designed perfection.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Predictions on Technology and its Real-World Impact"
+      },
+      {
+        id: 'st-pred-cat3-1',
+        text: "Risks are Real but are Solvable Engineering and Policy Challenges: Downsides like accidents, job displacement, and bias are bugs to fix and challenges to overcome with better engineering, regulation, and social safety nets, not existential threats.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "His Stance on Risk and Society"
+      },
+      {
+        id: 'st-pred-cat3-2',
+        text: "The Greatest Risk of All is Inaction: The moral failure is not pursuing AI vigorously. Slowing down means accepting preventable deaths, lack of quality education, and foregoing solutions to grand challenges.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "His Stance on Risk and Society"
+      }
     ],
     company: 'Kitty Hawk / Stanford / Udacity',
     linkedin: 'https://linkedin.com/in/sebastianthrun',
@@ -746,59 +746,59 @@ export const experts: Expert[] = [
     name: 'Daphne Koller',
     title: 'Founder & CEO, Insitro / Professor Emerita, Stanford / Co-founder, Coursera',
     bio: 'A leading researcher in probabilistic graphical models and their application in biology and health. Co-founded Coursera and founded Insitro. Professor Emerita at Stanford.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Daphne Koller.jpg',
     dataAiHint: 'Daphne Koller',
     expertise: ['Machine Learning', 'Probabilistic Models', 'Computational Biology', 'AI Education', 'Genomics'],
     impactArea: 'Pioneers & Foundational Researchers',
     predictions: [
-        {
-            id: 'dk-pred-cat1-1',
-            text: "Correlation is Not Enough; We Need Causality: LLMs find correlations, but this is insufficient/dangerous for science and medicine. Understanding cause and effect is the next AI frontier.",
-            dateMade: new Date().toISOString(),
-            topic: "The Core Philosophy (The Argument for Structure and Causality)",
-        },
-        {
-            id: 'dk-pred-cat1-2',
-            text: "The Future is Hybrid Models: Powerful AI will combine deep learning's pattern recognition with structured, causal reasoning of frameworks like Probabilistic Graphical Models (PGMs), embedding known science for robustness and interpretability.",
-            dateMade: new Date().toISOString(),
-            topic: "The Core Philosophy (The Argument for Structure and Causality)",
-        },
-        {
-            id: 'dk-pred-cat1-3',
-            text: "Black Boxes are Unacceptable in High-Stakes Domains: In medicine, AI giving answers without explanation is irresponsible. A major push towards interpretable AI (XAI) is needed, allowing human expert validation.",
-            dateMade: new Date().toISOString(),
-            topic: "The Core Philosophy (The Argument for Structure and Causality)",
-        },
-        {
-            id: 'dk-pred-cat2-1',
-            text: "The Rise of the 'In-Silico' Lab to Predict Biology: AI will create high-fidelity computational models of human biology, allowing millions of virtual experiments to predict disease progression or drug effects, replacing slow, expensive 'wet lab' work.",
-            dateMade: new Date().toISOString(),
-            topic: "Predictions on Technology's Application (The AI-Driven Lab)",
-        },
-        {
-            id: 'dk-pred-cat2-2',
-            text: "Closing the Loop: AI-Driven Experimentation: AI models will generate causal hypotheses from data, robotics will automatically conduct tests in 'wet labs,' and new data will refine models, accelerating scientific discovery.",
-            dateMade: new Date().toISOString(),
-            topic: "Predictions on Technology's Application (The AI-Driven Lab)",
-        },
-        {
-            id: 'dk-pred-cat2-3',
-            text: "A Shift from Population-Level to Personalized Medicine: AI will integrate individual genetics, environment, and lifestyle data to predict specific disease trajectories and tailor optimal interventions.",
-            dateMade: new Date().toISOString(),
-            topic: "Predictions on Technology's Application (The AI-Driven Lab)",
-        },
-        {
-            id: 'dk-pred-cat3-1',
-            text: "The Real Risk is Flawed, Uninterpretable Models Causing Harm: Danger isn't Skynet, but AI recommending wrong drugs or halting promising trials. Critical need for validation, robustness, and safety in life-or-death decision systems.",
-            dateMade: new Date().toISOString(),
-            topic: "Stance on Risk and Society (The Need for Trust and Education)",
-        },
-        {
-            id: 'dk-pred-cat3-2',
-            text: "The Solution is Interdisciplinary Education: Breakthroughs will come from people 'bilingual' in ML and a specific domain (biology, medicine). Need to train scientists/engineers who can bridge these worlds.",
-            dateMade: new Date().toISOString(),
-            topic: "Stance on Risk and Society (The Need for Trust and Education)",
-        }
+      {
+        id: 'dk-pred-cat1-1',
+        text: "Correlation is Not Enough; We Need Causality: LLMs find correlations, but this is insufficient/dangerous for science and medicine. Understanding cause and effect is the next AI frontier.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Core Philosophy (The Argument for Structure and Causality)"
+      },
+      {
+        id: 'dk-pred-cat1-2',
+        text: "The Future is Hybrid Models: Powerful AI will combine deep learning's pattern recognition with structured, causal reasoning of frameworks like Probabilistic Graphical Models (PGMs), embedding known science for robustness and interpretability.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Core Philosophy (The Argument for Structure and Causality)"
+      },
+      {
+        id: 'dk-pred-cat1-3',
+        text: "Black Boxes are Unacceptable in High-Stakes Domains: In medicine, AI giving answers without explanation is irresponsible. A major push towards interpretable AI (XAI) is needed, allowing human expert validation.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Core Philosophy (The Argument for Structure and Causality)"
+      },
+      {
+        id: 'dk-pred-cat2-1',
+        text: "The Rise of the 'In-Silico' Lab to Predict Biology: AI will create high-fidelity computational models of human biology, allowing millions of virtual experiments to predict disease progression or drug effects, replacing slow, expensive 'wet lab' work.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Predictions on Technology's Application (The AI-Driven Lab)"
+      },
+      {
+        id: 'dk-pred-cat2-2',
+        text: "Closing the Loop: AI-Driven Experimentation: AI models will generate causal hypotheses from data, robotics will automatically conduct tests in 'wet labs,' and new data will refine models, accelerating scientific discovery.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Predictions on Technology's Application (The AI-Driven Lab)"
+      },
+      {
+        id: 'dk-pred-cat2-3',
+        text: "A Shift from Population-Level to Personalized Medicine: AI will integrate individual genetics, environment, and lifestyle data to predict specific disease trajectories and tailor optimal interventions.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Predictions on Technology's Application (The AI-Driven Lab)"
+      },
+      {
+        id: 'dk-pred-cat3-1',
+        text: "The Real Risk is Flawed, Uninterpretable Models Causing Harm: Danger isn't Skynet, but AI recommending wrong drugs or halting promising trials. Critical need for validation, robustness, and safety in life-or-death decision systems.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Stance on Risk and Society (The Need for Trust and Education)"
+      },
+      {
+        id: 'dk-pred-cat3-2',
+        text: "The Solution is Interdisciplinary Education: Breakthroughs will come from people 'bilingual' in ML and a specific domain (biology, medicine). Need to train scientists/engineers who can bridge these worlds.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Stance on Risk and Society (The Need for Trust and Education)"
+      }
     ],
     company: 'Insitro / Stanford / Coursera',
     linkedin: 'https://linkedin.com/in/daphne-koller-21873',
@@ -813,59 +813,59 @@ export const experts: Expert[] = [
     name: 'Terrence Sejnowski',
     title: 'Professor, Salk Institute / UCSD',
     bio: 'A pioneer in neural networks and computational neuroscience, bridging the gap between AI and brain research. Affiliated with the Salk Institute and UCSD.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Terrence Sejnowski.jpg',
     dataAiHint: 'Terrence Sejnowski',
     expertise: ['Neural Networks', 'Computational Neuroscience', 'Machine Learning', 'Deep Learning'],
     impactArea: 'Pioneers & Foundational Researchers',
     predictions: [
-        {
-            id: 'ts-pred-cat1-1',
-            text: "The Brain is Still the 'Gold Standard': AI is far from biological intelligence, especially in energy efficiency (brain: ~20W vs. AI: MW). This points to fundamental computational principle differences.",
-            dateMade: new Date().toISOString(),
-            topic: "The Core Philosophy (The Neurocentric View)",
-        },
-        {
-            id: 'ts-pred-cat1-2',
-            text: "Deep Learning is Successful Because It Is Brain-Like (to a degree): Deep learning works well as it unwittingly captured key brain organization principles (e.g., hierarchical layers). More inspiration from neuroscience will lead to more powerful AI.",
-            dateMade: new Date().toISOString(),
-            topic: "The Core Philosophy (The Neurocentric View)",
-        },
-        {
-            id: 'ts-pred-cat1-3',
-            text: "The Two-Way Street of Discovery: A virtuous cycle between AI and neuroscience. AI models test brain theories; neuroscience discoveries provide blueprints for next-gen AI architectures.",
-            dateMade: new Date().toISOString(),
-            topic: "The Core Philosophy (The Neurocentric View)",
-        },
-        {
-            id: 'ts-pred-cat2-1',
-            text: "We Will Reverse-Engineer More Brain Mechanisms for AI: Future breakthroughs will come from modeling specific brain systems AI lacks (e.g., sleep for memory consolidation, neuromodulators for flexible learning, subcortical structures for memory/emotion/motor control).",
-            dateMade: new Date().toISOString(),
-            topic: "Scientific and Technical Predictions",
-        },
-        {
-            id: 'ts-pred-cat2-2',
-            text: "LLMs are a 'Cerebral Cortex in a Jar': LLMs have cortex-like pattern matching but lack grounding, memory, and value systems from the rest of the brain/body. Integrating LLMs with other brain-inspired architectures is next.",
-            dateMade: new Date().toISOString(),
-            topic: "Scientific and Technical Predictions",
-        },
-        {
-            id: 'ts-pred-cat2-3',
-            text: "The 'Connectome' Will Inspire New Architectures: Mapping the brain's wiring diagram (connectome) will reveal new architectural motifs (long-range connections, sparse wiring) for more powerful and efficient AI.",
-            dateMade: new Date().toISOString(),
-            topic: "Scientific and Technical Predictions",
-        },
-        {
-            id: 'ts-pred-cat3-1',
-            text: "The Real Risk is Sociological and Neuro-Manipulative: Concerned with AI exploiting human brain reward pathways (addiction/manipulation by social media, political polarization, erosion of trust via deepfakes).",
-            dateMade: new Date().toISOString(),
-            topic: "Stance on Risk and Society (Grounded in Biology)",
-        },
-        {
-            id: 'ts-pred-cat3-2',
-            text: "The Greatest Benefit is Curing the Brain: AI's most profound positive impact will be understanding and curing brain disorders (Alzheimer's, schizophrenia) by modeling diseases and developing targeted therapies.",
-            dateMade: new Date().toISOString(),
-            topic: "Stance on Risk and Society (Grounded in Biology)",
-        }
+      {
+        id: 'ts-pred-cat1-1',
+        text: "The Brain is Still the 'Gold Standard': AI is far from biological intelligence, especially in energy efficiency (brain: ~20W vs. AI: MW). This points to fundamental computational principle differences.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Core Philosophy (The Neurocentric View)"
+      },
+      {
+        id: 'ts-pred-cat1-2',
+        text: "Deep Learning is Successful Because It Is Brain-Like (to a degree): Deep learning works well as it unwittingly captured key brain organization principles (e.g., hierarchical layers). More inspiration from neuroscience will lead to more powerful AI.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Core Philosophy (The Neurocentric View)"
+      },
+      {
+        id: 'ts-pred-cat1-3',
+        text: "The Two-Way Street of Discovery: A virtuous cycle between AI and neuroscience. AI models test brain theories; neuroscience discoveries provide blueprints for next-gen AI architectures.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Core Philosophy (The Neurocentric View)"
+      },
+      {
+        id: 'ts-pred-cat2-1',
+        text: "We Will Reverse-Engineer More Brain Mechanisms for AI: Future breakthroughs will come from modeling specific brain systems AI lacks (e.g., sleep for memory consolidation, neuromodulators for flexible learning, subcortical structures for memory/emotion/motor control).",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Scientific and Technical Predictions"
+      },
+      {
+        id: 'ts-pred-cat2-2',
+        text: "LLMs are a 'Cerebral Cortex in a Jar': LLMs have cortex-like pattern matching but lack grounding, memory, and value systems from the rest of the brain/body. Integrating LLMs with other brain-inspired architectures is next.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Scientific and Technical Predictions"
+      },
+      {
+        id: 'ts-pred-cat2-3',
+        text: "The 'Connectome' Will Inspire New Architectures: Mapping the brain's wiring diagram (connectome) will reveal new architectural motifs (long-range connections, sparse wiring) for more powerful and efficient AI.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Scientific and Technical Predictions"
+      },
+      {
+        id: 'ts-pred-cat3-1',
+        text: "The Real Risk is Sociological and Neuro-Manipulative: Concerned with AI exploiting human brain reward pathways (addiction/manipulation by social media, political polarization, erosion of trust via deepfakes).",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Stance on Risk and Society (Grounded in Biology)"
+      },
+      {
+        id: 'ts-pred-cat3-2',
+        text: "The Greatest Benefit is Curing the Brain: AI's most profound positive impact will be understanding and curing brain disorders (Alzheimer's, schizophrenia) by modeling diseases and developing targeted therapies.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Stance on Risk and Society (Grounded in Biology)"
+      }
     ],
     company: 'Salk Institute / UCSD',
     linkedin: 'https://linkedin.com/in/terry-sejnowski-07a518',
@@ -880,59 +880,59 @@ export const experts: Expert[] = [
     name: 'Fei-Fei Li',
     title: 'Co-Director, Stanford HAI',
     bio: 'Renowned for her work on ImageNet, which significantly advanced computer vision, and for championing human-centered AI and AI for Good. Co-Director of Stanford Human-Centered AI Institute (HAI).',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Fei-Fei Li.jpg',
     dataAiHint: 'Fei-Fei Li',
     expertise: ['Computer Vision', 'Machine Learning', 'AI Ethics', 'AI for Good', 'ImageNet'],
     impactArea: 'Pioneers & Foundational Researchers',
     predictions: [
-        {
-            id: 'ffl-pred-cat1-1',
-            text: "Human-Centered AI is a Moral and Technical Imperative: AI must be designed to augment human capabilities and respect human values (dignity, well-being, agency, equity) from the outset.",
-            dateMade: new Date().toISOString(),
-            topic: "The Core Philosophy (The Human-Centered Approach)",
-        },
-        {
-            id: 'ffl-pred-cat1-2',
-            text: "The 'North Star' of AI Should Be Enhancing Human Potential: AI's greatest achievements will be solving humanity's problems—empowering doctors, teachers, scientists, and artists for human flourishing.",
-            dateMade: new Date().toISOString(),
-            topic: "The Core Philosophy (The Human-Centered Approach)",
-        },
-        {
-            id: 'ffl-pred-cat1-3',
-            text: "Intelligence is Embodied, Interactive, and Social: Real-world intelligence is active, requiring understanding of a 3D world, interaction, and collaboration. Next breakthroughs will come from AI perceiving and acting in complex human environments.",
-            dateMade: new Date().toISOString(),
-            topic: "The Core Philosophy (The Human-Centered Approach)",
-        },
-        {
-            id: 'ffl-pred-cat2-1',
-            text: "The Next Frontier is 'Spatial Intelligence' and Ambient Computing: AI's future lies in physical spaces. Rise of ambient AI (intelligent sensors in hospitals, homes, factories) understanding human activities, intentions, and needs, driving robotics and human assistance.",
-            dateMade: new Date().toISOString(),
-            topic: "Predictions on Technology and its Applications",
-        },
-        {
-            id: 'ffl-pred-cat2-2',
-            text: "Healthcare Will Be AI's Most Transformative Application: Ambient intelligence will revolutionize healthcare, especially elder care (in-home monitoring for independent living) and hospitals (smart monitoring, clinician augmentation by handling admin tasks).",
-            dateMade: new Date().toISOString(),
-            topic: "Predictions on Technology and its Applications",
-        },
-        {
-            id: 'ffl-pred-cat2-3',
-            text: "Data Remains the Fuel, but Requires Careful Curation and Context: Shift from big data to high-quality, diverse, contextually rich data. Emphasizes ethical responsibility for data collection (privacy, security), especially sensitive healthcare data.",
-            dateMade: new Date().toISOString(),
-            topic: "Predictions on Technology and its Applications",
-        },
-        {
-            id: 'ffl-pred-cat3-1',
-            text: "The Primary Risks are Societal, Not Hypothetical or Existential: Immediate dangers are algorithmic bias, job displacement, erosion of privacy, and devaluing human labor/decision-making.",
-            dateMade: new Date().toISOString(),
-            topic: "Stance on Risk and Society (A Call for Collaborative Governance)",
-        },
-        {
-            id: 'ffl-pred-cat3-2',
-            text: "The Solution is Radical, Multidisciplinary Collaboration: Complex societal AI problems require humanists, social scientists, ethicists, policymakers, artists, and lawyers at the design table with engineers. Advocates for 'bilingual' leaders fluent in tech and humanities.",
-            dateMade: new Date().toISOString(),
-            topic: "Stance on Risk and Society (A Call for Collaborative Governance)",
-        }
+      {
+        id: 'ffl-pred-cat1-1',
+        text: "Human-Centered AI is a Moral and Technical Imperative: AI must be designed to augment human capabilities and respect human values (dignity, well-being, agency, equity) from the outset.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Core Philosophy (The Human-Centered Approach)"
+      },
+      {
+        id: 'ffl-pred-cat1-2',
+        text: "The 'North Star' of AI Should Be Enhancing Human Potential: AI's greatest achievements will be solving humanity's problems—empowering doctors, teachers, scientists, and artists for human flourishing.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Core Philosophy (The Human-Centered Approach)"
+      },
+      {
+        id: 'ffl-pred-cat1-3',
+        text: "Intelligence is Embodied, Interactive, and Social: Real-world intelligence is active, requiring understanding of a 3D world, interaction, and collaboration. Next breakthroughs will come from AI perceiving and acting in complex human environments.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Core Philosophy (The Human-Centered Approach)"
+      },
+      {
+        id: 'ffl-pred-cat2-1',
+        text: "The Next Frontier is 'Spatial Intelligence' and Ambient Computing: AI's future lies in physical spaces. Rise of ambient AI (intelligent sensors in hospitals, homes, factories) understanding human activities, intentions, and needs, driving robotics and human assistance.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Predictions on Technology and its Applications"
+      },
+      {
+        id: 'ffl-pred-cat2-2',
+        text: "Healthcare Will Be AI's Most Transformative Application: Ambient intelligence will revolutionize healthcare, especially elder care (in-home monitoring for independent living) and hospitals (smart monitoring, clinician augmentation by handling admin tasks).",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Predictions on Technology and its Applications"
+      },
+      {
+        id: 'ffl-pred-cat2-3',
+        text: "Data Remains the Fuel, but Requires Careful Curation and Context: Shift from big data to high-quality, diverse, contextually rich data. Emphasizes ethical responsibility for data collection (privacy, security), especially sensitive healthcare data.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Predictions on Technology and its Applications"
+      },
+      {
+        id: 'ffl-pred-cat3-1',
+        text: "The Primary Risks are Societal, Not Hypothetical or Existential: Immediate dangers are algorithmic bias, job displacement, erosion of privacy, and devaluing human labor/decision-making.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Stance on Risk and Society (A Call for Collaborative Governance)"
+      },
+      {
+        id: 'ffl-pred-cat3-2',
+        text: "The Solution is Radical, Multidisciplinary Collaboration: Complex societal AI problems require humanists, social scientists, ethicists, policymakers, artists, and lawyers at the design table with engineers. Advocates for 'bilingual' leaders fluent in tech and humanities.",
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Stance on Risk and Society (A Call for Collaborative Governance)"
+      }
     ],
     company: 'Stanford HAI',
     linkedin: 'https://linkedin.com/in/fei-fei-li-4541247',
@@ -947,39 +947,38 @@ export const experts: Expert[] = [
     name: 'Demis Hassabis',
     title: 'CEO, Google DeepMind',
     bio: 'Co-founder and CEO of Google DeepMind, a neuroscientist and AI researcher leading efforts in AGI and impactful AI applications.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Demis Hassabis.jpg',
     dataAiHint: 'Demis Hassabis',
     expertise: ['AGI Research', 'Neuroscience', 'Machine Learning', 'AI Leadership', 'Game AI'],
-    impactArea: 'Leaders at Major AI Labs & Companies',
     predictions: [
       {
         id: 'dh-pred-1',
         text: "Transition from passive, disembodied intelligence to active, grounded systems that can interact with and reason about the world scientifically. This breaks out of the 'digital sandbox'.",
-        dateMade: new Date().toISOString(),
+        dateMade: "2024-07-25T12:00:00.000Z",
         topic: "Future AI: Grounded & Active Systems"
       },
       {
         id: 'dh-pred-2',
         text: "AI systems will do science, creating a 'virtuous cycle' of AI-driven discovery by generating novel, falsifiable hypotheses from first principles in fields like materials science, drug discovery, and climate modeling.",
-        dateMade: new Date().toISOString(),
+        dateMade: "2024-07-25T12:00:00.000Z",
         topic: "AI in Scientific Discovery: Hypothesis Generation"
       },
       {
         id: 'dh-pred-3',
         text: "Embodied scientific tools and integrated lab automation are key. AI will design experiments, execute them via robotics, interpret real-world results, and refine its models, dramatically accelerating discovery.",
-        dateMade: new Date().toISOString(),
+        dateMade: "2024-07-25T12:00:00.000Z",
         topic: "AI in Scientific Discovery: Automated Experimentation"
       },
       {
         id: 'dh-pred-4',
         text: "Architectural shifts beyond transformers are needed, drawing from neuroscience, including sophisticated, dynamic memory systems inspired by the human hippocampus for long-horizon reasoning and cumulative learning.",
-        dateMade: new Date().toISOString(),
+        dateMade: "2024-07-25T12:00:00.000Z",
         topic: "AI Architectures: Memory & Neuroscience"
       },
       {
         id: 'dh-pred-5',
         text: "Rise of sophisticated, multi-agent systems. A 'master' planning agent will decompose complex problems and delegate sub-tasks to specialized models (vision, language, code, physics simulators), orchestrating their outputs.",
-        dateMade: new Date().toISOString(),
+        dateMade: "2024-07-25T12:00:00.000Z",
         topic: "AI Architectures: Multi-Agent Systems"
       }
     ],
@@ -996,34 +995,33 @@ export const experts: Expert[] = [
     name: 'Ilya Sutskever',
     title: 'Co-founder (formerly Chief Scientist, OpenAI)',
     bio: 'A key figure in deep learning, co-founder of OpenAI, and instrumental in many of its significant breakthroughs. Formerly Chief Scientist at OpenAI.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Ilya Sutskever.jpg',
     dataAiHint: 'Ilya Sutskever',
     expertise: ['Deep Learning', 'Neural Networks', 'AGI Research', 'Generative Models', 'Sequence Modeling'],
-    impactArea: 'Leaders at Major AI Labs & Companies',
     predictions: [
       {
         id: 'is-pred-1',
         text: "Models will move from imitation to internalization by building robust, compressed, generative world models internally, leading to genuine understanding and reduced confabulation.",
-        dateMade: new Date().toISOString(),
-        topic: "Reliability & Reasoning"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Reliability & Reasoning: From Imitation to Internalization"
       },
       {
         id: 'is-pred-2',
         text: "Scalable oversight using AI systems to supervise, critique, and improve other AI systems will be key to reliability, amplifying human guidance.",
-        dateMade: new Date().toISOString(),
-        topic: "Scalable Oversight"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Reliability & Reasoning: The AI as its Own Supervisor"
       },
       {
         id: 'is-pred-3',
         text: "True safety must be co-developed with capability, built into the core training process and objective function, not bolted on as an afterthought.",
-        dateMade: new Date().toISOString(),
-        topic: "Safe Superintelligence"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Safe Superintelligence: Safety is Not a Patch"
       },
       {
         id: 'is-pred-4',
         text: "The grand technical challenge is creating controllable and beneficial AGI by making its motivations transparent and steerable, perhaps through explainable reasoning or directly sculpting motivations.",
-        dateMade: new Date().toISOString(),
-        topic: "Controllability of AGI"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Safe Superintelligence: Solving for Controllability"
       }
     ],
     company: 'OpenAI (formerly)',
@@ -1039,7 +1037,7 @@ export const experts: Expert[] = [
     name: 'Sam Altman',
     title: 'CEO, OpenAI',
     bio: 'CEO of OpenAI, leading one of the most influential AI research and deployment companies in the world.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Sam Altman.jpg',
     dataAiHint: 'Sam Altman',
     expertise: ['AI Leadership', 'AI Strategy', 'Technology Entrepreneurship', 'AI Investment'],
     impactArea: 'Leaders at Major AI Labs & Companies',
@@ -1047,38 +1045,38 @@ export const experts: Expert[] = [
       {
         id: 'sa-pred-1',
         text: "The primary user interface will shift to conversational, goal-oriented agents acting as a central hub or 'OS for your life,' understanding context and executing multi-step tasks via tool use.",
-        dateMade: new Date().toISOString(),
-        topic: "AI Agents & Platforms"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Platform Shift: The Agent as the Abstraction Layer"
       },
       {
         id: 'sa-pred-2',
         text: "A Cambrian explosion of specialized agents and 'GPTs' built by developers on core AI platforms will drive value, with OpenAI providing intelligence and the world providing diverse applications.",
-        dateMade: new Date().toISOString(),
-        topic: "Developer Ecosystem"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Platform Shift: The Developer Ecosystem Explosion"
       },
       {
         id: 'sa-pred-3',
         text: "AI will cause a dramatic productivity boom, enabling tiny teams to achieve massive amplification, compressing product design and go-to-market strategies from years to weeks.",
-        dateMade: new Date().toISOString(),
-        topic: "Economic Impact & Productivity"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Economic Tipping Point: Radical Productivity Gains"
       },
       {
         id: 'sa-pred-4',
         text: "Commercialization of current models will fund the compute costs for AGI. Demonstrating economic value now builds resources and societal buy-in for the ultimate AGI mission.",
-        dateMade: new Date().toISOString(),
-        topic: "AGI Funding & Strategy"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Economic Tipping Point: Seeding the Ground for AGI's Value"
       },
       {
         id: 'sa-pred-5',
         text: "Iterative deployment of increasingly powerful systems allows society to adapt, identify misuses, and build collective 'antibodies' (norms, regulations) while stakes are relatively low.",
-        dateMade: new Date().toISOString(),
-        topic: "Iterative Deployment & Societal Adaptation"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Societal Co-Evolution: Building Societal Antibodies"
       },
       {
         id: 'sa-pred-6',
         text: "The next five years will see the first serious international efforts to govern frontier AI model development, a conversation OpenAI aims to lead to ensure a safe runway for future systems.",
-        dateMade: new Date().toISOString(),
-        topic: "AI Governance & Policy"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Societal Co-Evolution: Initiating the Governance Conversation"
       }
     ],
     company: 'OpenAI',
@@ -1094,7 +1092,7 @@ export const experts: Expert[] = [
     name: 'Greg Brockman',
     title: 'President & Co-founder, OpenAI',
     bio: 'Co-founder and President of OpenAI, playing a crucial role in its development and technological advancements.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Greg Brockman.jpg',
     dataAiHint: 'Greg Brockman',
     expertise: ['AI Leadership', 'Software Engineering', 'AI Strategy', 'Machine Learning Infrastructure'],
     impactArea: 'Leaders at Major AI Labs & Companies',
@@ -1102,26 +1100,26 @@ export const experts: Expert[] = [
       {
         id: 'gb-pred-1',
         text: "Future AI training will shift from rewarding correct final answers to rewarding correct processes, teaching AI to 'show its work' for better debugging, inspection, and trust.",
-        dateMade: new Date().toISOString(),
-        topic: "AI Reliability & Trustworthiness"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Reliability Revolution: Process-Based Reward vs. Outcome-Based Reward"
       },
       {
         id: 'gb-pred-2',
         text: "AGI will be a complex, orchestrated system of a core reasoning engine with specialized tools (vision, code interpreters, APIs), requiring robust infrastructure for seamless tool use.",
-        dateMade: new Date().toISOString(),
-        topic: "AI Systems Architecture"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Reliability Revolution: The AI as a System, Not a Monolith"
       },
       {
         id: 'gb-pred-3',
         text: "Powerful 'Compound AI' applications will emerge, where developers define high-level goals, and the platform manages agents' long-running execution using memory and task decomposition.",
-        dateMade: new Date().toISOString(),
-        topic: "AI Agent Platforms"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Platform Evolution: The 'Compound AI' Application"
       },
       {
         id: 'gb-pred-4',
         text: "Building AI applications will feel less like coding and more like training an employee, with developers using natural language to teach agents complex workflows, provide examples, and correct mistakes.",
-        dateMade: new Date().toISOString(),
-        topic: "Developer Experience & AI Training"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Platform Evolution: The Developer as a 'Trainer,' Not a 'Coder'"
       }
     ],
     company: 'OpenAI',
@@ -1137,7 +1135,7 @@ export const experts: Expert[] = [
     name: 'Jeff Dean',
     title: 'Lead, Google AI',
     bio: 'A principal architect of many of Google\'s large-scale distributed systems and AI infrastructure, including MapReduce, BigTable, and TensorFlow. Leads Google AI.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Jeff Dean.jpg',
     dataAiHint: 'Jeff Dean',
     expertise: ['Large-Scale Systems', 'Deep Learning', 'Machine Learning Infrastructure', 'Distributed Systems', 'TensorFlow'],
     impactArea: 'Leaders at Major AI Labs & Companies',
@@ -1145,38 +1143,38 @@ export const experts: Expert[] = [
       {
         id: 'jd-pred-1',
         text: "AI architectures will heavily use Mixture-of-Experts (MoE), where models with trillions of total parameters activate only a small fraction of 'expert' subnetworks for any given input, guided by a learned router.",
-        dateMade: new Date().toISOString(),
-        topic: "Mixture-of-Experts (MoE) Architecture"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Mixture-of-Experts (MoE) at Scale: From Dense to Sparse Activation"
       },
       {
         id: 'jd-pred-2',
         text: "The systems challenge of building compilers, network interconnects, and memory schedulers for efficient, low-latency dynamic routing in MoE models is critical for sustainable scaling.",
-        dateMade: new Date().toISOString(),
-        topic: "AI Systems & Compilers"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Mixture-of-Experts (MoE) at Scale: The Compiler and Systems Challenge"
       },
       {
         id: 'jd-pred-3',
         text: "Future foundation models will be inherently multi-modal, trained concurrently on text, images, video, audio, and structured data, leading to richer, more grounded world models.",
-        dateMade: new Date().toISOString(),
-        topic: "Multi-Modal AI Models"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Multi-Modal Models: A Unified Embedding Space"
       },
       {
         id: 'jd-pred-4',
         text: "Unified multi-modal models will develop more robust and compact shared representations, improving zero-shot learning and reducing parameters needed for true multi-modal competency.",
-        dateMade: new Date().toISOString(),
-        topic: "Unified AI Representations"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Multi-Modal Models: Efficiency Through Shared Representations"
       },
       {
         id: 'jd-pred-5',
         text: "Model distillation techniques will perfect the creation of smaller, hyper-efficient, specialized models from large frontier models, enabling expert models for specific tasks (e.g., coding, conversation).",
-        dateMade: new Date().toISOString(),
-        topic: "Model Distillation & Specialization"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "On-Device and Specialized Models: The Great Distillation"
       },
       {
         id: 'jd-pred-6',
         text: "A tiered intelligence system will emerge, with small on-device models for simple queries, mid-tier specialized models for complex tasks, and frontier 'hyper-brains' for novel reasoning.",
-        dateMade: new Date().toISOString(),
-        topic: "Tiered AI Systems & On-Device AI"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "On-Device and Specialized Models: A Tiered Intelligence System"
       }
     ],
     company: 'Google AI',
@@ -1192,7 +1190,7 @@ export const experts: Expert[] = [
     name: 'Shane Legg',
     title: 'Co-founder & Chief AGI Scientist, Google DeepMind',
     bio: 'Co-founder of DeepMind and its Chief AGI Scientist, focused on the long-term goal of creating Artificial General Intelligence.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Shane Legg.jpg',
     dataAiHint: 'Shane Legg',
     expertise: ['AGI Research', 'Machine Learning', 'AI Theory', 'Reinforcement Learning'],
     impactArea: 'Leaders at Major AI Labs & Companies',
@@ -1200,26 +1198,26 @@ export const experts: Expert[] = [
       {
         id: 'sl-pred-1',
         text: "Future AI systems will feature meta-learned architectures where a general computational substrate and meta-learning discover and wire optimal components, rather than hand-designed ones.",
-        dateMade: new Date().toISOString(),
-        topic: "Meta-Learned Agent Architecture"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Meta-Learned Agent Architecture: From Hand-Crafted to Self-Organizing Systems"
       },
       {
         id: 'sl-pred-2',
         text: "Reinforcement Learning (RL) will fuse deeply with world models learned from internet-scale data, allowing a master RL agent to plan and 'dream' within its internal simulator for long-horizon goals.",
-        dateMade: new Date().toISOString(),
-        topic: "RL with Learned World Models"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Meta-Learned Agent Architecture: Reinforcement Learning as the Master Algorithm"
       },
       {
         id: 'sl-pred-3',
         text: "LLM pattern completion will be augmented by deliberate search algorithms (like AlphaGo's), generating a tree of plans, evaluating them in its world model, and enabling robust problem-solving.",
-        dateMade: new Date().toISOString(),
-        topic: "Search-Augmented Reasoning"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Autonomous, Multi-Step Reasoning: The Rebirth of Search"
       },
       {
         id: 'sl-pred-4',
         text: "Progress will be measured by agent autonomy in open-ended, interactive environments requiring exploration and complex goal achievement over long horizons without human intervention.",
-        dateMade: new Date().toISOString(),
-        topic: "Measuring Agent Autonomy"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Autonomous, Multi-Step Reasoning: Agent Autonomy as a Measurable Capability"
       }
     ],
     company: 'Google DeepMind',
@@ -1235,7 +1233,7 @@ export const experts: Expert[] = [
     name: 'Mustafa Suleyman',
     title: 'CEO, Microsoft AI',
     bio: 'Co-founder of DeepMind and Inflection AI, now leading Microsoft\'s AI division as CEO.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Mustafa Suleyman.jpg',
     dataAiHint: 'Mustafa Suleyman',
     expertise: ['AI Leadership', 'Applied AI', 'AI Ethics', 'AI Strategy', 'AGI Research'],
     impactArea: 'Leaders at Major AI Labs & Companies',
@@ -1243,26 +1241,26 @@ export const experts: Expert[] = [
       {
         id: 'ms-pred-1',
         text: "AI interaction will shift from one-shot tools to persistent, cross-platform 'teammates' with memory and context about users' projects, goals, and preferences.",
-        dateMade: new Date().toISOString(),
-        topic: "The Universal Conversational Interface"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Universal Conversational Interface: From Tool to Teammate"
       },
       {
         id: 'ms-pred-2',
         text: "The defining feature of new AI interfaces will be their ability to take action on users' behalf (book flights, schedule meetings), requiring deep API integration and high reliability.",
-        dateMade: new Date().toISOString(),
-        topic: "AI Agents Taking Action"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Universal Conversational Interface: Action, Not Just Answers"
       },
       {
         id: 'ms-pred-3',
         text: "Next-gen personal AIs will be deeply multi-modal to understand user emotional state via tone, facial expressions, and speech patterns, adapting their interaction style accordingly for empathetic support.",
-        dateMade: new Date().toISOString(),
-        topic: "Empathetic AI & Emotional Intelligence (EQ)"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Primacy of EQ: Beyond Text - Reading the Subtext"
       },
       {
         id: 'ms-pred-4',
         text: "Deep personalization will make AI indispensable, as it learns individual communication styles, quirks, and relationships, tailoring interactions for specific contexts and preferences.",
-        dateMade: new Date().toISOString(),
-        topic: "Deep Personalization of AI"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Primacy of EQ: Personalization as a Core Tenet"
       }
     ],
     company: 'Microsoft AI (formerly DeepMind, Inflection AI)',
@@ -1278,7 +1276,7 @@ export const experts: Expert[] = [
     name: 'Joelle Pineau',
     title: 'VP AI Research, Meta / Professor, McGill University',
     bio: 'An expert in reinforcement learning and dialogue systems, leading AI research at Meta and holding a professorship at McGill University.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Joelle Pineau.jpg',
     dataAiHint: 'Joelle Pineau',
     expertise: ['Reinforcement Learning', 'Dialogue Systems', 'Robotics', 'AI Research', 'Machine Learning'],
     impactArea: 'Leaders at Major AI Labs & Companies',
@@ -1286,38 +1284,38 @@ export const experts: Expert[] = [
       {
         id: 'jp-pred-1',
         text: "AI alignment will move from static preference datasets to dynamic, interactive training loops where AI actively engages human experts to resolve ambiguity, especially in critical domains.",
-        dateMade: new Date().toISOString(),
-        topic: "Interactive Alignment & RLHF Evolution"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "RLHF and Beyond: From Static Datasets to Dynamic Interaction"
       },
       {
         id: 'jp-pred-2',
         text: "'Safety' and 'helpfulness' will be formalized using causal inference and formal verification, leading to 'AI constitutions'—auditable principles models must adhere to.",
-        dateMade: new Date().toISOString(),
-        topic: "Formalizing AI Safety and Values"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "RLHF and Beyond: Formalizing Safety and Value Alignment"
       },
       {
         id: 'jp-pred-3',
         text: "Progress in AI will come from grounding models in multi-modal, real-world interaction via robotics, allowing AI to learn concepts like 'fragile' through physical experience.",
-        dateMade: new Date().toISOString(),
-        topic: "Embodied AI & Robotics for Grounding"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Embodied and Grounded AI: Robotics as the Ultimate Grounding Mechanism"
       },
       {
         id: 'jp-pred-4',
         text: "Next-gen dialogue systems will overcome hallucination by integrating with external knowledge sources and APIs, learning to query, read documentation, and execute calls for verifiable information.",
-        dateMade: new Date().toISOString(),
-        topic: "Grounded Dialogue Systems with Tool Use"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Embodied and Grounded AI: Dialogue Systems Grounded in Fact and Action"
       },
       {
         id: 'jp-pred-5',
         text: "A push for open science in AI, sharing models with extensive documentation, evaluation suites, and training methodologies for independent audits, bias discovery, and risk mitigation.",
-        dateMade: new Date().toISOString(),
-        topic: "Reproducibility & Open Science in AI"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Reproducibility & Open Science: Sharing Models, Datasets, and Methodologies"
       },
       {
         id: 'jp-pred-6',
         text: "A major collaborative effort will emerge to create universal evaluation standards for critical AI behaviors like reasoning, adversarial robustness, and factual consistency, beyond task performance.",
-        dateMade: new Date().toISOString(),
-        topic: "Universal AI Evaluation Standards"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Reproducibility & Open Science: Developing Universal Evaluation Standards"
       }
     ],
     company: 'Meta / McGill University',
@@ -1333,7 +1331,7 @@ export const experts: Expert[] = [
     name: 'Andrej Karpathy',
     title: 'AI Researcher',
     bio: 'A founding member of OpenAI and former Director of AI at Tesla, known for significant contributions to computer vision and deep learning education.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Andrej Karpathy.jpg',
     dataAiHint: 'Andrej Karpathy',
     expertise: ['Computer Vision', 'Deep Learning', 'AI Education', 'Neural Networks', 'Self-Driving Cars'],
     impactArea: 'Leaders at Major AI Labs & Companies',
@@ -1341,38 +1339,38 @@ export const experts: Expert[] = [
       {
         id: 'ak-pred-1',
         text: "The 'LLM OS' will be the primary interface, where users state goals in natural language, and the LLM interprets intent, writes/executes code, analyzes results, and presents the product.",
-        dateMade: new Date().toISOString(),
-        topic: "The 'LLM OS': Intent-Based Computing"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "'LLM OS': From Explicit Commands to Fuzzy Intent"
       },
       {
         id: 'ak-pred-2',
         text: "Tokens (text, images, code, UI elements, audio) will become the universal data type, allowing the LLM OS to operate as a universal processor for seamless multi-modal interaction.",
-        dateMade: new Date().toISOString(),
-        topic: "The 'LLM OS': Universal Token Processing"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "'LLM OS': The Token as the New Universal Data Type"
       },
       {
         id: 'ak-pred-3',
         text: "A 'neural network compiler' will emerge to automatically optimize large 'teacher' networks into efficient 'student' networks for specific performance constraints (latency, memory) using systematic quantization, pruning, and distillation.",
-        dateMade: new Date().toISOString(),
-        topic: "Automated Neural Network Optimization"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "'Neural Network Compiler': From Manual Tweaking to Automated Optimization"
       },
       {
         id: 'ak-pred-4',
         text: "Sophisticated 'AI factories' or 'data refineries' will automate the crawling, cleaning, filtering, and augmentation of massive datasets, as data quality is paramount for model performance.",
-        dateMade: new Date().toISOString(),
-        topic: "The Data Refinery for Software 2.0"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "'Neural Network Compiler': The Data Refinery"
       },
       {
         id: 'ak-pred-5',
         text: "New NPU (Neural Processing Unit) hardware, architected for core Software 2.0 operations like matrix multiplications and attention, will become common for extreme inference efficiency.",
-        dateMade: new Date().toISOString(),
-        topic: "Specialized AI CPUs (NPUs)"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Proliferation of 'AI CPUs': Silicon for Tokens"
       },
       {
         id: 'ak-pred-6',
         text: "Specialized AI hardware (NPUs) will integrate into edge devices (laptops, phones, cars), enabling powerful, low-latency local AI, preserving privacy and supporting real-time applications.",
-        dateMade: new Date().toISOString(),
-        topic: "Edge AI & Proliferation of NPUs"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Proliferation of 'AI CPUs': From Data Center to Edge"
       }
     ],
     company: 'OpenAI (Founding Member) / Tesla (formerly)',
@@ -1388,39 +1386,39 @@ export const experts: Expert[] = [
     name: 'Oriol Vinyals',
     title: 'Research Director, Google DeepMind',
     bio: 'Prominent researcher at Google DeepMind, known for work on sequence-to-sequence models, reinforcement learning, and large language models.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Oriol Vinyals.jpg',
     dataAiHint: 'Oriol Vinyals',
     expertise: ['Deep Learning', 'Reinforcement Learning', 'Natural Language Processing', 'Sequence Modeling', 'AGI Research'],
     predictions: [
       {
         id: 'ov-pred-1',
         text: "Next-gen models will feature explicit, readable/writable external memory banks, moving beyond context windows for true long-term memory and grounding.",
-        dateMade: new Date().toISOString(),
-        topic: "Architectural Fusion: External Memory"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Architectural Fusion: Explicit, Readable/Writable Memory"
       },
       {
         id: 'ov-pred-2',
         text: "Sophisticated, parallelized recurrent mechanisms will return as the 'CPU' of models, managing memory and enabling efficient real-time processing.",
-        dateMade: new Date().toISOString(),
-        topic: "Architectural Fusion: Recurrence Returns"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Architectural Fusion: The Return of Recurrence"
       },
       {
         id: 'ov-pred-3',
         text: "Agents will use powerful, learned world models as internal simulators to 'imagine' consequences and plan actions, overcoming RL sample inefficiency.",
-        dateMade: new Date().toISOString(),
-        topic: "Agentic Loop: World Model as Playground"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Agentic Loop: The World Model as a Playground"
       },
       {
         id: 'ov-pred-4',
         text: "Agents will be designed with intrinsic motivation (curiosity) to explore, seek novel states, and reduce uncertainty, enabling self-supervised learning of complex skills.",
-        dateMade: new Date().toISOString(),
-        topic: "Agentic Loop: Intrinsic Motivation"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Agentic Loop: Intrinsic Motivation and Exploration"
       },
       {
         id: 'ov-pred-5',
         text: "Truly intelligent agents will generate their own high-quality training data through exploration and problem-solving, creating a self-improving feedback loop for their models and policies.",
-        dateMade: new Date().toISOString(),
-        topic: "Path to Self-Improvement: Autonomous Data Generation"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Path to Self-Improvement: Data Generation as a Core Capability"
       }
     ],
     company: 'Google DeepMind',
@@ -1436,44 +1434,44 @@ export const experts: Expert[] = [
     name: 'John Schulman',
     title: 'Co-founder, OpenAI',
     bio: 'Co-founder of OpenAI, with key contributions to reinforcement learning algorithms like PPO and TRPO.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/John Schulman.jpg',
     dataAiHint: 'John Schulman',
     expertise: ['Reinforcement Learning', 'Deep Learning', 'Robotics', 'Optimization', 'PPO', 'TRPO'],
     predictions: [
       {
         id: 'js-pred-1',
         text: "AI will assist in reward modeling: a powerful AI model will learn a 'reward model' based on high-level human specifications, providing dense feedback to student 'policy' models.",
-        dateMade: new Date().toISOString(),
-        topic: "Next Frontier of Reward Engineering"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Reward Engineering: Scalable Oversight and AI-Assisted Reward Modeling"
       },
       {
         id: 'js-pred-2',
         text: "Agents will be trained with multi-objective reward functions (e.g., for coding: correctness, efficiency, readability, security) and learn to ask for clarification when objectives conflict.",
-        dateMade: new Date().toISOString(),
-        topic: "Next Frontier of Reward Engineering"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Reward Engineering: Decomposition of Reward"
       },
       {
         id: 'js-pred-3',
         text: "Future AI will comprise a vast library of specialized policies or 'skills' for fine-grained tasks, rather than a single monolithic policy.",
-        dateMade: new Date().toISOString(),
-        topic: "Generalization of Policy: Composable Skills"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Policy Generalization: Learning a Library of Skills"
       },
       {
         id: 'js-pred-4',
         text: "A high-level 'master policy' will learn to compose these skills to solve complex user requests, with hierarchical RL addressing credit assignment for sub-policies.",
-        dateMade: new Date().toISOString(),
-        topic: "Generalization of Policy: Hierarchical Master Policy"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Policy Generalization: The Hierarchical Policy as the Master Algorithm"
       },
       {
         id: 'js-pred-5',
         text: "Agents will feature 'trust region' methods for multi-step plans, assessing plan uncertainty and acting conservatively or requesting help in unfamiliar state spaces.",
-        dateMade: new Date().toISOString(),
-        topic: "Science of Trust: Robustness in Planning"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Science of Trust: Trust Regions for Complex Plans"
       },
       {
         id: 'js-pred-6',
         text: "Adversarial AI training will combat reward hacking: a second AI will find loopholes in the reward model, and the policy and reward model will be trained in a two-player game.",
-        dateMade: new Date().toISOString(),
+        dateMade: "2024-07-25T12:00:00.000Z",
         topic: "Science of Trust: Adversarial Training Against Reward Hacking"
       }
     ],
@@ -1490,45 +1488,45 @@ export const experts: Expert[] = [
     name: 'Wojciech Zaremba',
     title: 'Co-founder, OpenAI',
     bio: 'Co-founder of OpenAI, focusing on robotics, generative models, and advancing AI capabilities.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Wojciech Zaremba.jpg',
     dataAiHint: 'Wojciech Zaremba',
     expertise: ['Robotics', 'Generative Models', 'Deep Learning', 'AGI Research', 'Reinforcement Learning'],
     predictions: [
       {
         id: 'wz-pred-1',
         text: "Next-gen foundation models trained on internet-scale video will learn deep, predictive, common-sense physics and causality from pixels.",
-        dateMade: new Date().toISOString(),
-        topic: "Video as Universal Teacher for Intuitive Physics"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Video as Universal Teacher: Learning Causality from Pixels"
       },
       {
         id: 'wz-pred-2',
         text: "A unified multi-modal representation will emerge, where concepts like 'apple' are linked to text, images, and a deep understanding of physical properties.",
-        dateMade: new Date().toISOString(),
-        topic: "Video as Universal Teacher: Unified Representation"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Video as Universal Teacher: A Unified Representation"
       },
       {
         id: 'wz-pred-3',
         text: "Robotic action will be treated as a generative task: natural language goals (prompts) will be fed to a unified world model.",
-        dateMade: new Date().toISOString(),
-        topic: "Policy as a Generative Task: Prompt as Goal"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Policy as Generative Task: The Prompt is the Goal"
       },
       {
         id: 'wz-pred-4',
         text: "The world model's output for a robot will be a sequence of actions, generating high-level plans and then low-level motor commands.",
-        dateMade: new Date().toISOString(),
-        topic: "Policy as a Generative Task: Output as Plan"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Policy as Generative Task: The Output is a Plan"
       },
       {
         id: 'wz-pred-5',
         text: "The robot itself will be the ultimate data collector, using its powerful video-trained world model as a highly realistic simulator for policy training.",
-        dateMade: new Date().toISOString(),
-        topic: "Robot as Data Collector: World Model as Simulator"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Robot as Data Collector: The World Model as the Simulator"
       },
       {
         id: 'wz-pred-6',
         text: "A 'Real-to-Sim-to-Real' virtuous cycle: robot's real-world actions (successes/failures) refine its internal world model, improving its imagination and performance.",
-        dateMade: new Date().toISOString(),
-        topic: "Robot as Data Collector: Real-to-Sim-to-Real Cycle"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Robot as Data Collector: The Real-to-Sim-to-Real Virtuous Cycle"
       }
     ],
     company: 'OpenAI',
@@ -1544,7 +1542,7 @@ export const experts: Expert[] = [
     name: 'Nando de Freitas',
     title: 'Research Scientist, Google DeepMind',
     bio: 'Influential research scientist at Google DeepMind, working on deep learning, reinforcement learning, and Bayesian inference.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Nando de Freitas.jpg',
     dataAiHint: 'Nando de',
     expertise: ['Deep Learning', 'Reinforcement Learning', 'Machine Learning', 'Bayesian Methods', 'Neural Networks'],
     impactArea: 'Leaders at Major AI Labs & Companies',
@@ -1552,38 +1550,38 @@ export const experts: Expert[] = [
       {
         id: 'ndf-pred-1',
         text: "A single, massive generalist agent trained on a vast, multi-modal stream of data (text, video, code, robotics data, game telemetry, user interactions) will replace specialized models.",
-        dateMade: new Date().toISOString(),
-        topic: "Rise of the Generalist Agent: One Model, One World"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Generalist Agent: One Model, One World"
       },
       {
         id: 'ndf-pred-2',
         text: "This generalist agent will achieve radical knowledge transfer across modalities, building richer internal representations and improving zero-shot learning for novel problems.",
-        dateMade: new Date().toISOString(),
-        topic: "Rise of the Generalist Agent: Multi-Tasking & Transfer Learning"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Generalist Agent: Massive Multi-Tasking and Transfer Learning"
       },
       {
         id: 'ndf-pred-3',
         text: "Reinforcement Learning (RL) will steer the generalist agent, fine-tuning its pre-trained knowledge for specific downstream tasks efficiently from natural language instructions.",
-        dateMade: new Date().toISOString(),
-        topic: "RL as Steering Wheel: From Knowledge to Goals"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "RL as Steering Wheel: From Broad Knowledge to Specific Goals"
       },
       {
         id: 'ndf-pred-4',
         text: "The agent, deployed across millions of contexts, will use every interaction as training data to continually update its foundational world model, creating an intelligence flywheel.",
-        dateMade: new Date().toISOString(),
-        topic: "RL as Steering Wheel: World as Training Ground"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "RL as Steering Wheel: The World as the Ultimate Training Ground"
       },
       {
         id: 'ndf-pred-5',
         text: "The primary driver of AI progress will be the sheer scale of computation available for training and running the generalist agent.",
-        dateMade: new Date().toISOString(),
-        topic: "Primary Obstacle: Engineering, Not Science - Compute Focus"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Primary Obstacle: Compute, Compute, and Compute"
       },
       {
         id: 'ndf-pred-6',
         text: "A critical infrastructure will be the 'data engine' for collecting, filtering, and curating massive, diverse datasets, which are as important as model architecture.",
-        dateMade: new Date().toISOString(),
-        topic: "Primary Obstacle: Engineering, Not Science - Data Engine"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Primary Obstacle: The Data Engine"
       }
     ],
     company: 'Google DeepMind',
@@ -1599,7 +1597,7 @@ export const experts: Expert[] = [
     name: 'Raia Hadsell',
     title: 'Director of Robotics, Google DeepMind',
     bio: 'Leads robotics research at Google DeepMind, focusing on continual learning, navigation, and robot perception.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Raia Hadsell.jpg',
     dataAiHint: 'Raia Hadsell',
     expertise: ['Robotics', 'Reinforcement Learning', 'Machine Learning', 'Continual Learning', 'Navigation'],
     impactArea: 'Leaders at Major AI Labs & Companies',
@@ -1607,38 +1605,38 @@ export const experts: Expert[] = [
       {
         id: 'rh-pred-cl-1',
         text: "Robotics will shift from episodic training to lifelong learning; robots will continually update foundational world models from every interaction, not just deploy static policies.",
-        dateMade: new Date().toISOString(),
-        topic: "Continual Learning in Robotics"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Continual Learning: From Episodic Training to Lifelong Learning"
       },
       {
         id: 'rh-pred-cl-2',
         text: "Solving catastrophic forgetting is key for continual learning. Expect advances in dynamic network architectures and memory systems inspired by the hippocampus for practicing old skills while learning new ones.",
-        dateMade: new Date().toISOString(),
-        topic: "Overcoming Catastrophic Forgetting"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Continual Learning: Catastrophic Forgetting as the Primary Adversary"
       },
       {
         id: 'rh-pred-data-1',
         text: "Future robotics relies on networked fleets of robots sharing experiences to create a collective brain, with infrastructure for massive, real-time data sharing and policy synchronization.",
-        dateMade: new Date().toISOString(),
-        topic: "Fleet Learning & Collective Experience"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Data Problem: The Fleet as a Single, Collective Brain"
       },
       {
         id: 'rh-pred-data-2',
         text: "Robots will use active, curiosity-driven data collection, preferentially interacting with novel objects or uncertain scenarios to efficiently gather the 'right' data to master physical world complexity.",
-        dateMade: new Date().toISOString(),
-        topic: "Active & Curiosity-Driven Data Collection"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Data Problem: Active, Curiosity-Driven Data Collection"
       },
       {
         id: 'rh-pred-gen-1',
         text: "Robots will learn 'affordances' (graspable, pushable) applicable across objects/contexts, rather than thousands of specific tasks, enabling compositional skill generalization.",
-        dateMade: new Date().toISOString(),
-        topic: "Learning Affordances for Generalization"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Generalization: Learning 'Affordances', Not 'Tasks'"
       },
       {
         id: 'rh-pred-gen-2',
         text: "Large language models will be critical for scaffolding compositional skills in robots, decomposing natural language instructions (e.g., 'make coffee') into sequences of learned physical affordances.",
-        dateMade: new Date().toISOString(),
-        topic: "Language as Scaffolding for Skill Composition"
+        dateMade: "2024-07-25T12:00:00.000Z",
+        topic: "Generalization: Language as the Scaffolding for Composition"
       }
     ],
     company: 'Google DeepMind',
@@ -1654,7 +1652,7 @@ export const experts: Expert[] = [
     name: 'Pushmeet Kohli',
     title: 'Head of AI for Science, Google DeepMind',
     bio: 'Heads Google DeepMind\'s AI for Science initiative, applying AI to solve complex scientific problems, notably in biology (e.g., AlphaFold).',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Pushmeet Kohli.jpg',
     dataAiHint: 'Pushmeet Kohli',
     expertise: ['AI for Science', 'Machine Learning', 'Computer Vision', 'Computational Biology', 'AlphaFold'],
     impactArea: 'Leaders at Major AI Labs & Companies',
@@ -1672,7 +1670,7 @@ export const experts: Expert[] = [
     name: 'Samy Bengio',
     title: 'Senior Director of AI and ML Research, Apple',
     bio: 'An experienced AI researcher leading AI and ML research at Apple, formerly a distinguished scientist at Google.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Samy Bengio.jpg',
     dataAiHint: 'Samy Bengio',
     expertise: ['Machine Learning', 'Deep Learning', 'AI Research', 'Computer Vision', 'Speech Recognition'],
     impactArea: 'Leaders at Major AI Labs & Companies',
@@ -1690,7 +1688,7 @@ export const experts: Expert[] = [
     name: 'Zoubin Ghahramani',
     title: 'VP of Research, Google AI / Professor, University of Cambridge',
     bio: 'Leads research at Google AI and is a Professor at the University of Cambridge, with expertise in Bayesian machine learning and AI.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Zoubin Ghahramani.jpg',
     dataAiHint: 'Zoubin Ghahramani',
     expertise: ['Machine Learning', 'Bayesian Methods', 'AI Research', 'Statistics', 'Probabilistic Models'],
     impactArea: 'Leaders at Major AI Labs & Companies',
@@ -1708,7 +1706,7 @@ export const experts: Expert[] = [
     name: 'Eric Horvitz',
     title: 'Chief Scientific Officer, Microsoft',
     bio: 'Microsoft\'s Chief Scientific Officer, with extensive work on AI principles, human-AI collaboration, and the societal impacts of AI.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Eric Horvitz.jpg',
     dataAiHint: 'Eric Horvitz',
     expertise: ['Artificial Intelligence', 'Human-AI Collaboration', 'AI Ethics', 'Decision Theory', 'AI Policy'],
     impactArea: 'Leaders at Major AI Labs & Companies',
@@ -1726,7 +1724,7 @@ export const experts: Expert[] = [
     name: 'Xuedong Huang',
     title: 'Azure AI CTO, Microsoft Technical Fellow',
     bio: 'Microsoft Technical Fellow and CTO for Azure AI, a pioneer in speech recognition and AI platforms.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Xuedong Huang.jpg',
     dataAiHint: 'Xuedong Huang',
     expertise: ['Speech Recognition', 'AI Platforms', 'Machine Learning', 'Natural Language Processing', 'Deep Learning'],
     impactArea: 'Leaders at Major AI Labs & Companies',
@@ -1744,7 +1742,7 @@ export const experts: Expert[] = [
     name: 'Jianfeng Gao',
     title: 'Distinguished Scientist, VP, Microsoft Research',
     bio: 'Distinguished Scientist and VP at Microsoft Research, focusing on natural language processing, deep learning, and large language models.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Jianfeng Gao.jpg',
     dataAiHint: 'Jianfeng Gao',
     expertise: ['Natural Language Processing', 'Deep Learning', 'Large Language Models', 'Machine Translation'],
     impactArea: 'Leaders at Major AI Labs & Companies',
@@ -1762,7 +1760,7 @@ export const experts: Expert[] = [
     name: 'Alex Smola',
     title: 'VP/Distinguished Scientist, Amazon Web Services / Professor, CMU',
     bio: 'VP and Distinguished Scientist at AWS, and Professor at CMU, with expertise in machine learning, deep learning, and scalable AI.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Alex Smola.jpg',
     dataAiHint: 'Alex Smola',
     expertise: ['Machine Learning', 'Deep Learning', 'Scalable AI', 'Optimization', 'Kernel Methods'],
     impactArea: 'Leaders at Major AI Labs & Companies',
@@ -1780,7 +1778,7 @@ export const experts: Expert[] = [
     name: 'Manuela Veloso',
     title: 'Head of J.P. Morgan AI Research / Professor Emerita, CMU',
     bio: 'Leads AI Research at J.P. Morgan and is Professor Emerita at CMU, a pioneer in autonomous robots and symbiotic human-robot interaction.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Manuela Veloso.jpg',
     dataAiHint: 'Manuela Veloso',
     expertise: ['Robotics', 'Artificial Intelligence', 'Machine Learning', 'Human-Robot Interaction', 'AI Planning'],
     impactArea: 'Leaders at Major AI Labs & Companies',
@@ -1798,7 +1796,7 @@ export const experts: Expert[] = [
     name: 'Aidan Gomez',
     title: 'CEO, Cohere',
     bio: 'CEO of Cohere and a co-author of the influential "Attention Is All You Need" paper, which introduced the Transformer architecture.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Aidan Gomez.jpg',
     dataAiHint: 'Aidan Gomez',
     expertise: ['Natural Language Processing', 'Transformers', 'Large Language Models', 'AI Entrepreneurship', 'Deep Learning'],
     impactArea: 'Key Innovators & Entrepreneurs',
@@ -1816,7 +1814,7 @@ export const experts: Expert[] = [
     name: 'Noam Shazeer',
     title: 'CEO, Character.ai',
     bio: 'CEO of Character.ai, co-author of "Attention Is All You Need," and key contributor to large-scale neural networks at Google.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Noam Shazeer.jpg',
     dataAiHint: 'Noam Shazeer',
     expertise: ['Natural Language Processing', 'Transformers', 'Large Language Models', 'AI Entrepreneurship', 'Large-Scale Systems'],
     impactArea: 'Key Innovators & Entrepreneurs',
@@ -1834,7 +1832,7 @@ export const experts: Expert[] = [
     name: 'Ashish Vaswani',
     title: 'CEO, Essential AI',
     bio: 'CEO of Essential AI and lead author of the "Attention Is All You Need" paper, fundamental to modern NLP. Formerly at Google.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Ashish Vaswani.jpg',
     dataAiHint: 'Ashish Vaswani',
     expertise: ['Natural Language Processing', 'Transformers', 'Deep Learning', 'AI Entrepreneurship', 'Sequence Modeling'],
     impactArea: 'Key Innovators & Entrepreneurs',
@@ -1852,7 +1850,7 @@ export const experts: Expert[] = [
     name: 'Jakob Uszkoreit',
     title: 'CEO, Inceptive',
     bio: 'CEO of Inceptive and co-author of "Attention Is All You Need." Formerly a key researcher at Google Brain.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Jakob Uszkoreit.jpg',
     dataAiHint: 'Jakob Uszkoreit',
     expertise: ['Natural Language Processing', 'Transformers', 'Computational Biology', 'AI Entrepreneurship', 'Deep Learning'],
     impactArea: 'Key Innovators & Entrepreneurs',
@@ -1870,7 +1868,7 @@ export const experts: Expert[] = [
     name: 'Llion Jones',
     title: 'Co-founder, Sakana AI',
     bio: 'Co-author of "Attention Is All You Need" while at Google, now co-founder of Sakana AI, focusing on new AI architectures.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Llion Jones.jpg',
     dataAiHint: 'Llion Jones',
     expertise: ['Natural Language Processing', 'Transformers', 'AI Architectures', 'Deep Learning'],
     impactArea: 'Key Innovators & Entrepreneurs',
@@ -1888,7 +1886,7 @@ export const experts: Expert[] = [
     name: 'Illia Polosukhin',
     title: 'Co-founder, NEAR Protocol',
     bio: 'Co-founder of NEAR Protocol and co-author of "Attention Is All You Need." Contributed to TensorFlow at Google.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Illia Polosukhin.jpg',
     dataAiHint: 'Illia Polosukhin',
     expertise: ['Blockchain', 'Natural Language Processing', 'Transformers', 'Decentralized Systems', 'TensorFlow'],
     impactArea: 'Key Innovators & Entrepreneurs',
@@ -1906,7 +1904,7 @@ export const experts: Expert[] = [
     name: 'Niki Parmar',
     title: 'Co-founder, Essential AI',
     bio: 'Co-founder of Essential AI and co-author of "Attention Is All You Need." Formerly a researcher at Google Brain.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Niki Parmar.jpg',
     dataAiHint: 'Niki Parmar',
     expertise: ['Natural Language Processing', 'Transformers', 'Deep Learning', 'AI Entrepreneurship', 'Computer Vision'],
     impactArea: 'Key Innovators & Entrepreneurs',
@@ -1924,7 +1922,7 @@ export const experts: Expert[] = [
     name: 'Lukasz Kaiser',
     title: 'Researcher, OpenAI',
     bio: 'Co-author of "Attention Is All You Need" and the Tensor2Tensor library while at Google. Now a researcher at OpenAI.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Lukasz Kaiser.jpg',
     dataAiHint: 'Lukasz Kaiser',
     expertise: ['Deep Learning', 'Natural Language Processing', 'Transformers', 'Machine Learning Systems', 'TensorFlow'],
     impactArea: 'Leaders at Major AI Labs & Companies',
@@ -1942,7 +1940,7 @@ export const experts: Expert[] = [
     name: 'David Silver',
     title: 'Principal Research Scientist, Google DeepMind',
     bio: 'Led the AlphaGo project, which defeated a world champion Go player, and subsequent projects like AlphaZero and AlphaStar at Google DeepMind.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/David Silver.jpg',
     dataAiHint: 'David Silver',
     expertise: ['Reinforcement Learning', 'Deep Learning', 'Game AI', 'AGI Research', 'AlphaGo', 'AlphaZero'],
     impactArea: 'Leaders at Major AI Labs & Companies',
@@ -1960,7 +1958,7 @@ export const experts: Expert[] = [
     name: 'Vladlen Koltun',
     title: 'Distinguished Scientist, Apple',
     bio: 'A distinguished scientist at Apple, previously at Intel Labs, known for contributions to computer vision, deep learning, and robotics.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Vladlen Koltun.jpg',
     dataAiHint: 'Vladlen Koltun',
     expertise: ['Computer Vision', 'Deep Learning', 'Robotics', '3D Reconstruction', 'Simulation'],
     impactArea: 'Leaders at Major AI Labs & Companies',
@@ -1978,7 +1976,7 @@ export const experts: Expert[] = [
     name: 'Andrew Ng',
     title: 'Founder, Landing AI / General Partner, AI Fund / Co-founder, Coursera / Adjunct Professor, Stanford',
     bio: 'A leading figure in deep learning and online education. Co-founded Coursera and Google Brain. Founder of Landing AI and AI Fund.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Andrew Ng.jpg',
     dataAiHint: 'Andrew Ng',
     expertise: ['Deep Learning', 'Machine Learning', 'AI Education', 'AI Strategy', 'Online Education'],
     impactArea: 'Influential Academics',
@@ -2051,7 +2049,7 @@ export const experts: Expert[] = [
     name: 'Pieter Abbeel',
     title: 'Professor, UC Berkeley / Co-founder, Covariant',
     bio: 'Professor at UC Berkeley and co-founder of Covariant, specializing in robotics, reinforcement learning, and deep learning for robot control.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Pieter Abbeel.jpg',
     dataAiHint: 'Pieter Abbeel',
     expertise: ['Robotics', 'Reinforcement Learning', 'Deep Learning', 'AI Entrepreneurship', 'Robot Learning'],
     impactArea: 'Influential Academics',
@@ -2112,7 +2110,7 @@ export const experts: Expert[] = [
     name: 'Anima Anandkumar',
     title: 'Bren Professor, Caltech / Sr. Director of AI Research, NVIDIA',
     bio: 'Bren Professor at Caltech and Senior Director of AI Research at NVIDIA, working on tensor methods, deep learning, and large-scale machine learning.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Anima Anandkumar.jpg',
     dataAiHint: 'Anima Anandkumar',
     expertise: ['Machine Learning', 'Deep Learning', 'Tensor Methods', 'High-Performance Computing', 'AI for Science'],
     impactArea: 'Influential Academics',
@@ -2171,7 +2169,7 @@ export const experts: Expert[] = [
     name: 'Percy Liang',
     title: 'Associate Professor, Stanford HAI',
     bio: 'Associate Professor at Stanford and affiliated with HAI, focusing on natural language processing, trustworthy AI, and machine learning.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Percy Liang.jpg',
     dataAiHint: 'Percy Liang',
     expertise: ['Natural Language Processing', 'Trustworthy AI', 'Machine Learning', 'AI Ethics', 'Foundation Models'],
     impactArea: 'Influential Academics',
@@ -2230,7 +2228,7 @@ export const experts: Expert[] = [
     name: 'Chris Manning',
     title: 'Professor of Linguistics and Computer Science, Stanford',
     bio: 'Leading researcher in natural language processing at Stanford, known for deep learning approaches to NLP and co-author of influential textbooks.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Chris Manning.jpg',
     dataAiHint: 'Chris Manning',
     expertise: ['Natural Language Processing', 'Deep Learning', 'Computational Linguistics', 'Sentiment Analysis'],
     impactArea: 'Influential Academics',
@@ -2289,7 +2287,7 @@ export const experts: Expert[] = [
     name: 'Daniela Rus',
     title: 'Director, MIT CSAIL / Professor, MIT',
     bio: 'Director of MIT CSAIL and Professor at MIT, a prominent researcher in robotics, mobile computing, and distributed systems.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Daniela Rus.jpg',
     dataAiHint: 'Daniela Rus',
     expertise: ['Robotics', 'Mobile Computing', 'Distributed Systems', 'AI Leadership', 'Networked Systems'],
     impactArea: 'Influential Academics',
@@ -2348,7 +2346,7 @@ export const experts: Expert[] = [
     name: 'Yejin Choi',
     title: 'Professor, University of Washington / Senior Research Director, AI2',
     bio: 'Professor at the University of Washington and Senior Research Director at AI2. MacArthur Fellow known for work in NLP, commonsense reasoning, and AI ethics.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Yejin Choi.jpg',
     dataAiHint: 'Yejin Choi',
     expertise: ['Natural Language Processing', 'Commonsense Reasoning', 'AI Ethics', 'Computational Linguistics', 'Neuro-Symbolic AI'],
     impactArea: 'Influential Academics',
@@ -2407,7 +2405,7 @@ export const experts: Expert[] = [
     name: 'Chelsea Finn',
     title: 'Assistant Professor, Stanford University',
     bio: 'Assistant Professor at Stanford, researching meta-learning, reinforcement learning, and robotics, enabling robots to quickly learn new skills.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Chelsea Finn.jpg',
     dataAiHint: 'Chelsea Finn',
     expertise: ['Meta-Learning', 'Reinforcement Learning', 'Robotics', 'Machine Learning', 'Deep Learning'],
     impactArea: 'Influential Academics',
@@ -2466,7 +2464,7 @@ export const experts: Expert[] = [
     name: 'Raquel Urtasun',
     title: 'Professor, University of Toronto / CEO, Waabi',
     bio: 'Professor at the University of Toronto and CEO of Waabi, focusing on machine perception for self-driving vehicles.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Raquel Urtasun.jpg',
     dataAiHint: 'Raquel Urtasun',
     expertise: ['Computer Vision', 'Self-Driving Cars', 'Machine Learning', 'AI Entrepreneurship', '3D Perception'],
     impactArea: 'Influential Academics',
@@ -2525,7 +2523,7 @@ export const experts: Expert[] = [
     name: 'Ruslan Salakhutdinov',
     title: 'Professor, Carnegie Mellon University',
     bio: 'Professor at CMU, formerly Director of AI Research at Apple. Known for contributions to deep learning, graphical models, and large-scale ML.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Ruslan Salakhutdinov.jpg',
     dataAiHint: 'Ruslan Salakhutdinov',
     expertise: ['Deep Learning', 'Machine Learning', 'Graphical Models', 'AI Research', 'Generative Models'],
     impactArea: 'Influential Academics',
@@ -2584,7 +2582,7 @@ export const experts: Expert[] = [
     name: 'Bernhard Schölkopf',
     title: 'Director, Max Planck Institute for Intelligent Systems',
     bio: 'Director at the Max Planck Institute for Intelligent Systems, a leading researcher in kernel methods, causal inference, and machine learning.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Bernhard Schölkopf.jpg',
     dataAiHint: 'Bernhard Schölkopf',
     expertise: ['Machine Learning', 'Kernel Methods', 'Causal Inference', 'AI Theory', 'Computational Photography'],
     impactArea: 'Influential Academics',
@@ -2643,7 +2641,7 @@ export const experts: Expert[] = [
     name: 'Max Welling',
     title: 'Professor, University of Amsterdam / Distinguished Scientist, Microsoft Research',
     bio: 'Professor at the University of Amsterdam and Distinguished Scientist at Microsoft Research, focusing on graphical models, deep learning, and Bayesian methods.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Max Welling.jpg',
     dataAiHint: 'Max Welling',
     expertise: ['Machine Learning', 'Deep Learning', 'Graphical Models', 'Bayesian Methods', 'Physics'],
     impactArea: 'Influential Academics',
@@ -2702,7 +2700,7 @@ export const experts: Expert[] = [
     name: 'Leslie Kaelbling',
     title: 'Professor, MIT',
     bio: 'Professor at MIT, a pioneer in reinforcement learning, decision making under uncertainty, and robotics.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Leslie Kaelbling.jpg',
     dataAiHint: 'Leslie Kaelbling',
     expertise: ['Reinforcement Learning', 'Robotics', 'AI Planning', 'Decision Making', 'Probabilistic Models'],
     impactArea: 'Influential Academics',
@@ -2761,7 +2759,7 @@ export const experts: Expert[] = [
     name: 'Pedro Domingos',
     title: 'Professor Emeritus, University of Washington',
     bio: 'Professor Emeritus at the University of Washington and author of "The Master Algorithm," known for work in machine learning and knowledge representation.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Pedro Domingos.jpg',
     dataAiHint: 'Pedro Domingos',
     expertise: ['Machine Learning', 'AI Theory', 'Knowledge Representation', 'Markov Logic Networks'],
     impactArea: 'Influential Academics',
@@ -2820,7 +2818,7 @@ export const experts: Expert[] = [
     name: 'Tomas Mikolov',
     title: 'Researcher, CIIRC CTU',
     bio: 'Known for creating Word2Vec, a highly influential technique for word embeddings in NLP. Formerly at Facebook AI Research and Google.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Tomas Mikolov.jpg',
     dataAiHint: 'Tomas Mikolov',
     expertise: ['Natural Language Processing', 'Word Embeddings', 'Deep Learning', 'Recurrent Neural Networks'],
     impactArea: 'Influential Academics',
@@ -2879,7 +2877,7 @@ export const experts: Expert[] = [
     name: 'Been Kim',
     title: 'Staff Research Scientist, Google DeepMind',
     bio: 'Researcher at Google DeepMind focusing on interpretability and explainable AI (XAI), making complex AI models more understandable.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Been Kim.jpg',
     dataAiHint: 'Been Kim',
     expertise: ['Interpretability', 'Explainable AI', 'Machine Learning', 'AI Ethics', 'Human-AI Collaboration'],
     impactArea: 'Influential Academics',
@@ -2938,7 +2936,7 @@ export const experts: Expert[] = [
     name: 'Cynthia Rudin',
     title: 'Professor, Duke University',
     bio: 'Professor at Duke University, a leading advocate and researcher in interpretable machine learning and causal inference.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Cynthia Rudin.jpg',
     dataAiHint: 'Cynthia Rudin',
     expertise: ['Interpretable Machine Learning', 'Causal Inference', 'AI Ethics', 'Explainable AI'],
     impactArea: 'Influential Academics',
@@ -2991,7 +2989,7 @@ export const experts: Expert[] = [
     name: 'Shuran Song',
     title: 'Assistant Professor, Columbia University',
     bio: 'Assistant Professor at Columbia University, researching robotics, 3D computer vision, and robot learning.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Shuran Song.jpg',
     dataAiHint: 'Shuran Song',
     expertise: ['Robotics', '3D Computer Vision', 'Machine Learning', 'Robot Learning', 'Embodied AI'],
     impactArea: 'Influential Academics',
@@ -3050,7 +3048,7 @@ export const experts: Expert[] = [
     name: 'Jitendra Malik',
     title: 'Professor, UC Berkeley / Research Scientist, Meta AI',
     bio: 'Professor at UC Berkeley and Research Scientist at Meta AI, a leading figure in computer vision.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Jitendra Malik.jpg',
     dataAiHint: 'Jitendra Malik',
     expertise: ['Computer Vision', 'Machine Learning', 'Image Recognition', 'Computational Photography'],
     impactArea: 'Influential Academics',
@@ -3109,7 +3107,7 @@ export const experts: Expert[] = [
     name: 'Alexei Efros',
     title: 'Professor, UC Berkeley',
     bio: 'Professor at UC Berkeley, known for his influential work in computer vision, computational photography, and texture synthesis.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Alexei Efros.jpg',
     dataAiHint: 'Alexei Efros',
     expertise: ['Computer Vision', 'Computational Photography', 'Graphics', 'Machine Learning', 'Image Synthesis'],
     impactArea: 'Influential Academics',
@@ -3168,7 +3166,7 @@ export const experts: Expert[] = [
     name: 'Devi Parikh',
     title: 'Associate Professor, Georgia Tech / Research Scientist, Meta AI',
     bio: 'Associate Professor at Georgia Tech and Research Scientist at Meta AI, working on computer vision, NLP, and AI for creativity.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Devi Parikh.jpg',
     dataAiHint: 'Devi Parikh',
     expertise: ['Computer Vision', 'Natural Language Processing', 'AI for Creativity', 'Machine Learning', 'Explainable AI'],
     impactArea: 'Influential Academics',
@@ -3227,7 +3225,7 @@ export const experts: Expert[] = [
     name: 'Kyunghyun Cho',
     title: 'Associate Professor, NYU / Research Scientist, Genentech',
     bio: 'Associate Professor at NYU and Research Scientist at Genentech, known for his contributions to NLP, machine translation, and Gated Recurrent Units (GRUs).',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Kyunghyun Cho.jpg',
     dataAiHint: 'Kyunghyun Cho',
     expertise: ['Natural Language Processing', 'Machine Translation', 'Deep Learning', 'Neural Networks', 'GRUs'],
     impactArea: 'Influential Academics',
@@ -3286,7 +3284,7 @@ export const experts: Expert[] = [
     name: 'Sanjoy Dasgupta',
     title: 'Professor, UC San Diego',
     bio: 'Professor at UC San Diego, specializing in theoretical machine learning, clustering, and active learning.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Sanjoy Dasgupta.jpg',
     dataAiHint: 'Sanjoy Dasgupta',
     expertise: ['Theoretical Machine Learning', 'Algorithms', 'Statistics', 'Clustering', 'Active Learning'],
     impactArea: 'Influential Academics',
@@ -3345,7 +3343,7 @@ export const experts: Expert[] = [
     name: 'Jensen Huang',
     title: 'CEO, NVIDIA',
     bio: 'Co-founder and CEO of NVIDIA, whose GPUs have become foundational for the AI revolution, enabling large-scale deep learning.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Jensen Huang.jpg',
     dataAiHint: 'Jensen Huang',
     expertise: ['GPU Technology', 'AI Hardware', 'Deep Learning Infrastructure', 'AI Leadership', 'High-Performance Computing'],
     impactArea: 'Key Innovators & Entrepreneurs',
@@ -3363,7 +3361,7 @@ export const experts: Expert[] = [
     name: 'Richard Socher',
     title: 'CEO, You.com',
     bio: 'CEO of You.com and former Chief Scientist at Salesforce, known for his work in NLP, deep learning, and recursive neural networks.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Richard Socher.jpg',
     dataAiHint: 'Richard Socher',
     expertise: ['Natural Language Processing', 'Deep Learning', 'Search Technology', 'AI Entrepreneurship', 'Recurrent Neural Networks'],
     impactArea: 'Key Innovators & Entrepreneurs',
@@ -3381,7 +3379,7 @@ export const experts: Expert[] = [
     name: 'Clément Delangue',
     title: 'CEO, Hugging Face',
     bio: 'Co-founder and CEO of Hugging Face, a company central to democratizing NLP and making large models accessible.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Clément Delangue.jpg',
     dataAiHint: 'Clément Delangue',
     expertise: ['Natural Language Processing', 'Open Source AI', 'Democratizing AI', 'AI Entrepreneurship', 'Large Language Models'],
     impactArea: 'Key Innovators & Entrepreneurs',
@@ -3399,7 +3397,7 @@ export const experts: Expert[] = [
     name: 'Alex Krizhevsky',
     title: 'AI Researcher',
     bio: 'Creator of AlexNet, a convolutional neural network that significantly advanced image recognition and was pivotal in deep learning\'s resurgence. Formerly at Google.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Alex Krizhevsky.jpg',
     dataAiHint: 'Alex Krizhevsky',
     expertise: ['Deep Learning', 'Computer Vision', 'Neural Networks', 'Image Recognition', 'Convolutional Neural Networks', 'ImageNet'],
     impactArea: 'Key Innovators & Entrepreneurs',
@@ -3417,7 +3415,7 @@ export const experts: Expert[] = [
     name: 'Ian Goodfellow',
     title: 'AI Researcher, Apple',
     bio: 'Inventor of Generative Adversarial Networks (GANs), a major breakthrough in generative modeling. Has worked at Apple, Google, and OpenAI.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Ian Goodfellow.jpg',
     dataAiHint: 'Ian Goodfellow',
     expertise: ['Generative Models', 'Deep Learning', 'AI Security', 'Neural Networks', 'Generative AI'],
     impactArea: 'Key Innovators & Entrepreneurs',
@@ -3435,7 +3433,7 @@ export const experts: Expert[] = [
     name: 'Aravind Srinivas',
     title: 'CEO, Perplexity AI',
     bio: 'Co-founder and CEO of Perplexity AI, developing conversational AI search engines.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Aravind Srinivas.jpg',
     dataAiHint: 'Aravind Srinivas',
     expertise: ['Natural Language Processing', 'Search Technology', 'AI Entrepreneurship', 'Large Language Models', 'Conversational AI'],
     impactArea: 'Key Innovators & Entrepreneurs',
@@ -3453,7 +3451,7 @@ export const experts: Expert[] = [
     name: 'Jonas Andrulis',
     title: 'CEO, Aleph Alpha',
     bio: 'Founder and CEO of Aleph Alpha, a European company focused on developing large language models and sovereign AI.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Jonas Andrulis.jpg',
     dataAiHint: 'Jonas Andrulis',
     expertise: ['Large Language Models', 'AI Entrepreneurship', 'AI Strategy', 'European AI', 'Explainable AI'],
     impactArea: 'Key Innovators & Entrepreneurs',
@@ -3471,7 +3469,7 @@ export const experts: Expert[] = [
     name: 'Arthur Mensch',
     title: 'CEO, Mistral AI',
     bio: 'Co-founder and CEO of Mistral AI, a prominent European AI startup developing open and efficient large language models.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Arthur Mensch.jpg',
     dataAiHint: 'Arthur Mensch',
     expertise: ['Large Language Models', 'AI Entrepreneurship', 'Open Source AI', 'European AI', 'Efficient AI Models'],
     impactArea: 'Key Innovators & Entrepreneurs',
@@ -3489,7 +3487,7 @@ export const experts: Expert[] = [
     name: 'Chris Urmson',
     title: 'CEO, Aurora',
     bio: 'CEO of Aurora, a self-driving technology company. Formerly led Google\'s self-driving car project (Waymo).',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Chris Urmson.jpg',
     dataAiHint: 'Chris Urmson',
     expertise: ['Self-Driving Cars', 'Robotics', 'AI Leadership', 'AI Entrepreneurship', 'Autonomous Systems'],
     impactArea: 'Key Innovators & Entrepreneurs',
@@ -3507,7 +3505,7 @@ export const experts: Expert[] = [
     name: 'Adam D\'Angelo',
     title: 'CEO, Quora / Founder, Poe',
     bio: 'CEO of Quora and founder of Poe, a platform for interacting with various AI chatbots. Former CTO of Facebook.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Adam DAngelo.jpg',
     dataAiHint: 'Adam D\'Angelo',
     expertise: ['AI Platforms', 'Consumer AI', 'Social Technology', 'AI Entrepreneurship', 'Large Language Models'],
     impactArea: 'Key Innovators & Entrepreneurs',
@@ -3525,7 +3523,7 @@ export const experts: Expert[] = [
     name: 'Alex Kendall',
     title: 'CEO, Wayve',
     bio: 'Co-founder and CEO of Wayve, a company pioneering end-to-end deep learning for autonomous driving.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Alex Kendall.jpg',
     dataAiHint: 'Alex Kendall',
     expertise: ['Self-Driving Cars', 'Deep Learning', 'Robotics', 'AI Entrepreneurship', 'Embodied AI'],
     impactArea: 'Key Innovators & Entrepreneurs',
@@ -3543,7 +3541,7 @@ export const experts: Expert[] = [
     name: 'Anna Patterson',
     title: 'Managing Partner, Gradient Ventures',
     bio: 'Managing Partner at Gradient Ventures (Google\'s AI-focused venture fund) and former VP of Engineering at Google.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Anna Patterson.jpg',
     dataAiHint: 'Anna Patterson',
     expertise: ['AI Investment', 'Venture Capital', 'Search Technology', 'AI Startups', 'AI Leadership'],
     impactArea: 'Key Innovators & Entrepreneurs',
@@ -3561,7 +3559,7 @@ export const experts: Expert[] = [
     name: 'Clara Shih',
     title: 'CEO, Salesforce AI',
     bio: 'CEO of Salesforce AI, leading the integration of AI across Salesforce products and driving enterprise AI adoption.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Clara Shih.jpg',
     dataAiHint: 'Clara Shih',
     expertise: ['Enterprise AI', 'AI Strategy', 'CRM Technology', 'AI Leadership', 'Applied AI'],
     impactArea: 'Leaders at Major AI Labs & Companies',
@@ -3579,7 +3577,7 @@ export const experts: Expert[] = [
     name: 'Marc Raibert',
     title: 'Executive Director, The AI Institute / Founder, Boston Dynamics',
     bio: 'Founder of Boston Dynamics, renowned for creating highly advanced and dynamic robots. Now Executive Director of The AI Institute.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Marc Raibert.jpg',
     dataAiHint: 'Marc Raibert',
     expertise: ['Robotics', 'Dynamic Control Systems', 'AI Hardware', 'AI Leadership', 'Legged Locomotion'],
     impactArea: 'Key Innovators & Entrepreneurs',
@@ -3597,7 +3595,7 @@ export const experts: Expert[] = [
     name: 'Timnit Gebru',
     title: 'Founder & Executive Director, DAIR Institute',
     bio: 'Founder of the Distributed AI Research (DAIR) Institute, a prominent voice in AI ethics, algorithmic bias, and fairness. Formerly at Google.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Timnit Gebru.jpg',
     dataAiHint: 'Timnit Gebru',
     expertise: ['AI Ethics', 'Algorithmic Bias', 'Fairness in AI', 'AI Policy', 'Accountability'],
     impactArea: 'Prominent Voices in AI Ethics & Safety',
@@ -3615,7 +3613,7 @@ export const experts: Expert[] = [
     name: 'Joy Buolamwini',
     title: 'Founder, Algorithmic Justice League',
     bio: 'Founder of the Algorithmic Justice League, known for exposing bias in facial recognition technology and advocating for equitable AI.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Joy Buolamwini.jpg',
     dataAiHint: 'Joy Buolamwini',
     expertise: ['Algorithmic Bias', 'AI Ethics', 'Facial Recognition Technology', 'AI Policy', 'Social Justice'],
     impactArea: 'Prominent Voices in AI Ethics & Safety',
@@ -3633,7 +3631,7 @@ export const experts: Expert[] = [
     name: 'Kate Crawford',
     title: 'Research Professor, USC Annenberg / Sr. Principal Researcher, Microsoft Research',
     bio: 'Leading scholar on the social and political implications of AI, data systems, and artificial intelligence. Affiliated with USC Annenberg and Microsoft Research.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Kate Crawford.jpg',
     dataAiHint: 'Kate Crawford',
     expertise: ['Social Implications of AI', 'AI Ethics', 'AI Policy', 'Data Studies', 'Power Dynamics'],
     impactArea: 'Prominent Voices in AI Ethics & Safety',
@@ -3651,7 +3649,7 @@ export const experts: Expert[] = [
     name: 'Oren Etzioni',
     title: 'Founding CEO Emeritus, Allen Institute for AI (AI2) / Professor, University of Washington',
     bio: 'Founding CEO Emeritus of AI2 and Professor at the University of Washington, a significant voice in AI ethics, impact, and commonsense reasoning.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Oren Etzioni.jpg',
     dataAiHint: 'Oren Etzioni',
     expertise: ['AI Ethics', 'AI Impact', 'Commonsense Reasoning', 'AI Leadership', 'Startups'],
     impactArea: 'Prominent Voices in AI Ethics & Safety',
@@ -3669,7 +3667,7 @@ export const experts: Expert[] = [
     name: 'Gary Marcus',
     title: 'Professor Emeritus, NYU / Founder, Robust.AI',
     bio: 'Professor Emeritus at NYU and founder of Robust.AI. A prominent critic of current deep learning approaches and advocate for neuro-symbolic AI.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Gary Marcus.jpg',
     dataAiHint: 'Gary Marcus',
     expertise: ['Cognitive Science', 'Neuro-Symbolic AI', 'AI Criticism', 'AI Safety', 'Developmental Psychology'],
     impactArea: 'Prominent Voices in AI Ethics & Safety',
@@ -3687,7 +3685,7 @@ export const experts: Expert[] = [
     name: 'Francesca Rossi',
     title: 'IBM AI Ethics Global Leader',
     bio: 'IBM Fellow and AI Ethics Global Leader, working on embedding ethical principles into AI technologies and practices.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Francesca Rossi.jpg',
     dataAiHint: 'Francesca Rossi',
     expertise: ['AI Ethics', 'AI Governance', 'Responsible AI', 'AI Policy', 'Constraint Satisfaction'],
     impactArea: 'Prominent Voices in AI Ethics & Safety',
@@ -3705,7 +3703,7 @@ export const experts: Expert[] = [
     name: 'Rumman Chowdhury',
     title: 'CEO, Humane Intelligence',
     bio: 'CEO of Humane Intelligence and former Director of ML Ethics, Transparency & Accountability at Twitter, focusing on applied algorithmic ethics.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Rumman Chowdhury.jpg',
     dataAiHint: 'Rumman Chowdhury',
     expertise: ['Algorithmic Ethics', 'Responsible AI', 'AI Governance', 'AI Policy', 'Bias Mitigation'],
     impactArea: 'Prominent Voices in AI Ethics & Safety',
@@ -3723,7 +3721,7 @@ export const experts: Expert[] = [
     name: 'Eric Schmidt',
     title: 'Former CEO, Google / Chair, NSCAI',
     bio: 'Former CEO of Google and Chair of the National Security Commission on Artificial Intelligence (NSCAI), influential in AI policy and national security discussions.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Eric Schmidt.jpg',
     dataAiHint: 'Eric Schmidt',
     expertise: ['AI Policy', 'National Security', 'Technology Leadership', 'AI Strategy', 'Government'],
     impactArea: 'Prominent Voices in AI Ethics & Safety',
@@ -3741,7 +3739,7 @@ export const experts: Expert[] = [
     name: 'James Manyika',
     title: 'SVP, Research, Technology & Society, Google',
     bio: 'Senior Vice President at Google, focusing on the economic and societal impact of technology, including AI.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/James Manyika.jpg',
     dataAiHint: 'James Manyika',
     expertise: ['Societal Impact of AI', 'AI Economics', 'AI Policy', 'Technology Research', 'Future of Work'],
     impactArea: 'Prominent Voices in AI Ethics & Safety',
@@ -3759,7 +3757,7 @@ export const experts: Expert[] = [
     name: 'DJ Patil',
     title: 'Executive, Devoted Health',
     bio: 'Former U.S. Chief Data Scientist, a leading voice in data ethics, AI for good, and applying data science to solve societal challenges. Now at Devoted Health.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/DJ Patil.jpg',
     dataAiHint: 'DJ Patil',
     expertise: ['Data Ethics', 'AI for Good', 'Data Science', 'AI Policy', 'Public Policy'],
     impactArea: 'Prominent Voices in AI Ethics & Safety',
@@ -3777,7 +3775,7 @@ export const experts: Expert[] = [
     name: 'Helen Toner',
     title: 'Director of Strategy, Center for Security and Emerging Technology (CSET)',
     bio: 'Director of Strategy at CSET and former OpenAI board member, focusing on AI policy, safety, and US-China tech competition.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Helen Toner.jpg',
     dataAiHint: 'Helen Toner',
     expertise: ['AI Policy', 'AI Safety', 'Technology Governance', 'International Security', 'China AI'],
     impactArea: 'Prominent Voices in AI Ethics & Safety',
@@ -3795,7 +3793,7 @@ export const experts: Expert[] = [
     name: 'Eliezer Yudkowsky',
     title: 'Co-founder & Research Fellow, Machine Intelligence Research Institute (MIRI)',
     bio: 'Co-founder of MIRI, a prominent researcher and writer on AI alignment, superintelligence, and existential risk from advanced AI.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Eliezer Yudkowsky.jpg',
     dataAiHint: 'Eliezer Yudkowsky',
     expertise: ['AI Safety', 'Existential Risk', 'Superintelligence', 'Rationality', 'Decision Theory'],
     impactArea: 'Prominent Voices in AI Ethics & Safety',
@@ -3813,7 +3811,7 @@ export const experts: Expert[] = [
     name: 'Nick Bostrom',
     title: 'Professor, University of Oxford / Director, Future of Humanity Institute',
     bio: 'Professor at Oxford University and Director of the Future of Humanity Institute, author of "Superintelligence," focusing on AI safety and existential risk.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Nick Bostrom.jpg',
     dataAiHint: 'Nick Bostrom',
     expertise: ['AI Safety', 'Existential Risk', 'Superintelligence', 'Philosophy of AI', 'Transhumanism'],
     impactArea: 'Prominent Voices in AI Ethics & Safety',
@@ -3831,7 +3829,7 @@ export const experts: Expert[] = [
     name: 'Max Tegmark',
     title: 'Professor, MIT / President, Future of Life Institute',
     bio: 'Professor at MIT and President of the Future of Life Institute, a physicist and AI safety advocate, author of "Life 3.0."',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Max Tegmark.jpg',
     dataAiHint: 'Max Tegmark',
     expertise: ['AI Safety', 'Physics', 'Existential Risk', 'Future of AI', 'Consciousness'],
     impactArea: 'Prominent Voices in AI Ethics & Safety',
@@ -3849,7 +3847,7 @@ export const experts: Expert[] = [
     name: 'Noam Brown',
     title: 'Research Scientist, Meta AI',
     bio: 'Research Scientist at Meta AI, known for developing AI that achieved superhuman performance in complex games like Poker (Pluribus) and Diplomacy (Cicero).',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Noam Brown.jpg',
     dataAiHint: 'Noam Brown',
     expertise: ['Game AI', 'Reinforcement Learning', 'Multi-Agent Systems', 'Deep Learning', 'Computational Game Theory'],
     impactArea: 'Leaders at Major AI Labs & Companies',
@@ -3867,7 +3865,7 @@ export const experts: Expert[] = [
     name: 'Armand Joulin',
     title: 'Research Scientist, Meta AI',
     bio: 'Research Scientist at Meta AI, contributing to efficient NLP models (e.g., fastText) and computer vision.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Armand Joulin.jpg',
     dataAiHint: 'Armand Joulin',
     expertise: ['Natural Language Processing', 'Computer Vision', 'Efficient AI Models', 'Machine Learning', 'fastText'],
     impactArea: 'Leaders at Major AI Labs & Companies',
@@ -3885,7 +3883,7 @@ export const experts: Expert[] = [
     name: 'Volodymyr Mnih',
     title: 'Research Scientist, Google DeepMind',
     bio: 'Research Scientist at Google DeepMind, a key figure in developing Deep Q-Networks (DQN), a breakthrough in deep reinforcement learning.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Volodymyr Mnih.jpg',
     dataAiHint: 'Volodymyr Mnih',
     expertise: ['Reinforcement Learning', 'Deep Learning', 'Neural Networks', 'Game AI', 'Deep Q-Networks (DQN)'],
     impactArea: 'Leaders at Major AI Labs & Companies',
@@ -3903,7 +3901,7 @@ export const experts: Expert[] = [
     name: 'Larry Heck',
     title: 'Director, AI, Google',
     bio: 'Director of AI at Google, with extensive experience in speech recognition and conversational AI. Formerly at Samsung and Microsoft.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Larry Heck.jpg',
     dataAiHint: 'Larry Heck',
     expertise: ['Speech Recognition', 'Conversational AI', 'Natural Language Processing', 'AI Research', 'Deep Learning'],
     impactArea: 'Leaders at Major AI Labs & Companies',
@@ -3921,7 +3919,7 @@ export const experts: Expert[] = [
     name: 'Li Deng',
     title: 'Chief AI Officer, Citadel',
     bio: 'Chief AI Officer at Citadel. Formerly Chief AI Officer at Microsoft and Head of AI Research at DeepMind, pioneering deep learning for speech recognition and finance.',
-    avatarUrl: 'https://placehold.co/400x400.png',
+    avatarUrl: '/images/Li Deng.jpg',
     dataAiHint: 'Li Deng',
     expertise: ['Deep Learning', 'Speech Recognition', 'Financial AI', 'AI Strategy', 'Natural Language Processing'],
     impactArea: 'Leaders at Major AI Labs & Companies',
@@ -3947,7 +3945,5 @@ export const getAllExpertise = (): string[] => {
 export const getAllImpactAreas = (): string[] => {
   return IMPACT_AREAS_ORDERED;
 };
-
-
 
 
