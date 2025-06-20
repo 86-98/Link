@@ -14,6 +14,7 @@ import { Briefcase, Linkedin, Twitter, CalendarDays, Tag, FileText, ExternalLink
 
 interface ExpertProfilePageProps {
   params: { id: string };
+  searchParams?: { [key: string]: string | string[] | undefined };
 }
 
 export async function generateMetadata({ params }: ExpertProfilePageProps): Promise<Metadata> {
