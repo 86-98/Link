@@ -1,7 +1,7 @@
 
 import { experts, getAllExpertise, getAllImpactAreas } from '@/lib/data';
 import PageHeader from '@/components/PageHeader';
-import ExpertListClient from '@/components/ExpertListClient';
+import ExpertListLoader from '@/components/ExpertListLoader';
 
 export default function HomePage() {
   const allExperts = experts; // In a real app, this would be fetched
@@ -14,8 +14,7 @@ export default function HomePage() {
         title="Meet the AI Oracles"
         description="Discover leading experts in Artificial Intelligence and explore their predictions and insights."
       />
-      <ExpertListClient experts={allExperts} allExpertise={expertiseAreas} allImpactAreas={impactAreas} />
+      <ExpertListLoader experts={allExperts} allExpertise={expertiseAreas} allImpactAreas={impactAreas} />
     </>
   );
 }
-
