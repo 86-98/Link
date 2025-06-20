@@ -17,21 +17,24 @@ const ExpertCard = ({ expert }: ExpertCardProps) => {
   
   return (
     <Card className="flex flex-col h-full overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 rounded-lg">
-      <CardHeader className="p-4 sm:p-6">
-        <div className="flex items-start gap-4">
+      <CardHeader className="p-4">
+        {/* Default: avatar left, text right. md+: avatar top, text block below (centered), text content right-aligned. */}
+        <div className="flex items-start gap-4 md:flex-col md:items-center">
           <Image
             src={expert.avatarUrl}
             alt={expert.name}
             width={80}
             height={80}
-            className="rounded-full border-2 border-primary object-cover"
+            className="rounded-full border-2 border-primary object-cover md:mb-3" // md:mb-3 for space when stacked
             data-ai-hint={expert.dataAiHint || "person portrait"}
           />
-          <div className="flex-1">
+          {/* Default: text block is flex-1. md+: text block is w-full and its text is right-aligned. */}
+          <div className="flex-1 md:w-full md:text-right">
             <CardTitle className="font-headline text-xl sm:text-2xl mb-1">{expert.name}</CardTitle>
             <CardDescription className="text-sm sm:text-base text-muted-foreground">{expert.title}</CardDescription>
-            {expert.company && (
-              <div className="flex items-center text-xs sm:text-sm text-muted-foreground mt-1">
+             {expert.company && (
+              // On md+, parent div has md:text-right. This div will align its content to the end (right).
+              <div className="flex items-center text-xs sm:text-sm text-muted-foreground mt-1 md:justify-end">
                 <Briefcase className="w-3 h-3 sm:w-4 sm:h-4 mr-1.5" />
                 {expert.company}
               </div>
@@ -39,7 +42,7 @@ const ExpertCard = ({ expert }: ExpertCardProps) => {
           </div>
         </div>
       </CardHeader>
-      <CardContent className="p-4 sm:p-6 flex-grow">
+      <CardContent className="p-4 flex-grow">
         <p className="text-sm sm:text-base text-foreground leading-relaxed mb-3 line-clamp-3">{expert.bio}</p>
         <div className="flex flex-wrap gap-2">
           {expert.expertise.slice(0, 3).map((area) => {
@@ -53,7 +56,7 @@ const ExpertCard = ({ expert }: ExpertCardProps) => {
           })}
         </div>
       </CardContent>
-      <CardFooter className="p-4 sm:p-6 bg-muted/50 border-t">
+      <CardFooter className="p-4 bg-muted/50 border-t">
         <Button asChild className="w-full" variant="default">
           <Link href={`/experts/${expert.id}`}>
             View Profile
