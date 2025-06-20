@@ -2294,7 +2294,38 @@ export const experts: Expert[] = [
     dataAiHint: 'Illia Polosukhin',
     expertise: ['Blockchain', 'Natural Language Processing', 'Transformers', 'Decentralized Systems', 'TensorFlow'],
     impactArea: 'Key Innovators & Entrepreneurs',
-    predictions: [],
+    predictions: [
+      {
+        "id": "ip-pred-1",
+        "text": "The future of the internet is an 'Open Web' where AI is a core, user-owned protocol, not a product controlled by a handful of corporations. AI models and applications will be decentralized, running on a permissionless, blockchain-based network, allowing any developer to build and any user to participate without intermediaries.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Decentralized AI / User-Owned Web"
+      },
+      {
+        "id": "ip-pred-2",
+        "text": "The next paradigm shift will be from applications to autonomous agents that act on a user's behalf. These agents will operate on a decentralized network, interacting with smart contracts and paying for services with crypto micropayments. This creates an open, on-chain economy for AI services, enabling a Cambrian explosion of new capabilities.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Autonomous Agents / On-Chain Economy"
+      },
+      {
+        "id": "ip-pred-3",
+        "text": "The scalability problem for AI will not be solved by building ever-larger centralized data centers, but through a massively sharded, decentralized network. Just as blockchain sharding enables global-scale transactions, a sharded architecture for AI compute and data will enable a more resilient, efficient, and horizontally scalable intelligence layer for the entire web.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Scalability / Decentralized Infrastructure"
+      },
+      {
+        "id": "ip-pred-4",
+        "text": "User sovereignty over data and models is the only sustainable path forward. In the future, users will control their own data and AI models via their crypto wallets. They will be able to grant revocable access to their data for fine-tuning models and even directly own the resulting personalized AI, breaking the current cycle of platform exploitation.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Data Sovereignty / User-Owned Models"
+      },
+      {
+        "id": "ip-pred-5",
+        "text": "The Transformer was the key to unlocking AI understanding, but blockchain is the key to unlocking AI interaction and ownership. The ultimate goal is to fuse these technologies to create 'AI as a public good'—a foundational, open-source, and user-governed resource that empowers individuals rather than concentrating power.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "AI as a Public Good / Web3 Integration"
+      }
+    ],
     company: 'NEAR Protocol (formerly Google)',
     linkedin: 'https://linkedin.com/in/illia-polosukhin-3064391a',
     twitter: 'https://twitter.com/ilblackdragon',
@@ -2312,7 +2343,38 @@ export const experts: Expert[] = [
     dataAiHint: 'Niki Parmar',
     expertise: ['Natural Language Processing', 'Transformers', 'Deep Learning', 'AI Entrepreneurship', 'Computer Vision'],
     impactArea: 'Key Innovators & Entrepreneurs',
-    predictions: [],
+    predictions: [
+      {
+        "id": "np-pred-1",
+        "text": "The true value of AI in the enterprise will be unlocked not by chatbots, but by autonomous systems that can reason over a company's entire toolset and data landscape. The next challenge is building the 'cognitive architecture' that allows AI to reliably automate complex, multi-step business processes from start to finish.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Cognitive Architecture / Business Process Automation"
+      },
+      {
+        "id": "np-pred-2",
+        "text": "The most critical, unsolved problem for enterprise AI is the 'intelligence layer' that sits between models and data. The future is not about building a slightly better LLM, but about creating the system that can understand a company’s messy, unstructured data, connect it to business logic, and make it actionable for an AI agent.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Data Intelligence Layer"
+      },
+      {
+        "id": "np-pred-3",
+        "text": "The focus will shift from generalist models to task-specific 'expert models' for the enterprise. While large models provide a reasoning baseline, high-value automation requires models that are deeply fine-tuned on a company's specific domain and workflows, ensuring reliability and accuracy where it matters most.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Task-Specific Models / Enterprise Fine-Tuning"
+      },
+      {
+        "id": "np-pred-4",
+        "text": "The next revolution in user experience will be the AI-native interface for complex software. Instead of clicking through menus, expert users will accomplish their goals through a conversational dialogue with an AI that understands their intent and can execute tasks across multiple applications. The best enterprise AI will be defined by its user experience.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "AI-Native UX / Conversational Interface"
+      },
+      {
+        "id": "np-pred-5",
+        "text": "For enterprise AI to succeed, we must solve the problem of trust and verifiability. Future systems will not just give an answer; they will show their work. They will provide auditable chains of reasoning that link every conclusion back to source documents and data, making AI a reliable partner for human experts in high-stakes decisions.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Verifiability / Auditable AI"
+      }
+    ],
     company: 'Essential AI (formerly Google)',
     linkedin: 'https://linkedin.com/in/nikiparmar',
     twitter: 'https://twitter.com/nikiparmar_',
@@ -2330,7 +2392,38 @@ export const experts: Expert[] = [
     dataAiHint: 'Lukasz Kaiser',
     expertise: ['Deep Learning', 'Natural Language Processing', 'Transformers', 'Machine Learning Systems', 'TensorFlow'],
     impactArea: 'Leaders at Major AI Labs & Companies',
-    predictions: [],
+    predictions: [
+      {
+        "id": "lk-pred-1",
+        "text": "The path to AGI will be paved by models that learn to reason algorithmically. The next architectural leap beyond the Transformer will not just process sequences, but will learn to execute explicit computational steps, akin to a 'neural computer.' This will enable AI to solve complex mathematical, logical, and planning problems that are intractable for current systems.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Algorithmic Reasoning / Neural Computers"
+      },
+      {
+        "id": "lk-pred-2",
+        "text": "The scaling laws will continue to hold, but we will hit a 'data wall' before we hit a compute wall. The most critical research area will become 'AI-generated data.' We will build systems that act as simulators for reality, generating vast amounts of high-quality, diverse, and novel data to train subsequent, more powerful models in a recursive loop of self-improvement.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Recursive Self-Improvement / Synthetic Data Generation"
+      },
+      {
+        "id": "lk-pred-3",
+        "text": "The distinction between model architecture and the training process will blur. Future systems will utilize 'generative training' methods, where the AI itself plays a role in designing its own learning curriculum and even its own architecture. This meta-learning capability is the key to escaping the limitations of human-designed learning schemes.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Meta-Learning / Generative Training"
+      },
+      {
+        "id": "lk-pred-4",
+        "text": "Progress in AI will be bottlenecked by our ability to parallelize computation, not just across multiple devices, but within the model's forward pass itself. The next generation of frameworks and hardware will be co-designed around novel parallel algorithms that allow us to train models with trillions of parameters in a reasonable amount of time.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Parallelism / Hardware-Software Co-Design"
+      },
+      {
+        "id": "lk-pred-5",
+        "text": "The most powerful models will be 'universal sequence models' that can seamlessly operate on any modality—text, images, audio, video, code—by treating them all as streams of tokens. True general intelligence will emerge when a single, unified architecture can learn the underlying patterns and relationships across all these data types without specialized components.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Universal Sequence Modeling / Multimodality"
+      }
+    ],
     company: 'OpenAI (formerly Google)',
     linkedin: 'https://linkedin.com/in/lukasz-kaiser-2a8183',
     twitter: 'https://twitter.com/lukaszkaiser',
@@ -2348,7 +2441,38 @@ export const experts: Expert[] = [
     dataAiHint: 'David Silver',
     expertise: ['Reinforcement Learning', 'Deep Learning', 'Game AI', 'AGI Research', 'AlphaGo', 'AlphaZero'],
     impactArea: 'Leaders at Major AI Labs & Companies',
-    predictions: [],
+    predictions: [
+      {
+        "id": "ds-pred-1",
+        "text": "The principles of AlphaZero—self-play reinforcement learning and search—are not limited to games. They represent a general-purpose pathway to intelligence. The next grand challenge is to apply this 'tabula rasa' learning to the foundational problems of science, creating an 'AlphaFold for everything' that can discover novel mathematics, control fusion reactors, or design new materials from first principles, without human priors.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "General Intelligence via RL / Beyond Games"
+      },
+      {
+        "id": "ds-pred-2",
+        "text": "The future of AI is not about bigger models trained on more of the internet. The internet's data is a cage that limits AI to human knowledge. True superintelligence will arise from systems, like AlphaZero, that learn from a blank slate. The most significant breakthroughs will come from AI that generates its own data through self-play and interaction, discovering knowledge and strategies far beyond the human ken.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Self-Generated Knowledge / Beyond Supervised Learning"
+      },
+      {
+        "id": "ds-pred-3",
+        "text": "The ultimate purpose of AI is not to automate tasks, but to generate knowledge. AlphaGo didn't just win; it revealed new, beautiful strategies that enriched human understanding. The next generation of AI will act as a 'knowledge accelerator' for humanity, discovering new mathematical theorems, physical principles, and artistic forms whose elegance and power will be self-evident, even if their genesis is non-human.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "AI as a Source of Knowledge / Creative Discovery"
+      },
+      {
+        "id": "ds-pred-4",
+        "text": "The 'Reward is Enough' hypothesis will be proven correct. We will find that the seemingly disparate faculties of intelligence—perception, planning, memory, and even creativity—can all emerge as optimal solutions to the single, general problem of maximizing a long-term reward signal. The quest for AGI is therefore a quest for the right environment, the right reward function, and a sufficiently powerful, scalable learning agent.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "The Reward Hypothesis / Emergent Intelligence"
+      },
+      {
+        "id": "ds-pred-5",
+        "text": "Intelligence is not a mystery, but a computational problem that can be solved algorithmically. Like sorting, it has optimal solutions. The AlphaGo/AlphaZero lineage represents a major step towards finding this 'master algorithm' for intelligence. The final solution will be an elegant, general-purpose learning algorithm, not a complex, engineered system, that can be applied to any goal.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "The Algorithm of Intelligence"
+      }
+    ],
     company: 'Google DeepMind',
     linkedin: undefined,
     twitter: undefined,
@@ -2366,7 +2490,38 @@ export const experts: Expert[] = [
     dataAiHint: 'Vladlen Koltun',
     expertise: ['Computer Vision', 'Deep Learning', 'Robotics', '3D Reconstruction', 'Simulation'],
     impactArea: 'Leaders at Major AI Labs & Companies',
-    predictions: [],
+    predictions: [
+      {
+        "id": "vk-pred-1",
+        "text": "The 2D, image-centric paradigm of computer vision is a dead end for true understanding. The next revolution will come from models that are inherently 3D-native and physically grounded, learning directly from the geometry of scenes, the motion of objects, and the consequences of interaction. This is the only path to creating agents that can robustly perceive and act in the unstructured physical world.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "3D-Native AI / Geometric Deep Learning"
+      },
+      {
+        "id": "vk-pred-2",
+        "text": "The pursuit of AGI through disembodied language models is a detour. Genuine intelligence is inseparable from embodiment. The most direct and fruitful path to AGI is through training agents in high-fidelity, interactive simulators where learning is grounded in the cause and effect of physical action. The internet teaches an agent 'what things are called,' while an interactive world teaches it 'how things work.'",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Embodiment / Simulation-Grounded Intelligence"
+      },
+      {
+        "id": "vk-pred-3",
+        "text": "The fields of 'computer vision' and 'robotics' will completely merge. It will become self-evident that perception cannot be solved in isolation from action. The key metrics of progress will shift away from performance on static datasets like ImageNet and towards successful task completion by an embodied agent in a novel, dynamic environment.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Unification of Vision and Robotics"
+      },
+      {
+        "id": "vk-pred-4",
+        "text": "The 'scale is all you need' dogma is reaching its limits of utility and will lead to a 'robustness crisis.' A renaissance in foundational research will follow, emphasizing new architectures with strong, mathematically principled inductive biases for geometry, causality, and generalization, rather than simply adding more parameters to brittle, black-box systems.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Beyond Scaling / Robustness and Foundations"
+      },
+      {
+        "id": "vk-pred-5",
+        "text": "The era of progress driven by massive, passively collected datasets will end. The next generation of learning will be defined by 'active perception,' where agents learn by asking their own questions and running their own experiments within an environment. The bottleneck is not labeling more data, but building systems with the curiosity to generate their own most informative data.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Active Perception / Self-Supervised Interaction"
+      }
+    ],
     company: 'Apple (formerly Intel Labs)',
     linkedin: 'https://linkedin.com/in/vladlen-koltun-4139a04',
     twitter: 'https://twitter.com/vladlenkoltun',
