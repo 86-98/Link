@@ -1656,7 +1656,38 @@ export const experts: Expert[] = [
     dataAiHint: 'Pushmeet Kohli',
     expertise: ['AI for Science', 'Machine Learning', 'Computer Vision', 'Computational Biology', 'AlphaFold'],
     impactArea: 'Leaders at Major AI Labs & Companies',
-    predictions: [],
+    predictions: [
+      {
+        "id": "pk-pred-1",
+        "text": "The next paradigm shift in science will be the 'AI Scientist.' These systems will move beyond analyzing data to generating novel, testable hypotheses, designing their own experiments, and even interpreting the results. We will see AI programs win Nobel Prizes, not as tools, but as primary discoverers in fields like physics and biology.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Automated Scientific Discovery / New Paradigm"
+      },
+      {
+        "id": "pk-pred-2",
+        "text": "Humanity's grand challenges, such as climate change, disease, and sustainable energy, will only be solved through an intimate collaboration between human and artificial intelligence. AI will allow us to model and understand complex systems at a scale impossible for the human mind, leading to breakthroughs in areas like fusion energy, personalized medicine, and carbon capture within the next two decades.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Solving Grand Challenges / Accelerated Progress"
+      },
+      {
+        "id": "pk-pred-3",
+        "text": "We are on the verge of creating complete 'digital twins' of complex biological systems, starting with a single cell and eventually scaling to entire organs. These in-silico models, powered by AI, will revolutionize drug discovery by allowing us to simulate the effects of trillions of potential molecules on a virtual human cell, drastically reducing the time and cost of developing new therapies.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "In-Silico Science / Digital Twins"
+      },
+      {
+        "id": "pk-pred-4",
+        "text": "A fundamental challenge for 21st-century science will be the 'epistemology of AI.' We will increasingly rely on AI models that provide correct answers and novel discoveries whose underlying reasoning is too complex for humans to verify or comprehend. This will force us to develop new frameworks for scientific validation and trust, moving from 'explainability' to 'verifiable reliability'.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Epistemology of AI / Explainability in Science"
+      },
+      {
+        "id": "pk-pred-5",
+        "text": "AI for Science will dramatically democratize research. Powerful foundation models trained on the entirety of scientific knowledge will act as expert collaborators for any researcher, anywhere in the world. This will level the playing field, unlocking innovation from individuals and institutions previously excluded from high-capital research environments.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Democratization of Research / AI as a Collaborator"
+      }
+    ],
     company: 'Google DeepMind',
     linkedin: 'https://linkedin.com/in/pushmeet-kohli-b401211',
     twitter: 'https://twitter.com/pushmeet',
@@ -1674,7 +1705,39 @@ export const experts: Expert[] = [
     dataAiHint: 'Samy Bengio',
     expertise: ['Machine Learning', 'Deep Learning', 'AI Research', 'Computer Vision', 'Speech Recognition'],
     impactArea: 'Leaders at Major AI Labs & Companies',
-    predictions: [],
+    predictions: [
+      {
+        "id": "sb-pred-1",
+        "text": "The future of AI is not a single, massive model in the cloud, but a sophisticated, hierarchical ecosystem of models. The most personal and sensitive computations will occur on-device, ensuring privacy, while these local models will intelligently query larger, more general models in the cloud only when necessary. This hybrid approach is the only viable path to truly personal, trustworthy AI.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Hybrid On-Device/Cloud AI"
+      },
+      {
+        "id": "sb-pred-2",
+        "text": "We will move beyond simply scaling models and enter an era focused on 'provable AI.' The next major breakthroughs will be in formal verification and the creation of architectures with mathematical guarantees of robustness, fairness, and safety. Consumer trust, especially for AI integrated into daily life, will depend not on demonstrated capability but on verifiable reliability.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Formal Verification / Trustworthy AI"
+      },
+      {
+        "id": "sb-pred-3",
+        "text": "The next frontier is not just bigger models, but models that learn continuously and efficiently. True 'lifelong learning' on personal devices will allow AI to adapt to an individual's unique context over years, becoming a personalized partner. This requires solving fundamental challenges in catastrophic forgetting and enabling privacy-preserving on-device learning.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Lifelong & Continual Learning"
+      },
+      {
+        "id": "sb-pred-4",
+        "text": "The current paradigm of large language models will be superseded by 'grounded multimodal models.' Future systems will learn from a rich combination of text, images, audio, and sensor data to build a causal understanding of the world. This grounding is essential for moving from plausible text generation to genuine reasoning and common sense.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Grounded Multimodal Reasoning"
+      },
+      {
+        "id": "sb-pred-5",
+        "text": "The 'scaling laws' that predict model capability will soon be paired with 'scaling laws of responsibility.' We will find that as models grow, their potential for amplifying bias and generating harm scales non-linearly. Future research will be gated not by computational limits, but by our ability to build systems that remain controllable, fair, and aligned as they become more powerful.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Ethical Scaling / AI Safety"
+      }
+    ]
+    ,
     company: 'Apple (formerly Google)',
     linkedin: 'https://linkedin.com/in/samybengio',
     twitter: 'https://twitter.com/samybengio',
@@ -1692,7 +1755,38 @@ export const experts: Expert[] = [
     dataAiHint: 'Zoubin Ghahramani',
     expertise: ['Machine Learning', 'Bayesian Methods', 'AI Research', 'Statistics', 'Probabilistic Models'],
     impactArea: 'Leaders at Major AI Labs & Companies',
-    predictions: [],
+    predictions: [
+      {
+        "id": "zg-pred-1",
+        "text": "The era of deterministic AI is a stepping stone. The next, more mature, phase of AI will be fundamentally probabilistic. Systems will not just provide a single answer but will maintain and communicate their own uncertainty. This 'Bayesian AI' is the only path to creating robust, trustworthy systems that can be safely deployed in the real world, from medicine to finance.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Probabilistic AI / Uncertainty Quantification"
+      },
+      {
+        "id": "zg-pred-2",
+        "text": "We will move beyond correlation to causation. The next generation of AI will build causal models of the world, allowing them to reason about interventions and counterfactuals—'what would happen if?'. This is the key difference between an AI that can describe the world and an AI that can truly understand it and help us change it for the better.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Causal Reasoning / World Models"
+      },
+      {
+        "id": "zg-pred-3",
+        "text": "The obsession with 'big data' will give way to a focus on 'data efficiency.' Breakthroughs in Bayesian and meta-learning approaches will enable powerful AI models to be trained on small, sparse, or expensive-to-acquire datasets. This will democratize AI and unlock its potential in domains where data is scarce, like rare disease research or materials science.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Data Efficiency / Few-Shot Learning"
+      },
+      {
+        "id": "zg-pred-4",
+        "text": "The 'Automated Statistician' or 'AI Data Scientist' will become a reality. These systems will automate the entire scientific modeling pipeline—from data exploration and model discovery to criticism and explanation. This will not replace human scientists but will supercharge them, allowing them to focus on high-level hypotheses and creativity.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "AI-Driven Science / Automated Modeling"
+      },
+      {
+        "id": "zg-pred-5",
+        "text": "The next major architectural leap will be a true synthesis of deep learning and probabilistic modeling. We will move beyond simply adding a 'confidence score' to a neural network and develop new primitives that are inherently probabilistic. This will lead to models that can learn complex representations while still supporting principled reasoning about uncertainty.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Hybrid Architectures / Bayesian Deep Learning"
+      }
+    ],
     company: 'Google AI / University of Cambridge',
     linkedin: 'https://linkedin.com/in/zoubin-ghahramani-b36203',
     twitter: 'https://twitter.com/zoubin',
@@ -1710,7 +1804,38 @@ export const experts: Expert[] = [
     dataAiHint: 'Eric Horvitz',
     expertise: ['Artificial Intelligence', 'Human-AI Collaboration', 'AI Ethics', 'Decision Theory', 'AI Policy'],
     impactArea: 'Leaders at Major AI Labs & Companies',
-    predictions: [],
+    predictions: [
+      {
+        "id": "eh-pred-1",
+        "text": "The most significant contribution of AI will not be in replacing human intelligence, but in complementing it. We will enter an 'Age of Amplification,' where AI systems act as cognitive prosthetics, overcoming our innate biases, augmenting our memory and attention, and fostering creativity by helping us explore conceptual spaces we couldn't navigate alone.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Human-AI Symbiosis / Complementary Intelligence"
+      },
+      {
+        "id": "eh-pred-2",
+        "text": "We will see the rise of a new discipline: 'AI Safety Engineering.' This will move beyond abstract principles to the development of formal methods, verification tools, and auditable 'AI flight recorders' to ensure systems in critical domains like medicine and transport are not just capable, but provably safe, fair, and aligned with human values under real-world conditions.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Operationalizing Ethics / AI Safety Engineering"
+      },
+      {
+        "id": "eh-pred-3",
+        "text": "The greatest challenge of AI is its pace. To manage this, nations and international bodies will establish 'AI Observatories' dedicated to continuous forecasting of AI capabilities and their societal impacts. These institutions will function like national weather services, providing early warnings and guidance to policymakers to navigate the coming waves of technological disruption proactively.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Proactive Governance / AI Observatories"
+      },
+      {
+        "id": "eh-pred-4",
+        "text": "The key to deploying AI in the unpredictable open world is not just intelligence, but calibrated self-awareness. Future systems will have a deep understanding of their own limitations. The focus will shift from raw performance to 'graceful degradation'—the ability to recognize the unexpected, fail safely, and know when to cede control back to a human expert.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Open-World AI / Robustness & Humility"
+      },
+      {
+        "id": "eh-pred-5",
+        "text": "The path to general AI will be less a monolithic event and more a gradual, textured weaving of specialized intelligences into a societal fabric. The most profound long-term challenge is not a sudden 'intelligence explosion,' but the subtle, cumulative influence of this pervasive AI fabric on human autonomy, values, and our collective sense of purpose.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Path to AGI / Long-Term Societal Influence"
+      }
+    ],
     company: 'Microsoft',
     linkedin: 'https://linkedin.com/in/erichorvitz',
     twitter: 'https://twitter.com/erichorvitz',
@@ -1728,7 +1853,38 @@ export const experts: Expert[] = [
     dataAiHint: 'Xuedong Huang',
     expertise: ['Speech Recognition', 'AI Platforms', 'Machine Learning', 'Natural Language Processing', 'Deep Learning'],
     impactArea: 'Leaders at Major AI Labs & Companies',
-    predictions: [],
+    predictions: [
+      {
+        "id": "xh-pred-1",
+        "text": "The keyboard and mouse, and even the mobile touch screen, will become legacy interfaces. The primary way we interact with all digital systems will be through a continuous, multi-modal, multi-turn conversation with an AI. The 'operating system' of the future is a powerful, personalized conversational AI that understands speech, vision, and context seamlessly.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Conversational OS / Future of HCI"
+      },
+      {
+        "id": "xh-pred-2",
+        "text": "AI will be commoditized into a global utility, much like electricity. Access to a planet-scale 'AI Supercomputer' via cloud APIs will be considered a basic requirement for any business or developer. The next wave of innovation will not be in building foundational models, but in building transformative applications on top of this AI utility.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "AI as a Utility / Platform Commoditization"
+      },
+      {
+        "id": "xh-pred-3",
+        "text": "The next trillion-dollar software category will be the 'AI Operating System for the Enterprise.' This platform will not just offer tools, but will actively orchestrate and automate core business processes—from supply chain management to customer service—by reasoning over the company's entire corpus of data, communications, and workflows.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Enterprise AI / Business Process Automation"
+      },
+      {
+        "id": "xh-pred-4",
+        "text": "The race for AI dominance will be as much a race of civil engineering and hardware infrastructure as it is about algorithms. The progress of AI will be directly bottlenecked by our ability to build a new generation of data centers and networking fabrics, purpose-built to train and serve models that are orders of magnitude larger than today's.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "AI Infrastructure / Hardware-Software Co-design"
+      },
+      {
+        "id": "xh-pred-5",
+        "text": "The breakthroughs in speech recognition were the first step. The next platform-level leap is 'holistic perception'—AI systems that can ingest, fuse, and reason across real-time streams of speech, video, IoT data, and text to build a persistent, contextual understanding of the physical world. This will be the engine for true ambient computing.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Holistic Perception / Ambient Computing"
+      }
+    ],
     company: 'Microsoft',
     linkedin: 'https://linkedin.com/in/xuedong-huang-a77b312',
     twitter: 'https://twitter.com/xuedonghuang',
@@ -1746,7 +1902,38 @@ export const experts: Expert[] = [
     dataAiHint: 'Jianfeng Gao',
     expertise: ['Natural Language Processing', 'Deep Learning', 'Large Language Models', 'Machine Translation'],
     impactArea: 'Leaders at Major AI Labs & Companies',
-    predictions: [],
+    predictions: [
+      {
+        "id": "jg-pred-1",
+        "text": "The dominant software paradigm will shift from applications to agents. Future systems will be built around proactive, autonomous AI agents that can understand complex goals, create multi-step plans, use digital tools, and execute tasks on behalf of users. The LLM is not the end product; it is the cognitive engine for this new agent-centric computing platform.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Agent-Centric Computing"
+      },
+      {
+        "id": "jg-pred-2",
+        "text": "We will successfully bridge the gap between associative 'System 1' thinking of current LLMs and deliberative 'System 2' reasoning. The next architectural breakthrough will integrate LLMs with explicit planners, reasoners, and verifiers, allowing models to 'think slow,' correct their own mistakes, and solve complex problems that require multi-step logical inference.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "From Association to Reasoning / System 2 AI"
+      },
+      {
+        "id": "jg-pred-3",
+        "text": "The future is not one giant model but an ecosystem of models. We will see a Cambrian explosion of smaller, highly specialized models that are fine-tuned for specific domains and tasks. These efficient models will outperform generalist giants on their given task and will be deployed at the edge, working in concert with larger models for tasks requiring broad world knowledge.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Efficient & Specialized Models"
+      },
+      {
+        "id": "jg-pred-4",
+        "text": "The success of foundation models for language will be replicated across numerous modalities and domains. We will see the emergence of 'World Models' or 'Reality Models' trained on vast multimodal datasets (video, text, sensor data) that develop a sophisticated, implicit understanding of physics and causality, forming the bedrock for next-generation robotics and simulation.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Multimodal World Models / Foundation Models 2.0"
+      },
+      {
+        "id": "jg-pred-5",
+        "text": "The problem of 'hallucination' will be largely solved by shifting from purely generative models to models that are tightly integrated with retrieval and grounding mechanisms. Future AI will learn to cite its sources, cross-reference information from verified knowledge bases, and explicitly signal when its confidence is low, making it a reliable tool for mission-critical enterprise applications.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Verifiable Factuality / Grounding"
+      }
+    ],
     company: 'Microsoft Research',
     linkedin: 'https://linkedin.com/in/jianfeng-gao-9252321',
     twitter: 'https://twitter.com/jifengo',
@@ -1764,7 +1951,38 @@ export const experts: Expert[] = [
     dataAiHint: 'Alex Smola',
     expertise: ['Machine Learning', 'Deep Learning', 'Scalable AI', 'Optimization', 'Kernel Methods'],
     impactArea: 'Leaders at Major AI Labs & Companies',
-    predictions: [],
+    predictions: [
+      {
+        "id": "as-pred-1",
+        "text": "The current trajectory of building ever-larger models is hitting a wall of economic and physical unsustainability. The next frontier is not size, but efficiency. The winning platforms will be defined by their ability to drastically lower the cost-per-inference through a combination of novel sparse architectures, advanced compilers, and co-designed hardware. The future isn't bigger models, it's smarter, leaner, and more economical systems.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Economic Sustainability / System Efficiency"
+      },
+      {
+        "id": "as-pred-2",
+        "text": "The foundation model is the new 'compiler,' not the end application. The vast majority of value and developer effort will shift to building the 'operating system' layer on top of it. This includes robust tools for data management, agent orchestration, validation, and real-time grounding. The most successful AI platforms will be those that provide the best developer experience for this new computational stack.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "AI Developer Stack / LLM as a Compiler"
+      },
+      {
+        "id": "as-pred-3",
+        "text": "The era of 'found data' from scraping the public internet is ending. The next performance breakthroughs will come from 'engineered data.' The core challenge of AI development will become the systematic curation, synthesis, and continuous updating of high-quality, structured datasets. The AI race will transform into a race for the best data factories and pipelines, not just the best algorithms.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Data-Centric AI / Engineered Data"
+      },
+      {
+        "id": "as-pred-4",
+        "text": "The skills that define a top-tier AI engineer are shifting from model design to systems engineering. Deep knowledge of distributed systems, data logistics, MLOps, and network latency will become more valuable than the ability to invent a novel neural network layer. Education and hiring will be forced to adapt to this new reality, prioritizing the ability to build and maintain robust, scalable AI products.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "The New AI Engineer / Skill Shift"
+      },
+      {
+        "id": "as-pred-5",
+        "text": "The future of enterprise AI is not a single, monolithic model but a highly distributed and specialized 'fleet' of models. Companies will deploy thousands of smaller, cost-effective models fine-tuned for specific tasks, orchestrated by a larger reasoning engine. Managing this complex ecosystem—ensuring consistency, observability, and security—will be the primary challenge for production AI.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Distributed AI Systems / Fleet Management"
+      }
+    ],
     company: 'Amazon Web Services / Carnegie Mellon University',
     linkedin: 'https://linkedin.com/in/alexsmola',
     twitter: 'https://twitter.com/alexsmola',
@@ -1782,7 +2000,38 @@ export const experts: Expert[] = [
     dataAiHint: 'Manuela Veloso',
     expertise: ['Robotics', 'Artificial Intelligence', 'Machine Learning', 'Human-Robot Interaction', 'AI Planning'],
     impactArea: 'Leaders at Major AI Labs & Companies',
-    predictions: [],
+    predictions: [
+      {
+        "id": "mv-pred-1",
+        "text": "The most effective and trustworthy AI systems in complex, high-stakes environments like finance and healthcare will be based on the principle of 'symbiotic autonomy.' Instead of aiming for full automation, these systems will be designed to know what they don't know, and to proactively engage human experts when faced with uncertainty or novel situations. The true breakthrough is not autonomy, but a principled, auditable collaboration between human and machine.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Symbiotic Autonomy / Human-AI Collaboration"
+      },
+      {
+        "id": "mv-pred-2",
+        "text": "The principles learned from coordinating multi-robot teams in dynamic environments like RoboCup will be a blueprint for orchestrating enterprise AI. We will see the rise of 'AI teams' within corporations—specialized agents that autonomously collaborate, negotiate, and delegate tasks to manage complex workflows like trade lifecycle management or fraud investigation. The science of multi-agent coordination will become a cornerstone of corporate AI strategy.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Multi-Agent Systems / AI Teams"
+      },
+      {
+        "id": "mv-pred-3",
+        "text": "AI explainability will evolve from a static output to a dynamic, interactive dialogue. An analyst won't just receive a report on why an AI made a decision; they will be able to interrogate the model, ask counterfactual questions, and explore alternative scenarios in a natural way. This 'Socratic AI' will not only build trust but will also serve as a powerful tool for teaching and discovery for its human user.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Interactive Explainability / AI as a Teammate"
+      },
+      {
+        "id": "mv-pred-4",
+        "text": "The next generation of autonomous systems, whether robotic or purely digital, will be built on a foundation of 'perpetual learning'. In domains like financial markets that are constantly changing, models cannot be static. Future AI will need to continuously adapt to new data and regimes in real-time, integrating new knowledge without forgetting core principles, much like a human expert gains experience throughout their career.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Continual / Lifelong Learning"
+      },
+      {
+        "id": "mv-pred-5",
+        "text": "A new class of AI will emerge whose sole purpose is to be an 'AI Auditor.' These systems will be deployed to continuously monitor, validate, and stress-test other production AI models. They will act as an automated immune system, detecting emergent biases, performance degradation, or adversarial vulnerabilities, ensuring that our increasingly complex AI ecosystem remains robust and aligned with its original goals.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "AI Governance / Autonomous Auditing"
+      }
+    ],
     company: 'J.P. Morgan AI Research / Carnegie Mellon University',
     linkedin: 'https://linkedin.com/in/manuela-veloso-1823931',
     twitter: undefined,
@@ -1800,7 +2049,38 @@ export const experts: Expert[] = [
     dataAiHint: 'Aidan Gomez',
     expertise: ['Natural Language Processing', 'Transformers', 'Large Language Models', 'AI Entrepreneurship', 'Deep Learning'],
     impactArea: 'Key Innovators & Entrepreneurs',
-    predictions: [],
+    predictions: [
+      {
+        "id": "ag-pred-1",
+        "text": "The long-term enterprise AI market will not be won by the company with the single largest model, but by the one that offers the most deployment flexibility. 'Data sovereignty' will be the most critical factor for large businesses. The future is a multi-cloud and private cloud world, where enterprises run powerful models on their own infrastructure, maintaining full control over their data and intellectual property.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Data Sovereignty / Deployment Flexibility"
+      },
+      {
+        "id": "ag-pred-2",
+        "text": "The consumer-facing chatbot is a distraction from the real enterprise use-case. AI will not be a destination 'app' people log into. Instead, it will dissolve into the existing fabric of enterprise software, augmenting every workflow, from drafting emails in a CRM to generating code in an IDE. The most successful AI is the one you don't even notice.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Invisible AI / Enterprise Workflow Integration"
+      },
+      {
+        "id": "ag-pred-3",
+        "text": "The obsession with generic 'intelligence' and AGI is misguided for business. Enterprises need reliability, verifiability, and relevance. The winning strategy will be a portfolio of models—some large for general reasoning, but many more that are smaller, faster, cheaper, and fine-tuned on a company's specific data to automate specific, high-value tasks.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Model Specialization / Business ROI"
+      },
+      {
+        "id": "ag-pred-4",
+        "text": "The next wave of value creation isn't in model training, but in the surrounding ecosystem. The crucial tools for businesses will be those for retrieval-augmented generation (RAG), data connection, and agentic workflows. The LLM is just the engine; the real innovation will be in building the rest of the car—the chassis, the steering, and the brakes that make it a useful product.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "AI Ecosystem / RAG and Tooling"
+      },
+      {
+        "id": "ag-pred-5",
+        "text": "The Transformer was revolutionary, but its quadratic complexity in attention is a major bottleneck for enterprise-scale applications. The next truly game-changing architectural innovation will be one that enables near-infinite context windows with linear or near-linear scaling, unlocking the ability for AI to reason over entire codebases, financial histories, or legal archives in real time.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Post-Transformer Architectures / Scalability"
+      }
+    ],
     company: 'Cohere',
     linkedin: 'https://linkedin.com/in/aidan-gomez',
     twitter: 'https://twitter.com/aidangomez',
@@ -1818,7 +2098,38 @@ export const experts: Expert[] = [
     dataAiHint: 'Noam Shazeer',
     expertise: ['Natural Language Processing', 'Transformers', 'Large Language Models', 'AI Entrepreneurship', 'Large-Scale Systems'],
     impactArea: 'Key Innovators & Entrepreneurs',
-    predictions: [],
+    predictions: [
+      {
+        "id": "ns-pred-1",
+        "text": "The path to vastly more capable AI isn't through denser models, but through massive-scale 'Mixture-of-Experts' (MoE) architectures. The future is a model with trillions of parameters, but where only a tiny, relevant fraction are activated for any given query. This sparse activation is the key to unlocking intelligence that is both orders of magnitude more powerful and computationally efficient.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Sparse Models / Mixture-of-Experts (MoE)"
+      },
+      {
+        "id": "ns-pred-2",
+        "text": "AI's most profound societal impact will not be in automating spreadsheets, but in providing companionship, entertainment, and a canvas for creativity. The killer app is open-ended, engaging dialogue with characters that people can form genuine emotional connections with. This will become a primary form of entertainment, surpassing traditional media.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "AI Companionship / Entertainment"
+      },
+      {
+        "id": "ns-pred-3",
+        "text": "The next great medium will be 'interactive reality,' powered by conversational AI. We will move beyond passively consuming stories to actively participating in them. You will learn history by talking to a simulated Julius Caesar or explore physics by collaborating with a simulated Einstein. AI will make learning and entertainment deeply personal and participatory.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Interactive Media / Personalized Education"
+      },
+      {
+        "id": "ns-pred-4",
+        "text": "General intelligence will not emerge from a single, monolithic brain, but from a vast, orchestrated system of specialized sub-intelligences. The Transformer was the 'neuron,' and Mixture-of-Experts is the 'cortex.' The next step is creating the higher-level architectures that allow these expert networks to collaborate, reason, and learn in a more structured, brain-like fashion.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Emergent AGI / Modular Intelligence"
+      },
+      {
+        "id": "ns-pred-5",
+        "text": "The most empowering feature of future AI will be the ability for anyone to create and define their own AI personas. The power to create is moving from the AI labs to the users. People won't just consume AI; they will become creators of specialized AI companions, tutors, and assistants, leading to a Cambrian explosion of personalized, user-generated AI.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "User-Generated AI / Democratization of Creation"
+      }
+    ],
     company: 'Character.ai (formerly Google)',
     linkedin: 'https://linkedin.com/in/noam-shazeer-2618a75',
     twitter: 'https://twitter.com/noamshazeer',
@@ -1836,7 +2147,38 @@ export const experts: Expert[] = [
     dataAiHint: 'Ashish Vaswani',
     expertise: ['Natural Language Processing', 'Transformers', 'Deep Learning', 'AI Entrepreneurship', 'Sequence Modeling'],
     impactArea: 'Key Innovators & Entrepreneurs',
-    predictions: [],
+    predictions: [
+      {
+        "id": "av-pred-1",
+        "text": "The focus of enterprise AI will shift from single-purpose 'copilots' to 'compound AI systems' that act as autonomous agents. These agents will be capable of understanding complex business objectives, decomposing them into sequential tasks, and executing them across multiple software applications. The true revolution is not a better chatbot, but a reliable digital workforce.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Enterprise Agents / Compound AI Systems"
+      },
+      {
+        "id": "av-pred-2",
+        "text": "The next major breakthrough in AI will not come from scaling models, but from a 'data-to-value' revolution. The most critical challenge is creating the intelligence layer that can reliably transform the messy, unstructured, and siloed data inside every company into a state that models can act upon. The future is built on data intelligence, not just model intelligence.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Data-Centric AI / Enterprise Data"
+      },
+      {
+        "id": "av-pred-3",
+        "text": "The Transformer architecture was a pivotal step, but enterprise adoption demands a new level of rigor. Future models must be built for 'enterprise-grade' reality: verifiable, auditable, and capable of structured reasoning over complex, private data. This requires moving beyond general-purpose architectures to those co-designed for the specific logic of business.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Next-Gen Architectures / Enterprise-Grade AI"
+      },
+      {
+        "id": "av-pred-4",
+        "text": "The 'human-in-the-loop' paradigm is essential for high-stakes enterprise tasks. The most valuable AI systems will not aim for 100% autonomy but will be designed as collaborative tools for human experts. They will know their own limits, present evidence for their conclusions, and provide intuitive interfaces for humans to guide, correct, and ultimately approve their actions.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Human-in-the-Loop / Collaborative Automation"
+      },
+      {
+        "id": "av-pred-5",
+        "text": "As base model capabilities become commoditized, the durable value and competitive moat will be in the application and data layer. The winners in the AI race will not be those with the largest model, but those who build the best systems for connecting models to proprietary data and embedding them deeply into the core revenue-generating workflows of a business.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "AI Value Chain / Application Layer"
+      }
+    ],
     company: 'Essential AI (formerly Google)',
     linkedin: 'https://linkedin.com/in/ashish-vaswani-8b143a12',
     twitter: 'https://twitter.com/ashvaswani',
@@ -1854,7 +2196,38 @@ export const experts: Expert[] = [
     dataAiHint: 'Jakob Uszkoreit',
     expertise: ['Natural Language Processing', 'Transformers', 'Computational Biology', 'AI Entrepreneurship', 'Deep Learning'],
     impactArea: 'Key Innovators & Entrepreneurs',
-    predictions: [],
+    predictions: [
+      {
+        "id": "ju-pred-1",
+        "text": "The 'language of life'—DNA, RNA, and proteins—is the next great frontier for sequence modeling. The same Transformer principles that mastered human language will be used to design entirely novel biological molecules. We are at the dawn of an era where we can write biological code to create new medicines, enzymes, and materials.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Generative Biology / AI for Life Sciences"
+      },
+      {
+        "id": "ju-pred-2",
+        "text": "The current paradigm of large language models is just the first, most visible application of the Transformer. The true, long-term impact will be in applying these architectures to the 'languages' of other scientific domains: chemistry, materials science, and physics. We will learn to design new molecules and materials with desired properties just as we now generate text.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Transformer as a General Scientific Tool"
+      },
+      {
+        "id": "ju-pred-3",
+        "text": "The scientific method itself will be inverted. Instead of a slow process of hypothesis and wet-lab experimentation, the future is an 'in-silico first' approach. AI will generate millions of candidate biological designs, simulate their properties, and rank them for viability, allowing scientists to test only the most promising few. This will compress decades of research into years.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "In-Silico Design / Accelerated Science"
+      },
+      {
+        "id": "ju-pred-4",
+        "text": "The limitations of the original Transformer architecture will become clear when applied to the physical world. Modeling the complex 3D structures and long-range biophysical interactions of molecules will require a new generation of architectures that move beyond 1D sequences. The next 'Attention Is All You Need' moment will be a model that truly understands 3D space and physics.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Post-Transformer Architectures for Science"
+      },
+      {
+        "id": "ju-pred-5",
+        "text": "The concept of 'software' will expand to include biological 'wetware.' The ultimate expression of AI will be designing and delivering a novel mRNA sequence that instructs cells to produce a therapeutic protein. The 'code' will be the RNA sequence, and the 'computer' will be the human body. This represents a fundamental merging of information technology and biotechnology.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Software as Wetware / Programmable Medicine"
+      }
+    ],
     company: 'Inceptive (formerly Google)',
     linkedin: 'https://linkedin.com/in/jakob-uszkoreit-3407941',
     twitter: 'https://twitter.com/jacobush',
@@ -1872,7 +2245,38 @@ export const experts: Expert[] = [
     dataAiHint: 'Llion Jones',
     expertise: ['Natural Language Processing', 'Transformers', 'AI Architectures', 'Deep Learning'],
     impactArea: 'Key Innovators & Entrepreneurs',
-    predictions: [],
+    predictions: [
+      {
+        "id": "lj-pred-1",
+        "text": "The next major architectural leap after the Transformer will not be designed by humans from first principles, but discovered through evolutionary methods. We will use large-scale computation to evolve populations of models, selecting for desired traits and combining them to create novel, high-performing architectures that a human would never have conceived.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Evolutionary AI / Automated Architecture Discovery"
+      },
+      {
+        "id": "lj-pred-2",
+        "text": "The era of the single, monolithic foundation model is ending. The future lies in 'collective intelligence'—dynamic ensembles or 'swarms' of smaller, more specialized models that collaborate to solve problems. The key innovation will be in the principles of interaction and composition, not just the power of the individual nodes.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Collective Intelligence / Swarm AI"
+      },
+      {
+        "id": "lj-pred-3",
+        "text": "We will move from 'training' to 'breeding' models. The open-source ecosystem will become a 'gene pool' where techniques like model merging and composition allow us to rapidly create new, highly capable models by combining the strengths of existing ones, bypassing the astronomical cost of training from scratch.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Model Merging / AI Breeding"
+      },
+      {
+        "id": "lj-pred-4",
+        "text": "Nature-inspired principles will provide the solution to AI's scaling and reasoning limitations. Concepts from ecological niches, swarm behavior, and evolutionary adaptation will be formalized into a new mathematical foundation for AI that is inherently more diverse, resilient, and efficient than our current brute-force scaling approach.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Nature-Inspired AI / New Foundations"
+      },
+      {
+        "id": "lj-pred-5",
+        "text": "Cultural context will become a key driver of AI innovation. Different cultural perspectives, like Japan's emphasis on harmony and the collective ('Chōwa'), will inspire new architectures and interaction paradigms that move beyond the Western-centric focus on a single, authoritative intelligence, leading to AI that is more adaptive and socially intelligent.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Cultural Influence / Diverse AI Paradigms"
+      }
+    ],
     company: 'Sakana AI (formerly Google)',
     linkedin: 'https://linkedin.com/in/llion-jones-33298a2',
     twitter: 'https://twitter.com/llionjones',
@@ -3347,7 +3751,38 @@ export const experts: Expert[] = [
     dataAiHint: 'Jensen Huang',
     expertise: ['GPU Technology', 'AI Hardware', 'Deep Learning Infrastructure', 'AI Leadership', 'High-Performance Computing'],
     impactArea: 'Key Innovators & Entrepreneurs',
-    predictions: [],
+    predictions: [
+      {
+        "id": "jh-pred-1",
+        "text": "The next wave of the AI revolution will be physical. The 'iPhone moment' of AI was the generative chatbot, but the true industrial transformation will come from embodied AI. Fleets of autonomous robots, vehicles, and drones, all trained in physically-accurate virtual worlds (digital twins), will reshape manufacturing, logistics, and agriculture. The world's largest industries will be run by AI operating in the physical realm.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Embodied AI / Robotics"
+      },
+      {
+        "id": "jh-pred-2",
+        "text": "Sovereign AI will become a matter of national security and economic priority. Nations will build their own 'AI Factories'—massive, GPU-powered data centers—to process their own data, reflect their own culture, and secure their own economic future. Just like a power grid, every country will need its own intelligence-generating infrastructure. This will trigger the largest infrastructure build-out in history.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Sovereign AI / Infrastructure"
+      },
+      {
+        "id": "jh-pred-3",
+        "text": "The very nature of software is changing. We are moving from 'instructed computing,' where humans write every line of code, to 'intended computing.' In the future, humans will state their goal in natural language, and AI will generate the software. The 'programmer' of tomorrow will not write C++ or Python; they will be the director of an AI system that creates, optimizes, and deploys the necessary code.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "AI-Generated Software / Future of Programming"
+      },
+      {
+        "id": "jh-pred-4",
+        "text": "We are at the beginning of a new industrial revolution powered by accelerated computing. The cost of generating 'intelligence' is on an exponential downward curve, far outpacing Moore's Law. This will lead to the tokenization of intelligence in every industry, making every product and service smarter. This isn't just about technology; it's about a fundamental shift in economic production worth trillions of dollars.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Economics of AI / New Industrial Revolution"
+      },
+      {
+        "id": "jh-pred-5",
+        "text": "The future of science is simulation. The greatest breakthroughs in biology, climate science, and materials discovery will not come from labs alone, but from AI-powered digital twins that can model reality at an unprecedented scale and speed. We will be able to simulate entire drug candidates, new fusion reactor designs, and the global climate system, compressing a century of scientific discovery into a decade.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Accelerated Science / Digital Twins"
+      }
+    ],
     company: 'NVIDIA',
     linkedin: 'https://linkedin.com/in/jensenhuang',
     twitter: undefined,
@@ -3365,7 +3800,38 @@ export const experts: Expert[] = [
     dataAiHint: 'Richard Socher',
     expertise: ['Natural Language Processing', 'Deep Learning', 'Search Technology', 'AI Entrepreneurship', 'Recurrent Neural Networks'],
     impactArea: 'Key Innovators & Entrepreneurs',
-    predictions: [],
+    predictions: [
+      {
+        "id": "rs-pred-1",
+        "text": "The paradigm of a single, monolithic chat box for all information needs is a temporary novelty. The future is a shift from a 'search engine' to a 'do engine'—an AI system that accomplishes tasks, synthesizes information from verifiable, cited sources, and allows users to customize its behavior with different apps and perspectives. The ad-based search model that prioritizes clicks will be replaced by models that prioritize truth, user agency, and task completion.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Future of Search / Do-Engines"
+      },
+      {
+        "id": "rs-pred-2",
+        "text": "The public's patience with AI 'hallucinations' will wear out fast. 'Trust as a service' will become a critical layer of the AI stack. The most valuable and widely adopted AI systems will be those that are built from the ground up to be factual, attributable, and transparent. We'll see a clear divergence between AI for creative entertainment and AI for reliable, decision-making tasks, with the latter requiring a new standard of verifiability.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Trust & Factuality"
+      },
+      {
+        "id": "rs-pred-3",
+        "text": "The next major platform will not be a single LLM, but an 'AI Operating System' that allows users to orchestrate multiple specialized AI agents and apps. A core conversational AI will act as a router, invoking different models—some for coding, some for data analysis, some for creative writing—to solve complex, multi-step problems. This will create a new, vibrant app economy built around AI capabilities.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "AI App Ecosystem / Orchestration"
+      },
+      {
+        "id": "rs-pred-4",
+        "text": "A fundamental tension between deep personalization and data privacy will be the central challenge for consumer AI. The solution will involve a hybrid approach: on-device or private-cloud models will handle sensitive personal context (emails, calendars), while larger public models are queried for general knowledge. Users will demand and receive direct control over their personal data graph, granting access to AI agents rather than having it absorbed by a central corporate entity.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Personalization vs. Privacy"
+      },
+      {
+        "id": "rs-pred-5",
+        "text": "Enterprise AI will become highly 'composable.' Companies won't rely on one single AI provider. Instead, they will assemble custom AI solutions from a mix of best-in-class models: open-source models for flexibility, proprietary models for cutting-edge performance, and smaller models fine-tuned on their own private data for specific tasks. The key competitive advantage will be in the orchestration and grounding of these systems in real company knowledge.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Composable Enterprise AI"
+      }
+    ],
     company: 'You.com (formerly Salesforce)',
     linkedin: 'https://linkedin.com/in/richardsocher',
     twitter: 'https://twitter.com/rsocher',
@@ -3383,7 +3849,38 @@ export const experts: Expert[] = [
     dataAiHint: 'Clément Delangue',
     expertise: ['Natural Language Processing', 'Open Source AI', 'Democratizing AI', 'AI Entrepreneurship', 'Large Language Models'],
     impactArea: 'Key Innovators & Entrepreneurs',
-    predictions: [],
+    predictions: [
+      {
+        "id": "cd-pred-1",
+        "text": "The long-term trajectory of AI development will mirror that of software: open-source will ultimately win. While closed, proprietary models currently hold a performance lead, a global, collaborative community will innovate faster, create more diverse applications, and build more trusted systems. The 'Linux moment' for AI is inevitable, leading to a Cambrian explosion of innovation built on open models and platforms.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Open-Source vs. Closed AI"
+      },
+      {
+        "id": "cd-pred-2",
+        "text": "AI safety is not a problem to be solved in secret by a few elite labs. The most effective approach to building safe and aligned AI will be radical transparency. Open collaboration, community-led red-teaming, and broad public auditing of open-source models will prove to be a far more robust safety mechanism than the 'security through obscurity' practiced by closed-model providers. The greatest risk is concentration of power, not open access.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Community-Led AI Safety"
+      },
+      {
+        "id": "cd-pred-3",
+        "text": "The 'middle class' of models will power the majority of the AI economy. The obsession with a single, largest 'frontier model' is misguided. The real value will be unlocked by a vast ecosystem of specialized, efficient, and fine-tuned models (from 7B to 70B parameters) that are cost-effective and can be controlled by individual organizations. This diverse model ecosystem, not a monopoly, is the future.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Model Diversity / The AI Middle Class"
+      },
+      {
+        "id": "cd-pred-4",
+        "text": "The center of gravity in AI development will shift from raw compute power to high-quality, curated data and evaluation. As powerful open-source base models become a commodity, the key differentiator for any application will be the unique data used to fine-tune it and the sophisticated benchmarks used to evaluate it. The era of 'data-centric AI' and 'evaluation-as-a-service' is coming.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Data-Centric AI / Evaluation"
+      },
+      {
+        "id": "cd-pred-5",
+        "text": "The collaborative, platform-based approach that transformed NLP will be replicated for robotics and embodied AI. The next major acceleration in robotics will not come from a hardware breakthrough, but from a shared, open platform where developers can access pre-trained models for vision, navigation, and manipulation. A 'GitHub for robots' will allow us to build on each other's work instead of each lab starting from scratch.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Open-Source Robotics / Embodied AI Platforms"
+      }
+    ],
     company: 'Hugging Face',
     linkedin: 'https://linkedin.com/in/clementdelangue',
     twitter: 'https://twitter.com/clementdelangue',
@@ -3401,7 +3898,38 @@ export const experts: Expert[] = [
     dataAiHint: 'Alex Krizhevsky',
     expertise: ['Deep Learning', 'Computer Vision', 'Neural Networks', 'Image Recognition', 'Convolutional Neural Networks', 'ImageNet'],
     impactArea: 'Key Innovators & Entrepreneurs',
-    predictions: [],
+    predictions: [
+      {
+        "id": "ak-pred-1",
+        "text": "The current paradigm of scaling up Transformer models is a brute-force extension of the principles we used in 2012. It will yield diminishing returns. The next 10x improvement will not come from more data or more GPUs alone, but from a fundamentally new neural architecture that moves beyond the attention mechanism, likely one with more structured memory or novel learning rules.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Architectural Limits / Beyond Transformers"
+      },
+      {
+        "id": "ak-pred-2",
+        "text": "We have pushed backpropagation and gradient descent to their absolute limits. The next major leap in AI capability will require moving beyond these methods. The future lies in developing more efficient and biologically plausible learning algorithms that don't require meticulously labeled massive datasets or such computationally intensive, iterative optimization.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Learning Algorithms / Beyond Backpropagation"
+      },
+      {
+        "id": "ak-pred-3",
+        "text": "The success of deep learning was enabled by a happy coincidence with GPU architecture. The next generation of AI, particularly models capable of true temporal understanding and continuous learning, will require a complete co-design of novel hardware and software. We cannot simply run tomorrow's algorithms on today's accelerators; we need to invent them together.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Hardware-Software Co-design"
+      },
+      {
+        "id": "ak-pred-4",
+        "text": "Despite impressive results on benchmarks, deep learning models still lack a human-like, intuitive understanding of the physical world. They don't grasp causality, object permanence, or affordances from vision alone. Solving this 'common sense' problem for vision is a harder, more fundamental challenge than scaling language models, and its solution is a prerequisite for truly autonomous agents.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Computer Vision / Intuitive Physics"
+      },
+      {
+        "id": "ak-pred-5",
+        "text": "The community is currently over-indexing on conversational fluency as a proxy for intelligence. These systems are masterful statistical mimics, but they lack genuine reasoning, abstraction, and robust world models. A significant, unforeseen scientific breakthrough—not just engineering and scaling—is required to bridge the gap from sophisticated pattern recognition to genuine cognition.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Cognition vs. Mimicry / Foundational Research"
+      }
+    ],
     company: 'Formerly Google',
     linkedin: 'https://linkedin.com/in/alex-krizhevsky-9162656',
     twitter: undefined,
@@ -3419,7 +3947,38 @@ export const experts: Expert[] = [
     dataAiHint: 'Ian Goodfellow',
     expertise: ['Generative Models', 'Deep Learning', 'AI Security', 'Neural Networks', 'Generative AI'],
     impactArea: 'Key Innovators & Entrepreneurs',
-    predictions: [],
+    predictions: [
+      {
+        "id": "ig-pred-1",
+        "text": "The next major cybersecurity crisis will be driven by adversarial machine learning. We will move beyond theoretical attacks to seeing them deployed at scale, targeting critical infrastructure like power grids, financial markets, and autonomous vehicles. Defending AI systems from subtle, malicious input manipulation will become a more significant security challenge than traditional network defense.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Adversarial Security / AI Safety"
+      },
+      {
+        "id": "ig-pred-2",
+        "text": "The future of generative models is not just about higher fidelity, but about grounding in reality. The next breakthrough will be a 'Generative World Model' architecture that combines the creative power of adversarial networks with a causal understanding of physics and logic. These models won't just generate plausible pixels; they will generate plausible, interactive scenarios, forming the foundation for true AI imagination and planning.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Next-Gen Generative Models / World Models"
+      },
+      {
+        "id": "ig-pred-3",
+        "text": "We are on the verge of the 'Liar's Dividend,' where the mere possibility of sophisticated deepfakes erodes trust in all digital evidence. The technical challenge of watermarking and detection will always be a step behind generation. The primary defense will have to become social and institutional—a widespread public skepticism and a move towards verified, cryptographically signed sources for important information.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Information Integrity / Deepfakes"
+      },
+      {
+        "id": "ig-pred-4",
+        "text": "The most promising path to creating truly robust and aligned AI is through a massively scaled version of adversarial training. The future of AI safety isn't just about red-teaming by humans. It's about creating an ecosystem of AIs that constantly attack and audit each other, finding flaws in code, reasoning, and values. Alignment will be an emergent property of a system in a state of perpetual, competitive self-correction.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "AI Alignment / Adversarial Training"
+      },
+      {
+        "id": "ig-pred-5",
+        "text": "The ability of generative models to create high-quality synthetic data will fundamentally alter machine learning development. We will move away from a reliance on human-labeled data. Instead, progress will be driven by our ability to specify a desired data distribution to a generator, creating perfect, balanced, and privacy-preserving datasets on demand. This will be the key to cracking long-tail problems in domains like medicine and autonomous driving.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Synthetic Data Generation"
+      }
+    ],
     company: 'Apple (formerly Google, OpenAI)',
     linkedin: 'https://linkedin.com/in/ian-goodfellow-9289a747',
     twitter: undefined,
@@ -3437,7 +3996,38 @@ export const experts: Expert[] = [
     dataAiHint: 'Aravind Srinivas',
     expertise: ['Natural Language Processing', 'Search Technology', 'AI Entrepreneurship', 'Large Language Models', 'Conversational AI'],
     impactArea: 'Key Innovators & Entrepreneurs',
-    predictions: [],
+    predictions: [
+      {
+        "id": "ig-pred-1",
+        "text": "The next major cybersecurity crisis will be driven by adversarial machine learning. We will move beyond theoretical attacks to seeing them deployed at scale, targeting critical infrastructure like power grids, financial markets, and autonomous vehicles. Defending AI systems from subtle, malicious input manipulation will become a more significant security challenge than traditional network defense.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Adversarial Security / AI Safety"
+      },
+      {
+        "id": "ig-pred-2",
+        "text": "The future of generative models is not just about higher fidelity, but about grounding in reality. The next breakthrough will be a 'Generative World Model' architecture that combines the creative power of adversarial networks with a causal understanding of physics and logic. These models won't just generate plausible pixels; they will generate plausible, interactive scenarios, forming the foundation for true AI imagination and planning.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Next-Gen Generative Models / World Models"
+      },
+      {
+        "id": "ig-pred-3",
+        "text": "We are on the verge of the 'Liar's Dividend,' where the mere possibility of sophisticated deepfakes erodes trust in all digital evidence. The technical challenge of watermarking and detection will always be a step behind generation. The primary defense will have to become social and institutional—a widespread public skepticism and a move towards verified, cryptographically signed sources for important information.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Information Integrity / Deepfakes"
+      },
+      {
+        "id": "ig-pred-4",
+        "text": "The most promising path to creating truly robust and aligned AI is through a massively scaled version of adversarial training. The future of AI safety isn't just about red-teaming by humans. It's about creating an ecosystem of AIs that constantly attack and audit each other, finding flaws in code, reasoning, and values. Alignment will be an emergent property of a system in a state of perpetual, competitive self-correction.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "AI Alignment / Adversarial Training"
+      },
+      {
+        "id": "ig-pred-5",
+        "text": "The ability of generative models to create high-quality synthetic data will fundamentally alter machine learning development. We will move away from a reliance on human-labeled data. Instead, progress will be driven by our ability to specify a desired data distribution to a generator, creating perfect, balanced, and privacy-preserving datasets on demand. This will be the key to cracking long-tail problems in domains like medicine and autonomous driving.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Synthetic Data Generation"
+      }
+    ],
     company: 'Perplexity AI',
     linkedin: 'https://linkedin.com/in/aravindsrinivas',
     twitter: 'https://twitter.com/aravsrinivas',
@@ -3455,7 +4045,38 @@ export const experts: Expert[] = [
     dataAiHint: 'Jonas Andrulis',
     expertise: ['Large Language Models', 'AI Entrepreneurship', 'AI Strategy', 'European AI', 'Explainable AI'],
     impactArea: 'Key Innovators & Entrepreneurs',
-    predictions: [],
+    predictions: [
+      {
+        "id": "ja-pred-1",
+        "text": "The idea of 'Digital Sovereignty' will move from a political talking point to a core pillar of national industrial strategy. Nations and economic blocs will realize that outsourcing their core intelligence infrastructure to a few foreign tech giants is an unacceptable strategic risk. This will trigger a global race to build sovereign, full-stack AI ecosystems that reflect local values, languages, and legal frameworks.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Sovereign AI / Geopolitics"
+      },
+      {
+        "id": "ja-pred-2",
+        "text": "For high-stakes professional environments like law, government, and engineering, 'black box' AI will be a non-starter. The market will demand and regulators will mandate 'inspectable' AI. The next-generation systems will not just give an answer, but will allow the user to trace the answer's origin back to specific data points in the source material. Trust will be engineered through transparency, not just brand promises.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Explainability / Trust in Enterprise"
+      },
+      {
+        "id": "ja-pred-3",
+        "text": "The most significant near-term value from AI will not come from replacing human workers, but from augmenting them. The paradigm will be human-in-the-loop systems that act as powerful copilots for experts. The goal isn't full autonomy, but creating a seamless collaborative interface where a human can leverage AI for complex data analysis but retain final control and accountability. This is the only viable path for AI in critical infrastructure and public administration.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Human-Machine Teaming / Augmentation"
+      },
+      {
+        "id": "ja-pred-4",
+        "text": "The current focus on English-centric, text-only models represents a tiny fraction of the world's knowledge and economic activity. The next wave of innovation will be in true multimodality—models that can natively understand and reason over complex combinations of text, images, technical diagrams, and structured data. This will unlock AI for the industrial world, which runs on blueprints and schematics, not just paragraphs.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Industrial Multimodality"
+      },
+      {
+        "id": "ja-pred-5",
+        "text": "We will see a clear bifurcation in the AI market: 'consumer-grade AI' optimized for entertainment and engagement, and 'industrial-grade AI' optimized for security, reliability, and control. These two branches will have fundamentally different architectures, business models, and ethical considerations. Attempting to apply a consumer-grade, ad-driven model to sensitive enterprise and government use-cases will be recognized as dangerously naive.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Bifurcation of AI Market"
+      }
+    ],
     company: 'Aleph Alpha',
     linkedin: 'https://linkedin.com/in/jonas-andrulis-1b75971',
     twitter: 'https://twitter.com/jonasandrulis',
@@ -3473,7 +4094,38 @@ export const experts: Expert[] = [
     dataAiHint: 'Arthur Mensch',
     expertise: ['Large Language Models', 'AI Entrepreneurship', 'Open Source AI', 'European AI', 'Efficient AI Models'],
     impactArea: 'Key Innovators & Entrepreneurs',
-    predictions: [],
+    predictions: [
+      {
+        "id": "am-pred-1",
+        "text": "The debate between open and closed AI will be settled in the marketplace. Open-weight models will become the default, trusted infrastructure for the enterprise. The ability to inspect, modify, and run models on your own hardware provides a level of security and control that closed, black-box APIs can never match. The most valuable AI ecosystems will be built on these open foundations.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Open Models as Infrastructure"
+      },
+      {
+        "id": "am-pred-2",
+        "text": "The race for AI dominance will not be won by the company with the single largest model, but by the one with the best performance-per-watt. Model efficiency is the most critical and difficult metric. It's the key that unlocks deployment at scale, on-premise, and on-device. The future is compact, powerful, and economically viable models, not just compute-hungry behemoths.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Efficiency Over Scale"
+      },
+      {
+        "id": "am-pred-3",
+        "text": "The sustainable business model in generative AI is a hybrid one. Releasing state-of-the-art open-source models builds the developer ecosystem and drives widespread adoption. Commercializing higher-performance, optimized models provides the revenue to fund frontier research. This 'open-core' approach will become the dominant strategy for building a durable AI company.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "The Open-Core Business Model"
+      },
+      {
+        "id": "am-pred-4",
+        "text": "As powerful base models become commoditized, the key differentiator will shift from pre-training to fine-tuning. A company's true IP will be its proprietary data and its unique ability to adapt open models to solve specific, high-value business problems. The most sought-after skill will be the 'art of the fine-tune,' not building a foundational model from scratch.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Value Shift to Fine-Tuning"
+      },
+      {
+        "id": "am-pred-5",
+        "text": "A strong, independent European AI ecosystem is not just a commercial goal, it's a geopolitical necessity for technological autonomy. Relying solely on non-European models and infrastructure creates strategic dependencies. The emergence of competitive, open, and efficient models from Europe will ensure a more balanced, diverse, and resilient global AI landscape.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "European AI Autonomy"
+      }
+    ],
     company: 'Mistral AI',
     linkedin: 'https://linkedin.com/in/arthur-mensch-123569121',
     twitter: 'https://twitter.com/arthurmensch',
@@ -3491,7 +4143,38 @@ export const experts: Expert[] = [
     dataAiHint: 'Chris Urmson',
     expertise: ['Self-Driving Cars', 'Robotics', 'AI Leadership', 'AI Entrepreneurship', 'Autonomous Systems'],
     impactArea: 'Key Innovators & Entrepreneurs',
-    predictions: [],
+    predictions: [
+      {
+        "id": "cu-pred-1",
+        "text": "The first large-scale, economically transformative impact of AI will not be in a chat window, but on the highway. Autonomous trucking, operating on defined hub-to-hub routes, will be commercially deployed at scale before robotaxis are ubiquitous in complex cities. This will fundamentally reshape the logistics industry by increasing asset utilization 24/7, improving safety, and addressing the chronic shortage of drivers.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Autonomous Trucking / Logistics"
+      },
+      {
+        "id": "cu-pred-2",
+        "text": "The winning business model for autonomy is not to build the whole vehicle, but to provide the 'Driver' as a service. The AI, sensors, and computer form a platform that can be integrated by multiple vehicle manufacturers. This allows for rapid scaling across different vehicle types and partners, creating a common standard for self-driving technology much like an operating system for PCs.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Platform Business Model / The 'Driver' as a Service"
+      },
+      {
+        "id": "cu-pred-3",
+        "text": "Deploying a self-driving system without a formal 'Safety Case'—a structured, evidence-based argument that its residual risk is acceptably low—is irresponsible and commercially non-viable. This isn't just about driving billions of miles in simulation; it's about a rigorous, auditable process that proves the system's competence in every conceivable scenario before a single commercial load is moved without a human driver.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Safety Case / Validation"
+      },
+      {
+        "id": "cu-pred-4",
+        "text": "The rollout of autonomy will be a gradual, deliberate expansion, not a sudden event. It will begin on specific, pre-mapped highway corridors and expand network by network. Trying to solve for every road in every weather condition at once is an intractable problem. The profitable and safe approach is to start where the economic and operational case is strongest—long-haul trucking—and grow from there.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Phased Deployment / Pragmatism"
+      },
+      {
+        "id": "cu-pred-5",
+        "text": "The 'long tail' of rare and unusual road events is the central technical challenge in self-driving. A system that is 99.99% reliable is still not good enough. Overcoming this requires more than just massive data collection; it requires a hybrid approach combining machine learning with explicit rules and a deep architectural understanding of the problem, all tested in a virtual environment that can create endless permutations of these edge cases.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "The Long Tail Problem / Edge Cases"
+      }
+    ],
     company: 'Aurora (formerly Google Self-Driving)',
     linkedin: 'https://linkedin.com/in/chrisurmson',
     twitter: 'https://twitter.com/chris_urmson',
@@ -3509,7 +4192,38 @@ export const experts: Expert[] = [
     dataAiHint: 'Adam D\'Angelo',
     expertise: ['AI Platforms', 'Consumer AI', 'Social Technology', 'AI Entrepreneurship', 'Large Language Models'],
     impactArea: 'Key Innovators & Entrepreneurs',
-    predictions: [],
+    predictions: [
+      {
+        "id": "ad-pred-1",
+        "text": "The dominant user interface for AI will be an aggregator platform, not a single destination chatbot. The future is a 'browser for models' where users can seamlessly switch between different AIs from various providers (OpenAI, Anthropic, Google, open-source) to select the best tool for a specific task. The platform that owns this user relationship will be the most valuable layer in the ecosystem.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "AI Platforms / User Interface"
+      },
+      {
+        "id": "ad-pred-2",
+        "text": "A new 'creator economy' will emerge around AI. The most engaging content will not be text or video, but custom AI bots. Platforms will empower users to easily create, fine-tune, and share specialized bots for tutoring, entertainment, or productivity. The best 'prompt engineers' and 'bot creators' will build massive followings and monetize their creations, similar to today's social media influencers.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "AI Creator Economy / Bot Marketplace"
+      },
+      {
+        "id": "ad-pred-3",
+        "text": "As the performance of top AI models begins to converge, the key competitive differentiators will become speed and cost. Ultra-low latency will unlock entirely new conversational and interactive use cases that are impossible today. The companies that win the consumer market will be those who master inference efficiency, enabling a high-quality experience at a price point that supports mass adoption.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "User Experience / Inference Economics"
+      },
+      {
+        "id": "ad-pred-4",
+        "text": "The power dynamics in the AI industry will shift from the model builders to the platform owners who control distribution. While foundational models are a critical ingredient, they will become increasingly commoditized. The enduring value will be captured by the applications and platforms that build a large user base, network effects, and a rich ecosystem of third-party creations.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "AI Value Chain / Platform Power"
+      },
+      {
+        "id": "ad-pred-5",
+        "text": "The transition from a 'knowledge engine' (like Quora or Google) to a 'creation and action engine' is the next major step. AI will not just be used to answer questions, but to become a collaborative partner in writing code, drafting legal documents, creating art, and planning complex projects. This shifts the user's role from a passive consumer of information to an active director of AI capabilities.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Knowledge vs. Action / AI as a Partner"
+      }
+    ],
     company: 'Quora / Poe',
     linkedin: 'https://linkedin.com/in/adam-d-angelo',
     twitter: 'https://twitter.com/adamdangelo',
@@ -3527,7 +4241,38 @@ export const experts: Expert[] = [
     dataAiHint: 'Alex Kendall',
     expertise: ['Self-Driving Cars', 'Deep Learning', 'Robotics', 'AI Entrepreneurship', 'Embodied AI'],
     impactArea: 'Key Innovators & Entrepreneurs',
-    predictions: [],
+    predictions: [
+      {
+        "id": "ak-pred-1",
+        "text": "The traditional robotics approach to self-driving—relying on HD maps, complex rule-based systems, and hand-coded logic—is fundamentally brittle and will not scale globally. It's a dead end. The only path to creating truly generalizable autonomous vehicles that can operate anywhere is through an end-to-end AI that learns directly from data, especially vision.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "End-to-End Learning vs. Traditional Robotics"
+      },
+      {
+        "id": "ak-pred-2",
+        "text": "The future of autonomy is vision-first. An over-reliance on expensive, active sensors like LiDAR is a crutch for an immature AI system. A truly intelligent, scalable, and commercially viable system will learn to derive its understanding of the world primarily from cameras, just as humans do. This approach is the only way to build a system that can be deployed at the scale of millions of vehicles.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Vision-First Autonomy"
+      },
+      {
+        "id": "ak-pred-3",
+        "text": "The competitive moat in autonomous driving will not be the hardware or a static map, but the 'Data Engine.' The most important capability is the feedback loop: the ability to efficiently capture novel and challenging driving scenarios from a fleet, process that data, and use it to rapidly retrain and improve the core AI. The company with the fastest learning cycle will win.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "The Data Engine / Learning Cycle"
+      },
+      {
+        "id": "ak-pred-4",
+        "text": "The notion of a fixed 'Operational Design Domain' (ODD) will become obsolete. Instead of being constrained by pre-mapped geofences, end-to-end learning models will demonstrate true generalization. An AI trained on diverse data from London will be able to adapt and drive safely in a new city like Paris or Tokyo without needing a new, multi-million-dollar mapping campaign.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Generalization / Beyond Geofencing"
+      },
+      {
+        "id": "ak-pred-5",
+        "text": "Self-driving is the vanguard of Embodied AI. The scientific and engineering breakthroughs required to teach a car to navigate the complex, dynamic, physical world are directly applicable to the next generation of robotics. The core AI model that learns to drive can be adapted to control robots in logistics, agriculture, and eventually our homes.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Embodied AI / Future of Robotics"
+      }
+    ],
     company: 'Wayve',
     linkedin: 'https://linkedin.com/in/alex-kendall-32982435',
     twitter: 'https://twitter.com/alexgkendall',
@@ -3545,7 +4290,38 @@ export const experts: Expert[] = [
     dataAiHint: 'Anna Patterson',
     expertise: ['AI Investment', 'Venture Capital', 'Search Technology', 'AI Startups', 'AI Leadership'],
     impactArea: 'Key Innovators & Entrepreneurs',
-    predictions: [],
+    predictions: [
+      {
+        "id": "ap-pred-1",
+        "text": "The next wave of multi-billion dollar AI companies won't be building general-purpose foundational models. They will be 'vertical AI' leaders who build deeply integrated, full-stack products for specific industries like law, drug discovery, or industrial automation. Their defensible moat will be proprietary data workflows and customer lock-in, not the underlying LLM which will be a commoditized layer.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Vertical AI / Market Application"
+      },
+      {
+        "id": "ap-pred-2",
+        "text": "The most valuable 'data moat' in the AI era isn't a static dataset. It's a 'data flywheel': a product designed so that each user interaction generates proprietary, structured data that directly improves the AI model. This creates a compounding competitive advantage that is nearly impossible for a new entrant, who would have to solve a cold-start problem, to replicate.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "The Data Flywheel / Competitive Moats"
+      },
+      {
+        "id": "ap-pred-3",
+        "text": "While public attention is on flashy consumer chatbots, the majority of near-term economic value and venture returns will be created by 'boring AI.' The most successful startups will automate complex, high-cost enterprise workflows in unsexy areas like insurance claims, compliance monitoring, and supply chain optimization. These applications have a clear, quantifiable ROI, making them an easy sell.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Enterprise AI / \"Boring AI\""
+      },
+      {
+        "id": "ap-pred-4",
+        "text": "We will see a 'Great Unbundling' of talent from the large tech labs. As open-source models become more powerful and accessible, top-tier researchers and engineers will leave to start their own companies focused on niche, high-margin problems. The next decade of AI innovation will be driven by this diaspora of highly specialized startups, not monolithic research organizations.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "AI Talent / Startup Ecosystem"
+      },
+      {
+        "id": "ap-pred-5",
+        "text": "The market will brutally punish 'AI-washing.' Companies that simply add a chatbot wrapper to a legacy product will see no sustainable value creation. The winning investments will be in 'AI-native' companies whose core product architecture, user experience, and business model are fundamentally built around a learning system from day one. You can't just bolt on intelligence; you have to be born with it.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "AI-Native Companies / Market Shakeout"
+      }
+    ],
     company: 'Gradient Ventures (Google)',
     linkedin: 'https://linkedin.com/in/annapatterson',
     twitter: 'https://twitter.com/annapatterson',
@@ -3563,7 +4339,38 @@ export const experts: Expert[] = [
     dataAiHint: 'Clara Shih',
     expertise: ['Enterprise AI', 'AI Strategy', 'CRM Technology', 'AI Leadership', 'Applied AI'],
     impactArea: 'Leaders at Major AI Labs & Companies',
-    predictions: [],
+    predictions: [
+      {
+        "id": "cs-pred-1",
+        "text": "The fundamental paradigm of CRM will shift from a 'system of record' to a 'system of action.' AI will not just be a layer on top of customer data; it will be an autonomous engine that proactively engages customers, schedules follow-ups, drafts personalized marketing copy, and resolves service issues. The CRM will become the central nervous system where a company's AI agents operate on its behalf.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "CRM as a System of Action"
+      },
+      {
+        "id": "cs-pred-2",
+        "text": "The 'AI Trust Layer' will become the most critical component of the enterprise AI stack, more important than the choice of LLM. The ability to ground AI responses in a company's private, structured data—while ensuring data residency, preventing leakage, and eliminating hallucinations—is the primary barrier to adoption. The winners will be those who solve for trust and data governance, not just performance.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "The AI Trust Layer"
+      },
+      {
+        "id": "cs-pred-3",
+        "text": "Enterprise adoption of AI will not be driven by a single, general 'copilot.' Instead, companies will deploy a fleet of specialized, role-specific AI agents. There will be an 'Account Executive Agent' optimized for closing deals, a 'Service Agent' for case resolution, and a 'Marketing Agent' for campaign generation. Success will come from deep integration into these specific workflows, not a one-size-fits-all chat interface.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Specialized AI Agents / Workflow Integration"
+      },
+      {
+        "id": "cs-pred-4",
+        "text": "The ROI of AI will be measured in 'unleashed productivity.' The key business metrics will shift to tracking the automation of mundane tasks—time saved from writing emails, summarizing calls, and updating records. This frees up human employees for high-value work like building client relationships and strategic thinking. AI's value will be explicitly quantified in terms of reclaimed hours across the entire workforce.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Productivity Metrics / ROI"
+      },
+      {
+        "id": "cs-pred-5",
+        "text": "The future of the AI user interface in the enterprise is conversational, proactive, and embedded. It's not a separate app you open. It's the ambient intelligence woven into every field, every record, and every workflow you already use. You will simply ask your CRM to 'prepare a forecast for my top 5 accounts,' and it will happen, grounded in trusted data and within your existing flow of work.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Ambient Enterprise UI"
+      }
+    ],
     company: 'Salesforce AI',
     linkedin: 'https://linkedin.com/in/clarashih',
     twitter: 'https://twitter.com/clarashih',
@@ -3581,7 +4388,38 @@ export const experts: Expert[] = [
     dataAiHint: 'Marc Raibert',
     expertise: ['Robotics', 'Dynamic Control Systems', 'AI Hardware', 'AI Leadership', 'Legged Locomotion'],
     impactArea: 'Key Innovators & Entrepreneurs',
-    predictions: [],
+    predictions: [
+      {
+        "id": "mr-pred-1",
+        "text": "We are mesmerized by the disembodied intelligence of language models, but they are brains in a vat. The next, and more difficult, frontier for AI is embodiment. True understanding and general capability require a body to move through, interact with, and learn from the messy, unpredictable physical world. The next great leap in AI will come from connecting cognitive models to dynamic, athletic bodies.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Embodied Intelligence"
+      },
+      {
+        "id": "mr-pred-2",
+        "text": "The public perception of robots is fixated on humanoid form, but the near-term economic impact will come from specialized morphologies. Legged robots for inspection, wheeled robots for logistics, and novel designs for specific tasks will proliferate long before a general-purpose humanoid is economically viable. The future of robotics is a diverse zoo of forms, each optimized for its purpose.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Robot Morphology / Specialization"
+      },
+      {
+        "id": "mr-pred-3",
+        "text": "The core challenge in robotics is not just reasoning, but 'athletic intelligence'—the dynamic control of a physical body in motion. The ability to maintain balance, recover from a fall, and gracefully manipulate objects is a form of intelligence that is fundamentally different from processing text. Solving this problem is a prerequisite for any robot that will operate in human environments.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Athletic Intelligence"
+      },
+      {
+        "id": "mr-pred-4",
+        "text": "The biggest bottleneck to progress in robotics is not algorithms, but hardware. The pace of innovation is limited by the power density of batteries, the efficiency and strength of actuators, and the durability of materials. A breakthrough in battery technology or a new type of artificial muscle would advance robotics more significantly in the next five years than any new software would.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Hardware Bottlenecks"
+      },
+      {
+        "id": "mr-pred-5",
+        "text": "Simulation is a powerful tool, but reality is the ultimate arbiter. The 'sim-to-real' gap remains the most difficult chasm to cross in robotics. The unpredictable physics of a foot slipping on a loose tile or a hand failing to grasp a smooth object are the problems that matter. A robot that is perfect in simulation but clumsy in reality is a failure. The future belongs to those who master this transfer.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Sim-to-Real Gap"
+      }
+    ],
     company: 'The AI Institute / Boston Dynamics',
     linkedin: 'https://linkedin.com/in/marc-raibert-3733a75',
     twitter: undefined,

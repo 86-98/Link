@@ -18,28 +18,40 @@ const ExpertCard = ({ expert }: ExpertCardProps) => {
   return (
     <Card className="flex flex-col h-full overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 rounded-lg">
       <CardHeader className="p-4">
-        {/* Default: avatar left, text right. md+: avatar top, text block below (centered), text content right-aligned. */}
-        <div className="flex items-start gap-4 md:flex-col md:items-center">
+        {/* Image and Name are always in a horizontal flex layout */}
+        <div className="flex items-center gap-4">
           <Image
             src={expert.avatarUrl}
             alt={expert.name}
             width={80}
             height={80}
-            className="rounded-full border-2 border-primary object-cover md:mb-3" // md:mb-3 for space when stacked
+            className="rounded-full border-2 border-primary object-cover shrink-0" // Added shrink-0
             data-ai-hint={expert.dataAiHint || "person portrait"}
           />
-          {/* Default: text block is flex-1. md+: text block is w-full and its text is right-aligned. */}
-          <div className="flex-1 md:w-full md:text-right">
-            <CardTitle className="font-headline text-xl sm:text-2xl mb-1">{expert.name}</CardTitle>
-            <CardDescription className="text-sm sm:text-base text-muted-foreground">{expert.title}</CardDescription>
-             {expert.company && (
-              // On md+, parent div has md:text-right. This div will align its content to the end (right).
-              <div className="flex items-center text-xs sm:text-sm text-muted-foreground mt-1 md:justify-end">
-                <Briefcase className="w-3 h-3 sm:w-4 sm:h-4 mr-1.5" />
-                {expert.company}
-              </div>
-            )}
+          <div className="flex-1 min-w-0"> {/* Added min-w-0 for better flex handling if name is long */}
+            <CardTitle className="font-headline text-xl sm:text-2xl mb-1 truncate">{expert.name}</CardTitle> {/* Added truncate */}
+            {/* Title and Company shown here for screens < md. Hidden for md+ */}
+            <div className="block md:hidden">
+              <CardDescription className="text-sm sm:text-base text-muted-foreground truncate">{expert.title}</CardDescription>
+              {expert.company && (
+                <div className="flex items-center text-xs sm:text-sm text-muted-foreground mt-1 truncate">
+                  <Briefcase className="w-3 h-3 sm:w-4 sm:h-4 mr-1.5 shrink-0" />
+                  <span>{expert.company}</span>
+                </div>
+              )}
+            </div>
           </div>
+        </div>
+
+        {/* Title and Company shown here for screens >= md. Positioned below the Image/Name block. */}
+        <div className="hidden md:block mt-2 text-right">
+          <CardDescription className="text-sm sm:text-base text-muted-foreground">{expert.title}</CardDescription>
+          {expert.company && (
+            <div className="flex items-center justify-end text-xs sm:text-sm text-muted-foreground mt-1">
+              <Briefcase className="w-3 h-3 sm:w-4 sm:h-4 mr-1.5 shrink-0" />
+              <span>{expert.company}</span>
+            </div>
+          )}
         </div>
       </CardHeader>
       <CardContent className="p-4 flex-grow">
