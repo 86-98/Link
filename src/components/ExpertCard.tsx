@@ -29,12 +29,12 @@ const ExpertCard = ({ expert }: ExpertCardProps) => {
             data-ai-hint={expert.dataAiHint || "person portrait"}
           />
           <div className="flex-1 min-w-0"> {/* Added min-w-0 for better flex handling if name is long */}
-            <CardTitle className="font-headline text-xl sm:text-2xl mb-1">{expert.name}</CardTitle> {/* Removed truncate */}
+            <CardTitle className="font-headline text-xl sm:text-2xl mb-1">{expert.name}</CardTitle>
             {/* Title and Company shown here for screens < md. Hidden for md+ */}
             <div className="block md:hidden">
-              <CardDescription className="text-sm sm:text-base text-muted-foreground truncate">{expert.title}</CardDescription>
+              <CardDescription className="text-sm sm:text-base text-muted-foreground">{expert.title}</CardDescription>
               {expert.company && (
-                <div className="flex items-center text-xs sm:text-sm text-muted-foreground mt-1 truncate">
+                <div className="flex items-center text-xs sm:text-sm text-muted-foreground mt-1">
                   <Briefcase className="w-3 h-3 sm:w-4 sm:h-4 mr-1.5 shrink-0" />
                   <span>{expert.company}</span>
                 </div>

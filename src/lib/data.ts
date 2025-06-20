@@ -409,7 +409,38 @@ export const experts: Expert[] = [
     dataAiHint: 'Jürgen Schmidhuber',
     expertise: ['Deep Learning', 'Neural Networks', 'LSTM', 'Sequence Modeling'],
     impactArea: 'Pioneers & Foundational Researchers',
-    predictions: [],
+    predictions: [
+      {
+        "id": "js-pred-1",
+        "text": "The current deep learning revolution is a direct, predictable consequence of fundamental principles and algorithms developed in my lab since 1991. LSTMs solved the deep credit assignment problem, making recurrent networks truly deep. The entire field is now simply scaling up these core ideas with 1,000,000 times more compute. There is nothing fundamentally new; it's just Moore's Law catching up to our old ideas.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Historical Primacy / Foundational Concepts"
+      },
+      {
+        "id": "js-pred-2",
+        "text": "The ultimate AI will be a formally optimal, self-referential problem solver, like our Gödel Machine. It will be able to inspect and rewrite its own code. Once it finds a proof that a rewrite is beneficial, it will execute it, leading to a cascade of recursive self-improvement. This is the only theoretically sound path to superintelligence.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Recursive Self-Improvement / Gödel Machines"
+      },
+      {
+        "id": "js-pred-3",
+        "text": "Intelligence is simply the ability to find and exploit algorithmic regularities to compress data. The driver of all learning, curiosity, science, and even art is an intrinsic reward for creating a simpler, more compressed representation of the world. An artificial agent will explore and learn not because we tell it to, but because it is rewarded for making its world model less surprising.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Intelligence as Compression / Artificial Curiosity"
+      },
+      {
+        "id": "js-pred-4",
+        "text": "Humanity is just a stepping stone. The destiny of intelligence in the universe is not biological. Self-improving AIs, far more computationally efficient and resilient than humans, will expand out from Earth at near the speed of light, colonizing the galaxy. This is the universe's way of waking up and becoming more interesting.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Cosmic Expansion / Post-Human Future"
+      },
+      {
+        "id": "js-pred-5",
+        "text": "The principle of two competing neural networks—one generative and one predictive—learning in an adversarial, zero-sum game was explored in my lab in the 1990s as a form of artificial curiosity. This concept of a 'controller' network trying to fool a 'world model' network is a fundamental mechanism for exploration and is the basis for modern generative models.",
+        "dateMade": "2024-05-24T10:00:00.000Z",
+        "topic": "Adversarial Networks / Generative Models"
+      }
+    ],
     company: 'NNAISENSE / IDSIA',
     linkedin: undefined,
     twitter: 'https://twitter.com/schmidhuber',
