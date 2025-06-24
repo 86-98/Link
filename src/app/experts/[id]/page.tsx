@@ -11,6 +11,7 @@ import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
 import { Button } from '@/components/ui/button';
 import { Briefcase, Linkedin, Twitter, CalendarDays, Tag, FileText, ExternalLink, Sparkles, Instagram, Facebook, Github, Globe as WebsiteIcon } from 'lucide-react';
+import RecommendedExperts from './RecommendedExperts';
 
 interface ExpertProfilePageProps {
   params: { id: string };
@@ -167,6 +168,7 @@ export default function ExpertProfilePage({ params }: ExpertProfilePageProps) {
               )}
             </CardContent>
           </Card>
+          <RecommendedExperts expert={expert} />
         </div>
       </div>
     </div>
