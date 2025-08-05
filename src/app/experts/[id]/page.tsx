@@ -10,6 +10,7 @@ import { Badge } from '@/components/ui/badge';
 import { Separator } from '@/components/ui/separator';
 import { Button } from '@/components/ui/button';
 import { Briefcase, Linkedin, Twitter, CalendarDays, Tag, FileText, ExternalLink, Sparkles, Instagram, Facebook, Github, Globe as WebsiteIcon } from 'lucide-react';
+import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 
 interface ExpertProfilePageProps extends PageProps<{ id: string }> {
   searchParams?: { [key: string]: string | string[] | undefined };
@@ -51,6 +52,14 @@ export default function ExpertProfilePage({ params }: ExpertProfilePageProps) {
   }
 
   const availableSocialLinks = socialPlatforms.filter(platform => expert[platform.key as keyof Expert]);
+
+  const predictionsByTopic: Record<string, typeof expert.predictions> = {};
+  expert.predictions.forEach(prediction => {
+    if (!predictionsByTopic[prediction.topic]) {
+      predictionsByTopic[prediction.topic] = [];
+    }
+    predictionsByTopic[prediction.topic].push(prediction);
+  });
 
   return (
     <div className="max-w-5xl mx-auto">
@@ -137,29 +146,36 @@ export default function ExpertProfilePage({ params }: ExpertProfilePageProps) {
             </CardHeader>
             <CardContent>
               {expert.predictions.length > 0 ? (
-                <ul className="space-y-6">
-                  {expert.predictions.map((prediction) => (
-                    <li key={prediction.id} className="p-4 bg-background rounded-md border border-border">
-                      <p className="text-foreground mb-2 text-base leading-relaxed whitespace-pre-line">{prediction.text}</p>
-                      <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-muted-foreground">
-                        <div className="flex items-center">
-                          <CalendarDays className="w-3.5 h-3.5 mr-1.5" />
-                          {new Date(prediction.dateMade).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
-                        </div>
-                        <div className="flex items-center">
-                          <Tag className="w-3.5 h-3.5 mr-1.5" />
-                          {prediction.topic}
-                        </div>
-                        {prediction.source && (
-                           <Link href={prediction.source} target="_blank" rel="noopener noreferrer" className="flex items-center text-accent hover:underline">
-                             <ExternalLink className="w-3.5 h-3.5 mr-1.5" />
-                             Source
-                           </Link>
-                        )}
-                      </div>
-                    </li>
+                <Accordion type="multiple" collapsible className="w-full">
+                  {Object.entries(predictionsByTopic).map(([topic, topicPredictions]) => (
+                    <AccordionItem value={topic} key={topic}>
+                      <AccordionTrigger className="text-lg font-semibold hover:no-underline">
+                        {topic} ({topicPredictions.length})
+                      </AccordionTrigger>
+                      <AccordionContent>
+                        <ul className="space-y-4 pt-2">
+                          {topicPredictions.map((prediction) => (
+                            <li key={prediction.id} className="p-4 bg-background rounded-md border border-border">
+                              <p className="text-foreground mb-2 text-base leading-relaxed whitespace-pre-line">{prediction.text}</p>
+                              <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-muted-foreground">
+                                <div className="flex items-center">
+                                  <CalendarDays className="w-3.5 h-3.5 mr-1.5" />
+                                  {new Date(prediction.dateMade).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+                                </div>
+                                {prediction.source && (
+                                   <Link href={prediction.source} target="_blank" rel="noopener noreferrer" className="flex items-center text-accent hover:underline">
+                                     <ExternalLink className="w-3.5 h-3.5 mr-1.5" />
+                                     Source
+                                   </Link>
+                                )}
+                              </div>
+                            </li>
+                          ))}
+                        </ul>
+                      </AccordionContent>
+                    </AccordionItem>
                   ))}
-                </ul>
+                </Accordion>
               ) : (
                 <p className="text-muted-foreground">No predictions available for this expert yet.</p>
               )}

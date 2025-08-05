@@ -1,4 +1,5 @@
 
+import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import type { Expert } from '@/types';
@@ -12,13 +13,13 @@ interface ExpertCardProps {
   expert: Expert;
 }
 
-const ExpertCard = ({ expert }: ExpertCardProps) => {
+const ExpertCard = React.memo(({ expert }: ExpertCardProps) => {
   const IconComponent = expertiseIcons[expert.expertise[0]] || expertiseIcons['Default'];
   
   return (
     <Card className="flex flex-col h-full overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 rounded-lg">
       <CardHeader className="p-4">
-        {/* Image and Name are always in a horizontal flex layout */}
+        {/* Avatar and Name always side-by-side */}
         <div className="flex items-center gap-4">
           <Image
             src={expert.avatarUrl}
@@ -28,9 +29,15 @@ const ExpertCard = ({ expert }: ExpertCardProps) => {
             className="rounded-full border-2 border-primary object-cover shrink-0"
             data-ai-hint={expert.dataAiHint || "person portrait"}
           />
+<<<<<<< HEAD
           <div className="flex-1 min-w-0"> {/* Added min-w-0 for better flex handling if name is long */}
             <CardTitle className="font-headline text-xl sm:text-2xl mb-1">{expert.name}</CardTitle>
             {/* Title and Company shown here for screens < md. Hidden for md+ */}
+=======
+          <div className="flex-1 min-w-0"> {/* Added min-w-0 for better flex handling */}
+            <CardTitle className="font-headline text-xl sm:text-2xl mb-1">{expert.name}</CardTitle>
+            {/* Title and Company shown below name for screens < md */}
+>>>>>>> 6d666a26f60cff7843f4c0319b09a36995949752
             <div className="block md:hidden">
               <CardDescription className="text-sm sm:text-base text-muted-foreground">{expert.title}</CardDescription>
               {expert.company && (
@@ -43,7 +50,7 @@ const ExpertCard = ({ expert }: ExpertCardProps) => {
           </div>
         </div>
 
-        {/* Title and Company shown here for screens >= md. Positioned below the Image/Name block. */}
+        {/* Title and Company shown below avatar/name block and right-aligned for screens >= md */}
         <div className="hidden md:block mt-2 text-right">
           <CardDescription className="text-sm sm:text-base text-muted-foreground">{expert.title}</CardDescription>
           {expert.company && (
@@ -78,6 +85,8 @@ const ExpertCard = ({ expert }: ExpertCardProps) => {
       </CardFooter>
     </Card>
   );
-};
+});
+
+ExpertCard.displayName = 'ExpertCard';
 
 export default ExpertCard;
