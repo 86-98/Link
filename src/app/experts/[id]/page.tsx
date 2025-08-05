@@ -41,9 +41,9 @@ const socialPlatforms = [
   { key: 'website', name: 'Website', Icon: WebsiteIcon },
 ];
 
-// This is the most direct way to type params for a Page component
-export default function ExpertProfilePage({ params }: { params: { id: string } }) {
-  const expert = experts.find((e) => e.id === params.id);
+export default async function ExpertProfilePage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
+  const expert = experts.find((e) => e.id === id);
 
   if (!expert) {
     notFound();
