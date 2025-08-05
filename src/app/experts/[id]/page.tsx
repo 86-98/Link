@@ -1,5 +1,4 @@
-
-import type { Metadata } from 'next';
+import type { Metadata, PageProps } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
@@ -12,8 +11,7 @@ import { Separator } from '@/components/ui/separator';
 import { Button } from '@/components/ui/button';
 import { Briefcase, Linkedin, Twitter, CalendarDays, Tag, FileText, ExternalLink, Sparkles, Instagram, Facebook, Github, Globe as WebsiteIcon } from 'lucide-react';
 
-interface ExpertProfilePageProps {
-  params: { id: string };
+interface ExpertProfilePageProps extends PageProps<{ id: string }> {
   searchParams?: { [key: string]: string | string[] | undefined };
 }
 
@@ -172,3 +170,4 @@ export default function ExpertProfilePage({ params }: ExpertProfilePageProps) {
     </div>
   );
 }
+
