@@ -12,7 +12,8 @@ import { Button } from '@/components/ui/button';
 import { Briefcase, Linkedin, Twitter, CalendarDays, Tag, FileText, ExternalLink, Sparkles, Instagram, Facebook, Github, Globe as WebsiteIcon } from 'lucide-react';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 
-interface ExpertProfilePageProps extends PageProps<{ id: string }> {
+interface ExpertProfilePageProps {
+  params: { id: string };
   searchParams?: { [key: string]: string | string[] | undefined };
 }
 
@@ -146,7 +147,7 @@ export default function ExpertProfilePage({ params }: ExpertProfilePageProps) {
             </CardHeader>
             <CardContent>
               {expert.predictions.length > 0 ? (
-                <Accordion type="multiple" collapsible className="w-full">
+                <Accordion type="multiple" className="w-full">
                   {Object.entries(predictionsByTopic).map(([topic, topicPredictions]) => (
                     <AccordionItem value={topic} key={topic}>
                       <AccordionTrigger className="text-lg font-semibold hover:no-underline">
@@ -186,4 +187,3 @@ export default function ExpertProfilePage({ params }: ExpertProfilePageProps) {
     </div>
   );
 }
-
