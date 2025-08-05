@@ -1,4 +1,4 @@
-import type { Metadata, PageProps } from 'next';
+import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
@@ -12,11 +12,8 @@ import { Button } from '@/components/ui/button';
 import { Briefcase, Linkedin, Twitter, CalendarDays, Tag, FileText, ExternalLink, Sparkles, Instagram, Facebook, Github, Globe as WebsiteIcon } from 'lucide-react';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 
-type ExpertProfilePageProps = {
-  params: { id: string }
-};
-
-export async function generateMetadata({ params }: ExpertProfilePageProps): Promise<Metadata> {
+// This is the most direct way to type params for generateMetadata
+export async function generateMetadata({ params }: { params: { id: string } }): Promise<Metadata> {
   const expert = experts.find((e) => e.id === params.id);
   if (!expert) {
     return {
@@ -44,7 +41,8 @@ const socialPlatforms = [
   { key: 'website', name: 'Website', Icon: WebsiteIcon },
 ];
 
-export default function ExpertProfilePage({ params }: ExpertProfilePageProps) {
+// This is the most direct way to type params for a Page component
+export default function ExpertProfilePage({ params }: { params: { id: string } }) {
   const expert = experts.find((e) => e.id === params.id);
 
   if (!expert) {
