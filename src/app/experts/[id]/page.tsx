@@ -12,7 +12,9 @@ import { Button } from '@/components/ui/button';
 import { Briefcase, Linkedin, Twitter, CalendarDays, Tag, FileText, ExternalLink, Sparkles, Instagram, Facebook, Github, Globe as WebsiteIcon } from 'lucide-react';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 
-type ExpertProfilePageProps = PageProps<{ id: string }>;
+type ExpertProfilePageProps = {
+  params: { id: string }
+};
 
 export async function generateMetadata({ params }: ExpertProfilePageProps): Promise<Metadata> {
   const expert = experts.find((e) => e.id === params.id);
